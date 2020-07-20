@@ -1,0 +1,10 @@
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\bin\Debug\HDIPlatform.DesignSystem.IAppService.XML
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\bin\Debug\HDIPlatform.DesignSystem.IAppService.dll
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\bin\Debug\HDIPlatform.DesignSystem.IAppService.pdb
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\bin\Debug\ShSoft.Infrastructure.dll
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\bin\Debug\ShSoft.ValueObjects.dll
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\bin\Debug\ShSoft.Infrastructure.xml
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\bin\Debug\ShSoft.ValueObjects.xml
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\obj\Debug\HDIPlatform.DesignSystem.IAppService.csprojResolveAssemblyReference.cache
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\obj\Debug\HDIPlatform.DesignSystem.IAppService.dll
+I:\六月版\BehindTerminals\03DesignSystem_Develop_1.6\BehindTerminals\HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\obj\Debug\HDIPlatform.DesignSystem.IAppService.pdb

@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SD.Toolkits.NoGenerator</name>
+    </assembly>
+    <members>
+        <member name="T:SD.Toolkits.NoGenerator.DAL.GeneratorDal">
+            <summary>
+            编号生成器数据访问类
+            </summary>
+        </member>
+        <member name="F:SD.Toolkits.NoGenerator.DAL.GeneratorDal.DefaultConnectionStringAppSettingKey">
+            <summary>
+            默认连接字符串名称AppSetting键
+            </summary>
+        </member>
+        <member name="F:SD.Toolkits.NoGenerator.DAL.GeneratorDal._SqlHelper">
+            <summary>
+            SQL工具
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.#cctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.CreateInstance">
+            <summary>
+            创建编号生成器数据访问对象
+            </summary>
+            <returns>编号生成器数据访问对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.SingleOrDefault(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            获取唯一序列号，
+            如没有，则返回null
+            </summary>
+            <param name="prefix">前缀</param>
+            <param name="formatDate">数据格式</param>
+            <param name="className">类名</param>
+            <param name="length">长度</param>
+            <returns>唯一序列号</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.RegisterAdd(SD.Toolkits.NoGenerator.Model.SerialNumber)">
+            <summary>
+            添加方法
+            </summary>
+            <param name="serialNumber">序列号实例</param>
+            <returns>序列号实例</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.RegisterSave(SD.Toolkits.NoGenerator.Model.SerialNumber)">
+            <summary>
+            修改方法
+            </summary>
+            <param name="serialNumber">序列号实例</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.InitTable">
+            <summary>
+            初始化序列号数据表
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.ToModel(System.Data.SqlClient.SqlDataReader)">
+            <summary>
+            根据SqlDataReader返回对象
+            </summary>
+            <param name="reader">SqlDataReader对象</param>
+            <returns>实体对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.ToDbValue(System.Object)">
+            <summary>
+            C#值转数据库值空值处理
+            </summary>
+            <param name="value">C#值</param>
+            <returns>处理后的数据库值</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.GeneratorDal.ToModelValue(System.Data.SqlClient.SqlDataReader,System.String)">
+            <summary>
+            数据库值转C#值空值处理
+            </summary>
+            <param name="reader">IDataReader对象</param>
+            <param name="columnName">列名</param>
+            <returns>C#值</returns>
+        </member>
+        <member name="T:SD.Toolkits.NoGenerator.DAL.SqlHelper">
+            <summary>
+            SQL Server数据库访问助手类
+            </summary>
+        </member>
+        <member name="F:SD.Toolkits.NoGenerator.DAL.SqlHelper._connectionString">
+            <summary>
+            连接字符串字段
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="connectionString">连接字符串</param>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteNonQuery(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteNonQuery —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteNonQuerySP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteNonQuery —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteScalar(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteScalar``1(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— Sql语句
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>类型对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteScalarSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteScalarSP``1(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>类型对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteReader(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteReader —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>DataReader对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteReaderSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteReader —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>DataReader对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.GetDataTable(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataTable —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>DataTable对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.GetDataTableSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataTable —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>DataTable对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.GetDataSet(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataSet —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.GetDataSetSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataSet —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.CreateConnection">
+            <summary>
+            创建连接方法
+            </summary>
+            <returns>连接对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteNonQuery(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteNonQuery方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteScalar(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteScalar``1(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>类型对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.ExecuteReader(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteReader方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>DataReader对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.GetDataTable(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            返回DataTable方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>DataTable对象</returns>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.DAL.SqlHelper.GetDataSet(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            返回DataSet方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="T:SD.Toolkits.NoGenerator.Facade.NumberGenerator">
+            <summary>
+            编号生成器API
+            </summary>
+        </member>
+        <member name="F:SD.Toolkits.NoGenerator.Facade.NumberGenerator._SyncLock">
+            <summary>
+            同步锁
+            </summary>
+        </member>
+        <member name="F:SD.Toolkits.NoGenerator.Facade.NumberGenerator._generatorDal">
+            <summary>
+            编号生成器数据访问层对象
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.Facade.NumberGenerator.#cctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.Facade.NumberGenerator.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.Facade.NumberGenerator.GenerateNumber(System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            生成编号方法
+            </summary>
+            <param name="prefix">编号前缀</param>
+            <param name="formatDate">格式化日期</param>
+            <param name="className">类名</param>
+            <param name="length">流水号长度</param>
+            <param name="description">编号描述</param>
+            <returns>编号</returns>
+        </member>
+        <member name="T:SD.Toolkits.NoGenerator.Model.SerialNumber">
+            <summary>
+            序列号字典
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.Model.SerialNumber.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.Model.SerialNumber.#ctor(System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            创建序列号字典构造器
+            </summary>
+            <param name="prefix">前缀</param>
+            <param name="formatDate">数据格式</param>
+            <param name="className">类名</param>
+            <param name="length">长度</param>
+            <param name="description">描述</param>
+        </member>
+        <member name="M:SD.Toolkits.NoGenerator.Model.SerialNumber.UpdateInfo(System.Int32,System.String)">
+            <summary>
+            更新信息
+            </summary>
+            <param name="todayCount">当天流水号数</param>
+            <param name="description">描述</param>
+        </member>
+        <member name="P:SD.Toolkits.NoGenerator.Model.SerialNumber.Id">
+            <summary>
+            标识Id
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.NoGenerator.Model.SerialNumber.Prefix">
+            <summary>
+            前缀
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.NoGenerator.Model.SerialNumber.FormatDate">
+            <summary>
+            格式化日期
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.NoGenerator.Model.SerialNumber.ClassName">
+            <summary>
+            类名
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.NoGenerator.Model.SerialNumber.Length">
+            <summary>
+            流水号长度
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.NoGenerator.Model.SerialNumber.TodayCount">
+            <summary>
+            当天流水号数
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.NoGenerator.Model.SerialNumber.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShSoft.Infrastructure.AOP</name>
+    </assembly>
+    <members>
+        <member name="T:ShSoft.Infrastructure.AOP.Aspects.ForAny.UIExceptionAspect">
+            <summary>
+            UI层异常AOP特性类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.AOP.Aspects.ForAny.UIExceptionAspect.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            异常过滤器
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.AOP.Aspects.ForAny.AppServiceExceptionAspect">
+            <summary>
+            应用程序服务层异常AOP特性类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.AOP.Aspects.ForAny.AppServiceExceptionAspect.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            异常过滤器
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.AOP.Aspects.ForAny.PresentationExceptionAspect">
+            <summary>
+            表现层异常AOP特性类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.AOP.Aspects.ForAny.PresentationExceptionAspect.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            异常过滤器
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.AOP.Aspects.ForAny.DomainExceptionAspect">
+            <summary>
+            领域层异常AOP特性类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.AOP.Aspects.ForAny.DomainExceptionAspect.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            异常过滤器
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.AOP.Aspects.ForAny.RepositoryExceptionAspect">
+            <summary>
+            仓储层异常AOP特性类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.AOP.Aspects.ForAny.RepositoryExceptionAspect.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            异常过滤器
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.AOP.Aspects.ForAny.NonThrowExceptionAspect">
+            <summary>
+            不抛出异常AOP特性类
+            </summary>
+            <remarks>发生异常时记录日志</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.AOP.Aspects.ForAny.NonThrowExceptionAspect.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            异常过滤器
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.AOP.Aspects.ForAny.WinServiceExceptionAspect">
+            <summary>
+            Windows服务异常AOP特性类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.AOP.Aspects.ForAny.WinServiceExceptionAspect.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            异常过滤器
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.AOP.Aspects.ForAny.WinServiceExceptionAspect.WriteFile(System.String,System.String,System.Boolean)">
+            <summary>
+            写入文件方法
+            </summary>
+            <param name="path">路径</param>
+            <param name="content">内容</param>
+            <param name="append">是否附加</param>
+            <exception cref="T:System.ArgumentNullException">路径为空</exception>
+        </member>
+    </members>
+</doc>

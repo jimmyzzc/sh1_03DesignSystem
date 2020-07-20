@@ -1,0 +1,3713 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HDIPlatform.DesignSystem.IAppService</name>
+    </assembly>
+    <members>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam">
+            <summary>
+            工艺参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam.CraftEntityId">
+            <summary>
+            工艺实体Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam.Shelved">
+            <summary>
+            是否已上架
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam.CraftQuantity">
+            <summary>
+             默认工艺工程量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam.SkuCraftPositions">
+            <summary>
+            只读属性 - 放置位置集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam.CostPrice">
+            <summary>
+              成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam.Changed">
+            <summary>
+            是否已变价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam">
+            <summary>
+            推荐商品参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.SkuName">
+            <summary>
+            商品SKU 名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.SkuId">
+            <summary>
+            商品SKU Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.Shelved">
+            <summary>
+            是否已上架
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.CategoryId">
+            <summary>
+            三级品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.CategoryName">
+            <summary>
+            三级品类名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.BrandId">
+            <summary>
+            品牌Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.BrandName">
+            <summary>
+            品牌名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.SkuQuantity">
+            <summary>
+              默认商品SKU数量(手动填写)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.UnitName">
+            <summary>
+              商品工程量单位
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.CostPrice">
+            <summary>
+              商品工程量成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.SalesPrice">
+            <summary>
+              商品工程量销售价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackRecommendedSkuParam.HyperLink">
+            <summary>
+            超链接
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam">
+            <summary>
+            商品参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.SkuId">
+            <summary>
+            商品SKU Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.Shelved">
+            <summary>
+            是否已上架
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.CategoryId">
+            <summary>
+            三级品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.BrandId">
+            <summary>
+            品牌Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.SkuQuantity">
+            <summary>
+              默认商品SKU数量(手动填写)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.SkuCraftPositions">
+            <summary>
+            只读属性 - 放置位置集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.CostPrice">
+            <summary>
+              成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam.Changed">
+            <summary>
+            是否已变价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam">
+            <summary>
+            套餐模板空间详情参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.SpaceDetailId">
+            <summary>
+            套餐模板空间详情Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.NumericalStandard">
+            <summary>
+            数值标准
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.GroundLength">
+            <summary>
+            地面长度
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.GroundWidth">
+            <summary>
+            地面宽度
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.SpacePerimeter">
+            <summary>
+            空间周长
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.WallHigh">
+            <summary>
+            墙面高度
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.HoleArea">
+            <summary>
+            洞口面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.FacadeArea">
+            <summary>
+            立面面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.GroundArea">
+            <summary>
+            地面面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSpaceDetailParam.CeilingArea">
+            <summary>
+            棚面面积
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.HouseTypePriceParam">
+            <summary>
+            户型定价参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.HouseTypePriceParam.PropertyId">
+            <summary>
+            楼盘Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.HouseTypePriceParam.PropertyName">
+            <summary>
+            楼盘名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.HouseTypePriceParam.PropertyAddress">
+            <summary>
+            楼盘地址
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.HouseTypePriceParam.HouseTypeId">
+            <summary>
+            户型Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.HouseTypePriceParam.HouseTName">
+            <summary>
+            户型名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.HouseTypePriceParam.UnitPrice">
+            <summary>
+            使用面积单价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackRecommendedItemParam">
+            <summary>
+            套餐模板推荐项参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackRecommendedItemParam.ItemName">
+            <summary>
+            模板项名称
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackRecommendedItemParam.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackRecommendedItemParam.DecorationPackRecommendedSkuParams">
+            <summary>
+            套餐选区商品集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam">
+            <summary>
+            套餐模板项参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam.ItemName">
+            <summary>
+            模板项名称
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam.DefaultSkuQuantity">
+            <summary>
+            默认商品SKU数量
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam.DefaultCraftQuantity">
+            <summary>
+            默认工艺工程量
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam.CategoryArea">
+            <summary>
+            品类区域
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam.DecorationPackCraftParams">
+            <summary>
+            套餐选区工艺集
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam.DecorationPackSkuParams">
+            <summary>
+            套餐选区商品集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam">
+            <summary>
+            套餐模板方案空间定价参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam.PackSpaceId">
+            <summary>
+            套餐模板空间Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam.DecorationPackSpacePricingType">
+            <summary>
+            套餐空间定价类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam.CriterionSquare">
+            <summary>
+            标准面积（公式）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam.SpaceRatio">
+            <summary>
+            空间占比（标准空间面积/标准整体面积|5/60）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam.UnitPrice">
+            <summary>
+            超出面积单价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam">
+            <summary>
+            套餐模板方案空间参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam.PackSpaceId">
+            <summary>
+            套餐模板空间Id
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam.Descriptions">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam.Images">
+            <summary>
+            图片集
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam.VideoAudioLink">
+            <summary>
+            视频音频地址链接
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam.VideoAudioFileSize">
+            <summary>
+            视频音频文件大小
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam.VideoAudioFileId">
+            <summary>
+            视频音频文件Id
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam.VideoAudiogFileSuffix">
+            <summary>
+            视频音频扩展名
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam.VideoAudioFileName">
+            <summary>
+            视频音频文件名称
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam">
+            <summary>
+            套餐模板空间参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam.SpaceId">
+            <summary>
+            套餐模板空间Id
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam.SpaceName">
+            <summary>
+            空间名称
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam.Square">
+            <summary>
+            空间面积
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam.SpaceType">
+            <summary>
+            空间类型
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam.IsDeleted">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam.SpaceDetailParams">
+            <summary>
+            套餐模板空间详情集
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam.PackItemParams">
+            <summary>
+            套餐选区集
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam.PackRecommendedItemParams">
+            <summary>
+            套餐推荐选区集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo">
+            <summary>
+            文章分类数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.Content">
+            <summary>
+            文章内容
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.IsIssue">
+            <summary>
+            是否已发布
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.IssueTime">
+            <summary>
+            发布时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.Author">
+            <summary>
+            作者
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.AuthorId">
+            <summary>
+            作者Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.Tags">
+            <summary>
+            标签集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.SourceId">
+            <summary>
+            原文章Id(为空表示源文,不为空表示套餐关联的副本)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.PackId">
+            <summary>
+            关联套餐Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.SpaceId">
+            <summary>
+            关联套餐空间Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.CategoryName">
+            <summary>
+            分类名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleInfo.CategoryId">
+            <summary>
+            分类Id
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleCategoryInfo">
+            <summary>
+            文章分类数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ArticleContext.ArticleCategoryInfo.ArticleCount">
+            <summary>
+            分类下文章数量
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackAreaTreeInfo">
+            <summary>
+            大包|定制套餐选区树数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackAreaTreeInfo.ItemId">
+            <summary>
+            选区|组|品类|品牌Id 
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackAreaTreeInfo.ItemName">
+            <summary>
+            选区|组|品类|品牌名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackAreaTreeInfo.IsRequired">
+            <summary>
+            是否必选（组）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackAreaTreeInfo.ChildNodes">
+            <summary>
+            子集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackAreaTreeInfo.SkuIds">
+            <summary>
+            定制套餐-品类配置商品集集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo">
+            <summary>
+            大包/定制套餐数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.DiscountRatio">
+            <summary>
+            折扣比例
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.PackShelfStatus">
+            <summary>
+            套餐状态
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.BalePackType">
+            <summary>
+            套餐类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.CoverDrawing">
+            <summary>
+            套餐封面
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.HasOffShelvedSku">
+            <summary>
+            是否有下架商品
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.Labels">
+            <summary>
+            标签集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.Views">
+            <summary>
+            套餐浏览量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.Sales">
+            <summary>
+            套餐销售量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.Creater">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.CreaterId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.SourcePackId">
+            <summary>
+            源套餐Id(源套餐一直为空)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.VersionNumber">
+            <summary>
+            版本号(源套餐一直为空)（套餐名称首拼套餐类型首拼两位流水日期）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo.IsClone">
+            <summary>
+            是否克隆
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackCategoryInfo">
+            <summary>
+            套餐组内品类数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackCategoryInfo.CategoryId">
+            <summary>
+            品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackCategoryInfo.BalePackGroupInfo">
+            <summary>
+            导航属性 - 套餐选区内组
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackCategoryInfo.ExistsSku">
+            <summary>
+            是否包含商品
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackChoiceAreaInfo">
+            <summary>
+            套餐选区数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackChoiceAreaInfo.BalePackInfo">
+            <summary>
+            导航属性 - 大包/定制套餐
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackChoiceAreaInfo.ExistsSku">
+            <summary>
+            是否包含商品
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackGroupInfo">
+            <summary>
+            套餐选区内组数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackGroupInfo.ChoiceAreaId">
+            <summary>
+            选区Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackGroupInfo.Required">
+            <summary>
+            是否必选
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackGroupInfo.ExistsSku">
+            <summary>
+            是否包含商品(定制套餐)
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackProductInfo">
+            <summary>
+            套餐品类配置商品数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackProductInfo.ProductId">
+            <summary>
+            商品Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackProductInfo.Shelved">
+            <summary>
+            商品是否已上架
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackProductInfo.BalePackCategoryInfo">
+            <summary>
+            导航属性 - 套餐组内品类
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ConfigContext.PackSeriesInfo">
+            <summary>
+            套餐系列数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ConfigContext.PackSeriesInfo.Describe">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ConfigContext.PackSeriesInfo.GroupName">
+            <summary>
+            分组名
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackCraftInfo">
+            <summary>
+            套餐模板工艺项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackCraftInfo.CraftEntityId">
+            <summary>
+            工艺实体Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackCraftInfo.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackCraftInfo.Shelved">
+            <summary>
+            是否已上架
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackCraftInfo.CraftQuantity">
+            <summary>
+             默认工艺工程量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackCraftInfo.SkuCraftPositions">
+            <summary>
+            只读属性 - 放置位置集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackCraftInfo.PackItemInfo">
+            <summary>
+            导航属性 - 套餐模板项
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackCraftInfo.CostPrice">
+            <summary>
+              成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackCraftInfo.Changed">
+            <summary>
+            是否已变价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo">
+            <summary>
+            套餐模板数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Status">
+            <summary>
+            套餐状态
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.PackType">
+            <summary>
+            套餐类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.PackKind">
+            <summary>
+            套餐类别
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.PackMode">
+            <summary>
+            套餐模式
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Color">
+            <summary>
+            套餐颜色
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.IsUnitActual">
+            <summary>
+            是否平米使用面积定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.IsActual">
+            <summary>
+            是否整体使用面积定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Square">
+            <summary>
+             套餐总面积 实际面积（使用面积）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.UnitPrice">
+            <summary>
+            实际面积（使用面积）单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.TotalPrice">
+            <summary>
+            整体定价：使用面积总价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.UnitTotalPrice">
+            <summary>
+            平米定价方式： 使用面积总价=最低购买面积*单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.IsUnitBuilding">
+            <summary>
+            是否平米整体建筑定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.IsBuilding">
+            <summary>
+            是否整体建筑定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.BuildingSquare">
+            <summary>
+            套餐总面积 实际面积（建筑面积）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.BuildingUnitPrice">
+            <summary>
+            建筑面积单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.BuildingTotalPrice">
+            <summary>
+            整体定价：建筑面积总价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.UnitBuildingTotalPrice">
+            <summary>
+            平米定价方式： 建筑面积总价=最低购买面积*单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.NewHouse">
+            <summary>
+            适用新房
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.SecondHandHouse">
+            <summary>
+            适用二手房
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.PackSeries">
+            <summary>
+            套餐系列标签
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.MinApplicableSquare">
+            <summary>
+            套餐适用的最小使用面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.MaxApplicableSquare">
+            <summary>
+            套餐适用的最大使用面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.IsWhole">
+            <summary>
+            超出是否整体定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Premium">
+            <summary>
+            整体 超出补单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.CriterionSquare">
+            <summary>
+            标准面积（公式）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Priced">
+            <summary>
+            是否已定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.PricingType">
+            <summary>
+            定价类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.HasOffShelvedSku">
+            <summary>
+            是否有下架商品
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.HasChangedSku">
+            <summary>
+            是否有变价商品/工艺
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Cover">
+            <summary>
+            方案选购封面
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.CoverDescription">
+            <summary>
+            方案选购封面描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.SchemeImages">
+            <summary>
+            方案概况图片集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.SchemeDescriptions">
+            <summary>
+            方案概况描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.SchemeVideoAudioLink">
+            <summary>
+            方案视频音频地址链接
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.SchemeVideoAudioLinkFileId">
+            <summary>
+            方案视频音频地址链接文件Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.SpaceTypes">
+            <summary>
+            空间类型集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Layouts">
+            <summary>
+            居室集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.StyleNos">
+            <summary>
+            设计风格集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Propertys">
+            <summary>
+            只读属性 - 楼盘集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Stores">
+            <summary>
+            只读属性 - 门店集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.HouseTypes">
+            <summary>
+            只读属性 - 户型集(户型Id,户型名称，楼盘Id，楼盘名称,楼盘地址)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Views">
+            <summary>
+            套餐浏览量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Sales">
+            <summary>
+            套餐销售量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Creater">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.CreaterId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.SourcePackId">
+            <summary>
+            源套餐Id(源套餐一直为空)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.VersionNumber">
+            <summary>
+            版本号(源套餐一直为空)（套餐名称首拼套餐类型首拼两位流水日期）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.IsClone">
+            <summary>
+            是否克隆
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.Instructions">
+            <summary>
+            产品说明书(文件Id)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.InstructionsName">
+            <summary>
+            产品说明书名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.SpaceInfos">
+            <summary>
+            套餐空间集 [空间Id，空间名称]
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.UnitSquare">
+            <summary>
+            平米定价最低购买使用面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.UnitBuildingSquare">
+            <summary>
+            平米定价最低购买建筑面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.IsManageFee">
+            <summary>
+            设置管理费参考价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.IsWaterElectricityFee">
+            <summary>
+            设置水电预收参考价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.ManageFee">
+            <summary>
+            管理费参考价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.WaterElectricityFee">
+            <summary>
+            水电预收参考价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo.SpaceBaseInfos">
+            <summary>
+            导航属性 - 套餐模板空间基本信息集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedItemInfo">
+            <summary>
+            套餐模板推荐项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedItemInfo.PackId">
+            <summary>
+            套餐模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedItemInfo.PackSpaceId">
+            <summary>
+            套餐模板空间Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedItemInfo.PackSpaceName">
+            <summary>
+            套餐模板空间名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedItemInfo.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedItemInfo.PackRecommendedSkuInfos">
+            <summary>
+            导航属性 - 套餐模板
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo">
+            <summary>
+            套餐模板项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.PackId">
+            <summary>
+            套餐模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.PackSpaceId">
+            <summary>
+            套餐模板空间Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.PackSpaceName">
+            <summary>
+            套餐模板空间名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.CategoryId">
+            <summary>
+            品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.DefaultSkuQuantity">
+            <summary>
+            默认商品SKU数量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.DefaultCraftQuantity">
+            <summary>
+            默认工艺工程量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.CategoryArea">
+            <summary>
+            品类区域
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.CategoryIds">
+            <summary>
+             品类集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.BrandIds">
+            <summary>
+            品牌Id集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.Requirement">
+            <summary>
+            设计要求
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackItemInfo.DecorationPackInfo">
+            <summary>
+            导航属性 - 套餐模板
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo">
+            <summary>
+            套餐模板方案数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.PackId">
+            <summary>
+            套餐模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.Cover">
+            <summary>
+            封面
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.Images">
+            <summary>
+            方案概况图片集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.SchemeDescriptions">
+            <summary>
+            方案概况描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.VideoAudioLink">
+            <summary>
+            视频音频地址链接
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.VideoAudioFileSize">
+            <summary>
+            视频音频文件大小
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.VideoAudioFileId">
+            <summary>
+            视频音频文件Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.VideoAudiogFileSuffix">
+            <summary>
+            视频音频扩展名
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.VideoAudioFileName">
+            <summary>
+            视频音频文件名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.IsDefault">
+            <summary>
+            默认方案
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeInfo.DecorationPackInfo">
+            <summary>
+            导航属性 - 套餐模板
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo">
+            <summary>
+            套餐模板方案空间数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo.PackSpaceId">
+            <summary>
+            套餐模板空间Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo.Descriptions">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo.Images">
+            <summary>
+            图片集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo.VideoAudioLink">
+            <summary>
+            视频音频地址链接
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo.VideoAudioFileSize">
+            <summary>
+            视频音频文件大小
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo.VideoAudioFileId">
+            <summary>
+            视频音频文件Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo.VideoAudiogFileSuffix">
+            <summary>
+            视频音频扩展名
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo.VideoAudioFileName">
+            <summary>
+            视频音频文件名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSchemeSpaceInfo.PackSchemeInfo">
+            <summary>
+            导航属性 - 套餐模板方案
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo">
+            <summary>
+            套餐模板推荐商品SKU项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.SkuName">
+            <summary>
+            商品SKU 名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.SkuId">
+            <summary>
+            商品SKU Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.CategoryId">
+            <summary>
+            三级品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.CategoryName">
+            <summary>
+            三级品类名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.BrandId">
+            <summary>
+            品牌Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.BrandName">
+            <summary>
+            品牌名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.Shelved">
+            <summary>
+            是否已上架
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.SkuQuantity">
+            <summary>
+              默认商品SKU数量(手动填写)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.UnitName">
+            <summary>
+              商品工程量单位
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.CostPrice">
+            <summary>
+              商品工程量成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.SalesPrice">
+            <summary>
+              商品工程量销售价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackRecommendedSkuInfo.HyperLink">
+            <summary>
+            超链接
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo">
+            <summary>
+            套餐模板商品SKU项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.SkuId">
+            <summary>
+            商品SKU Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.CategoryId">
+            <summary>
+            三级品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.BrandId">
+            <summary>
+            品牌Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.Shelved">
+            <summary>
+            是否已上架
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.SkuQuantity">
+            <summary>
+              默认商品SKU数量(手动填写)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.SkuCraftPositions">
+            <summary>
+            只读属性 - 放置位置集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.PackItemInfo">
+            <summary>
+            导航属性 - 套餐模板项
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.CostPrice">
+            <summary>
+              成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSkuInfo.Changed">
+            <summary>
+            是否已变价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo">
+            <summary>
+            套餐模板空间详情数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo.NumericalStandard">
+            <summary>
+            数值标准
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo.GroundLength">
+            <summary>
+            地面长度
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo.GroundWidth">
+            <summary>
+            地面宽度
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo.SpacePerimeter">
+            <summary>
+            空间周长
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo.WallHigh">
+            <summary>
+            墙面高度
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo.HoleArea">
+            <summary>
+            洞口面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo.FacadeArea">
+            <summary>
+            立面面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo.GroundArea">
+            <summary>
+            地面面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceDetailInfo.CeilingArea">
+            <summary>
+            棚面面积
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceBaseInfo">
+            <summary>
+            套餐模板空间(销售端)
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceBaseInfo.Square">
+            <summary>
+            空间面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceBaseInfo.SpaceType">
+            <summary>
+            空间类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceBaseInfo.CriterionSquare">
+            <summary>
+            标准面积(公式)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceBaseInfo.SpaceRatio">
+            <summary>
+            空间占比（标准空间面积/标准整体面积|5/60）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceBaseInfo.UnitPrice">
+            <summary>
+            超出面积单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceBaseInfo.DecorationPackSpacePricingType">
+            <summary>
+            套餐空间定价类型
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo">
+            <summary>
+            套餐模板空间数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.Square">
+            <summary>
+            空间面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.SpaceType">
+            <summary>
+            空间类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.CriterionSquare">
+            <summary>
+            标准面积(公式)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.SpaceRatio">
+            <summary>
+            空间占比（标准空间面积/标准整体面积|5/60）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.UnitPrice">
+            <summary>
+            超出面积单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.DecorationPackSpacePricingType">
+            <summary>
+            套餐空间定价类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.DecorationPackInfo">
+            <summary>
+            导航属性 - 套餐模板
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.DecorationPackSpaceDetailInfos">
+            <summary>
+            导航属性 - 套餐模板空间详情
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.ExistsOffShelvedSkuCraft">
+            <summary>
+            存在下架商品|工艺
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackSpaceInfo.ExistsChangedSkuCraft">
+            <summary>
+            存在变价商品|工艺
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPack_BalePackInfo">
+            <summary>
+            套餐模板 - 大包/定制模板关系数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPack_BalePackInfo.DecorationPackId">
+            <summary>
+            套餐模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPack_BalePackInfo.BalePackId">
+            <summary>
+            大包/定制模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPack_BalePackInfo.BalePackType">
+            <summary>
+            大包/定制模板类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPack_BalePackInfo.DecorationPackInfo">
+            <summary>
+            导航属性 - 套餐模板
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPack_BalePackInfo.BalePackInfo">
+            <summary>
+            导航属性 - 大包/定制模板
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackItemGroupInfo">
+            <summary>
+            套餐模板选区分组数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackItemGroupInfo.#ctor(System.String)">
+            <summary>
+            套餐模板选区分组数据传输对象
+            </summary>
+            <param name="name">分组名称</param>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackItemGroupInfo.IsRecommended">
+            <summary>
+            是否推荐
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackItemGroupInfo.CraftInfos">
+            <summary>
+            商品SKU Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackItemGroupInfo.SkuInfos">
+            <summary>
+            三级品类Id
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSpaceImageInfo">
+            <summary>
+            套餐空间图片数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSpaceImageInfo.PackSpaceId">
+            <summary>
+            套餐模板空间Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSpaceImageInfo.PackSpaceName">
+            <summary>
+            空间名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSpaceImageInfo.PackSchemeSpaceInfo">
+            <summary>
+            套餐方案空间集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo">
+            <summary>
+            套餐标签数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.PackSeries">
+            <summary>
+            套餐系列集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.Layouts">
+            <summary>
+            居室集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.Styles">
+            <summary>
+            设计风格集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.PHouseTypes">
+            <summary>
+            套餐标签——楼盘-户型集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.Propertys">
+            <summary>
+            套餐标签——楼盘集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.HouseTypes">
+            <summary>
+            套餐标签户型集(户型Id|户型名称，楼盘Id，楼盘名称,楼盘地址)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.PackGroupSeries">
+            <summary>
+            套餐分组系列集（分组名称|排序|系列集（系列Id|名称|描述|排序|分组名））
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.AllPropertyIds">
+            <summary>
+            筑家帮-全部楼盘集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.ExceptPropertyIds">
+            <summary>
+            筑家帮-不可上报楼盘集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.FilePropertyIds">
+            <summary>
+            筑家帮-人员保护期内协议楼盘集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.AllFilePropertyIds">
+            <summary>
+            筑家帮-所有保护期内协议楼盘集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.OperatorPropertyIds">
+            <summary>
+            筑家帮-可上报楼盘集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.OperatorPHouseTypes">
+            <summary>
+            筑家帮——楼盘-户型集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.OperatorPropertys">
+            <summary>
+            筑家帮——楼盘集(楼盘Id|名称)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.IsProperty">
+            <summary>
+            筑家帮——是否楼盘人员
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_LableInfo.OperatorPropertyInfos">
+            <summary>
+            筑家帮——楼盘集(楼盘Id|名称|地址)
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo">
+            <summary>
+            套餐模板数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Status">
+            <summary>
+            套餐状态
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.PackType">
+            <summary>
+            套餐类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.PackKind">
+            <summary>
+            套餐类别
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.PackMode">
+            <summary>
+            套餐模式
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Color">
+            <summary>
+            套餐颜色
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.IsUnitActual">
+            <summary>
+            是否平米使用面积定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.IsActual">
+            <summary>
+            是否整体使用面积定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Square">
+            <summary>
+             套餐总面积 实际面积（使用面积）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.UnitPrice">
+            <summary>
+            实际面积（使用面积）单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.TotalPrice">
+            <summary>
+            整体定价：使用面积总价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.UnitTotalPrice">
+            <summary>
+            平米定价方式： 使用面积总价=最低购买面积*单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.IsUnitBuilding">
+            <summary>
+            是否平米整体建筑定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.IsBuilding">
+            <summary>
+            是否整体建筑定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.BuildingSquare">
+            <summary>
+            套餐总面积 实际面积（建筑面积）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.BuildingUnitPrice">
+            <summary>
+            建筑面积单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.BuildingTotalPrice">
+            <summary>
+            整体定价：建筑面积总价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.UnitBuildingTotalPrice">
+            <summary>
+            平米定价方式： 建筑面积总价=最低购买面积*单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.NewHouse">
+            <summary>
+            适用新房
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.SecondHandHouse">
+            <summary>
+            适用二手房
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.PackSeries">
+            <summary>
+            套餐系列标签
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.PackSerieInfos">
+            <summary>
+            套餐系列标签名称|说明
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.MinApplicableSquare">
+            <summary>
+            套餐适用的最小使用面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.MaxApplicableSquare">
+            <summary>
+            套餐适用的最大使用面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.IsWhole">
+            <summary>
+            超出是否整体定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Premium">
+            <summary>
+            整体 超出补单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.CriterionSquare">
+            <summary>
+            标准面积（公式）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Priced">
+            <summary>
+            是否已定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.PricingType">
+            <summary>
+            定价类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Cover">
+            <summary>
+            方案选购封面
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.CoverDescription">
+            <summary>
+            方案选购封面描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.SchemeImages">
+            <summary>
+            方案概况图片集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.SchemeDescriptions">
+            <summary>
+            方案概况描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.SchemeVideoAudioLink">
+            <summary>
+            方案视频音频地址链接
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.SchemeVideoAudioLinkFileId">
+            <summary>
+            方案视频音频地址链接文件Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.SpaceInfos">
+            <summary>
+            空间信息集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Layouts">
+            <summary>
+            居室集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.StyleNos">
+            <summary>
+            设计风格集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Views">
+            <summary>
+            套餐浏览量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Sales">
+            <summary>
+            套餐销售量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.UnitSquare">
+            <summary>
+            平米定价最低购买使用面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.UnitBuildingSquare">
+            <summary>
+            平米定价最低购买建筑面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Instructions">
+            <summary>
+            产品说明书(文件Id)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.InstructionsName">
+            <summary>
+            产品说明书名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.Propertys">
+            <summary>
+             楼盘集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.IsManageFee">
+            <summary>
+            设置管理费参考价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.IsWaterElectricityFee">
+            <summary>
+            设置水电预收参考价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.ManageFee">
+            <summary>
+            管理费参考价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackInfo.WaterElectricityFee">
+            <summary>
+            水电预收参考价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackCraftInfo">
+            <summary>
+            套餐模板工艺项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackCraftInfo.CraftEntityId">
+            <summary>
+            工艺实体Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackCraftInfo.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackCraftInfo.CraftQuantity">
+            <summary>
+             默认工艺工程量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackCraftInfo.PackItemName">
+            <summary>
+            选区名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackCraftInfo.SpaceName">
+            <summary>
+            空间名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackCraftInfo.SpaceId">
+            <summary>
+            空间Id
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo">
+            <summary>
+            套餐模板商品SKU项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo.SkuId">
+            <summary>
+            商品SKU Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo.SkuQuantity">
+            <summary>
+              默认商品SKU数量(手动填写)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo.PackItemName">
+            <summary>
+            选区名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo.SpaceName">
+            <summary>
+            空间名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo.SpaceId">
+            <summary>
+            空间Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo.ProductType">
+            <summary>
+            五大类
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo.Category">
+            <summary>
+            品类
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.ForAppContext.App_DecorationPackSkuInfo.Brand">
+            <summary>
+            品牌
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.HouseTypePackContext.HouseTypePriceInfo">
+            <summary>
+            户型定价模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.HouseTypePackContext.HouseTypePriceInfo.PropertyId">
+            <summary>
+            楼盘Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.HouseTypePackContext.HouseTypePriceInfo.PropertyName">
+            <summary>
+            楼盘名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.HouseTypePackContext.HouseTypePriceInfo.PropertyAddress">
+            <summary>
+            楼盘地址
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.HouseTypePackContext.HouseTypePriceInfo.HouseTypeId">
+            <summary>
+            户型Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.HouseTypePackContext.HouseTypePriceInfo.HouseTName">
+            <summary>
+            户型名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.HouseTypePackContext.HouseTypePriceInfo.UnitPrice">
+            <summary>
+            使用面积单价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract">
+            <summary>
+            文章服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.AddArticleCategory(System.String,System.Int32)">
+            <summary>
+            添加文章分类
+            </summary>
+            <param name="name">名称</param>
+            <param name="sort">排序</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.ModifyArticleCategory(System.Guid,System.String,System.Int32)">
+            <summary>
+            修改文章分类
+            </summary>
+            <param name="id">分类Id</param>
+            <param name="name">名称</param>
+            <param name="sort">排序</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.DeleteArticleCategory(System.Guid)">
+            <summary>
+            删除文章分类
+            </summary>
+            <param name="id">分类Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.AddArticle(System.String,System.String,System.String,System.Guid,System.Collections.Generic.List{System.String},System.Boolean,System.Guid,System.Nullable{System.Guid},System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            添加文章
+            </summary>
+            <param name="name">标题</param>
+            <param name="content">内容</param>
+            <param name="author">作者</param>
+            <param name="authorId">作者Id</param>
+            <param name="tags">标签集</param>
+            <param name="isIssue">是否发布</param>
+            <param name="categoryId">分类Id</param>
+            <param name="sourceId">原文Id</param>
+            <param name="packId">关联套餐Id</param>
+            <param name="spaceId">关联套餐空间Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.ModifyArticle(System.Guid,System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Guid)">
+            <summary>
+            修改文章
+            </summary>
+            <param name="id">文章Id</param>
+            <param name="name">标题</param>
+            <param name="content">内容</param>
+            <param name="tags">标签集</param>
+            <param name="isIssue">是否发布</param>
+            <param name="categoryId">分类Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.ModifyArticleState(System.Guid,System.Boolean)">
+            <summary>
+            修改文章状态
+            </summary>
+            <param name="id">文章Id</param>
+            <param name="isIssue">是否发布</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.DeleteArticle(System.Guid)">
+            <summary>
+            删除文章
+            </summary>
+            <param name="id">文章Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.GetArticleCategoryInfos">
+            <summary>
+            获取文章分类集
+            </summary>
+            <returns>文章分类集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.GetArticles(System.String,System.Nullable{System.Guid},System.Nullable{System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            获取文章集
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="categoryId">文章分类Id</param>
+            <param name="isIssue">是否已发布</param>
+            <param name="pageIndex">页号</param>
+            <param name="pageSize">条数</param>
+            <returns>文章集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.GetArticlesBySourceId(System.Guid)">
+            <summary>
+            通过原文Id获取文章副本集
+            </summary>
+            <param name="sourceId">原文Id</param>
+            <returns>文章集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.GetArticlesByPackId(System.Guid)">
+            <summary>
+            通过套餐Id获取文章集
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns>文章集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.GetArticlesByPackIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            通过套餐Id集获取文章集
+            </summary>
+            <param name="packIds">套餐Id集</param>
+            <returns>文章集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.GetArticlesBySpaceId(System.Guid)">
+            <summary>
+            通过套餐空间Id获取文章集
+            </summary>
+            <param name="spaceId">套餐空间Id</param>
+            <returns>文章集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IArticleContract.GetArticle(System.Guid)">
+            <summary>
+            获取文章
+            </summary>
+            <param name="id">文章Id</param>
+            <returns>文章集</returns>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.Interfaces.IForAppContract">
+            <summary>
+            APP服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForAppContract.GetDecorationPackLables">
+            <summary>
+            获取已使用的套餐标签
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForAppContract.GetDecorationPacks(System.String,System.Boolean,System.Boolean,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Single},System.Nullable{System.Single},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            根据条件分页获取套餐
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForAppContract.GetRecommendDecorationPacks(System.Guid,System.Nullable{System.Guid},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Int32,System.Int32)">
+            <summary>
+            分页获取推荐套餐
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForAppContract.GetPackDetails(System.Guid)">
+            <summary>
+            获取套餐明细
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForAppContract.GetDecorationPacksForMarketApp(System.String,System.Boolean,System.Collections.Generic.IList{System.Guid},System.Nullable{System.Guid},System.Nullable{System.Guid},System.Boolean,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Nullable{System.Single},System.Nullable{System.Single},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            根据条件分页获取套餐
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="propertys">楼盘标签集（查询包含此集合标签）</param>
+            <param name="containsNoProperty">是否包含无楼盘标签套餐（true查询）</param>
+            <param name="propertyId">楼盘标签（查询包含此楼盘标签）</param>
+            <param name="houseTypeId">户型标签</param>
+            <param name="hasPackSeries">是否包含系列标签(全部,标签:true,其他:false)</param>
+            <param name="packSeriesIds">系列标签集</param>
+            <param name="styleNos">风格标签集</param>
+            <param name="isBuildSuqare">是否是建筑面积搜索</param>
+            <param name="minSquare">最小面积</param>
+            <param name="maxSquare">最大面积</param>
+            <param name="sort">排序</param>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForAppContract.GetPackSpaceImageInfos(System.Guid)">
+            <summary>
+            获取套餐空间效果图
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns>套餐空间图册集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForAppContract.GetDecorationPacksByIds(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            根据Id获取固定套餐集
+            </summary>
+            <param name="packIds">固定套餐Id集</param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForAppContract.Test(System.Guid)”忽略有格式错误的 XML 注释 -->
+        <member name="T:HDIPlatform.DesignSystem.IAppService.Interfaces.IConfigContract">
+            <summary>
+            套餐配置服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IConfigContract.CreatePackSeries(System.String,System.String,System.String)">
+            <summary>
+            创建套餐系列
+            </summary>
+            <param name="name">名称</param>
+            <param name="describe">描述</param>
+            <param name="groupName">分组名</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IConfigContract.UpdatePackSeries(System.Guid,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            修改套餐系列
+            </summary>
+            <param name="packSeriesId">套餐系列Id</param>
+            <param name="name">名称</param>
+            <param name="describe">描述</param>
+            <param name="sort">序号</param>
+            <param name="groupName">分组名</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IConfigContract.DeletePackSeries(System.Guid)">
+            <summary>
+            删除套餐系列
+            </summary>
+            <param name="packSeriesId">套餐系列Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IConfigContract.GetPackSeries(System.String,System.Int32,System.Int32)">
+            <summary>
+            分页查询套餐系列集
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="pageIndex">页号</param>
+            <param name="pageSize">页容量</param>
+            <returns>套餐系列集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IConfigContract.GetPackSeriesCounts(System.Nullable{System.Guid},System.Nullable{System.Single},System.Nullable{System.Boolean})">
+            <summary>
+            查询套餐系列标签及套餐数量集
+            </summary>
+            <param name="propertyId">关键字</param>
+            <param name="applicableSquare">页号</param>
+            <param name="isNewHouse">页容量</param>
+            <returns>套餐系列标签及套餐数量集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IConfigContract.GetPackGroupSeriesCounts(System.Nullable{System.Guid},System.Nullable{System.Single},System.Nullable{System.Boolean})">
+            <summary>
+            查询套餐分组系列标签及套餐数量集
+            </summary>
+            <param name="propertyId">关键字</param>
+            <param name="applicableSquare">页号</param>
+            <param name="isNewHouse">页容量</param>
+            <returns>套餐分组系列标签及套餐数量集（分组名|排序|系列集）</returns>
+        </member>
+        <!-- 对于成员“M:HDIPlatform.DesignSystem.IAppService.Interfaces.IConfigContract.Test(System.Guid)”忽略有格式错误的 XML 注释 -->
+        <member name="T:HDIPlatform.DesignSystem.IAppService.Interfaces.IHouseTypePackContract">
+            <summary>
+            户型套餐服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IHouseTypePackContract.AddHouseTypePrice(System.Collections.Generic.IEnumerable{HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.HouseTypePriceParam},System.Guid,System.String)">
+            <summary>
+            新增户型定价
+            </summary>
+            <param name="houseTypePriceParams">户型定价模型</param>
+            <param name="operatorId">操作人</param>
+            <param name="operator">操作人</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IHouseTypePackContract.UpdateHouseTypePrice(System.Collections.Generic.Dictionary{System.Guid,System.Decimal},System.Guid,System.String)">
+            <summary>
+            编辑户型定价
+            </summary>
+            <param name="houseTypePrices">户型定价集（户型定价Id|单价）</param>
+            <param name="operatorId">操作人</param>
+            <param name="operator">操作人</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IHouseTypePackContract.DeleteHouseTypePrice(System.Guid)">
+            <summary>
+            删除户型定价
+            </summary>
+            <param name="houseTypeId">户型定价Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IHouseTypePackContract.DeleteHouseTypePriceByPId(System.Guid)">
+            <summary>
+            删除楼盘下所有户型定价
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IHouseTypePackContract.GetHouseTypePrices(System.Guid,System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            分页获取楼盘下户型定价
+            </summary>
+            <param name="propertyId"></param>
+            <param name="sort"></param>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IHouseTypePackContract.GetPropertys(System.String,System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            分页获取定价户型楼盘列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="sort"></param>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract">
+            <summary>
+            大包服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.CreateBalePack(System.String,System.Guid,System.String)">
+            <summary>
+            创建大包套餐
+            </summary>
+            <param name="packName">大包套餐名称</param>
+            <param name="operatorId">操作人Id</param>
+            <param name="operator">操作人名称</param>
+            <returns>套餐Id</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.CrateCustomizedPack(System.String,System.Guid,System.String)">
+            <summary>
+            创建定制套餐
+            </summary>
+            <param name="packName">定制套餐名称</param>
+            <param name="operatorId">操作人Id</param>
+            <param name="operator">操作人名称</param>
+            <returns>套餐Id</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.SetPackDiscountRatio(System.Guid,System.Single)">
+            <summary>
+            设置套餐比例
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="discountRatio">套餐比例</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.SetPackLabel(System.Guid,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            设置套餐标签
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="labels">标签集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.SetPackCoverDrawing(System.Guid,System.String)">
+            <summary>
+            设置套餐封面
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="coverDrawing">封面图</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.SetPackShelfOff(System.Guid)">
+            <summary>
+            下架套餐
+            </summary>
+            <param name="packId">套餐Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.SetPackShelfed(System.Guid)">
+            <summary>
+            上架套餐
+            </summary>
+            <param name="packId">套餐Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.ModifyBalePackNameAndRatio(System.Guid,System.String,System.Single)">
+            <summary>
+            修改大包套餐名称及折扣比例
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="packName">套餐名称</param>
+            <param name="discountRatio">折扣比例</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.ModifyCustPackNameAndRatio(System.Guid,System.String,System.Single)">
+            <summary>
+            修改定制套餐名称及折扣比例
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="packName">套餐名称</param>
+            <param name="discountRatio">折扣比例</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.RemovePack(System.Guid)">
+            <summary>
+            删除套餐
+            </summary>
+            <param name="packId">套餐Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.CreateChoiceArea(System.Guid,System.String)">
+            <summary>
+            新增选区
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="choiceAreaName">选区名称</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.UpdateChoiceAreaName(System.Guid,System.Guid,System.String)">
+            <summary>
+            修改选区名称
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="choiceAreaId">选区Id</param>
+            <param name="choiceAreaName">选区名称</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.RemoveChoiceArea(System.Guid,System.Guid)">
+            <summary>
+            删除选区
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="choiceAreaId">选区Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.CreateGroupInChoiceArea(System.Guid,System.String,System.Boolean)">
+            <summary>
+            新增组
+            </summary>
+            <param name="choiceAreaId">选区Id</param>
+            <param name="groupName">组名</param>
+            <param name="required">是否必选</param>
+            <param name="categoryIds">品类Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.UpdateGroupNameAndIsRequired(System.Guid,System.String,System.Boolean)">
+            <summary>
+            修改组名称及选购方式
+            </summary>
+            <param name="groupId">组Id</param>
+            <param name="groupName">组名称</param>
+            <param name="isRequired">选购方式true|必选，false|推荐</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.RemoveGroup(System.Guid)">
+            <summary>
+            删除组
+            </summary>
+            <param name="groupId">组Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.CreateCategory(System.Guid,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            新增品类
+            </summary>
+            <param name="groupId">组Id</param>
+            <param name="categoryIds">品类Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.RemoveCategory(System.Guid,System.Guid)">
+            <summary>
+            删除品类
+            </summary>
+            <param name="groupId">组Id</param>
+            <param name="categoryId">品类Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.CreateBalePackProduct(System.Guid,System.Guid,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            新增品类下商品集
+            </summary>
+            <param name="groupId">组Id</param>
+            <param name="categoryId">品类Id</param>
+            <param name="productIds">商品Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.RemoveBalePackProduct(System.Guid,System.Guid,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            移除品类下已配置商品
+            </summary>
+            <param name="groupId">组Id</param>
+            <param name="categoryId">品类Id</param>
+            <param name="productIds">商品Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.ChangedProduct(System.Guid,System.Collections.Generic.IEnumerable{System.Guid},System.Guid)">
+            <summary>
+            替换下架商品
+            </summary>
+            <param name="shelfOffProductId">下架商品Id</param>
+            <param name="packIds">套餐Id集</param>
+            <param name="productId">商品Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.SetPackViews(System.Guid)">
+            <summary>
+            设置套餐浏览量
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.SetPackSales(System.Guid)">
+            <summary>
+            设置套餐销售量
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetShelfOffProducts">
+            <summary>
+            获取下架商品
+            </summary>
+            <returns>下架商品Id集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetPackIdAndName(System.Guid)">
+            <summary>
+            获取下架商品所在套餐列表
+            </summary>
+            <param name="productId">下架商品Id</param>
+            <returns>IDictionary[Guid, string]，[套餐Id, 套餐名称]</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetProductsByCategoryId(System.Guid,System.Guid)">
+            <summary>
+            根据组Id品类Id获取品类已配置商品列表
+            </summary>
+            <param name="groupId">组Id</param>
+            <param name="categoryId">品类Id</param>
+            <returns>品类已配置商品列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetProducts(System.Guid,System.Guid)">
+            <summary>
+            根据组Id品类Id获取品类已配置商品列表
+            </summary>
+            <param name="groupId">组Id</param>
+            <param name="categoryId">品类Id</param>
+            <returns>IDictionary[Guid, bool]，[商品Id, 是否已上架]</returns>
+        </member>
+        <!-- 对于成员“M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetCategoryIdsByGroup(System.Guid)”忽略有格式错误的 XML 注释 -->
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.Test(System.Guid)">
+            <summary>
+            测试Tuple
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetChoiceAreas(System.Guid)">
+            <summary>
+            根据套餐Id获取套餐内选区列表
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns>套餐内选区列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetChoiceAreasByPackId(System.Guid)">
+            <summary>
+            根据套餐Id获取套餐内选区列表
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns>IDictionary[Guid, string]，[选区Id, 选区名称]</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetBalePackByPage(System.String,System.Nullable{ShSoft.ValueObjects.Enums.ShelfStatus},System.Collections.Generic.IList{System.String},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            根据套餐状态标签分页获取大包套餐列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="status">套餐状态</param>
+            <param name="labels">套餐标签</param>
+            <param name="sort">排序条件 true为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>大包套餐列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetCustPackByPage(System.String,System.Nullable{ShSoft.ValueObjects.Enums.ShelfStatus},System.Collections.Generic.IList{System.String},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            根据套餐状态标签分页获取定制套餐列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="status">套餐状态</param>
+            <param name="labels">套餐标签</param>
+            <param name="sort">排序条件 true为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>定制套餐列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetGroupsByChoiceAreaId(System.Guid)">
+            <summary>
+            根据选区Id获取选区内组列表
+            </summary>
+            <param name="choiceAreaId">选区Id</param>
+            <returns>选区内组列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetGroupsByPackId(System.Guid)">
+            <summary>
+            根据套餐Id获取套餐内组列表
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns>套餐内组列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetBalePackAreaTreeInfo(System.Guid)">
+            <summary>
+            根据套餐获取大包|定制套餐选区树（选区-组-品类-品牌）
+            </summary>
+            <param name="packId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetRelateBalePackByDecoId(System.Guid,System.Nullable{ShSoft.ValueObjects.Enums.BalePackType},System.String,System.Nullable{ShSoft.ValueObjects.Enums.ShelfStatus},System.Collections.Generic.IList{System.String},System.Int32,System.Int32)">
+            <summary>
+            根据固定套餐Id分页获取关联大包套餐列表
+            </summary>
+            <param name="decoId">固定套餐Id</param>
+            <param name="type">大包套餐类型</param>
+            <param name="keywords">关键字</param>
+            <param name="status">套餐状态</param>
+            <param name="labels">套餐标签</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetNoRelateBalePackByDecoId(System.Guid,System.Nullable{ShSoft.ValueObjects.Enums.BalePackType},System.String,System.Nullable{ShSoft.ValueObjects.Enums.ShelfStatus},System.Collections.Generic.IList{System.String},System.Int32,System.Int32)">
+            <summary>
+            根据固定套餐Id分页获取未关联大包套餐列表
+            </summary>
+            <param name="decoId">固定套餐Id</param>
+            <param name="type">大包套餐类型</param>
+            <param name="keywords">关键字</param>
+            <param name="status">套餐状态</param>
+            <param name="labels">套餐标签</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetBalePackInfoById(System.Guid)">
+            <summary>
+            根据套餐Id获取套餐
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetBalePackInfoByIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            根据套餐Id批量获取套餐
+            </summary>
+            <param name="packIds">套餐Ids</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetPackShelfOffProCount(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            根据套餐Id获取套餐下架商品
+            </summary>
+            <returns>IDictionary[Guid, string]，[套餐Id, 下架商品个数]</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetProductsByPackId(System.Guid,System.Nullable{System.Guid},System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            获取套餐下商品
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="choiceAreaId">选区Id</param>
+            <param name="groupId">组Id</param>
+            <param name="categoryId">三级品类Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetPackVersionNumber(System.Guid)">
+            <summary>
+            根据源套餐Id获取套餐当前版本号
+            </summary>
+            <param name="sourcePackId">源套餐Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetNewestStatusByPackIds(System.Collections.Generic.Dictionary{System.Guid,System.Guid})">
+            <summary>
+            根据套餐Id字典获取是否是最新版本及最新版本套餐状态
+            </summary>
+            <param name="packDic">Key:套餐Id , Value:源套餐Id</param>
+            <returns>Item1:套餐Id , Item2:最新版本套餐状态 , Item3:是否最新版本</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.ExistsBalePackName(System.Nullable{System.Guid},System.String)">
+            <summary>
+            验证大包套餐名称是否存在
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="packName">套餐名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.ExistsCustPackName(System.Nullable{System.Guid},System.String)">
+            <summary>
+            验证定制套餐名称是否存在
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="packName">套餐名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.ExistsChoiceAreaName(System.Guid,System.Nullable{System.Guid},System.String)">
+            <summary>
+            验证选区名称是否存在
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="choiceAreaId">选区Id</param>
+            <param name="choiceAreaName">选区名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.ExistsCategoryByPackId(System.Guid)">
+            <summary>
+            验证大包套餐组内是否有品类
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.ExistsProductByPackId(System.Guid)">
+            <summary>
+            验证定制套餐组内下是否有商品
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.ExistsGroupName(System.Guid,System.Nullable{System.Guid},System.String)">
+            <summary>
+            验证分组名称是否存在
+            </summary>
+            <param name="choiceAreaId">选区Id</param>
+            <param name="groupId">组Id</param>
+            <param name="groupName">组名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract.GetBalePackAreaTreeInfos(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            批量获取大包|定制套餐选区树（选区-组-品类|定制商品集-品牌）
+            </summary>
+            <param name="packIds">套餐Id集</param>
+            <returns>套餐id|（选区-组-品类|定制商品集-品牌）</returns>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract">
+            <summary>
+            套餐模板服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.CreateDecorationPack(System.String,ShSoft.ValueObjects.Enums.DecorationPackType,ShSoft.ValueObjects.Enums.DecorationPackKind,ShSoft.ValueObjects.Enums.DecorationPackMode,System.Boolean,System.Boolean,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.Dictionary{System.Guid,System.String},System.Guid,System.String)">
+            <summary>
+            创建套餐模板
+            </summary>
+            <param name="packName">套餐模板名称</param>
+            <param name="packType">套餐类型</param>
+            <param name="packKind">套餐类别</param>
+            <param name="packMode">套餐模式</param>
+            <param name="newHouse">适用新房</param>
+            <param name="secondHandHouse">适用二手房</param>
+            <param name="packSeriesIds">套餐系列Id集</param>
+            <param name="stores">门店集</param>
+            <param name="operatorId">操作人Id</param>
+            <param name="operator">操作人名称</param>
+            <returns>套餐模板Id</returns> 
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.UpdateDecorationPack(System.Guid,System.String)">
+            <summary>
+            修改套餐模板
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packName">套餐模板名称</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetDecorationPackSort(System.Guid,System.Int32)">
+            <summary>
+            设置套餐模板排序
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="sort">排序</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.RemoveDecorationPack(System.Guid)">
+            <summary>
+            删除套餐模板
+            </summary>
+            <param name="packId">套餐模板Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SaveDecorationPackSpaces(System.Guid,System.Collections.Generic.IEnumerable{HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam})">
+            <summary>
+            保存套餐模板方案空间集
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSpaceParams">套餐模板方案空间参数模型集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.CreatePackItem(System.String,System.Guid,System.Guid,ShSoft.ValueObjects.Enums.CategoryArea,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            创建套餐模板项
+            </summary>
+            <param name="packItemName">套餐模板项名称</param>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSpaceId">套餐模板空间Id</param>
+            <param name="categoryArea">品类区域</param>
+            <param name="categoryIds">三级品类Id集</param>
+            <returns>套餐模板项Id</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.UpdatePackItems(System.Collections.Generic.IDictionary{System.Guid,HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam})">
+            <summary>
+            批量修改套餐模板项
+            </summary>
+            <param name="itemParams">套餐模板项参数模型字典</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.AddSkuItems(System.Guid,System.Collections.Generic.IEnumerable{HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam})">
+            <summary>
+            添加商品SKU集至套餐模板项
+            </summary>
+            <param name="packItemId">套餐模板项Id</param>
+            <param name="skuItems">商品SKU字典</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.AddCraftItems(System.Guid,System.Collections.Generic.IEnumerable{HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam})">
+            <summary>
+            添加工艺实体集至套餐模板项
+            </summary>
+            <param name="packItemId">套餐模板项Id</param>
+            <param name="craftEntityItems">工艺实体字典</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetDefaultSkuQuantity(System.Guid,System.Guid,System.Decimal,System.Collections.Generic.Dictionary{ShSoft.ValueObjects.Enums.SkuCraftPosition,System.Decimal})">
+            <summary>
+            设置选区内默认商品的工程量
+            </summary>
+            <param name="packItemId">选区Id</param>
+            <param name="defaultSkuId">默认SkuId</param>
+            <param name="skuQuantity">默认Sku工程量</param>
+            <param name="skuCraftPositions">放置位置</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetDefaultCraftQuantity(System.Guid,System.Guid,System.Decimal,System.Collections.Generic.Dictionary{ShSoft.ValueObjects.Enums.SkuCraftPosition,System.Decimal})">
+            <summary>
+            设置选区内默认工艺的工程量
+            </summary>
+            <param name="packItemId">选区Id</param>
+            <param name="defaultCraftId">默认CraftId</param>
+            <param name="craftQuantity">默认工艺工程量</param>
+            <param name="skuCraftPositions">放置位置</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ClonePackItem(System.Guid,System.Collections.Generic.IDictionary{System.Guid,System.String})">
+            <summary>
+            克隆套餐模板项
+            </summary>
+            <param name="packItemId">套餐模板项Id</param>
+            <param name="packSpaceIdNames">套餐模板空间Id/套餐模板项名称字典</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.RemovePackItem(System.Guid)">
+            <summary>
+            删除套餐模板项
+            </summary>
+            <param name="packItemId">套餐模板项Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetPriceByUnit(System.Guid,System.Decimal,System.Decimal,System.Boolean,System.Boolean,System.Single,System.Single,System.Boolean,System.Single,System.Decimal,System.Single,System.Single,System.Boolean,System.Decimal,System.Boolean,System.Decimal,System.Collections.Generic.IEnumerable{HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam})">
+            <summary>
+            按平方米定价
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="unitPrice">单价</param>
+            <param name="buildingUnitPrice">按建筑面积定价</param>
+            <param name="isUnitBuilding">平米建筑</param>
+            <param name="isUnitActual">平米使用</param>
+            <param name="unitSquare">平米定价最低购买使用面积</param>
+            <param name="unitBuildingSquare">平米定价最低购买建筑面积</param>
+            <param name="premium">整体超出部分单价</param>
+            <param name="spacePricingParams">空间定价参数集</param>
+            <param name="isWhole">是否整体定价超出</param>
+            <param name="criterionSquare">标准面积（公式）</param>
+            <param name="minApplicableSquare">套餐适用的最小使用面积</param>
+            <param name="maxApplicableSquare">套餐适用的最大使用面积</param>
+            <param name="isManageFee">设置管理费参考价</param>
+            <param name="manageFee">管理费参考价</param>
+            <param name="isWaterElectricityFee">设置水电预收参考价</param>
+            <param name="waterElectricityFee">水电预收参考价</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetPriceTotally(System.Guid,System.Decimal,System.Decimal,System.Single,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Single,System.Decimal,System.Single,System.Single,System.Boolean,System.Decimal,System.Boolean,System.Decimal,System.Collections.Generic.IEnumerable{HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam})">
+            <summary>
+            整体定价
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="isActual">是否整体使用面积定价</param>
+            <param name="isWhole">是否整体定价超出</param>
+            <param name="criterionSquare">标准面积（公式）</param>
+            <param name="totalPrice">总价</param>
+            <param name="unitPrice">超出部分单价</param>
+            <param name="buildingTotalPrice"></param>
+            <param name="spacePricingParams">空间定价参数集</param>
+            <param name="buildingSquare">标准面积（建筑面积）</param>
+            <param name="square">标准面积（使用面积）</param>
+            <param name="isBuilding">是否整体建筑面积定价</param>
+            <param name="minApplicableSquare">套餐适用的最小使用面积</param>
+            <param name="maxApplicableSquare">套餐适用的最大使用面积</param>
+            <param name="isManageFee">设置管理费参考价</param>
+            <param name="manageFee">管理费参考价</param>
+            <param name="isWaterElectricityFee">设置水电预收参考价</param>
+            <param name="waterElectricityFee">水电预收参考价</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.OnShelf(System.Guid)">
+            <summary>
+            上架套餐模板
+            </summary>
+            <param name="packId">套餐模板Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.OffShelf(System.Guid)">
+            <summary>
+            下架套餐模板
+            </summary>
+            <param name="packId">套餐模板Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.CloneDecorationPack(System.Guid,System.String,ShSoft.ValueObjects.Enums.DecorationPackType,ShSoft.ValueObjects.Enums.DecorationPackKind,ShSoft.ValueObjects.Enums.DecorationPackMode,System.Boolean,System.Boolean,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.Dictionary{System.Guid,System.String},System.Guid,System.String)">
+            <summary>
+            克隆套餐模板
+            </summary>
+            <param name="sourcePackId">源套餐模板Id</param>
+            <param name="packName">套餐模板名称</param>
+            <param name="packType">套餐类型</param>
+            <returns>新套餐模板Id</returns>
+            <param name="packKind">套餐类别</param>
+            <param name="packMode">套餐模式</param>
+            <param name="newHouse">适用新房</param>
+            <param name="secondHandHouse">适用二手房</param>
+            <param name="packSeriesIds">套餐系列Id集</param>
+            <param name="stores">门店集</param>
+            <param name="operatorId">操作人Id</param>
+            <param name="operator">操作人名称</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.CreatePackScheme(System.Guid,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam})">
+            <summary>
+            创建套餐模板方案
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="schemeName">套餐模板方案名称</param>
+            <param name="cover">封面</param>
+            <param name="description">封面描述</param>
+            <param name="images">方案概况图片集</param>
+            <param name="schemeDescriptions">方案概况描述</param>
+            <param name="videoAudioLink">视频音频地址链接</param>
+            <param name="videoAudioFileName">视频音频文件名称</param>
+            <param name="videoAudioFileSize">视频音频文件大小</param>
+            <param name="videoAudioFileId">视频音频文件Id</param>
+            <param name="videoAudiogFileSuffix">视频音频文件扩展名</param>
+            <param name="schemeSpaceParams">套餐模板方案空间参数模型集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.UpdatePackScheme(System.Guid,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam})">
+            <summary>
+            修改套餐模板方案
+            </summary>
+            <param name="packSchemeId">套餐模板方案Id</param>
+            <param name="schemeName">套餐模板方案名称</param>
+            <param name="cover">封面</param>
+            <param name="description">描述</param>
+            <param name="images">方案概况图片集</param>
+            <param name="schemeDescriptions">方案概况描述</param>
+            <param name="videoAudioLink">视频音频地址链接</param>
+            <param name="videoAudioFileName">视频音频文件名称</param>
+            <param name="videoAudioFileSize">视频音频文件大小</param>
+            <param name="videoAudioFileId">视频音频文件Id</param>
+            <param name="videoAudiogFileSuffix">视频音频文件扩展名</param>
+            <param name="schemeSpaceParams">套餐模板方案空间参数模型集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.RemovePackScheme(System.Guid)">
+            <summary>
+            删除套餐模板方案
+            </summary>
+            <param name="packSchemeId">套餐模板方案Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetCover(System.Guid,System.Guid)">
+            <summary>
+            设置套餐模板选购封面(设置默认方案)
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSchemeId">方案Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SavePackLabels(System.Guid,ShSoft.ValueObjects.Enums.DecorationPackColor,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.IEnumerable{System.Tuple{System.Guid,System.String,System.Guid,System.String,System.String}},System.Boolean,System.Boolean,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.Dictionary{System.Guid,System.String})">
+            <summary>
+            保存套餐模板标签
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="color">颜色</param>
+            <param name="layouts">居室集</param>
+            <param name="styleNos">设计风格集（编号|名称）</param>
+            <param name="houseTypes">户型集(户型Id|户型名称，楼盘Id，楼盘名称,楼盘地址)</param>
+            <param name="newHouse">适用新房</param>
+            <param name="secondHandHouse">适用二手房</param>
+            <param name="packSeriesIds">套餐系列Id集</param>
+            <param name="stores">门店集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ReplaceSku(System.Guid,System.Guid,System.Decimal,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            替换商品SKU
+            </summary>
+            <param name="sourceSkuId">源商品SKU Id</param>
+            <param name="targetSkuId">模板商品SKU Id</param>
+            <param name="costPrice">新商品成本价</param>
+            <param name="packIds">套餐模板Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.RemoveSku(System.Guid,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            删除商品SKU
+            </summary>
+            <param name="sourceSkuId">源商品SKU Id</param>
+            <param name="packIds">套餐模板Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.RemoveAllSku(System.Collections.Generic.Dictionary{System.Guid,System.Collections.Generic.List{System.Guid}})">
+            <summary>
+            批量删除商品SKU
+            </summary>
+            <param name="skuPackIds">商品SKU Id|套餐模板Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.RemoveCraft(System.Guid,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            删除工艺实体
+            </summary>
+            <param name="sourceCraftEntityId">源工艺实体Id</param>
+            <param name="packIds">套餐模板Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.RemoveAllCraft(System.Collections.Generic.Dictionary{System.Guid,System.Collections.Generic.List{System.Guid}})">
+            <summary>
+            批量删除工艺实体
+            </summary>
+            <param name="craftPackIds">工艺实体Id|套餐模板Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ReplaceCraft(System.Guid,System.Guid,System.Decimal,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            替换工艺实体
+            </summary>
+            <param name="sourceCraftEntityId">源工艺实体Id</param>
+            <param name="targetCraftEntityId">模板工艺实体Id</param>
+            <param name="costPrice">新工艺成本价</param>
+            <param name="packIds">套餐模板Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.RelateBalePack(System.Guid,System.Guid)">
+            <summary>
+            关联大包/定制模板
+            </summary>
+            <param name="decorationPackId">套餐模板Id</param>
+            <param name="balePackId">大包/定制模板Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.CancelRelateBalePack(System.Guid,System.Guid)">
+            <summary>
+            取消关联大包/定制模板
+            </summary>
+            <param name="decorationPackId">套餐模板Id</param>
+            <param name="balePackId">大包/定制模板Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetPackViews(System.Guid)">
+            <summary>
+            设置套餐浏览量
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetPackSales(System.Guid)">
+            <summary>
+            设置套餐销售量
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.AddPackItemCategoryIds(System.Guid,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            添加套餐项三级品类范围（原三级品类集累加）
+            </summary>
+            <param name="packItemId">套餐项ID</param>
+            <param name="categoryIds">三级品类集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.DeletePackItemCategoryIds(System.Guid,System.Guid)">
+            <summary>
+            删除套餐项三级品类配置
+            </summary>
+            <param name="packItemId">套餐项ID</param>
+            <param name="categoryId">三级品类</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.UpdatePackItem(System.Guid,HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            修改套餐模板项
+            </summary>
+            <param name="itemId">模板项Id</param>
+            <param name="itemParam">套餐模板项参数模型字典</param>
+            <param name="categoryIds">品类集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetInstructions(System.Guid,System.String,System.String)">
+            <summary>
+            上传产品说明书
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="instructions">文件Id</param>
+            <param name="instructionsName">产品说明书名称</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.SetRequirement(System.Guid,System.String)">
+            <summary>
+            修改套餐模板项设计要求
+            </summary>
+            <param name="packItemId">套餐项ID</param>
+            <param name="requirement">设计要求</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ChangedDecorationPackSku(System.Collections.Generic.IDictionary{System.Guid,System.Decimal})">
+            <summary>
+            变价套餐模板商品SKU
+            </summary>
+            <param name="skuIdCostPrices">商品SKU Id|商品工程量成本价</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ChangedDecorationPackCraft(System.Collections.Generic.IDictionary{System.Guid,System.Decimal})">
+            <summary>
+            变价套餐模板工艺      
+            </summary>
+            <param name="craftEntityIdCostPrices">工艺实体Id|工艺成本价</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ImportDecorationPack(System.Guid,System.Collections.Generic.IEnumerable{HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam})">
+            <summary>
+            导入套餐空间预算(DIM)
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSpaceParams">套餐空间参数集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPacks(System.String,System.Nullable{System.Guid},System.Nullable{System.Single},System.Nullable{System.Boolean},System.Boolean,System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Boolean,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackColor},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackType},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackKind},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackMode},System.Nullable{ShSoft.ValueObjects.Enums.ShelfStatus},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.Guid},System.Collections.Generic.IList{System.Guid},System.Collections.Generic.IList{System.Guid},System.Boolean,System.Nullable{System.Guid},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            分页获取套餐模板列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="propertyId">楼盘Id</param>
+            <param name="applicableSquare">适用面积</param>
+            <param name="isNewHouse">是否适用新房</param>
+            <param name="isBuildingPrice">是否是建筑价格搜索</param>
+            <param name="minPrice">最小价格</param>
+            <param name="maxPrice">最大价格</param>
+            <param name="isBuildingSquare">是否是建筑面积搜索</param>
+            <param name="minSquare">最小面积</param>
+            <param name="maxSquare">最大面积</param>
+            <param name="hasOffSku">是否有下架商品</param>
+            <param name="hasChangedSku">是否有变价商品|工艺</param>
+            <param name="color">颜色</param>
+            <param name="packType">套餐类型</param>
+            <param name="packKind">套餐类别</param>
+            <param name="packMode">套餐模式</param>
+            <param name="status">状态</param>
+            <param name="styleNos">设计风格集</param>
+            <param name="spaceTypes">空间类型集</param>
+            <param name="layouts">居室集</param>
+            <param name="propertys">楼盘集</param>
+            <param name="packSeriesIds">套餐系列集</param>
+            <param name="stores">门店集</param>
+            <param name="hasStores">是否有门店（全部,标签:true,其他:false）</param>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <param name="sort">排序条件 true为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>套餐模板列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPacksForSales(System.String,System.Nullable{System.Guid},System.Nullable{System.Single},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.Boolean},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackType},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackKind},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackMode},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Boolean,System.Collections.Generic.IList{System.Guid},System.Collections.Generic.IList{System.Guid},System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            分页获取套餐模板列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="propertyId">楼盘Id</param>
+            <param name="applicableSquare">适用面积</param>
+            <param name="isNewHouse">是否适用新房</param>
+            <param name="isBuildingPrice">是否是建筑价格搜索</param>
+            <param name="minPrice">最小价格</param>
+            <param name="maxPrice">最大价格</param>
+            <param name="isBuildingSquare">是否是建筑面积搜索</param>
+            <param name="minSquare">最小面积</param>
+            <param name="maxSquare">最大面积</param>
+            <param name="packKind">套餐类别(套餐|造型)</param>
+            <param name="packMode">套餐模式(基础|成品|基础+成品)</param>
+            <param name="spaceTypes">空间类型集</param>
+            <param name="styleNos">设计风格集</param>
+            <param name="layouts">居室集</param>
+            <param name="hasPackSeries">是否有标签(全部和标签:true,其他:false)</param>
+            <param name="packSeriesIds">套餐系列集</param>
+            <param name="stores">门店集</param>
+            <param name="hasStores">是否有门店（全部,标签:true,其他:false）</param>
+            <param name="sort">排序条件 true为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>套餐模板列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPacksByProjectId(System.Guid,System.String,System.Nullable{System.Guid},System.Nullable{System.Single},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.Boolean},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackType},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackKind},System.Nullable{ShSoft.ValueObjects.Enums.DecorationPackMode},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Boolean,System.Collections.Generic.IList{System.Guid},System.Collections.Generic.IList{System.Guid},System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            根据项目Id分页获取关联套餐模板列表
+            </summary>
+            <param name="projectId">项目Id</param>
+            <param name="keywords">关键字</param>
+            <param name="propertyId">楼盘Id</param>
+            <param name="applicableSquare">适用面积</param>
+            <param name="isNewHouse">是否适用新房</param>
+            <param name="isBuildingPrice">是否是建筑价格搜索</param>
+            <param name="minPrice">最小价格</param>
+            <param name="maxPrice">最大价格</param>
+            <param name="isBuildingSquare">是否是建筑面积搜索</param>
+            <param name="minSquare">最小面积</param>
+            <param name="maxSquare">最大面积</param>
+            <param name="packType">套餐类型</param>
+            <param name="packKind">套餐类别(套餐|造型)</param>
+            <param name="packMode">套餐模式(基础|成品|基础+成品)</param>
+            <param name="spaceTypes">空间类型集</param>
+            <param name="styleNos">设计风格集</param>
+            <param name="layouts">居室集</param>
+            <param name="hasPackSeries">是否有标签(全部和标签:true,其他:false)</param>
+            <param name="packSeriesIds">套餐系列集</param>
+            <param name="stores">门店集</param>
+            <param name="hasStores">是否有门店</param>
+            <param name="sort">排序条件 true为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>套餐模板列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetPackSpaces(System.Guid)">
+            <summary>
+            获取套餐模板空间列表
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <returns>套餐模板空间列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetPackItems(System.Guid,System.Nullable{System.Guid})">
+            <summary>
+            获取套餐模板项列表
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSpaceId">套餐模板空间Id</param>
+            <returns>套餐模板项列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPackItemById(System.Guid)">
+            <summary>
+            获取套餐模板项
+            </summary>
+            <param name="packItemId">套餐模板项Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetPackSkus(System.Guid)">
+            <summary>
+            获取套餐模板商品SKU项列表
+            </summary>
+            <param name="packItemId">套餐模板项Id</param>
+            <returns>套餐模板商品SKU项列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetBulkPackSkus(System.Guid,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            批量获取套餐模板商品SKU项列表
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="packItemIds">套餐模板项Id集</param>
+            <returns>套餐模板商品SKU项字典</returns>
+            IDictionary[Guid, IEnumerable[DecorationPackSkuInfo]]，[套餐模板项Id，套餐模板商品SKU项列表]
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetBulkPackSkusByPackId(System.Guid)">
+            <summary>
+            批量获取套餐商品SKU项列表
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns>套餐商品SKU项字典</returns>
+            IDictionary[Guid, IEnumerable[DecorationPackSkuInfo]]，[套餐模板项Id，套餐模板商品SKU项列表]
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetPackCrafts(System.Guid)">
+            <summary>
+            获取套餐模板工艺项列表
+            </summary>
+            <param name="packItemId">套餐模板项Id</param>
+            <returns>套餐模板工艺项列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetBulkPackCrafts(System.Guid,System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            批量获取套餐模板工艺项列表
+            </summary>
+            <param name="packId">套餐Id</param>
+            <param name="packItemIds">套餐模板项Id</param>
+            <returns>套餐模板工艺项字典</returns>
+            IDictionary[Guid, IEnumerable[DecorationPackCraftInfo]]，[套餐模板项Id，套餐模板工艺项列表]
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetBulkPackCraftsByPackId(System.Guid)">
+            <summary>
+            批量获取套餐工艺项列表
+            </summary>
+            <param name="packId">套餐Id</param>
+            <returns>套餐工艺项字典</returns>
+            IDictionary[Guid, IEnumerable[DecorationPackCraftInfo]]，[套餐模板项Id，套餐模板工艺项列表]
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetPackSchemes(System.Guid)">
+            <summary>
+            获取套餐模板方案列表
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <returns>套餐模板方案列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetPackSchemeSpaces(System.Guid)">
+            <summary>
+            获取套餐模板方案空间列表
+            </summary>
+            <param name="packSchemeId">套餐模板方案Id</param>
+            <returns>方案空间列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetOffShelvedCount(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            获取套餐模板内下架商品数量
+            </summary>
+            <param name="packIds">套餐模板Id集</param>
+            <returns>下架商品数量字典</returns>
+            <remarks>IDictionary[Guid, int]，[套餐模板Id, 下架商品数量]</remarks>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetTotalOffShelvedCount(System.Nullable{System.Guid})">
+            <summary>
+            获取总下架商品数量
+            </summary>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <returns>总下架商品数量</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPack(System.Guid)">
+            <summary>
+            获取套餐模板
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <returns>套餐模板</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetPackScheme(System.Guid)">
+            <summary>
+            获取套餐模板方案
+            </summary>
+            <param name="packSchemeId">套餐模板方案Id</param>
+            <returns>套餐模板方案</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetTotalOffShelvedSkus">
+            <summary>
+            获取总下架商品SKU Id集列表
+            </summary>
+            <returns>商品SKU Id列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPacksBySku(System.Guid)">
+            <summary>
+            根据商品SKU获取套餐模板列表
+            </summary>
+            <param name="skuId">商品SKU Id</param>
+            <returns>套餐模板列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetTotalOffShelvedCrafts">
+            <summary>
+            获取总下架工艺实体Id列表
+            </summary>
+            <returns>工艺实体Id列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetOffShelvedCraftsPacks">
+            <summary>
+            获取总下架工艺实体Id列表
+            </summary>
+            <returns>工艺实体Id列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetOffShelvedCraftsPacksByPage(System.Nullable{System.Guid},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            获取总下架工艺实体Id列表
+            </summary>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <returns>工艺实体Id列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetTotalOffShelvedCraftCount(System.Nullable{System.Guid})">
+            <summary>
+            获取总下架工艺数量
+            </summary>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <returns>总下架工艺数量</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPacksByCraft(System.Guid)">
+            <summary>
+            根据工艺实体获取套餐模板列表
+            </summary>
+            <param name="craftEntityId">工艺实体Id</param>
+            <returns>套餐模板Id列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetSkuQuantities(System.Guid)">
+            <summary>
+            获取套餐商品SKU数量字典
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <returns>商品SKU数量字典</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetCraftQuantities(System.Guid)">
+            <summary>
+            获取套餐工艺工程量字典
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <returns>工艺工程量字典</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetOffShelvedCraftCount(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            获取套餐模板内下架工艺数量
+            </summary>
+            <param name="packIds">套餐模板Id集</param>
+            <returns>下架工艺数量字典</returns>
+            <remarks>IDictionary[Guid, int]，[套餐模板Id, 下架工艺数量]</remarks>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetSourceDecorationPackLabels">
+            <summary>
+            获取固定源套餐标签集(居室|（设计风格编号|设计风格名称）|空间类型)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPackByIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            根据套餐Id集获取套餐模板集
+            </summary>
+            <param name="packIds">套餐模板Id集合</param>
+            <returns>套餐模板</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetOffShelvedSkusPacks">
+            <summary>
+            获取总下架商品SKU列表
+            </summary>
+            <returns>商品SKU列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetOffShelvedSkusPacksByPage(System.Nullable{System.Guid},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            获取总下架商品SKU列表
+            </summary>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <returns>商品SKU列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPackVersionNumber(System.Guid)">
+            <summary>
+            根据套餐Id获取套餐当前版本号
+            </summary>
+            <param name="sourcePackId">源套餐Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetNewestStatusByPackIds(System.Collections.Generic.Dictionary{System.Guid,System.Guid})">
+            <summary>
+            根据套餐Id字典获取是否是最新版本及最新版本套餐状态
+            </summary>
+            <param name="packDic">Key:套餐Id , Value:源套餐Id</param>
+            <returns>Item1:套餐Id , Item2:最新版本套餐状态 , Item3:是否最新版本</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsPackName(System.Nullable{System.Guid},System.String)">
+            <summary>
+            验证套餐模板名称是否存在
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packName">套餐模板名称</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsPackSpaceName(System.Guid,System.Nullable{System.Guid},System.String)">
+            <summary>
+            验证套餐模板空间名称是否存在
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSpaceId">套餐模板空间Id</param>
+            <param name="packSpaceName">套餐模板空间名称</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsPackItemName(System.Guid,System.Guid,System.Nullable{System.Guid},System.String)">
+            <summary>
+            验证套餐模板项名称是否存在
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSpaceId">空间Id</param>
+            <param name="packItemId">套餐模板项Id</param>
+            <param name="packItemName">套餐模板项名称</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsPackSchemeName(System.Guid,System.Nullable{System.Guid},System.String)">
+            <summary>
+            验证套餐模板方案名称是否存在
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSchemeId">套餐模板方案Id</param>
+            <param name="packSchemeName">套餐模板方案名称</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsPackSku(System.Guid)">
+            <summary>
+            验证套餐模板下是否配置商品SKU
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <returns>是否配置</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsOffShelved(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            给定套餐模板空间下是否存在下架商品
+            </summary>
+            <param name="packSpaceIds">套餐模板空间Id</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsOffShelvedCraft(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            给定套餐模板空间下是否存在下架工艺
+            </summary>
+            <param name="packSpaceIds">套餐模板空间Id</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetAllPackSkuIds">
+            <summary>
+            获取全部套餐商品SkuId集
+            </summary>
+            <returns>商品SkuId集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetAllPackCraftIds">
+            <summary>
+            获取全部套餐工艺实体Id集
+            </summary>
+            <returns>工艺实体Id集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetPackRecommendedItems(System.Guid,System.Nullable{System.Guid})">
+            <summary>
+            获取套餐模板推荐项列表
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSpaceId">套餐模板空间Id</param>
+            <returns>套餐模板推荐项列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetTotalChangedCount(System.Nullable{System.Guid})">
+            <summary>
+            获取总变价商品数量
+            </summary>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <returns>总变价商品数量</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetChangedCount(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            获取套餐模板内变价商品数量
+            </summary>
+            <param name="packIds">套餐模板Id集</param>
+            <returns>变价商品数量字典</returns>
+            <remarks>IDictionary[Guid, int]，[套餐模板Id, 变价商品数量]</remarks>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetTotalChangedSkus">
+            <summary>
+            获取总变价商品SKU Id集列表
+            </summary>
+            <returns>商品SKU Id列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetChangedSkusPacks">
+            <summary>
+            获取总变价商品SKU列表
+            </summary>
+            <returns>商品SKU列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetChangedSkusPacksByPage(System.Nullable{System.Guid},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            获取总变价商品SKU列表
+            </summary>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <returns>商品SKU列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsChanged(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            给定套餐模板空间下是否存在变价商品
+            </summary>
+            <param name="packSpaceIds">套餐模板空间Id</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetTotalChangedCrafts">
+            <summary>
+            获取总变价工艺实体Id列表
+            </summary>
+            <returns>工艺实体Id列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetChangedCraftsPacks">
+            <summary>
+            获取总变价工艺实体Id列表
+            </summary>
+            <returns>工艺实体Id列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetChangedCraftsPacksByPage(System.Nullable{System.Guid},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            获取总变价工艺实体Id列表
+            </summary>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <returns>工艺实体Id列表</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetTotalChangedCraftCount(System.Nullable{System.Guid})">
+            <summary>
+            获取总变价工艺数量
+            </summary>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <returns>总变价工艺数量</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetChangedCraftCount(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            获取套餐模板内变价工艺数量
+            </summary>
+            <param name="packIds">套餐模板Id集</param>
+            <returns>变价工艺数量字典</returns>
+            <remarks>IDictionary[Guid, int]，[套餐模板Id, 变价工艺数量]</remarks>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsChangedCraft(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            给定套餐模板空间下是否存在变价工艺
+            </summary>
+            <param name="packSpaceIds">套餐模板空间Id</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetTotalOffShelvedChangedCount(System.Nullable{System.Guid})">
+            <summary>
+            获取下架|变价 商品+工艺数量
+            </summary>
+            <param name="createrId">套餐创建人Id？（全部：null,我的：当前登录人员）</param>
+            <returns>下架商品工艺数量合计|变价商品工艺合计</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetOffShelvedChangedCountByIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            获取套餐模板内下架|变价的商品|工艺数量
+            </summary>
+            <param name="packIds">套餐Id集</param>
+            <returns>套餐Id|下架商品数量|下架工艺数量|变价商品数量|变价工艺数量</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.ExistsOffShelvedChanged(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            验证套餐模板下是否存在下架|变价的商品|工艺
+            </summary>
+            <param name="packSpaceIds">套餐模板空间Id</param>
+            <returns>套餐模板空间Id|存在下架商品|下架工艺|变价商品|变价工艺</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetDecorationPackItems(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            批量获取套餐选区集
+            </summary>
+            <param name="packIds">套餐Id集</param>
+            <returns>套餐Id|选区集</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetBulkPackCraftsByPackIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            批量获取套餐工艺项列表
+            </summary>
+            <param name="packIds">套餐Id集</param>
+            <returns>套餐工艺项字典</returns>
+            IDictionary[Guid, Dictionary[Guid,IEnumerable[DecorationPackCraftInfo]]]，[套餐Id|套餐模板项Id|套餐模板工艺项列表]
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.GetBulkPackSkusByPackIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            批量获取套餐商品SKU项列表
+            </summary>
+            <param name="packIds">套餐Id集</param>
+            <returns>套餐商品SKU项字典</returns>
+            Dictionary[Guid, Dictionary[Guid,IEnumerable[DecorationPackSkuInfo]]]，[套餐Id|套餐模板项Id|套餐模板商品SKU项列表]
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract.Test(System.Guid)">
+            <summary>
+            测试 Tuple
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.IAppService.Interfaces.IForTransContract">
+            <summary>
+            For事务流转服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForTransContract.OffShelfDecorationPackSku(System.Guid)">
+            <summary>
+            下架套餐模板商品SKU
+            </summary>
+            <param name="skuId">商品SKU Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForTransContract.ReOnShelfDecorationPackSku(System.Guid)">
+            <summary>
+            重新上架套餐模板商品SKU
+            </summary>
+            <param name="skuId">商品SKU Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForTransContract.OffShelfDecorationPackCraft(System.Guid)">
+            <summary>
+            下架套餐模板工艺
+            </summary>
+            <param name="craftEntityId">工艺实体Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForTransContract.ReOnShelfDecorationPackCraft(System.Guid)">
+            <summary>
+            重新上架套餐模板工艺
+            </summary>
+            <param name="craftEntityId">工艺实体Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForTransContract.OffShelfBalePackSku(System.Guid)">
+            <summary>
+            下架定制套餐商品SKU
+            </summary>
+            <param name="skuId">商品SKU Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForTransContract.ReOnShelfBalePackSku(System.Guid)">
+            <summary>
+            重新上架定制套餐商品SKU
+            </summary>
+            <param name="skuId">商品SKU Id</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.IAppService.Interfaces.IForTransContract.IsCraftInPack(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            工艺是否在套餐中使用
+            </summary>
+            <param name="craftEntityIds">工艺实体Id集</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

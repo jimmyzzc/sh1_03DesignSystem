@@ -1,0 +1,230 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - 应用程序服务", "01 - 应用程序服务", "{F94ADF9B-3F65-427F-B3F0-51E958F9B4F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDIPlatform.DesignSystem.AppService", "HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.AppService\HDIPlatform.DesignSystem.AppService.csproj", "{837DC971-815C-441F-B993-9440131249CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDIPlatform.DesignSystem.IAppService", "HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.IAppService\HDIPlatform.DesignSystem.IAppService.csproj", "{39B9EC31-F743-4151-AFBE-85E7614F91AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - 领域核心", "02 - 领域核心", "{2E4C13CE-B525-432A-9758-595FE48ADD76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDIPlatform.DesignSystem.Domain", "HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.Domain\HDIPlatform.DesignSystem.Domain.csproj", "{16F9D846-1A08-40FA-AE75-174567AB6643}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - 领域服务实现", "03 - 领域服务实现", "{EC69B1F3-CAFD-4641-A721-F53741AB197F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDIPlatform.DesignSystem.DomainService", "HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.DomainService\HDIPlatform.DesignSystem.DomainService.csproj", "{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - 领域事件处理者", "04 - 领域事件处理者", "{28E82A7E-FC07-42CD-8428-C50CA9842570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDIPlatform.DesignSystem.DomainEventHandler", "HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.DomainEventHandler\HDIPlatform.DesignSystem.DomainEventHandler.csproj", "{412AF1AF-4550-4842-A592-014ECA054B26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - 仓储实现", "05 - 仓储实现", "{BD2BB4A2-0D4C-4994-A1B4-2807116829DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDIPlatform.DesignSystem.Repository", "HDIPlatform.DesignSystem\HDIPlatform.DesignSystem.Repository\HDIPlatform.DesignSystem.Repository.csproj", "{03EA83FC-6D6B-4B2B-9051-590D79343ADA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - 详细设计", "06 - 详细设计", "{9D4CB5FD-E29E-4C5A-91C6-5E3F36681E48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - 测试", "07 - 测试", "{F24F4871-98D4-490D-8400-C33F821844EA}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "HDIPlatform.DesignSystem.Design", "..\Documents\HDIPlatform.DesignSystem.Design\HDIPlatform.DesignSystem.Design.modelproj", "{9945C9C3-285C-42B7-9FA6-1F670F9F0762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{28A56385-62E5-4A9D-819F-53BB8AD7B572}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Develop|Any CPU = Develop|Any CPU
+		Integration|Any CPU = Integration|Any CPU
+		Lab|Any CPU = Lab|Any CPU
+		LoadTest|Any CPU = LoadTest|Any CPU
+		Local|Any CPU = Local|Any CPU
+		Release_Sparrow|Any CPU = Release_Sparrow|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{837DC971-815C-441F-B993-9440131249CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Develop|Any CPU.ActiveCfg = Develop|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Develop|Any CPU.Build.0 = Develop|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Lab|Any CPU.ActiveCfg = Lab|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Lab|Any CPU.Build.0 = Lab|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.LoadTest|Any CPU.ActiveCfg = LoadTest|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.LoadTest|Any CPU.Build.0 = LoadTest|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Local|Any CPU.Build.0 = Local|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Release_Sparrow|Any CPU.ActiveCfg = Release_Sparrow|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Release_Sparrow|Any CPU.Build.0 = Release_Sparrow|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{837DC971-815C-441F-B993-9440131249CD}.Test|Any CPU.Build.0 = Test|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Develop|Any CPU.ActiveCfg = Develop|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Develop|Any CPU.Build.0 = Develop|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Lab|Any CPU.ActiveCfg = Lab|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Lab|Any CPU.Build.0 = Lab|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.LoadTest|Any CPU.ActiveCfg = LoadTest|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.LoadTest|Any CPU.Build.0 = LoadTest|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Local|Any CPU.Build.0 = Local|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Release_Sparrow|Any CPU.ActiveCfg = Release_Sparrow|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Release_Sparrow|Any CPU.Build.0 = Release_Sparrow|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC}.Test|Any CPU.Build.0 = Test|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Develop|Any CPU.ActiveCfg = Develop|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Develop|Any CPU.Build.0 = Develop|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Lab|Any CPU.ActiveCfg = Lab|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Lab|Any CPU.Build.0 = Lab|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.LoadTest|Any CPU.ActiveCfg = LoadTest|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.LoadTest|Any CPU.Build.0 = LoadTest|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Local|Any CPU.Build.0 = Local|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Release_Sparrow|Any CPU.ActiveCfg = Release_Sparrow|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Release_Sparrow|Any CPU.Build.0 = Release_Sparrow|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{16F9D846-1A08-40FA-AE75-174567AB6643}.Test|Any CPU.Build.0 = Test|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Develop|Any CPU.ActiveCfg = Develop|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Develop|Any CPU.Build.0 = Develop|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Lab|Any CPU.ActiveCfg = Lab|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Lab|Any CPU.Build.0 = Lab|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.LoadTest|Any CPU.ActiveCfg = LoadTest|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.LoadTest|Any CPU.Build.0 = LoadTest|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Local|Any CPU.Build.0 = Local|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Release_Sparrow|Any CPU.ActiveCfg = Release_Sparrow|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Release_Sparrow|Any CPU.Build.0 = Release_Sparrow|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F}.Test|Any CPU.Build.0 = Test|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Develop|Any CPU.ActiveCfg = Develop|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Develop|Any CPU.Build.0 = Develop|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Lab|Any CPU.ActiveCfg = Lab|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Lab|Any CPU.Build.0 = Lab|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.LoadTest|Any CPU.ActiveCfg = LoadTest|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.LoadTest|Any CPU.Build.0 = LoadTest|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Local|Any CPU.Build.0 = Local|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Release_Sparrow|Any CPU.ActiveCfg = Release_Sparrow|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Release_Sparrow|Any CPU.Build.0 = Release_Sparrow|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{412AF1AF-4550-4842-A592-014ECA054B26}.Test|Any CPU.Build.0 = Test|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Develop|Any CPU.ActiveCfg = Develop|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Develop|Any CPU.Build.0 = Develop|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Lab|Any CPU.ActiveCfg = Lab|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Lab|Any CPU.Build.0 = Lab|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.LoadTest|Any CPU.ActiveCfg = LoadTest|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.LoadTest|Any CPU.Build.0 = LoadTest|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Local|Any CPU.Build.0 = Local|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Release_Sparrow|Any CPU.ActiveCfg = Release_Sparrow|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Release_Sparrow|Any CPU.Build.0 = Release_Sparrow|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA}.Test|Any CPU.Build.0 = Test|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Develop|Any CPU.ActiveCfg = Develop|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Develop|Any CPU.Build.0 = Develop|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Lab|Any CPU.ActiveCfg = Lab|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Lab|Any CPU.Build.0 = Lab|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.LoadTest|Any CPU.ActiveCfg = LoadTest|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.LoadTest|Any CPU.Build.0 = LoadTest|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Local|Any CPU.Build.0 = Local|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Release_Sparrow|Any CPU.ActiveCfg = Release_Sparrow|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Release_Sparrow|Any CPU.Build.0 = Release_Sparrow|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762}.Test|Any CPU.Build.0 = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{837DC971-815C-441F-B993-9440131249CD} = {F94ADF9B-3F65-427F-B3F0-51E958F9B4F5}
+		{39B9EC31-F743-4151-AFBE-85E7614F91AC} = {F94ADF9B-3F65-427F-B3F0-51E958F9B4F5}
+		{16F9D846-1A08-40FA-AE75-174567AB6643} = {2E4C13CE-B525-432A-9758-595FE48ADD76}
+		{2779C9CE-FAEA-4142-B7F3-EDDE7544B39F} = {EC69B1F3-CAFD-4641-A721-F53741AB197F}
+		{412AF1AF-4550-4842-A592-014ECA054B26} = {28E82A7E-FC07-42CD-8428-C50CA9842570}
+		{03EA83FC-6D6B-4B2B-9051-590D79343ADA} = {BD2BB4A2-0D4C-4994-A1B4-2807116829DC}
+		{9945C9C3-285C-42B7-9FA6-1F670F9F0762} = {9D4CB5FD-E29E-4C5A-91C6-5E3F36681E48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25028D7F-B23C-4E20-8AFE-65D94655E733}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://shtfsservice:8080/tfs/shtfs2013
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.AppService\\HDIPlatform.DesignSystem.AppService.csproj
+		SccProjectTopLevelParentUniqueName1 = HDIPlatform_DesignSystem_B.sln
+		SccProjectName1 = HDIPlatform.DesignSystem/HDIPlatform.DesignSystem.AppService
+		SccLocalPath1 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.AppService
+		SccProjectUniqueName2 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.Domain\\HDIPlatform.DesignSystem.Domain.csproj
+		SccProjectTopLevelParentUniqueName2 = HDIPlatform_DesignSystem_B.sln
+		SccProjectName2 = HDIPlatform.DesignSystem/HDIPlatform.DesignSystem.Domain
+		SccLocalPath2 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.Domain
+		SccProjectUniqueName3 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.DomainEventHandler\\HDIPlatform.DesignSystem.DomainEventHandler.csproj
+		SccProjectTopLevelParentUniqueName3 = HDIPlatform_DesignSystem_B.sln
+		SccProjectName3 = HDIPlatform.DesignSystem/HDIPlatform.DesignSystem.DomainEventHandler
+		SccLocalPath3 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.DomainEventHandler
+		SccProjectUniqueName4 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.DomainService\\HDIPlatform.DesignSystem.DomainService.csproj
+		SccProjectTopLevelParentUniqueName4 = HDIPlatform_DesignSystem_B.sln
+		SccProjectName4 = HDIPlatform.DesignSystem/HDIPlatform.DesignSystem.DomainService
+		SccLocalPath4 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.DomainService
+		SccProjectUniqueName5 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.IAppService\\HDIPlatform.DesignSystem.IAppService.csproj
+		SccProjectTopLevelParentUniqueName5 = HDIPlatform_DesignSystem_B.sln
+		SccProjectName5 = HDIPlatform.DesignSystem/HDIPlatform.DesignSystem.IAppService
+		SccLocalPath5 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.IAppService
+		SccProjectUniqueName6 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.Repository\\HDIPlatform.DesignSystem.Repository.csproj
+		SccProjectTopLevelParentUniqueName6 = HDIPlatform_DesignSystem_B.sln
+		SccProjectName6 = HDIPlatform.DesignSystem/HDIPlatform.DesignSystem.Repository
+		SccLocalPath6 = HDIPlatform.DesignSystem\\HDIPlatform.DesignSystem.Repository
+		SccProjectUniqueName7 = ..\\Documents\\HDIPlatform.DesignSystem.Design\\HDIPlatform.DesignSystem.Design.modelproj
+		SccProjectTopLevelParentUniqueName7 = HDIPlatform_DesignSystem_B.sln
+		SccProjectName7 = ../Documents/HDIPlatform.DesignSystem.Design
+		SccLocalPath7 = ..\\Documents\\HDIPlatform.DesignSystem.Design
+	EndGlobalSection
+EndGlobal

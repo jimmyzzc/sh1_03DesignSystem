@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SD.Toolkits.Validation</name>
+    </assembly>
+    <members>
+        <member name="T:SD.Toolkits.Validation.ValidateFailedException">
+            <summary>
+            验证失败异常
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.Validation.ValidateFailedException.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.Validation.ValidateFailedException.#ctor(System.String)">
+            <summary>
+            基础构造器
+            </summary>
+            <param name="message">异常消息</param>
+        </member>
+        <member name="T:SD.Toolkits.Validation.ValidateMediator">
+            <summary>
+            验证中介者
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.Validation.ValidateMediator.Validate``1(``0)">
+            <summary>
+            验证实例
+            </summary>
+            <typeparam name="T">实例类型</typeparam>
+            <param name="instance">实例对象</param>
+        </member>
+    </members>
+</doc>

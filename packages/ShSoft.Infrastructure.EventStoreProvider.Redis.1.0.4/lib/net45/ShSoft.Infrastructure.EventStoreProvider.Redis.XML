@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShSoft.Infrastructure.EventStoreProvider.Redis</name>
+    </assembly>
+    <members>
+        <member name="T:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider">
+            <summary>
+            领域事件存储 - Redis提供者
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider._clientsManager">
+            <summary>
+            Redis客户端管理器
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider._redisClient">
+            <summary>
+            Redis客户端
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider._redisTypedClient">
+            <summary>
+            Redis类型客户端
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider._table">
+            <summary>
+            Redis表
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider.Suspend``1(``0)">
+            <summary>
+            挂起领域事件
+            </summary>
+            <typeparam name="T">领域事件源类型</typeparam>
+            <param name="eventSource">领域事件源</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider.HandleUncompletedEvents">
+            <summary>
+            处理未处理的领域事件
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider.ClearUncompletedEvents">
+            <summary>
+            清空未处理的领域事件
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.RedisStoreProvider.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+    </members>
+</doc>

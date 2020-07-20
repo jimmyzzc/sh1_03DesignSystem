@@ -1,0 +1,1145 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShSoft.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:ShSoft.Infrastructure.CommandBase.ICommand">
+            <summary>
+            命令基接口
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.MessageBase.IMessage">
+            <summary>
+            消息基接口
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.MessageBase.IMessage.Id">
+            <summary>
+            标识
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.MessageBase.IMessage.Handled">
+            <summary>
+            是否已处理
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.MessageBase.IMessage.SessionId">
+            <summary>
+            会话Id
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.MessageBase.IMessage.TriggerTime">
+            <summary>
+            触发时间
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.MessageBase.IMessage.AddedTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.CommandBase.ICommandExecutor`1">
+            <summary>
+            命令执行者基接口
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CommandBase.ICommandExecutor`1.Execute(`0)">
+            <summary>
+            执行命令
+            </summary>
+            <param name="command">命令对象</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.Constants.CacheConstants">
+            <summary>
+            缓存常量，
+            定义缓存键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CacheConstants.SessionIdKey">
+            <summary>
+            会话Id缓存键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CacheConstants.ValidCodeKey">
+            <summary>
+            验证码Session键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CacheConstants.CurrentUserKey">
+            <summary>
+            当前用户信息Session键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CacheConstants.CurrentAuthoritiesKey">
+            <summary>
+            当前用户权限Session键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CacheConstants.CurrentMenusKey">
+            <summary>
+            当前用户菜单Session键
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.Constants.CommonConstants">
+            <summary>
+            公共常量
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CommonConstants.EntityAssemblyAppSettingKey">
+            <summary>
+            实体所在程序集AppSetting键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CommonConstants.EventSourceAssemblyAppSettingKey">
+            <summary>
+            领域事件源所在程序集AppSetting键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CommonConstants.EntityConfigAssemblyAppSettingKey">
+            <summary>
+            实体配置所在程序集AppSetting键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CommonConstants.TablePrefixAppSettingKey">
+            <summary>
+            数据表名前缀AppSetting键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CommonConstants.AutoMigrationAppSettingKey">
+            <summary>
+            开启数据自动迁移AppSetting键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CommonConstants.DefaultConnectionStringName">
+            <summary>
+            默认连接字符串名称
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.CommonConstants.DbSessionConstructorArg">
+            <summary>
+            DbSession构造函数默认参数
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.Constants.LoginInfo">
+            <summary>
+            登录信息
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Constants.LoginInfo.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Constants.LoginInfo.#ctor(System.String,System.String,System.Guid)">
+            <summary>
+            创建登录信息构造器
+            </summary>
+            <param name="loginId">登录名</param>
+            <param name="realName">真实姓名</param>
+            <param name="publicKey">公钥</param>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Constants.LoginInfo.LoginId">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Constants.LoginInfo.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Constants.LoginInfo.PublicKey">
+            <summary>
+            公钥
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.Constants.WebConfigSetting">
+            <summary>
+            WebConfig设置
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.WebConfigSetting._DefaultConnectionString">
+            <summary>
+            默认连接字符串
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.WebConfigSetting.EntityAssembly">
+            <summary>
+            实体所在程序集
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.WebConfigSetting.EntityConfigAssembly">
+            <summary>
+            实体配置所在程序集
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.WebConfigSetting.EventSourceAssembly">
+            <summary>
+            领域事件源所在程序集
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Constants.WebConfigSetting.TablePrefix">
+            <summary>
+            数据表名前缀
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Constants.WebConfigSetting.DefaultConnectionString">
+            <summary>
+            默认连接字符串
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Constants.WebConfigSetting.CurrentSessionId">
+            <summary>
+            当前SessionId
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.CustomExceptions.AppServiceException">
+            <summary>
+            应用程序服务层异常基类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.AppServiceException.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.AppServiceException.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">异常消息</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.CustomExceptions.UIException">
+            <summary>
+            UI层异常基类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.UIException.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.UIException.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">异常消息</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.UIException.#ctor(System.String,System.Exception)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">异常消息</param>
+            <param name="innerException">内部异常</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.CustomExceptions.PresentationException">
+            <summary>
+            表现层异常基类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.PresentationException.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.PresentationException.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">异常消息</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.PresentationException.#ctor(System.String,System.Exception)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">异常消息</param>
+            <param name="innerException">内部异常</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.CustomExceptions.DomainException">
+            <summary>
+            领域层异常基类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.DomainException.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.DomainException.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">异常消息</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.DomainException.#ctor(System.String,System.Exception)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">异常消息</param>
+            <param name="innerException">内部异常</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.CustomExceptions.RepositoryException">
+            <summary>
+            仓储层异常基类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.RepositoryException.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.RepositoryException.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">异常消息</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.CustomExceptions.RepositoryException.#ctor(System.String,System.Exception)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">异常消息</param>
+            <param name="innerException">内部异常</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EventBase.IEvent">
+            <summary>
+            领域事件源基接口
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EventBase.IEventStore">
+            <summary>
+            领域事件存储接口
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.IEventStore.Suspend``1(``0)">
+            <summary>
+            挂起领域事件
+            </summary>
+            <typeparam name="T">领域事件源类型</typeparam>
+            <param name="eventSource">领域事件源</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.IEventStore.HandleUncompletedEvents">
+            <summary>
+            处理未处理的领域事件
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.IEventStore.ClearUncompletedEvents">
+            <summary>
+            清空未处理的领域事件
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.RepositoryBase.IDataInitializer">
+            <summary>
+            数据初始化器接口
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IDataInitializer.Initialize">
+            <summary>
+            初始化基础数据
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.RepositoryBase.IDbCleaner">
+            <summary>
+            数据库清理者接口
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IDbCleaner.Clean">
+            <summary>
+            清理
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.IApplicationService">
+            <summary>
+            应用程序服务基接口
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.DomainServiceBase.IDomainService`1">
+            <summary>
+            领域服务基接口
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.DomainServiceBase.IDomainService`1.GetKeywords(`0)">
+            <summary>
+            获取聚合根实体关键字
+            </summary>
+            <param name="entity">聚合根实体对象</param>
+            <returns>关键字</returns>
+        </member>
+        <member name="T:ShSoft.Infrastructure.DTOBase.BaseDTO">
+            <summary>
+            数据传输对象基类
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.BaseDTO.Id">
+            <summary>
+            标识Id
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.BaseDTO.Number">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.BaseDTO.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.BaseDTO.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.BaseDTO.AddedTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.DTOBase.PageModel`1">
+            <summary>
+            分页数据模型
+            </summary>
+            <typeparam name="T">类型</typeparam>
+        </member>
+        <member name="M:ShSoft.Infrastructure.DTOBase.PageModel`1.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.DTOBase.PageModel`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            基础构造器
+            </summary>
+            <param name="datas">数据集</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <param name="pageCount">总页数</param>
+            <param name="rowCount">总记录条数</param>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.PageModel`1.Datas">
+            <summary>
+            数据集
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.PageModel`1.PageIndex">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.PageModel`1.PageSize">
+            <summary>
+            页容量
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.PageModel`1.PageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.DTOBase.PageModel`1.RowCount">
+            <summary>
+            总记录条数
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EntityBase.AggregateRootEntity">
+            <summary>
+            聚合根实体基类
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EntityBase.PlainEntity">
+            <summary>
+            领域实体基类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EntityBase.PlainEntity.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EntityBase.PlainEntity.CheckNumber(System.String)">
+            <summary>
+            验证编号
+            </summary>
+            <param name="number">编号</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EntityBase.PlainEntity.CheckName(System.String,System.Int32,System.Int32)">
+            <summary>
+            验证名称
+            </summary>
+            <param name="name">名称</param>
+            <param name="minLength">最小长度</param>
+            <param name="maxLength">最大长度</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EntityBase.PlainEntity.SetKeywords(System.String)">
+            <summary>
+            设置关键字
+            </summary>
+            <param name="keywords">关键字</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EntityBase.PlainEntity.SetId(System.Guid)">
+            <summary>
+            设置标识Id，慎用！
+            </summary>
+            <param name="id">标识Id</param>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EntityBase.PlainEntity.Id">
+            <summary>
+            标识
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EntityBase.PlainEntity.Number">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EntityBase.PlainEntity.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EntityBase.PlainEntity.Keywords">
+            <summary>
+            关键字
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EntityBase.PlainEntity.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EntityBase.PlainEntity.AddedTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EntityBase.PlainEntity.SavedTime">
+            <summary>
+            保存时间
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EntityBase.PlainEntity.Deleted">
+            <summary>
+            逻辑删除标记
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EntityBase.PlainEntity.DeletedTime">
+            <summary>
+            删除时间
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EntityBase.IValueObject">
+            <summary>
+            值对象接口
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EventBase.IEventHandler">
+            <summary>
+            领域事件处理者基接口
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EventBase.IEventHandler.Sort">
+            <summary>
+            执行顺序，倒序排列
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EventBase.IEventHandler`1">
+            <summary>
+            领域事件处理者基接口
+            </summary>
+            <typeparam name="T">领域事件源类型</typeparam>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.IEventHandler`1.Handle(`0)">
+            <summary>
+            领域事件处理方法
+            </summary>
+            <param name="eventSource">领域事件源</param>
+        </member>
+        <member name="T:ShSoft.Infrastructure.RepositoryBase.IRepository`1">
+            <summary>
+            仓储层基接口
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.SingleOrDefault(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="id">Id</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.SingleOrDefault``1(System.Guid)">
+            <summary>
+            根据Id获取唯一子类对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="id">Id</param>
+            <returns>唯一子类对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.SingleOrDefault(System.String)">
+            <summary>
+            根据编号获取唯一实体对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="number">编号</param>
+            <returns>唯一实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.SingleOrDefault``1(System.String)">
+            <summary>
+            根据编号获取唯一子类对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="number">编号</param>
+            <returns>唯一子类对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Single(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象（查看时用），
+            </summary>
+            <param name="id">Id</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Single``1(System.Guid)">
+            <summary>
+            根据Id获取唯一子类对象（查看时用），
+            </summary>
+            <param name="id">Id</param>
+            <returns>单个子类对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Single(System.String)">
+            <summary>
+            根据编号获取唯一实体对象（查看时用），
+            </summary>
+            <param name="number">编号</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Single``1(System.String)">
+            <summary>
+            根据编号获取唯一子类对象（查看时用），
+            </summary>
+            <param name="number">编号</param>
+            <returns>单个子类对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.SingleByName(System.String)">
+            <summary>
+            根据名称获取唯一实体对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="name">名称</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">名称为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.GetName(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象Name
+            </summary>
+            <param name="id">Id</param>
+            <returns>实体对象Name</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.GetName(System.String)">
+            <summary>
+            根据编号获取唯一实体对象Name
+            </summary>
+            <param name="number">编号</param>
+            <returns>实体对象Name</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.GetNumber(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象Number
+            </summary>
+            <param name="id">Id</param>
+            <returns>实体对象Number</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.FirstOrDefault">
+            <summary>
+            获取默认或第一个实体对象，
+            无该对象时返回null
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.FirstOrDefault``1">
+            <summary>
+            获取默认或第一个子类对象，
+            无该对象时返回null
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.FindAll">
+            <summary>
+            获取实体对象集合
+            </summary>
+            <returns>实体对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.FindAll``1">
+            <summary>
+            获取给定类型子类对象集合
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <returns>子类对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Find(System.String)">
+            <summary>
+            根据关键字获取实体对象集合
+            </summary>
+            <returns>实体对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Find``1(System.String)">
+            <summary>
+            根据关键字获取给定类型子类对象集合
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <returns>子类对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.FindByPage(System.String,System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            根据关键字获取实体对象集合 + 分页 + 输出记录条数与页数
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">记录条数</param>
+            <param name="pageCount">页数</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.FindByPage``1(System.String,System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            根据关键字分页获取子类对象集合 + 分页 + 输出记录条数与页数
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <param name="keywords">关键字</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">记录条数</param>
+            <param name="pageCount">页数</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Find(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            根据Id集获取实体对象字典
+            </summary>
+            <returns>实体对象字典</returns>
+            <remarks>IDictionary[Guid, T]，[Id, 实体对象]</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Find``1(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            根据Id集获取子类对象字典
+            </summary>
+            <returns>子类对象字典</returns>
+            <remarks>IDictionary[Guid, TSub]，[Id, 子类对象]</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Find(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            根据编号集获取实体对象字典
+            </summary>
+            <returns>实体对象字典</returns>
+            <remarks>IDictionary[string, T]，[编号, 实体对象]</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Find``1(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            根据编号集获取子类对象字典
+            </summary>
+            <returns>子类对象字典</returns>
+            <remarks>IDictionary[string, TSub]，[编号, 子类对象]</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.FindIdNames">
+            <summary>
+            获取Id与Name字典
+            </summary>
+            <returns>Id与Name字典</returns>
+            <remarks>
+            IDictionary[Guid, string]，键：Id，值：Name
+            </remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.FindIdNames``1">
+            <summary>
+            获取Id与Name字典
+            </summary>
+            <returns>Id与Name字典</returns>
+            <remarks>
+            IDictionary[Guid, string]，键：Id，值：Name
+            </remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Count">
+            <summary>
+            获取总记录条数
+            </summary>
+            <returns>总记录条数</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Count``1">
+            <summary>
+            获取子类记录条数
+            </summary>
+            <returns>总记录条数</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Exists(System.Guid)">
+            <summary>
+            判断是否存在给定Id的实体对象
+            </summary>
+            <param name="id">Id</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Exists``1(System.Guid)">
+            <summary>
+            判断是否存在给定Id的子类对象
+            </summary>
+            <param name="id">Id</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Exists(System.String)">
+            <summary>
+            判断是否存在给定编号的实体对象
+            </summary>
+            <param name="number">编号</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.Exists``1(System.String)">
+            <summary>
+            判断是否存在给定编号的子类对象
+            </summary>
+            <param name="number">编号</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.ExistsName(System.String)">
+            <summary>
+            判断是否存在给定名称的实体对象
+            </summary>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.ExistsName``1(System.String)">
+            <summary>
+            判断是否存在给定名称的子类对象
+            </summary>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.ExistsName(System.Nullable{System.Guid},System.String)">
+            <summary>
+            判断是否存在给定名称的实体对象
+            </summary>
+            <param name="id">标识id</param>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.ExistsName``1(System.Nullable{System.Guid},System.String)">
+            <summary>
+            判断是否存在给定名称的子类对象
+            </summary>
+            <param name="id">标识id</param>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.ExistsName(System.String,System.String)">
+            <summary>
+            判断是否存在给定名称的实体对象
+            </summary>
+            <param name="number">编号</param>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.ExistsName``1(System.String,System.String)">
+            <summary>
+            判断是否存在给定名称的子类对象
+            </summary>
+            <param name="number">编号</param>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IRepository`1.ExecuteSqlQuery(System.String,System.Object[])">
+            <summary>
+            执行SQL查询
+            </summary>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">参数</param>
+            <returns>实体对象数组</returns>
+            <exception cref="T:System.ArgumentNullException">SQL语句为空</exception>
+        </member>
+        <member name="T:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1">
+            <summary>
+            简单仓储层基接口
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1.Add(`0)">
+            <summary>
+            添加单个实体对象
+            </summary>
+            <param name="entity">新实体对象</param>
+            <exception cref="T:System.ArgumentNullException">新实体对象为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            添加实体对象集合
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entities">实体对象集合</param>
+            <exception cref="T:System.ArgumentNullException">实体对象集合为null或长度为0</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1.Save(`0)">
+            <summary>
+            保存单个实体对象
+            </summary>
+            <param name="entity">实体对象</param>
+            <exception cref="T:System.ArgumentNullException">实体对象为空</exception>
+            <exception cref="T:System.NullReferenceException">要保存的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1.SaveRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            保存实体对象集合
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entities">实体对象集合</param>
+            <exception cref="T:System.ArgumentNullException">实体对象集合</exception>
+            <exception cref="T:System.NullReferenceException">要保存的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1.Remove(System.Guid)">
+            <summary>
+            删除单行
+            </summary>
+            <param name="id">标识Id</param>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1.Remove(System.String)">
+            <summary>
+            删除单行
+            </summary>
+            <param name="number">编号</param>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1.RemoveRange(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            删除多行
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="ids">标识Id集合</param>
+            <exception cref="T:System.ArgumentNullException">ids为null或长度为0</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1.RemoveRange(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            删除多行
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="numbers">编号集合</param>
+            <exception cref="T:System.ArgumentNullException">numbers为null或长度为0</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.ISimpleRepository`1.RemoveAll">
+            <summary>
+            删除全部
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork">
+            <summary>
+            单元事务基接口
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterAdd``1(``0)">
+            <summary>
+            注册添加单个实体对象
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entity">新实体对象</param>
+            <exception cref="T:System.ArgumentNullException">新实体对象为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterAddRange``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            注册添加实体对象集合
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entities">实体对象集合</param>
+            <exception cref="T:System.ArgumentNullException">实体对象集合为null或长度为0</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterSave``1(``0)">
+            <summary>
+            注册保存单个实体对象
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entity">实体对象</param>
+            <exception cref="T:System.ArgumentNullException">实体对象为空</exception>
+            <exception cref="T:System.NullReferenceException">要保存的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterSaveRange``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            注册保存实体对象集合
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entities">实体对象集合</param>
+            <exception cref="T:System.ArgumentNullException">实体对象集合</exception>
+            <exception cref="T:System.NullReferenceException">要保存的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterPhysicsRemove``1(System.Guid)">
+            <summary>
+            注册删除单行（物理删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="id">标识Id</param>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterPhysicsRemove``1(System.String)">
+            <summary>
+            注册删除单行（物理删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="number">编号</param>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterPhysicsRemoveRange``1(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            注册删除多行（物理删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="ids">标识Id集合</param>
+            <exception cref="T:System.ArgumentNullException">ids为null或长度为0</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterPhysicsRemoveAll``1">
+            <summary>
+            注册删除全部（物理删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterRemove``1(System.Guid)">
+            <summary>
+            注册删除单行（逻辑删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="id">标识Id</param>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterRemove``1(System.String)">
+            <summary>
+            注册删除单行（逻辑删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="number">编号</param>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterRemoveRange``1(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            注册删除多行（逻辑删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="ids">标识Id集合</param>
+            <exception cref="T:System.ArgumentNullException">ids为null或长度为0</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RegisterRemoveAll``1">
+            <summary>
+            注册删除全部（逻辑删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.Resolve``1(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象（修改时用）
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="id">Id</param>
+            <returns>唯一实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">查询不到任何实体对象</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+            <exception cref="T:System.InvalidOperationException">查询到1个以上的实体对象、查询到的实体对象已被删除</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.ResolveAll``1">
+            <summary>
+            获取全部实体对象（修改时用）
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <returns>实体对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.Resolve``1(System.String)">
+            <summary>
+            根据编号获取唯一实体对象（修改时用）
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="number">编号</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.Commit">
+            <summary>
+            统一事务处理保存更改
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.CommitAsync">
+            <summary>
+            统一事务处理保存更改（异步）
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.RollBack">
+            <summary>
+            统一事务回滚取消更改
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.IUnitOfWork.ExecuteSqlCommand(System.String,System.Object[])">
+            <summary>
+            执行SQL命令（无需Commit）
+            </summary>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">参数</param>
+            <exception cref="T:System.ArgumentNullException">SQL语句为空</exception>
+        </member>
+        <member name="T:ShSoft.Infrastructure.RepositoryBase.PageExtension">
+            <summary>
+            分页扩展工具类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.PageExtension.ToPage``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            分页扩展方法
+            </summary>
+            <typeparam name="T">领域实体</typeparam>
+            <param name="enumerable">集合对象</param>
+            <param name="predicate">查询条件</param>
+            <param name="pageIndex">页索引</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">总记录条数</param>
+            <param name="pageCount">总页数</param>
+            <returns>对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.RepositoryBase.PageExtension.ToPage``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            分页扩展方法
+            </summary>
+            <typeparam name="T">领域实体</typeparam>
+            <param name="queryable">集合对象</param>
+            <param name="predicate">查询条件</param>
+            <param name="pageIndex">页索引</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">总记录条数</param>
+            <param name="pageCount">总页数</param>
+            <returns>对象集合</returns>
+        </member>
+    </members>
+</doc>

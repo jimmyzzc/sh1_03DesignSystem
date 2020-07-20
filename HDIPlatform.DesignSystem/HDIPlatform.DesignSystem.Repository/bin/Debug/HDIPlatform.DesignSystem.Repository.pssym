@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[ShSoft.Infrastructure.AOP]ShSoft.Infrastructure.AOP.Aspects.ForAny.RepositoryExceptionAspect">
+    <Instance Declaration="#2=A:HDIPlatform.DesignSystem.Repository" Id="f75301f6da13811e">
+      <Target Target="#3=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.DataInitializer::#ctor()">
+        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnException" />
+      </Target>
+      <Target Target="#5=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.DataInitializer::Initialize()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#6=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.DbSession::#cctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#7=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.DbSession::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#8=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolvePackItemsByCraftIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#9=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolvePackItemsByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#10=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolvePackItemsByPacks(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#11=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolvePackItemsByIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#12=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolvePackSchemesByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#13=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolveDefaultPackSchemeByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#14=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolveAreaByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#15=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolveBalePackGroupByArea(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#16=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolveBalePackGroup(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#17=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::ResolveHouseTypePrice(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#18=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::GetDecorationPacks(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#19=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::GetItemsByPackSku(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#20=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::GetRecommendedItemsByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#21=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::GetPackSeriesByIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#22=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::FindPackItemsByIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#23=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.UnitOfWork::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#24=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.EntityConfigurations.PackSeriesConfig::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#25=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.EntityConfigurations.DecorationPackConfig::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#26=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleCategoryRepository::Exist(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#27=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleCategoryRepository::GetByName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#28=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleCategoryRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#29=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleRepository::Exist(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#30=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleRepository::GetByName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#31=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleRepository::GetArticlesByPage(System.String, System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Boolean}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#32=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleRepository::GetArticlesBySourceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#33=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleRepository::GetArticlesByPackIds(System.Collections.Generic.IList{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#34=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleRepository::GetArticlesByPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#35=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleRepository::GetArticlesBySpaceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#36=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ArticleContext.ArticleRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#37=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackRepository::FindBalePackByPage(System.String, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#38=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackRepository::FindCustPackByPage(System.String, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#39=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackRepository::FindRelateBalePackByPage(System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.BalePackType}, System.String, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#40=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackRepository::FindNoRelateBalePackByPage(System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.BalePackType}, System.String, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#41=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackRepository::FindBalePackVersionNumber(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#42=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackRepository::FindBaleVersionNumbers(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#43=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackRepository::ExistsPackName(System.Nullable{[mscorlib]System.Guid}, System.String, ShSoft.ValueObjects.Enums.BalePackType)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#44=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackRepository::GetChoiceAreaIdsByPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#45=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#46=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackChoiceAreaRepository::FindAllInner()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#47=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackChoiceAreaRepository::GetPackByChoiceAreaIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#48=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackChoiceAreaRepository::ExistsChoiceAreaName(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#49=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackChoiceAreaRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#50=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::FindByChoiceAreaId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#51=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::ExistsGroupName(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#52=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::GetGroupByChoiceAreaIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#53=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::ExistsGroup(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#54=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::ExistsCategory(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#55=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::ExistsProduct(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#56=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::IsBalePackShelfed(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#57=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::IsCustomizedPackShelfed(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#58=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::GetCategoryIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#59=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackGroupRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#60=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::FindAllInner()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#61=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::GetShelfOffProducts()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#62=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::GetProductsByCategoryId(System.Guid, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#63=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::GetProducts(System.Guid, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#64=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::GetBalePackGroupsByProId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#65=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::GetProductsByAreaIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#66=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::GetShelfOffProductsByAreaIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#67=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::GetShelfOffProCountByAreaIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#68=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::GetProductIdsByPackId(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#69=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::GetBalePackGroupIds(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#70=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.BaleContext.BalePackProductRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#71=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ConfigContext.PackSeriesRepository::GetMaxSort()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#72=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ConfigContext.PackSeriesRepository::FindByPage(System.String, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#73=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.ConfigContext.PackSeriesRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#74=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::FindAllInner()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#75=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::FindByPackItem(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#76=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetTotalOffShelvedCrafts()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#77=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetPackIds(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#78=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetCraftQuantities(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#79=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::FindPackItemIds(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#80=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetOffShelvedCount(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#81=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetTotalOffShelvedCraftCount(System.Collections.Generic.IList{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#82=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::ExistsOffShelved(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#83=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetPackIdsByCrafts(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#84=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetPackItemIdsByCrafts(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#85=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::ExistsByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#86=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetTotalOffShelvedCraftsByPage(System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#87=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetCraftsPackIdsById(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#88=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetTotalChangedCraftsByPage(System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#89=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetTotalChangedCrafts()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#90=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetChangedCount(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#91=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetTotalChangedCraftCount(System.Collections.Generic.IList{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#92=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::ExistsChanged(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#93=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetPackItemIdCraftKeyIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#94=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetCrafts(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#95=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetTotalChangedByPage(System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#96=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::GetPackItemIdByCraftIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#97=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackCraftRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#98=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRecommendedItemRepository::FindAllInner()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#99=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRecommendedItemRepository::FindByPack(System.Guid, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#100=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRecommendedItemRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#101=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackItemRepository::FindAllInner()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#102=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackItemRepository::FindByPack(System.Guid, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#103=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackItemRepository::FindIdsByPack(System.Guid, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#104=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackItemRepository::ExistsName(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#105=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackItemRepository::ExistsName(System.Guid, System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#106=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackItemRepository::IsDecorationPackShelfed(System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#107=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackItemRepository::FindByPackIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#108=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackItemRepository::FindByIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#109=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackItemRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#110=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#111=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::FindAllInner()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#112=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::FindByPage(System.String, System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Single}, System.Nullable{System.Boolean}, System.Nullable{System.Boolean}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{System.Boolean}, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Nullable{System.Boolean}, System.Nullable{System.Boolean}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackColor}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackType}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackKind}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackMode}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Boolean, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Boolean, System.Nullable{[mscorlib]System.Guid}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#113=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::FindByPage(System.Guid, System.String, System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Single}, System.Nullable{System.Boolean}, System.Nullable{System.Boolean}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{System.Boolean}, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Nullable{System.Boolean}, System.Nullable{System.Boolean}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackColor}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackType}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackKind}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackMode}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Boolean, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Boolean, System.Nullable{[mscorlib]System.Guid}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#114=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::FindByCondition(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#115=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::FindByCondition(System.String, System.Boolean, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid}, System.Boolean, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Collections.Generic.IEnumerable{System.String}, System.Nullable{System.Boolean}, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#116=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::GetMinSort()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#117=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::GetMaxSort()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#118=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::FindDecorationPackVersionNumber(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#119=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::FindDecorationPackVersionNumbers(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#120=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::ExistsPackName(System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#121=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::FindSourceDecorationPackLabels()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#122=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::GetDecorationPacksByPackIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#123=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::GetDecorationPacksStyles()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#124=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::GetDecorationPacksLayouts()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#125=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::GetDecorationPackSeries()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#126=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::GetDecorationPackHouseTypes()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#127=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::GetDecorationPacksPropertys()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#128=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackRepository::GetDecorationPackGroupSeries()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#129=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.AssociatedPackage::get_Id()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#130=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.AssociatedPackage::set_Id(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#131=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.AssociatedPackage::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#132=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeRepository::FindByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#133=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeRepository::ExistsScheme(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#134=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeRepository::ExistsName(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#135=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeRepository::FirstOrDefault(System.Guid, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#136=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeRepository::FindDefaultByPack(System.Collections.Generic.List{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#137=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeRepository::GetDefaultByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#138=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#139=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeSpaceRepository::FindAllInner()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#140=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeSpaceRepository::FindByScheme(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#141=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeSpaceRepository::FindBySchemeIds(System.Collections.Generic.List{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#142=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSchemeSpaceRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#143=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::FindAllInner()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#144=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::FindByPackItem(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#145=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::ExistsByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#146=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetOffShelvedCount(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#147=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetChangedCount(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#148=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetTotalOffShelvedCount(System.Collections.Generic.IList{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#149=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetTotalChangedCount(System.Collections.Generic.IList{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#150=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetTotalOffShelvedSkus()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#151=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetTotalChangedSkus()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#152=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetPackIds(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#153=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::ExistsOffShelved(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#154=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::ExistsChanged(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#155=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetSkuQuantities(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#156=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::FindPackItemIds(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#157=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::FindByPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#158=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetPackItemIdsBySkus(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#159=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetPackItemIdBySkuIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#160=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetPackIdsBySkus(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#161=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetTotalOffShelvedSkusByPage(System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#162=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetTotalChangedSkuIdsByPage(System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#163=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetTotalChangedByPage(System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#164=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetSkus(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#165=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::GetSkusPackIdsById(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#166=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSkuRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#167=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSpaceRepository::FindAllInner()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#168=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSpaceRepository::FindByPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#169=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSpaceRepository::ExistsName(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#170=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPackSpaceRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#171=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPack_BalePackRepository::Single(System.Guid, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#172=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPack_BalePackRepository::Exists(System.Guid, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#173=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPack_BalePackRepository::FindByDecorationPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#174=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPack_BalePackRepository::FindBalePackIdsByDecorationPack(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#175=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.FixedMealContext.DecorationPack_BalePackRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#176=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.HouseTypePackContext.HouseTypePriceRepository::FindByPage(System.Guid, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#177=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.HouseTypePackContext.HouseTypePriceRepository::FindByHouseTypeIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#178=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.HouseTypePackContext.HouseTypePriceRepository::FindByPage(System.String, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#179=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Implements.HouseTypePackContext.HouseTypePriceRepository::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#180=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Migrations.Configuration::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#181=M:[HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Migrations.Configuration::Seed([HDIPlatform.DesignSystem.Repository]HDIPlatform.DesignSystem.Repository.Base.DbSession)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>

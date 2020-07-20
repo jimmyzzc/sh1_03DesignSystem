@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SD.AOP.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SD.AOP.Core.Aspects.ForAny.ExceptionAspect">
+            <summary>
+            异常AOP特性基类
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Aspects.ForAny.ExceptionAspect._exceptionLog">
+            <summary>
+            异常日志字段
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Aspects.ForAny.ExceptionAspect._exceptionMessage">
+            <summary>
+            异常消息
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForAny.ExceptionAspect.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForAny.ExceptionAspect.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            异常过滤器
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:SD.AOP.Core.Aspects.ForAny.NotThrowExceptionAspect">
+            <summary>
+            不抛出异常AOP特性类，
+            只记录日志
+            </summary>
+        </member>
+        <member name="T:SD.AOP.Core.Aspects.ForAny.NotThrowNoArgExceptionAspect">
+            <summary>
+            不抛出异常AOP特性类，
+            只记录日志（不记录方法参数）
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForAny.NotThrowNoArgExceptionAspect.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            异常过滤器
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:SD.AOP.Core.Aspects.ForMethod.RunningLogAspect">
+            <summary>
+            程序日志AOP特性类
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Aspects.ForMethod.RunningLogAspect._runningLog">
+            <summary>
+            程序日志字段
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForMethod.RunningLogAspect.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForMethod.RunningLogAspect.OnEntry(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            执行方法开始事件
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForMethod.RunningLogAspect.OnExit(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            执行方法结束事件
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:SD.AOP.Core.Aspects.ForMethod.RunningLogNoArgAspect">
+            <summary>
+            程序日志AOP特性类，
+            不记录方法参数信息
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForMethod.RunningLogNoArgAspect.OnEntry(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            执行方法开始事件
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:SD.AOP.Core.Aspects.ForMethod.TransactionAspect">
+            <summary>
+            事务AOP特性类
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Aspects.ForMethod.TransactionAspect._scopeOption">
+            <summary>
+            事务选项
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForMethod.TransactionAspect.#ctor(System.Transactions.TransactionScopeOption)">
+            <summary>
+            基础构造器
+            </summary>
+            <param name="scopeOption">事务选项</param>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForMethod.TransactionAspect.CreateAspectConfiguration">
+            <summary>
+            重写方面配置
+            </summary>
+            <returns>方面配置</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Aspects.ForMethod.TransactionAspect.OnInvoke(PostSharp.Aspects.MethodInterceptionArgs)">
+            <summary>
+            重写当方法被调用时执行事件
+            </summary>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="T:SD.AOP.Core.Attributes.SkipExceptionAttribute">
+            <summary>
+            跳过AOP记录异常特性
+            </summary>
+        </member>
+        <member name="T:SD.AOP.Core.Models.Entities.BaseLog">
+            <summary>
+            日志基类
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.BaseLog.Id">
+            <summary>
+            标识Id
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.BaseLog.Namespace">
+            <summary>
+            命名空间
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.BaseLog.ClassName">
+            <summary>
+            类名
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.BaseLog.MethodName">
+            <summary>
+            方法名
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.BaseLog.MethodType">
+            <summary>
+            方法类型
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.BaseLog.ArgsJson">
+            <summary>
+            方法参数Json
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.BaseLog.IPAddress">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="T:SD.AOP.Core.Models.Entities.ExceptionLog">
+            <summary>
+            异常日志
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.ExceptionLog.ExceptionType">
+            <summary>
+            异常类型
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.ExceptionLog.ExceptionMessage">
+            <summary>
+            异常消息
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.ExceptionLog.ExceptionInfo">
+            <summary>
+            异常详细信息
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.ExceptionLog.InnerException">
+            <summary>
+            内部异常
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.ExceptionLog.OccurredTime">
+            <summary>
+            异常发生时间
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.ExceptionLog.OccurredTimeString">
+            <summary>
+            异常发生时间
+            </summary>
+        </member>
+        <member name="T:SD.AOP.Core.Models.ValueObjects.ExceptionMessage">
+            <summary>
+            异常消息
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Models.ValueObjects.ExceptionMessage.#ctor(System.String,System.Guid)">
+            <summary>
+            构造器
+            </summary>
+            <param name="errorMessage">错误消息</param>
+            <param name="logId">日志Id</param>
+        </member>
+        <member name="F:SD.AOP.Core.Models.ValueObjects.ExceptionMessage.ErrorMessage">
+            <summary>
+            异常消息
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Models.ValueObjects.ExceptionMessage.LogId">
+            <summary>
+            错误日志Id
+            </summary>
+        </member>
+        <member name="T:SD.AOP.Core.Models.ValueObjects.MethodArg">
+            <summary>
+            方法参数
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Models.ValueObjects.MethodArg.#ctor(System.String,System.String,System.Object)">
+            <summary>
+            构造器
+            </summary>
+            <param name="name">参数名称</param>
+            <param name="type">参数类型</param>
+            <param name="val">参数值</param>
+        </member>
+        <member name="F:SD.AOP.Core.Models.ValueObjects.MethodArg.Name">
+            <summary>
+            参数名称
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Models.ValueObjects.MethodArg.Type">
+            <summary>
+            参数类型
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Models.ValueObjects.MethodArg.Value">
+            <summary>
+            参数值
+            </summary>
+        </member>
+        <member name="T:SD.AOP.Core.Models.Entities.RunningLog">
+            <summary>
+            运行日志
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.RunningLog.ReturnValue">
+            <summary>
+            方法返回值
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.RunningLog.ReturnValueType">
+            <summary>
+            方法返回值
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.RunningLog.UserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.RunningLog.UserName">
+            <summary>
+            操作人姓名
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.RunningLog.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.RunningLog.StartTimeString">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.RunningLog.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:SD.AOP.Core.Models.Entities.RunningLog.EndTimeString">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="T:SD.AOP.Core.Toolkits.Common">
+            <summary>
+            工具类
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.Common.GetLocalIPAddress">
+            <summary>
+            获取本机IP地址
+            </summary>
+            <returns>本机IP</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.Common.ToJson(System.Object)">
+            <summary>
+            object序列化JSON字符串扩展方法
+            </summary>
+            <param name="obj">object及其子类对象</param>
+            <returns>JSON字符串</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.Common.ToDbValue(System.Object)">
+            <summary>
+            C#值转数据库值空值处理
+            </summary>
+            <param name="value">C#值</param>
+            <returns>处理后的数据库值</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.Common.Fill``2(``0,``1)">
+            <summary>
+            将两个对象名称相同的属性替换赋值
+            </summary>
+            <param name="sourceInstance">源实例</param>
+            <param name="targetInstance">目标实例</param>
+        </member>
+        <member name="T:SD.AOP.Core.Toolkits.LogBuilder">
+            <summary>
+            日志建造者
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogBuilder.BuildBasicInfo(SD.AOP.Core.Models.Entities.BaseLog,PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            建造基本信息
+            </summary>
+            <param name="log">日志</param>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogBuilder.BuildMethodArgsInfo(SD.AOP.Core.Models.Entities.BaseLog,PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            建造方法参数信息
+            </summary>
+            <param name="log">日志</param>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogBuilder.BuildExceptionInfo(SD.AOP.Core.Models.Entities.ExceptionLog,PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            建造异常信息
+            </summary>
+            <param name="log">异常日志</param>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogBuilder.BuildRuningInfo(SD.AOP.Core.Models.Entities.RunningLog,PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            建造程序运行信息
+            </summary>
+            <param name="log">程序运行日志</param>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogBuilder.BuildReturnValueInfo(SD.AOP.Core.Models.Entities.RunningLog,PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            建造返回值信息
+            </summary>
+            <param name="log">程序运行日志</param>
+            <param name="eventArgs">方法元数据</param>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogBuilder.BuildInnerException(System.Text.StringBuilder,System.Exception)">
+            <summary>
+            建造内部异常
+            </summary>
+            <param name="exBuilder">异常建造者</param>
+            <param name="exception">异常</param>
+            <returns>内部异常</returns>
+        </member>
+        <member name="T:SD.AOP.Core.Toolkits.LogWriter">
+            <summary>
+            日志记录者
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Toolkits.LogWriter.DefaultConnectionStringAppSettingKey">
+            <summary>
+            日志数据库连接字符串名称AppSetting键
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Toolkits.LogWriter._SqlHelper">
+            <summary>
+            SQL工具
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogWriter.#cctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogWriter.Error(SD.AOP.Core.Models.Entities.ExceptionLog)">
+            <summary>
+            记录异常日志
+            </summary>
+            <param name="log">异常日志</param>
+            <returns>日志Id</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogWriter.Info(SD.AOP.Core.Models.Entities.RunningLog)">
+            <summary>
+            记录运行日志
+            </summary>
+            <param name="log">运行日志</param>
+            <returns>日志Id</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.LogWriter.InitTable">
+            <summary>
+            初始化日志数据表
+            </summary>
+        </member>
+        <member name="T:SD.AOP.Core.Toolkits.SqlHelper">
+            <summary>
+            SQL Server数据库访问助手类
+            </summary>
+        </member>
+        <member name="F:SD.AOP.Core.Toolkits.SqlHelper._connectionString">
+            <summary>
+            连接字符串字段
+            </summary>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="connectionString">连接字符串</param>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteNonQuery(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteNonQuery —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteNonQuerySP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteNonQuery —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteScalar(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteScalar``1(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— Sql语句
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>类型对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteScalarSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteScalarSP``1(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>类型对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteReader(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteReader —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>DataReader对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteReaderSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteReader —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>DataReader对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.GetDataTable(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataTable —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>DataTable对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.GetDataTableSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataTable —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>DataTable对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.GetDataSet(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataSet —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.GetDataSetSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataSet —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.CreateConnection">
+            <summary>
+            创建连接方法
+            </summary>
+            <returns>连接对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteNonQuery(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteNonQuery方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteScalar(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteScalar``1(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>类型对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.ExecuteReader(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteReader方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>DataReader对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.GetDataTable(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            返回DataTable方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>DataTable对象</returns>
+        </member>
+        <member name="M:SD.AOP.Core.Toolkits.SqlHelper.GetDataSet(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            返回DataSet方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>DataSet对象</returns>
+        </member>
+    </members>
+</doc>

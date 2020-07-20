@@ -1,0 +1,7 @@
+﻿<configuration>
+  <injectionRegisterConfiguration>
+    <asInterfaceTypes>
+      <type name="ShSoft.Infrastructure.EventStoreProvider.MemoryStoreProvider" assembly="ShSoft.Infrastructure.EventBase" />
+    </asInterfaceTypes>
+  </injectionRegisterConfiguration>
+</configuration>

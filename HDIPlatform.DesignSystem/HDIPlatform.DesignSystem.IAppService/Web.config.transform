@@ -1,0 +1,17 @@
+﻿<configuration>
+  <injectionRegisterConfiguration>
+    <wcfInterfaces>
+      <assembly name="HDIPlatform.DesignSystem.IAppService" />
+    </wcfInterfaces>
+  </injectionRegisterConfiguration>
+  <system.serviceModel>
+    <client>
+      <!--固定套餐模板服务契约配置-->
+      <endpoint address="http://localhost:8000/03DesignNew_WcfHost/Hosts/FixedMealContract.svc" binding="wsHttpBinding" bindingConfiguration="DefaultBinding" contract="HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract" name="HDIPlatform.DesignSystem.IAppService.Interfaces.IFixedMealContract">
+      </endpoint>
+      <!--大包/定制套餐模板服务契约配置-->
+      <endpoint address="http://localhost:8000/03DesignNew_WcfHost/Hosts/BaleContract.svc" binding="wsHttpBinding" bindingConfiguration="DefaultBinding" contract="HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract" name="HDIPlatform.DesignSystem.IAppService.Interfaces.IBaleContract">
+      </endpoint>
+    </client>
+  </system.serviceModel>
+</configuration>

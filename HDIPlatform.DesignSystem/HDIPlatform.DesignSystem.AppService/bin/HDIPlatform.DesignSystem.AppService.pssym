@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[SD.AOP.Core]SD.AOP.Core.Aspects.ForMethod.TransactionAspect">
+    <Instance Declaration="#2=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetDecorationPackSort(System.Guid, System.Int32)" Id="f4ab0b1647835fda">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3=Intercepted by OnInvoke" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::RemoveDecorationPack(System.Guid)" Id="f4ab0b162dfee215">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#5=T:[ShSoft.Infrastructure.AOP]ShSoft.Infrastructure.AOP.Aspects.ForAny.AppServiceExceptionAspect">
+    <Instance Declaration="#6=A:HDIPlatform.DesignSystem.AppService" Id="f4ab0b168bc516e8">
+      <Target Target="#2">
+        <JoinPoint Advising="#5" Description="#7=Wrapped by advice(s) OnException" />
+      </Target>
+      <Target Target="#4">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#8=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Global::Application_Start(System.Object, System.EventArgs)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#9=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Global::Session_Start(System.Object, System.EventArgs)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#10=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Global::Application_BeginRequest(System.Object, System.EventArgs)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#11=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Global::Application_AuthenticateRequest(System.Object, System.EventArgs)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#12=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Global::Application_Error(System.Object, System.EventArgs)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#13=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Global::Session_End(System.Object, System.EventArgs)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#14=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Global::Application_End(System.Object, System.EventArgs)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#15=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Global::#ctor()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#16=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator, HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator, HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#17=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::AddArticleCategory(System.String, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#18=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::ModifyArticleCategory(System.Guid, System.String, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#19=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::DeleteArticleCategory(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#20=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::AddArticle(System.String, System.String, System.String, System.Guid, System.Collections.Generic.List{System.String}, System.Boolean, System.Guid, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#21=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::ModifyArticle(System.Guid, System.String, System.String, System.Collections.Generic.List{System.String}, System.Boolean, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#22=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::ModifyArticleState(System.Guid, System.Boolean)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#23=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::DeleteArticle(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#24=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::GetArticleCategoryInfos()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#25=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::GetArticles(System.String, System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#26=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::GetArticlesBySourceId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#27=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::GetArticlesByPackId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#28=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::GetArticlesByPackIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#29=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::GetArticlesBySpaceId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#30=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ArticleContract::GetArticle(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#31=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ConfigContract::#ctor(HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator, HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign, HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#32=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ConfigContract::CreatePackSeries(System.String, System.String, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#33=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ConfigContract::UpdatePackSeries(System.Guid, System.String, System.String, System.Int32, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#34=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ConfigContract::DeletePackSeries(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#35=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ConfigContract::GetPackSeries(System.String, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#36=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ConfigContract::GetPackSeriesCounts(System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Single}, System.Nullable{System.Boolean})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#37=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ConfigContract::GetPackGroupSeriesCounts(System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Single}, System.Nullable{System.Boolean})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#38=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ConfigContract::Test(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#39=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForAppContract::#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator, HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator, HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign, HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract, HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract, HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#40=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForAppContract::GetDecorationPackLables()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#41=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForAppContract::GetDecorationPacks(System.String, System.Boolean, System.Boolean, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Collections.Generic.IEnumerable{System.String}, System.Collections.Generic.IEnumerable{System.String}, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#42=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForAppContract::GetRecommendDecorationPacks(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{[mscorlib]System.Decimal}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#43=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForAppContract::GetPackDetails(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#44=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForAppContract::GetPackSpaceImageInfos(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#45=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForAppContract::GetDecorationPacksForMarketApp(System.String, System.Boolean, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid}, System.Boolean, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Collections.Generic.IEnumerable{System.String}, System.Nullable{System.Boolean}, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#46=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForAppContract::GetDecorationPacksByIds(System.Collections.Generic.List{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#47=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForAppContract::Test(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#48=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.HouseTypePackContract::#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator, HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator, HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#49=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.HouseTypePackContract::AddHouseTypePrice(System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.HouseTypePriceParam}, System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#50=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.HouseTypePackContract::UpdateHouseTypePrice(System.Collections.Generic.Dictionary{[mscorlib]System.Guid,[mscorlib]System.Decimal}, System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#51=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.HouseTypePackContract::DeleteHouseTypePrice(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#52=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.HouseTypePackContract::DeleteHouseTypePriceByPId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#53=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.HouseTypePackContract::Test(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#54=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.HouseTypePackContract::GetHouseTypePrices(System.Guid, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#55=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.HouseTypePackContract::GetPropertys(System.String, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#56=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator, HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator, HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign, HDIPlatform.SupplierSystem.IAppService.Interfaces.ICategoryContract, HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#57=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::CreateBalePack(System.String, System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#58=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::CrateCustomizedPack(System.String, System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#59=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::SetPackDiscountRatio(System.Guid, System.Single)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#60=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::SetPackLabel(System.Guid, System.Collections.Generic.IEnumerable{System.String})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#61=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::SetPackCoverDrawing(System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#62=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::SetPackShelfOff(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#63=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::SetPackShelfed(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#64=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::ModifyBalePackNameAndRatio(System.Guid, System.String, System.Single)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#65=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::ModifyCustPackNameAndRatio(System.Guid, System.String, System.Single)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#66=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::RemovePack(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#67=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::CreateChoiceArea(System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#68=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::UpdateChoiceAreaName(System.Guid, System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#69=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::RemoveChoiceArea(System.Guid, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#70=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::CreateGroupInChoiceArea(System.Guid, System.String, System.Boolean)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#71=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::UpdateGroupNameAndIsRequired(System.Guid, System.String, System.Boolean)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#72=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::RemoveGroup(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#73=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::CreateCategory(System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#74=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::RemoveCategory(System.Guid, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#75=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::CreateBalePackProduct(System.Guid, System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#76=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::RemoveBalePackProduct(System.Guid, System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#77=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::ChangedProduct(System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#78=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::SetPackViews(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#79=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::SetPackSales(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#80=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetShelfOffProducts()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#81=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetPackIdAndName(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#82=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetProductsByCategoryId(System.Guid, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#83=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetProducts(System.Guid, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#84=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetCategoryIdsByGroup(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#85=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetChoiceAreas(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#86=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetChoiceAreasByPackId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#87=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetBalePackByPage(System.String, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#88=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetCustPackByPage(System.String, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#89=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetGroupsByChoiceAreaId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#90=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetGroupsByPackId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#91=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetBalePackAreaTreeInfo(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#92=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetRelateBalePackByDecoId(System.Guid, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.BalePackType}, System.String, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#93=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetNoRelateBalePackByDecoId(System.Guid, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.BalePackType}, System.String, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#94=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetBalePackInfoById(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#95=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetBalePackInfoByIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#96=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetPackShelfOffProCount(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#97=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetProductsByPackId(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#98=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetPackVersionNumber(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#99=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetNewestStatusByPackIds(System.Collections.Generic.Dictionary{[mscorlib]System.Guid,[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#100=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::ExistsBalePackName(System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#101=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::ExistsCustPackName(System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#102=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::ExistsChoiceAreaName(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#103=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::ExistsCategoryByPackId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#104=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::ExistsProductByPackId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#105=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::ExistsGroupName(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#106=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::GetBalePackAreaTreeInfos(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#107=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.BaleContract::Test(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#108=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator, HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator, HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign, HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract, HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract, HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#109=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::CreateDecorationPack(System.String, ShSoft.ValueObjects.Enums.DecorationPackType, ShSoft.ValueObjects.Enums.DecorationPackKind, ShSoft.ValueObjects.Enums.DecorationPackMode, System.Boolean, System.Boolean, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Collections.Generic.Dictionary{[mscorlib]System.Guid,System.String}, System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#110=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::UpdateDecorationPack(System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#111=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SaveDecorationPackSpaces(System.Guid, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#112=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::CreatePackItem(System.String, System.Guid, System.Guid, ShSoft.ValueObjects.Enums.CategoryArea, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#113=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::AddSkuItems(System.Guid, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackSkuParam})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#114=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::AddCraftItems(System.Guid, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.DecorationPackCraftParam})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#115=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetDefaultSkuQuantity(System.Guid, System.Guid, System.Decimal, System.Collections.Generic.Dictionary{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.SkuCraftPosition,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#116=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetDefaultCraftQuantity(System.Guid, System.Guid, System.Decimal, System.Collections.Generic.Dictionary{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.SkuCraftPosition,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#117=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::UpdatePackItems(System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#118=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::UpdatePackItem(System.Guid, HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackItemParam, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#119=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ClonePackItem(System.Guid, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,System.String})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#120=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::RemovePackItem(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#121=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetPriceByUnit(System.Guid, System.Decimal, System.Decimal, System.Boolean, System.Boolean, System.Single, System.Single, System.Boolean, System.Single, System.Decimal, System.Single, System.Single, System.Boolean, System.Decimal, System.Boolean, System.Decimal, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#122=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetPriceTotally(System.Guid, System.Decimal, System.Decimal, System.Single, System.Single, System.Boolean, System.Boolean, System.Boolean, System.Single, System.Decimal, System.Single, System.Single, System.Boolean, System.Decimal, System.Boolean, System.Decimal, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpacePricingParam})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#123=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::OnShelf(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#124=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::OffShelf(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#125=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::CloneDecorationPack(System.Guid, System.String, ShSoft.ValueObjects.Enums.DecorationPackType, ShSoft.ValueObjects.Enums.DecorationPackKind, ShSoft.ValueObjects.Enums.DecorationPackMode, System.Boolean, System.Boolean, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Collections.Generic.Dictionary{[mscorlib]System.Guid,System.String}, System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#126=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::CreatePackScheme(System.Guid, System.String, System.String, System.String, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.String, System.String, System.String, System.String, System.String, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#127=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::UpdatePackScheme(System.Guid, System.String, System.String, System.String, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.String, System.String, System.String, System.String, System.String, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSchemeSpaceParam})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#128=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::RemovePackScheme(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#129=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetCover(System.Guid, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#130=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SavePackLabels(System.Guid, ShSoft.ValueObjects.Enums.DecorationPackColor, System.Collections.Generic.IEnumerable{System.String}, System.Collections.Generic.Dictionary{System.String,System.String}, System.Collections.Generic.IEnumerable{[mscorlib]System.Tuple{[mscorlib]System.Guid,System.String,[mscorlib]System.Guid,System.String,System.String}}, System.Boolean, System.Boolean, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid}, System.Collections.Generic.Dictionary{[mscorlib]System.Guid,System.String})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#131=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ReplaceSku(System.Guid, System.Guid, System.Decimal, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#132=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::RemoveSku(System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#133=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::RemoveAllSku(System.Collections.Generic.Dictionary{[mscorlib]System.Guid,[mscorlib]System.Collections.Generic.List{[mscorlib]System.Guid}})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#134=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ReplaceCraft(System.Guid, System.Guid, System.Decimal, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#135=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::RemoveCraft(System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#136=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::RemoveAllCraft(System.Collections.Generic.Dictionary{[mscorlib]System.Guid,[mscorlib]System.Collections.Generic.List{[mscorlib]System.Guid}})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#137=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::RelateBalePack(System.Guid, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#138=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::CancelRelateBalePack(System.Guid, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#139=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetPackViews(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#140=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetPackSales(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#141=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::AddPackItemCategoryIds(System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#142=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::DeletePackItemCategoryIds(System.Guid, System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#143=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetInstructions(System.Guid, System.String, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#144=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::SetRequirement(System.Guid, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#145=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ChangedDecorationPackSku(System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#146=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ChangedDecorationPackCraft(System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#147=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ImportDecorationPack(System.Guid, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Inputs.PackSpaceParam})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#148=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPacks(System.String, System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Single}, System.Nullable{System.Boolean}, System.Boolean, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{[mscorlib]System.Decimal}, System.Boolean, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Nullable{System.Boolean}, System.Nullable{System.Boolean}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackColor}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackType}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackKind}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackMode}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.ShelfStatus}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Boolean, System.Nullable{[mscorlib]System.Guid}, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#149=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPacksForSales(System.String, System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Single}, System.Nullable{System.Boolean}, System.Nullable{System.Boolean}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{System.Boolean}, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackType}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackKind}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackMode}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Boolean, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Boolean, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#150=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetPackSpaces(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#151=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetPackItems(System.Guid, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#152=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPackItemById(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#153=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetPackSkus(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#154=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetBulkPackSkus(System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#155=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetBulkPackSkusByPackId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#156=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetPackCrafts(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#157=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetBulkPackCrafts(System.Guid, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#158=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetBulkPackCraftsByPackId(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#159=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetPackSchemes(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#160=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetPackSchemeSpaces(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#161=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetOffShelvedCount(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#162=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetTotalOffShelvedCount(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#163=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPack(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#164=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetPackScheme(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#165=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetTotalOffShelvedSkus()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#166=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetOffShelvedSkusPacks()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#167=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetOffShelvedSkusPacksByPage(System.Nullable{[mscorlib]System.Guid}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#168=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPacksBySku(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#169=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetTotalOffShelvedCrafts()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#170=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetOffShelvedCraftsPacks()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#171=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetOffShelvedCraftsPacksByPage(System.Nullable{[mscorlib]System.Guid}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#172=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetTotalOffShelvedCraftCount(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#173=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPacksByCraft(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#174=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetSkuQuantities(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#175=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetCraftQuantities(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#176=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetOffShelvedCraftCount(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#177=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPackVersionNumber(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#178=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetNewestStatusByPackIds(System.Collections.Generic.Dictionary{[mscorlib]System.Guid,[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#179=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetSourceDecorationPackLabels()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#180=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPackByIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#181=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPackItems(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#182=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetBulkPackCraftsByPackIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#183=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetBulkPackSkusByPackIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#184=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetAllPackSkuIds()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#185=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetAllPackCraftIds()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#186=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetPackRecommendedItems(System.Guid, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#187=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetTotalChangedCount(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#188=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetChangedCount(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#189=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetTotalChangedSkus()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#190=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetChangedSkusPacks()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#191=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetChangedSkusPacksByPage(System.Nullable{[mscorlib]System.Guid}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#192=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsChanged(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#193=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetTotalChangedCrafts()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#194=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetChangedCraftsPacks()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#195=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetChangedCraftsPacksByPage(System.Nullable{[mscorlib]System.Guid}, System.Int32, System.Int32, out System.Int32, out System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#196=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetTotalChangedCraftCount(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#197=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetChangedCraftCount(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#198=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsChangedCraft(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#199=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetTotalOffShelvedChangedCount(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#200=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetOffShelvedChangedCountByIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#201=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsPackName(System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#202=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsPackSpaceName(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#203=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsPackItemName(System.Guid, System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#204=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsPackSchemeName(System.Guid, System.Nullable{[mscorlib]System.Guid}, System.String)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#205=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsPackSku(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#206=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsOffShelved(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#207=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsOffShelvedCraft(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#208=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::ExistsOffShelvedChanged(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#209=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::GetDecorationPacksByProjectId(System.Guid, System.String, System.Nullable{[mscorlib]System.Guid}, System.Nullable{System.Single}, System.Nullable{System.Boolean}, System.Nullable{System.Boolean}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{[mscorlib]System.Decimal}, System.Nullable{System.Boolean}, System.Nullable{System.Single}, System.Nullable{System.Single}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackType}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackKind}, System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackMode}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.Boolean, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Collections.Generic.IList{[mscorlib]System.Guid}, System.Boolean, System.Collections.Generic.Dictionary{System.String,System.Boolean}, System.Int32, System.Int32)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#210=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::Test(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#211=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.FixedMealContract::#cctor()">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#212=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForTransContract::#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator, HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator, HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#213=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForTransContract::OffShelfDecorationPackSku(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#214=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForTransContract::ReOnShelfDecorationPackSku(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#215=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForTransContract::OffShelfDecorationPackCraft(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#216=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForTransContract::ReOnShelfDecorationPackCraft(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#217=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForTransContract::OffShelfBalePackSku(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#218=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForTransContract::ReOnShelfBalePackSku(System.Guid)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#219=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Implements.ForTransContract::IsCraftInPack(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#220=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.ArticleMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#221=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.ArticleMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#222=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.ConfigMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#223=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.BalePackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#224=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.BalePackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackChoiceArea, HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#225=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.BalePackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#226=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.BalePackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#227=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.BalePackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#228=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack, System.Collections.Generic.List{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#229=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,System.Boolean}, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,System.Boolean}, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,System.Boolean}, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,System.Boolean})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#230=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#231=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#232=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#233=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#234=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#235=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#236=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#237=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#238=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#239=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.FixedMealContext.DecorationPackInfo}, System.Collections.Generic.IDictionary{[mscorlib]System.Guid,[HDIPlatform.DesignSystem.IAppService]HDIPlatform.DesignSystem.IAppService.DTOs.Outputs.BaleContext.BalePackInfo})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#240=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDto(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#241=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToDtoAndSpaces(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack, System.Collections.Generic.List{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#242=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToAppDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack, System.Collections.Generic.List{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#243=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToAppDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku, HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#244=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToAppDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku, HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo, System.Collections.Generic.List{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#245=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToAppDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft, HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#246=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.DecorationPackMap::ToAppDTO(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace})">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+      <Target Target="#247=M:[HDIPlatform.DesignSystem.AppService]HDIPlatform.DesignSystem.AppService.Maps.HouseTypePackMap::ToDTO(HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice)">
+        <JoinPoint Advising="#5" Description="#7" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>

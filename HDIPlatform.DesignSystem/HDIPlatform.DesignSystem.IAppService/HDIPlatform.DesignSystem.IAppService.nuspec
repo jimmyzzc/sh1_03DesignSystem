@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>HDIPlatform.DesignSystem.IAppService</id>
+    <version>1.0.0.0</version>
+    <title>HDIPlatform.DesignSystem.IAppService</title>
+    <authors>ShSoft</authors>
+    <description>六月版新设计中心服务接口</description>
+  </metadata>
+  <!--<files>
+    <file src="*.transform" target="content" />
+  </files>-->
+</package>

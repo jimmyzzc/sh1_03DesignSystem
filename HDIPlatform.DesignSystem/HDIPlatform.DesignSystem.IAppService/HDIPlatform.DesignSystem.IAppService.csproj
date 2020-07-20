@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39B9EC31-F743-4151-AFBE-85E7614F91AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HDIPlatform.DesignSystem.IAppService</RootNamespace>
+    <AssemblyName>HDIPlatform.DesignSystem.IAppService</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\HDIPlatform.DesignSystem.IAppService.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\HDIPlatform.DesignSystem.IAppService.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Develop|AnyCPU'">
+    <OutputPath>bin\Develop\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Develop\HDIPlatform.DesignSystem.IAppService.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <OutputPath>bin\Test\</OutputPath>
+    <DocumentationFile>bin\Test\HDIPlatform.DesignSystem.IAppService.XML</DocumentationFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\DomainTemp.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Lab|AnyCPU'">
+    <OutputPath>bin\Lab\</OutputPath>
+    <DocumentationFile>bin\Lab\HDIPlatform.DesignSystem.IAppService.XML</DocumentationFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\DomainTemp.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Integration|AnyCPU'">
+    <OutputPath>bin\Integration\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Integration\HDIPlatform.DesignSystem.IAppService.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Local|AnyCPU'">
+    <OutputPath>bin\Local\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Local\HDIPlatform.DesignSystem.IAppService.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Sparrow|AnyCPU'">
+    <OutputPath>bin\Release_Sparrow\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\HDIPlatform.DesignSystem.IAppService.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LoadTest|AnyCPU'">
+    <OutputPath>bin\LoadTest\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\HDIPlatform.DesignSystem.IAppService.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ShSoft.Infrastructure, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ShSoft.Infrastructure.1.0.8\lib\net45\ShSoft.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ShSoft.ValueObjects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\ShSoft.ValueObjects.2.6.1\lib\net45\ShSoft.ValueObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DTOs\Inputs\DecorationPackCraftParam.cs" />
+    <Compile Include="DTOs\Inputs\DecorationPackRecommendedSkuParam.cs" />
+    <Compile Include="DTOs\Inputs\DecorationPackSkuParam.cs" />
+    <Compile Include="DTOs\Inputs\DecorationPackSpaceDetailParam.cs" />
+    <Compile Include="DTOs\Inputs\HouseTypePriceParam.cs" />
+    <Compile Include="DTOs\Inputs\PackRecommendedItemParam.cs" />
+    <Compile Include="DTOs\Inputs\PackItemParam.cs" />
+    <Compile Include="DTOs\Inputs\PackSchemeSpacePricingParam.cs" />
+    <Compile Include="DTOs\Inputs\PackSchemeSpaceParam.cs" />
+    <Compile Include="DTOs\Inputs\PackSpaceParam.cs" />
+    <Compile Include="DTOs\Outputs\ArticleContext\ArticleInfo.cs" />
+    <Compile Include="DTOs\Outputs\ArticleContext\ArticleCategoryInfo.cs" />
+    <Compile Include="DTOs\Outputs\BaleContext\BalePackAreaTreeInfo.cs" />
+    <Compile Include="DTOs\Outputs\BaleContext\BalePackInfo.cs" />
+    <Compile Include="DTOs\Outputs\BaleContext\BalePackCategoryInfo.cs" />
+    <Compile Include="DTOs\Outputs\BaleContext\BalePackChoiceAreaInfo.cs" />
+    <Compile Include="DTOs\Outputs\BaleContext\BalePackGroupInfo.cs" />
+    <Compile Include="DTOs\Outputs\BaleContext\BalePackProductInfo.cs" />
+    <Compile Include="DTOs\Outputs\ConfigContext\PackSeriesInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackCraftInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackRecommendedItemInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackItemInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackSchemeInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackSchemeSpaceInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackRecommendedSkuInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackSkuInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackSpaceDetailInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackSpaceBaseInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPackSpaceInfo.cs" />
+    <Compile Include="DTOs\Outputs\FixedMealContext\DecorationPack_BalePackInfo.cs" />
+    <Compile Include="DTOs\Outputs\ForAppContext\App_DecorationPackItemGroupInfo.cs" />
+    <Compile Include="DTOs\Outputs\ForAppContext\App_DecorationPackSpaceImageInfo.cs" />
+    <Compile Include="DTOs\Outputs\ForAppContext\App_LableInfo.cs" />
+    <Compile Include="DTOs\Outputs\ForAppContext\App_DecorationPackInfo.cs" />
+    <Compile Include="DTOs\Outputs\ForAppContext\App_DecorationPackCraftInfo.cs" />
+    <Compile Include="DTOs\Outputs\ForAppContext\App_DecorationPackSkuInfo.cs" />
+    <Compile Include="DTOs\Outputs\HouseTypePackContext\HouseTypePriceInfo.cs" />
+    <Compile Include="Interfaces\IArticleContract.cs" />
+    <Compile Include="Interfaces\IForAppContract.cs" />
+    <Compile Include="Interfaces\IConfigContract.cs" />
+    <Compile Include="Interfaces\IHouseTypePackContract.cs" />
+    <Compile Include="Interfaces\IBaleContract.cs" />
+    <Compile Include="Interfaces\IFixedMealContract.cs" />
+    <Compile Include="Interfaces\IForTransContract.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config.transform" />
+    <None Include="HDIPlatform.DesignSystem.IAppService.nuspec" />
+    <None Include="packages.config" />
+    <None Include="Web.config.transform" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。启用“NuGet 程序包还原”可下载这些程序包。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

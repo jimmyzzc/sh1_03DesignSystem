@@ -1,0 +1,1570 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PanGu</name>
+    </assembly>
+    <members>
+        <member name="T:PanGu.AnalyzerResource">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:PanGu.AnalyzerResource.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:PanGu.AnalyzerResource.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:PanGu.AnalyzerResource.INFINITIVE">
+             <summary>
+               查找类似 beat	beat	beaten
+            become	became	become
+            begin	began	begun
+            bend	bent	bent
+            bet	bet	bet
+            bid	bid	bid
+            bite	bit	bitten
+            bleed	bled	bled
+            blow	blew	blown
+            break	broke	broken
+            breed	bred	bred
+            bring	brought	brought
+            broadcast	broadcast	broadcast
+            build	built	built
+            buy	bought	bought
+            catch	caught	caught
+            choose	chose	chosen
+            cling	clung	clung
+            come	came	come
+            cost	cost	cost
+            creep	crept	crept
+            cut	cut	cut
+            deal	dealt	dealt
+            dig	dug	dug
+            do	did	done
+            draw	drew	drawn
+            dream	dreamed	dreamt
+            drink	drank	drunk
+            driv [字符串的其余部分被截断]&quot;; 的本地化字符串。
+             </summary>
+        </member>
+        <member name="T:PanGu.Configurations.DictionaryPathElement">
+            <summary>
+            字典路径节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.DictionaryPathElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.DictionaryPathElement.Path">
+            <summary>
+            字典路径
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptionsElement">
+            <summary>
+            匹配选项节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.ChineseNameIdentifyElement">
+            <summary>
+            中文名识别节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.FrequencyFirstElement">
+            <summary>
+            词频优先节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.MultiDimensionalityElement">
+            <summary>
+            多元分词节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.EnglishMultiDimensionalityElement">
+            <summary>
+            英文多元分词节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.FilterStopWordsElement">
+            <summary>
+            过滤停用词节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.IgnoreSpaceElement">
+            <summary>
+            忽略空格、回车、Tab节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.ForceSingleWordElement">
+            <summary>
+            强制一元分词节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.TraditionalChineseEnabledElement">
+            <summary>
+            繁体中文开关节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.OutputSimplifiedTraditionalElement">
+            <summary>
+            同时输出简体和繁体节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.UnknownWordIdentifyElement">
+            <summary>
+            未登录词识别节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.FilterEnglishElement">
+            <summary>
+            过滤英文节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.FilterNumericElement">
+            <summary>
+            过滤数字节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.IgnoreCapitalElement">
+            <summary>
+            忽略英文大小写节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.EnglishSegmentElement">
+            <summary>
+            英文分词节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.SynonymOutputElement">
+            <summary>
+            同义词输出节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.WildcardOutputElement">
+            <summary>
+            通配符匹配输出节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.WildcardSegmentElement">
+            <summary>
+            对通配符匹配的结果分词节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptionsElement.CustomRuleElement">
+            <summary>
+            用户自定义规则匹配节点
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.ChineseNameIdentifyElement">
+            <summary>
+            中文人名识别节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.ChineseNameIdentifyElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.ChineseNameIdentifyElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.CustomRuleElement">
+            <summary>
+            用户自定义规则匹配节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.CustomRuleElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.CustomRuleElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.EnglishMultiDimensionalityElement">
+            <summary>
+            英文多元分词节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.EnglishMultiDimensionalityElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.EnglishMultiDimensionalityElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.EnglishSegmentElement">
+            <summary>
+            英文分词节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.EnglishSegmentElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.EnglishSegmentElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.FilterEnglishElement">
+            <summary>
+            过滤英文节点
+            <remarks>
+            这个选项只有在过滤停用词选项生效时才有效
+            </remarks>
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.FilterEnglishElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.FilterEnglishElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.FilterNumericElement">
+            <summary>
+            过滤数字节点
+            </summary>
+            <remarks>
+            这个选项只有在过滤停用词选项生效时才有效
+            </remarks>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.FilterNumericElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.FilterNumericElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.FilterStopWordsElement">
+            <summary>
+            过滤停用词节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.FilterStopWordsElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.FilterStopWordsElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.ForceSingleWordElement">
+            <summary>
+            强制一元分词节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.ForceSingleWordElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.ForceSingleWordElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.FrequencyFirstElement">
+            <summary>
+            词频优先节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.FrequencyFirstElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.FrequencyFirstElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.IgnoreCapitalElement">
+            <summary>
+            忽略英文大小写节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.IgnoreCapitalElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.IgnoreCapitalElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.IgnoreSpaceElement">
+            <summary>
+            忽略空格、回车、Tab节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.IgnoreSpaceElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.IgnoreSpaceElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.MultiDimensionalityElement">
+            <summary>
+            多元分词节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.MultiDimensionalityElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.MultiDimensionalityElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.OutputSimplifiedTraditionalElement">
+            <summary>
+            同时输出简体和繁体节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.OutputSimplifiedTraditionalElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.OutputSimplifiedTraditionalElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.SynonymOutputElement">
+            <summary>
+            同义词输出节点
+            </summary>
+            <remarks>
+            一般用于对搜索字符串的分词，不建议在索引时使用
+            </remarks>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.SynonymOutputElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.SynonymOutputElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.TraditionalChineseEnabledElement">
+            <summary>
+            繁体中文开关节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.TraditionalChineseEnabledElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.TraditionalChineseEnabledElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.UnknownWordIdentifyElement">
+            <summary>
+            未登录词识别节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.UnknownWordIdentifyElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.UnknownWordIdentifyElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.WildcardOutputElement">
+            <summary>
+            通配符匹配输出节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.WildcardOutputElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.WildcardOutputElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchOptions.WildcardSegmentElement">
+            <summary>
+            对通配符匹配的结果分词节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchOptions.WildcardSegmentElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchOptions.WildcardSegmentElement.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParametersElement">
+            <summary>
+            参数节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.UnknowRankElement">
+            <summary>
+            未登录词权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.BestRankElement">
+            <summary>
+            最匹配词权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.SecRankElement">
+            <summary>
+            次匹配词权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.ThirdRankElement">
+            <summary>
+            再次匹配词权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.SingleRankElement">
+            <summary>
+            强行输出的单字的权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.NumericRankElement">
+            <summary>
+            数字的权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.EnglishRankElement">
+            <summary>
+            英文词汇的权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.EnglishLowerRankElement">
+            <summary>
+            英文词汇小写的权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.EnglishStemRankElement">
+            <summary>
+            英文词汇词根的权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.SymbolRankElement">
+            <summary>
+            符号的权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.SimplifiedTraditionalRankElement">
+            <summary>
+            强制同时输出简繁汉字时，非原来文本的汉字输出权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.SynonymRankElement">
+            <summary>
+            同义词的权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.WildcardRankElement">
+            <summary>
+            通配符匹配结果的权值节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.FilterEnglishLengthElement">
+            <summary>
+            过滤大于此长度的英文节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.FilterNumericLengthElement">
+            <summary>
+            过滤大于此长度的数字节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.CustomRuleAssemblyFileNameElement">
+            <summary>
+            用户自定义规则程序集节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.CustomRuleFullClassNameElement">
+            <summary>
+            用户自定义规则的完整类名节点
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParametersElement.RedundancyElement">
+            <summary>
+            多元分词冗余度节点
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.BestRankElement">
+            <summary>
+            最匹配词权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.BestRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.BestRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.CustomRuleAssemblyFileNameElement">
+            <summary>
+            用户自定义规则程序集节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.CustomRuleAssemblyFileNameElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.CustomRuleAssemblyFileNameElement.Name">
+            <summary>
+            程序集名称
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.CustomRuleFullClassNameElement">
+            <summary>
+            用户自定义规则的完整类名节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.CustomRuleFullClassNameElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.CustomRuleFullClassNameElement.Name">
+            <summary>
+            完整类名
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.EnglishLowerRankElement">
+            <summary>
+            英文词汇小写的权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.EnglishLowerRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.EnglishLowerRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.EnglishRankElement">
+            <summary>
+            英文词汇权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.EnglishRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.EnglishRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.EnglishStemRankElement">
+            <summary>
+            英文词汇词根的权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.EnglishStemRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.EnglishStemRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.FilterEnglishLengthElement">
+            <summary>
+            过滤大于此长度的英文节点
+            </summary>
+            <remarks>
+            过滤英文选项生效时才有效
+            </remarks>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.FilterEnglishLengthElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.FilterEnglishLengthElement.Length">
+            <summary>
+            长度
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.FilterNumericLengthElement">
+            <summary>
+            过滤大于此长度的数字节点
+            </summary>
+            <remarks>
+            过滤数字选项生效时才有效
+            </remarks>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.FilterNumericLengthElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.FilterNumericLengthElement.Length">
+            <summary>
+            长度
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.NumericRankElement">
+            <summary>
+            数字的权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.NumericRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.NumericRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.RedundancyElement">
+            <summary>
+            多元分词冗余度节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.RedundancyElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.RedundancyElement.Value">
+            <summary>
+            冗余度
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.SecRankElement">
+            <summary>
+            次匹配词权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.SecRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.SecRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.SimplifiedTraditionalRankElement">
+            <summary>
+            强制同时输出简繁汉字时，非原来文本的汉字输出权值节点
+            </summary>
+            <remarks>
+            比如原来文本是简体，这里就是输出的繁体字的权值，反之亦然。
+            </remarks>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.SimplifiedTraditionalRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.SimplifiedTraditionalRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.SingleRankElement">
+            <summary>
+            强行输出的单字的权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.SingleRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.SingleRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.SymbolRankElement">
+            <summary>
+            符号的权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.SymbolRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.SymbolRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.SynonymRankElement">
+            <summary>
+            同义词权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.SynonymRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.SynonymRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.ThirdRankElement">
+            <summary>
+            再次匹配词权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.ThirdRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.ThirdRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.UnknowRankElement">
+            <summary>
+            未登录词权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.UnknowRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.UnknowRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.Configurations.MatchParameters.WildcardRankElement">
+            <summary>
+            通配符匹配结果的权值节点
+            </summary>
+        </member>
+        <member name="M:PanGu.Configurations.MatchParameters.WildcardRankElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="P:PanGu.Configurations.MatchParameters.WildcardRankElement.Rank">
+            <summary>
+            权值
+            </summary>
+        </member>
+        <member name="T:PanGu.PanGuConfiguration">
+            <summary>
+            盘古分词配置
+            </summary>
+        </member>
+        <member name="P:PanGu.PanGuConfiguration.Setting">
+            <summary>
+            访问器
+            </summary>
+        </member>
+        <member name="P:PanGu.PanGuConfiguration.DictionaryPathElement">
+            <summary>
+            字典路径节点
+            </summary>
+        </member>
+        <member name="P:PanGu.PanGuConfiguration.MatchOptionsElement">
+            <summary>
+            匹配选项节点
+            </summary>
+        </member>
+        <member name="P:PanGu.PanGuConfiguration.MatchParametersElement">
+            <summary>
+            匹配参数节点
+            </summary>
+        </member>
+        <member name="T:PanGu.Constants">
+            <summary>
+            常量
+            </summary>
+        </member>
+        <member name="F:PanGu.Constants.DictionaryFileName">
+            <summary>
+            字典文件名
+            </summary>
+        </member>
+        <member name="F:PanGu.Constants.ChsSingleNameFileName">
+            <summary>
+            单字中文名文件名
+            </summary>
+        </member>
+        <member name="F:PanGu.Constants.ChsDoubleName1FileName">
+            <summary>
+            单字中文名2文件名
+            </summary>
+        </member>
+        <member name="F:PanGu.Constants.ChsDoubleName2FileName">
+            <summary>
+            双字中文名文件名
+            </summary>
+        </member>
+        <member name="F:PanGu.Constants.StopwordFileName">
+            <summary>
+            停用词文件名
+            </summary>
+        </member>
+        <member name="F:PanGu.Constants.SynonymFileName">
+            <summary>
+            同义词文件名
+            </summary>
+        </member>
+        <member name="F:PanGu.Constants.WildcardFileName">
+            <summary>
+            通配符文件名
+            </summary>
+        </member>
+        <member name="T:PanGu.Dictionaries.Synonym">
+            <summary>
+            同义词
+            </summary>
+        </member>
+        <member name="T:PanGu.Dictionaries.Wildcard">
+            <summary>
+            通配符词汇
+            </summary>
+        </member>
+        <member name="F:PanGu.Dictionaries.SearchWordResult.Word">
+            <summary>
+            单词
+            </summary>
+        </member>
+        <member name="F:PanGu.Dictionaries.SearchWordResult.SimilarRatio">
+            <summary>
+            相似度
+            </summary>
+        </member>
+        <member name="T:PanGu.Dictionaries.WordDictionary">
+            <summary>
+            Dictionary for word
+            </summary>
+        </member>
+        <member name="M:PanGu.Dictionaries.WordDictionary.Load(System.String,System.Boolean,System.String@)">
+            <summary>
+            
+            </summary>
+            <param name="fileName"></param>
+            <param name="textFile"></param>
+            <param name="version">输出字典的版本号</param>
+        </member>
+        <member name="M:PanGu.Dictionaries.WordDictionary.Search(System.String)">
+            <summary>
+            通过遍历方式搜索
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PanGu.Enums.WordType">
+            <summary>
+            词类型
+            </summary>
+        </member>
+        <member name="M:PanGu.Framework.DFAState`2.NextState(System.Int32,PanGu.Framework.DFA{`0,`1},System.Boolean@)">
+            <summary>
+            Get next state
+            </summary>
+            <param name="action">action (letter eg.), if ation less then 0, means get else state</param>
+            <param name="dfa">DFA that call this state</param>
+            <returns>next state id</returns>
+        </member>
+        <member name="M:PanGu.Framework.DFA`2.Input(System.Int32,`0)">
+            <summary>
+            Input action
+            </summary>
+            <param name="action">action</param>
+            <param name="token">token (additional data)</param>
+            <returns>if quit return true</returns>
+        </member>
+        <member name="T:PanGu.Framework.Lock">
+            <summary>
+            Share or Mutex lock
+            </summary>
+        </member>
+        <member name="T:PanGu.Framework.Stemmer">
+             Stemmer, implementing the Porter Stemming Algorithm
+            
+             The Stemmer class transforms a word into its root form.  The input
+             word can be provided a character at time (by calling add()), or at once
+             by calling one of the various stem(something) methods.
+        </member>
+        <member name="M:PanGu.Framework.Stemmer.add(System.Char)">
+            Add a character to the word being stemmed.  When you are finished
+            adding characters, you can call stem(void) to stem the word.
+        </member>
+        <member name="M:PanGu.Framework.Stemmer.add(System.Char[],System.Int32)">
+            Adds wLen characters to the word being stemmed contained in a portion
+            of a char[] array. This is like repeated calls of add(char ch), but
+            faster.
+        </member>
+        <member name="M:PanGu.Framework.Stemmer.ToString">
+            After a word has been stemmed, it can be retrieved by toString(),
+            or a reference to the internal buffer can be retrieved by getResultBuffer
+            and getResultLength (which is generally more efficient.)
+        </member>
+        <member name="M:PanGu.Framework.Stemmer.getResultLength">
+            Returns the length of the word resulting from the stemming process.
+        </member>
+        <member name="M:PanGu.Framework.Stemmer.getResultBuffer">
+            Returns a reference to a character buffer containing the results of
+            the stemming process.  You also need to consult getResultLength()
+            to determine the length of the result.
+        </member>
+        <member name="M:PanGu.Framework.Stemmer.stem">
+            Stem the word placed into the Stemmer buffer through calls to add().
+            Returns true if the stemming process resulted in a word different
+            from the input.  You can retrieve the result with
+            getResultLength()/getResultBuffer() or toString().
+        </member>
+        <member name="T:PanGu.Framework.QuickSort`1">
+            
+            <summary>
+            Quick Sort
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:PanGu.Framework.File.GetFileLength(System.String)">
+            <summary>
+            Get file length
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PanGu.ICustomRule">
+            <summary>
+            用户自定义规则接口
+            </summary>
+        </member>
+        <member name="T:PanGu.Match.IChsFullTextMatch">
+            <summary>
+            interface for Chinese full text match 
+            </summary>
+        </member>
+        <member name="M:PanGu.Match.IChsFullTextMatch.Match(PanGu.Dictionaries.PositionLength[],System.String,System.Int32)">
+            <summary>
+            Do match
+            </summary>
+            <param name="positionLenArr">array of position length</param>
+            <param name="count">count of items of position length list</param>
+            <returns>Word Info list</returns>
+        </member>
+        <member name="M:PanGu.Match.ChsFullTextMatch.BuildTree(PanGu.Match.ChsFullTextMatch.Node,System.Int32)">
+            <summary>
+            Build tree 
+            </summary>
+            <param name="pl">position length list</param>
+            <param name="count">position length list count</param>
+            <param name="parent">parent node</param>
+            <param name="curIndex">current index of position length list</param>
+        </member>
+        <member name="M:PanGu.Match.ChsFullTextMatch.GetLeafNodeArray(PanGu.Dictionaries.PositionLength[],System.Int32,System.Int32)">
+             <summary>
+            根据孤立点拆分长句，然后再分别对各个句子的片段进行分词.
+            长中文句子的分词困扰了我3年，一直没有好的解决方案。没想到在观看
+            2010年世界杯开幕式时，我突发灵感，想出了这个孤立点分割拆分长句的
+            算法，彻底解决的这个长期困扰我的难题. 
+            eaglet 11th Jun 2010 注释留念
+             </summary>
+             <param name="positionLenArr">保护位置和长度信息的单词分量数组</param>
+             <param name="orginalTextLength">原始字符串长度</param>
+             <param name="count">positionLenArr 的 count</param>
+             <returns></returns>
+        </member>
+        <member name="M:PanGu.Match.ChsFullTextMatch.GetLeafNodeArrayCore(PanGu.Dictionaries.PositionLength[],System.Int32,System.Int32)">
+            <summary>
+            最底层算法，获取叶子节点集合
+            </summary>
+            <param name="positionLenArr"></param>
+            <param name="orginalText"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PanGu.Dictionaries.ChsName">
+            <summary>
+            匹配中文人名
+            </summary>
+        </member>
+        <member name="F:PanGu.Dictionaries.ChsName.FAMILY_NAMES">
+            <summary>
+            没有明显歧异的姓氏
+            </summary>
+        </member>
+        <member name="T:PanGu.Settings.MatchOption">
+            <summary>
+            匹配选项
+            </summary>
+        </member>
+        <member name="M:PanGu.Settings.MatchOption.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:PanGu.Settings.MatchOption.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            基础构造器
+            </summary>
+        </member>
+        <member name="M:PanGu.Settings.MatchOption.Update(System.Boolean,System.Boolean)">
+            <summary>
+            修改信息
+            </summary>
+        </member>
+        <member name="M:PanGu.Settings.MatchOption.Clone">
+            <summary>
+            深拷贝
+            </summary>
+            <returns>克隆实例</returns>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.ChineseNameIdentify">
+            <summary>
+            中文人名识别
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.FrequencyFirst">
+            <summary>
+            词频优先
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.MultiDimensionality">
+            <summary>
+            多元分词
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.EnglishMultiDimensionality">
+            <summary>
+            英文多元分词
+            </summary>
+            <remarks>
+            这个开关，会将英文中的字母和数字分开。
+            </remarks>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.FilterStopWords">
+            <summary>
+            过滤停用词
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.IgnoreSpace">
+            <summary>
+            忽略空格、回车、Tab
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.ForceSingleWord">
+            <summary>
+            强制一元分词
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.TraditionalChineseEnabled">
+            <summary>
+            繁体中文开关
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.OutputSimplifiedTraditional">
+            <summary>
+            同时输出简体和繁体
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.UnknownWordIdentify">
+            <summary>
+            未登录词识别
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.FilterEnglish">
+            <summary>
+            过滤英文
+            </summary>
+            <remarks>
+            这个选项只有在过滤停用词选项生效时才有效
+            </remarks>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.FilterNumeric">
+            <summary>
+            过滤数字
+            </summary>
+            <remarks>
+            这个选项只有在过滤停用词选项生效时才有效
+            </remarks>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.IgnoreCapital">
+            <summary>
+            忽略英文大小写
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.EnglishSegment">
+            <summary>
+            英文分词
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.SynonymOutput">
+            <summary>
+            同义词输出
+            </summary>
+            <remarks>
+            同义词输出功能一般用于对搜索字符串的分词，不建议在索引时使用
+            </remarks>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.WildcardOutput">
+            <summary>
+            通配符匹配输出
+            </summary>
+            <remarks>
+            同义词输出功能一般用于对搜索字符串的分词，不建议在索引时使用
+            </remarks>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.WildcardSegment">
+            <summary>
+            对通配符匹配的结果分词
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchOption.CustomRule">
+            <summary>
+            是否进行用户自定义规则匹配
+            </summary>
+        </member>
+        <member name="T:PanGu.Settings.MatchParameter">
+            <summary>
+            匹配参数
+            </summary>
+        </member>
+        <member name="M:PanGu.Settings.MatchParameter.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:PanGu.Settings.MatchParameter.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32)">
+            <summary>
+            基础构造器
+            </summary>
+        </member>
+        <member name="M:PanGu.Settings.MatchParameter.Update(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            修改信息
+            </summary>
+        </member>
+        <member name="M:PanGu.Settings.MatchParameter.Clone">
+            <summary>
+            深拷贝
+            </summary>
+            <returns>克隆实例</returns>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.UnknowRank">
+            <summary>
+            未登录词权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.BestRank">
+            <summary>
+            最匹配词权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.SecRank">
+            <summary>
+            次匹配词权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.ThirdRank">
+            <summary>
+            再次匹配词权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.SingleRank">
+            <summary>
+            强行输出的单字的权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.NumericRank">
+            <summary>
+            数字的权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.EnglishRank">
+            <summary>
+            英文词汇权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.EnglishLowerRank">
+            <summary>
+            英文词汇小写的权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.EnglishStemRank">
+            <summary>
+            英文词汇词根的权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.SymbolRank">
+            <summary>
+            符号的权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.SimplifiedTraditionalRank">
+            <summary>
+            强制同时输出简繁汉字时，非原来文本的汉字输出权值。
+            </summary>
+            <remarks>
+            比如原来文本是简体，这里就是输出的繁体字的权值，反之亦然。
+            </remarks>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.SynonymRank">
+            <summary>
+            同义词权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.WildcardRank">
+            <summary>
+            通配符匹配结果的权值
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.FilterEnglishLength">
+            <summary>
+            过滤英文选项生效时，过滤大于这个长度的英文。
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.FilterNumericLength">
+            <summary>
+            过滤数字选项生效时，过滤大于这个长度的数字。
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.CustomRuleAssemblyFileName">
+            <summary>
+            用户自定义规则的配件程序集名
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.CustomRuleFullClassName">
+            <summary>
+            用户自定义规则的类的完整类名，即带名字空间的名称
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.MatchParameter.Redundancy">
+            <summary>
+            多元分词冗余度
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_A">
+            <summary>
+            形容词 形语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_B">
+            <summary>
+            区别词 区别语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_C">
+            <summary>
+            连词 连语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_D">
+            <summary>
+            副词 副语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_E">
+            <summary>
+            叹词 叹语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_F">
+            <summary>
+            方位词 方位语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_I">
+            <summary>
+            成语
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_L">
+            <summary>
+            习语
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_A_M">
+            <summary>
+            数词 数语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_MQ">
+            <summary>
+            数量词
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_N">
+            <summary>
+            名词 名语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_O">
+            <summary>
+            拟声词
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_P">
+            <summary>
+            介词
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_A_Q">
+            <summary>
+            量词 量语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_R">
+            <summary>
+            代词 代语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_S">
+            <summary>
+            处所词
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_T">
+            <summary>
+            时间词
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_U">
+            <summary>
+            助词 助语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_V">
+            <summary>
+            动词 动语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_W">
+            <summary>
+            标点符号
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_X">
+            <summary>
+            非语素字
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_Y">
+            <summary>
+            语气词 语气语素
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_Z">
+            <summary>
+            状态词
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_A_NR">
+            <summary>
+            人名
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_A_NS">
+            <summary>
+            地名
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_A_NT">
+            <summary>
+            机构团体
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_A_NX">
+            <summary>
+            外文字符
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_A_NZ">
+            <summary>
+            其他专名
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_H">
+            <summary>
+            前接成分
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_D_K">
+            <summary>
+            后接成分
+            </summary>
+        </member>
+        <member name="F:PanGu.Enums.POS.POS_UNK">
+            <summary>
+            未知词性
+            </summary>
+        </member>
+        <member name="M:PanGu.Segment.MergeEnglishSpecialWord(System.String,PanGu.Framework.SuperLinkedList{PanGu.WordInfo},PanGu.Framework.SuperLinkedListNode{PanGu.WordInfo}@)">
+            <summary>
+            合并英文专用词。
+            如果字典中有英文专用词如U.S.A, C++.C#等
+            需要对初步分词后的英文和字母进行合并
+            </summary>
+            <param name="words"></param>
+            <param name="start"></param>
+            <param name="end"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PanGu.Settings.PanGuSettings">
+            <summary>
+            盘古分词设置
+            </summary>
+        </member>
+        <member name="F:PanGu.Settings.PanGuSettings._CurrentDictionaryPath">
+            <summary>
+            当前字典路径字段
+            </summary>
+        </member>
+        <member name="F:PanGu.Settings.PanGuSettings._CurrentMatchOption">
+            <summary>
+            当前匹配选项字段
+            </summary>
+        </member>
+        <member name="F:PanGu.Settings.PanGuSettings._CurrentMatchParameter">
+            <summary>
+            当前匹配参数字段
+            </summary>
+        </member>
+        <member name="M:PanGu.Settings.PanGuSettings.#cctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.PanGuSettings.CurrentDictionaryPath">
+            <summary>
+            当前字典路径
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.PanGuSettings.CurrentMatchOption">
+            <summary>
+            当前匹配选项
+            </summary>
+        </member>
+        <member name="P:PanGu.Settings.PanGuSettings.CurrentMatchParameter">
+            <summary>
+            当前匹配参数
+            </summary>
+        </member>
+        <member name="F:PanGu.WordAttribute.Word">
+            <summary>
+            Word
+            </summary>
+        </member>
+        <member name="F:PanGu.WordAttribute.Pos">
+            <summary>
+            Part of speech
+            </summary>
+        </member>
+        <member name="F:PanGu.WordAttribute.Frequency">
+            <summary>
+            Frequency for this word
+            </summary>
+        </member>
+        <member name="F:PanGu.WordAttributeStruct.Word">
+            <summary>
+            Word
+            </summary>
+        </member>
+        <member name="F:PanGu.WordAttributeStruct.Pos">
+            <summary>
+            Part of speech
+            </summary>
+        </member>
+        <member name="F:PanGu.WordAttributeStruct.Frequency">
+            <summary>
+            Frequency for this word
+            </summary>
+        </member>
+        <member name="T:PanGu.WordInfo">
+            <summary>
+            词信息
+            </summary>
+        </member>
+        <member name="F:PanGu.WordInfo.WordType">
+            <summary>
+            Current word type
+            </summary>
+        </member>
+        <member name="F:PanGu.WordInfo.OriginalWordType">
+            <summary>
+            Original word type
+            </summary>
+        </member>
+        <member name="F:PanGu.WordInfo.Position">
+            <summary>
+            Word position
+            </summary>
+        </member>
+        <member name="F:PanGu.WordInfo.Rank">
+            <summary>
+            Rank for this word
+            单词权重
+            </summary>
+        </member>
+    </members>
+</doc>

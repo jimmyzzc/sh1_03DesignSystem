@@ -1,0 +1,861 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShSoft.Infrastructure.Repository.EntityFramework</name>
+    </assembly>
+    <members>
+        <member name="T:ShSoft.Infrastructure.Repository.EntityFramework.DbCleaner">
+            <summary>
+            数据库清理者实现
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.DbCleaner.Clean">
+            <summary>
+            清理
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession">
+            <summary>
+            DbSession基类
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.CommandInstanceKey">
+            <summary>
+            EF（写）上下文对象缓存键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.QueryInstanceKey">
+            <summary>
+            EF（读）上下文对象缓存键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession._Sync">
+            <summary>
+            同步锁
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.#cctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.#ctor">
+            <summary>
+            基础构造器
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.CommandInstance">
+            <summary>
+            EF（写）上下文对象
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.QueryInstance">
+            <summary>
+            EF（读）上下文对象
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.EntityAssembly">
+            <summary>
+            实体所在程序集
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.EntityConfigAssembly">
+            <summary>
+            实体配置所在程序集
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.TypeQuery">
+            <summary>
+            类型查询条件
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.Repository.EntityFramework.Base.BaseDbSession.TablePrefix">
+            <summary>
+            数据表名前缀
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1">
+            <summary>
+            EF仓储Provider
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1._Sync">
+            <summary>
+            同步锁
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.#cctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1._dbContext">
+            <summary>
+            EF（读）上下文对象
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Finalize">
+            <summary>
+            析构器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.SingleOrDefault(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="id">Id</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+            <exception cref="T:System.InvalidOperationException">查询到1个以上的实体对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.SingleOrDefault``1(System.Guid)">
+            <summary>
+            根据Id获取唯一子类对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="id">Id</param>
+            <returns>唯一子类对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.SingleOrDefault(System.String)">
+            <summary>
+            根据编号获取唯一实体对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="number">编号</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.SingleOrDefault``1(System.String)">
+            <summary>
+            根据编号获取唯一子类对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="number">编号</param>
+            <returns>唯一子类对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Single(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象（查看时用），
+            </summary>
+            <param name="id">Id</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Single``1(System.Guid)">
+            <summary>
+            根据Id获取唯一子类对象（查看时用），
+            </summary>
+            <param name="id">Id</param>
+            <returns>单个子类对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Single(System.String)">
+            <summary>
+            根据编号获取唯一实体对象（查看时用），
+            </summary>
+            <param name="number">编号</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Single``1(System.String)">
+            <summary>
+            根据编号获取唯一子类对象（查看时用），
+            </summary>
+            <param name="number">编号</param>
+            <returns>单个子类对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.SingleByName(System.String)">
+            <summary>
+            根据名称获取唯一实体对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="name">名称</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">名称为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.GetName(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象Name
+            </summary>
+            <param name="id">Id</param>
+            <returns>实体对象Name</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.GetName(System.String)">
+            <summary>
+            根据编号获取唯一实体对象Name
+            </summary>
+            <param name="number">编号</param>
+            <returns>实体对象Name</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.GetNumber(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象Number
+            </summary>
+            <param name="id">Id</param>
+            <returns>实体对象Number</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">无该对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FirstOrDefault">
+            <summary>
+            获取默认或第一个实体对象，
+            无该对象时返回null
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FirstOrDefault``1">
+            <summary>
+            获取默认或第一个子类对象，
+            无该对象时返回null
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindAll">
+            <summary>
+            获取实体对象集合
+            </summary>
+            <returns>实体对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindAll``1">
+            <summary>
+            获取给定类型子类对象集合
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <returns>子类对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Find(System.String)">
+            <summary>
+            根据关键字获取实体对象集合
+            </summary>
+            <returns>实体对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Find``1(System.String)">
+            <summary>
+            根据关键字获取给定类型子类对象集合
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <returns>子类对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindByPage(System.String,System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            根据关键字获取实体对象集合 + 分页 + 输出记录条数与页数
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">记录条数</param>
+            <param name="pageCount">页数</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindByPage``1(System.String,System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            根据关键字分页获取子类对象集合 + 分页 + 输出记录条数与页数
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <param name="keywords">关键字</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">记录条数</param>
+            <param name="pageCount">页数</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Find(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            根据Id集获取实体对象字典
+            </summary>
+            <returns>实体对象字典</returns>
+            <remarks>IDictionary[Guid, T]，[Id, 实体对象]</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Find``1(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            根据Id集获取子类对象字典
+            </summary>
+            <returns>子类对象字典</returns>
+            <remarks>IDictionary[Guid, TSub]，[Id, 子类对象]</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Find(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            根据编号集获取实体对象字典
+            </summary>
+            <returns>实体对象字典</returns>
+            <remarks>IDictionary[string, T]，[编号, 实体对象]</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Find``1(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            根据编号集获取子类对象字典
+            </summary>
+            <returns>子类对象字典</returns>
+            <remarks>IDictionary[string, TSub]，[编号, 子类对象]</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindIdNames">
+            <summary>
+            获取Id与Name字典
+            </summary>
+            <returns>Id与Name字典</returns>
+            <remarks>
+            IDictionary[Guid, string]，键：Id，值：Name
+            </remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindIdNames``1">
+            <summary>
+            获取Id与Name字典
+            </summary>
+            <returns>Id与Name字典</returns>
+            <remarks>
+            IDictionary[Guid, string]，键：Id，值：Name
+            </remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Count">
+            <summary>
+            获取总记录条数
+            </summary>
+            <returns>总记录条数</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Count``1">
+            <summary>
+            获取子类记录条数
+            </summary>
+            <returns>子类记录条数</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Exists(System.Guid)">
+            <summary>
+            判断是否存在给定Id的实体对象
+            </summary>
+            <param name="id">Id</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Exists``1(System.Guid)">
+            <summary>
+            判断是否存在给定Id的子类对象
+            </summary>
+            <param name="id">Id</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Exists(System.String)">
+            <summary>
+            判断是否存在给定编号的实体对象
+            </summary>
+            <param name="number">编号</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Exists``1(System.String)">
+            <summary>
+            判断是否存在给定编号的子类对象
+            </summary>
+            <param name="number">编号</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.ExistsName(System.String)">
+            <summary>
+            判断是否存在给定名称的实体对象
+            </summary>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.ExistsName``1(System.String)">
+            <summary>
+            判断是否存在给定名称的子类对象
+            </summary>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.ExistsName(System.Nullable{System.Guid},System.String)">
+            <summary>
+            判断是否存在给定名称的实体对象
+            </summary>
+            <param name="id">标识id</param>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.ExistsName``1(System.Nullable{System.Guid},System.String)">
+            <summary>
+            判断是否存在给定名称的子类对象
+            </summary>
+            <param name="id">标识id</param>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.ExistsName(System.String,System.String)">
+            <summary>
+            判断是否存在给定名称的实体对象
+            </summary>
+            <param name="number">编号</param>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.ExistsName``1(System.String,System.String)">
+            <summary>
+            判断是否存在给定名称的子类对象
+            </summary>
+            <param name="number">编号</param>
+            <param name="name">名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.ExecuteSqlQuery(System.String,System.Object[])">
+            <summary>
+            执行SQL查询
+            </summary>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">参数</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">SQL语句为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.SingleOrDefault(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            根据条件获取唯一实体对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="predicate">条件</param>
+            <returns>唯一实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NullReferenceException">查询不到任何实体对象</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+            <exception cref="T:System.InvalidOperationException">查询到1个以上的实体对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.SingleOrDefault``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            根据条件获取唯一子类对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="predicate">条件</param>
+            <returns>唯一子类对象</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NullReferenceException">查询不到任何子类对象</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+            <exception cref="T:System.InvalidOperationException">查询到1个以上的子类对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FirstOrDefault(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            根据条件获取第一个实体对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <param name="predicate">条件</param>
+            <returns>实体对象</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FirstOrDefault``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            根据条件获取第一个子类对象（查看时用），
+            无该对象时返回null
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <param name="predicate">条件</param>
+            <returns>子类对象</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindAllInner">
+            <summary>
+            获取实体对象集合
+            </summary>
+            <returns>实体对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindAllInner``1">
+            <summary>
+            获取给定类型子类对象集合
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <returns>子类对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Find(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            根据条件获取实体对象集合
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Find``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            根据条件获取子类对象集合
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <param name="predicate">条件表达式</param>
+            <returns>子类对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindIds(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            根据条件获取实体对象Id集合
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <returns>实体对象Id集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindIds``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            根据条件获取子类对象Id集合
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <returns>子类对象Id集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindNos(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            根据条件获取实体对象编号集合
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <returns>实体对象编号集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindNos``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            根据条件获取子类对象编号集合
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <returns>子类对象编号集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindByPage(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            根据条件获取实体对象集合 + 分页 + 输出记录条数与页数
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">记录条数</param>
+            <param name="pageCount">页数</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindByPage``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            根据条件分页获取子类对象集合 + 分页 + 输出记录条数与页数
+            </summary>
+            <typeparam name="TSub">子类类型</typeparam>
+            <param name="predicate">条件表达式</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">记录条数</param>
+            <param name="pageCount">页数</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindDictionary(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            获取给定条件的Id与Name字典
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <returns>Id与Name字典</returns>
+            <remarks>
+            IDictionary[Guid, string]，键：Id，值：Name
+            </remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.FindDictionary``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            获取给定条件的Id与Name字典
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <returns>Id与Name字典</returns>
+            <remarks>
+            IDictionary[Guid, string]，键：Id，值：Name
+            </remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            根据条件获取记录条数
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <returns>符合条件的记录条数</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Count``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            根据条件获取子类记录条数
+            </summary>
+            <param name="predicate">条件表达式</param>
+            <returns>符合条件的子类记录条数</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Exists(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            判断是否存在给定条件的实体对象
+            </summary>
+            <param name="predicate">条件</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFRepositoryProvider`1.Exists``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            判断是否存在给定条件的子类对象
+            </summary>
+            <param name="predicate">条件</param>
+            <returns>是否存在</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+        </member>
+        <member name="T:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider">
+            <summary>
+            EF单元事务Provider
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider._Sync">
+            <summary>
+            同步锁
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.#cctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider._dbContext">
+            <summary>
+            EF（写）上下文对象字段
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.Finalize">
+            <summary>
+            析构器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterAdd``1(``0)">
+            <summary>
+            注册添加单个实体对象
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entity">新实体对象</param>
+            <exception cref="T:System.ArgumentNullException">新实体对象为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterAddRange``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            注册添加实体对象集合
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entities">实体对象集合</param>
+            <exception cref="T:System.ArgumentNullException">实体对象集合为null或长度为0</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterSave``1(``0)">
+            <summary>
+            注册保存单个实体对象
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entity">实体对象</param>
+            <exception cref="T:System.ArgumentNullException">实体对象为空</exception>
+            <exception cref="T:System.NullReferenceException">要保存的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterSaveRange``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            注册保存实体对象集合
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="entities">实体对象集合</param>
+            <exception cref="T:System.ArgumentNullException">实体对象集合</exception>
+            <exception cref="T:System.NullReferenceException">要保存的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterPhysicsRemove``1(System.Guid)">
+            <summary>
+            注册删除单行（物理删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="id">标识Id</param>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterPhysicsRemove``1(System.String)">
+            <summary>
+            注册删除单行（物理删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="number">编号</param>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterPhysicsRemoveRange``1(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            注册删除多行（物理删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="ids">标识Id集合</param>
+            <exception cref="T:System.ArgumentNullException">ids为null或长度为0</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterPhysicsRemoveAll``1">
+            <summary>
+            注册删除全部（物理删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterRemove``1(System.Guid)">
+            <summary>
+            注册删除单行（逻辑删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="id">标识Id</param>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterRemove``1(System.String)">
+            <summary>
+            注册删除单行（逻辑删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="number">编号</param>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterRemoveRange``1(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            注册删除多行（逻辑删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="ids">标识Id集合</param>
+            <exception cref="T:System.ArgumentNullException">ids为null或长度为0</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterRemoveAll``1">
+            <summary>
+            注册删除全部（逻辑删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.Resolve``1(System.Guid)">
+            <summary>
+            根据Id获取唯一实体对象（修改时用）
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="id">Id</param>
+            <returns>唯一实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">id为空</exception>
+            <exception cref="T:System.NullReferenceException">查询不到任何实体对象</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+            <exception cref="T:System.InvalidOperationException">查询到1个以上的实体对象、查询到的实体对象已被删除</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.Resolve``1(System.String)">
+            <summary>
+            根据编号获取唯一实体对象（修改时用）
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <param name="number">编号</param>
+            <returns>单个实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">编号为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.ResolveAll``1">
+            <summary>
+            获取全部实体对象（修改时用）
+            </summary>
+            <typeparam name="T">聚合根类型</typeparam>
+            <returns>实体对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.Commit">
+            <summary>
+            统一事务处理保存更改
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.CommitAsync">
+            <summary>
+            统一事务处理保存更改（异步）
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RollBack">
+            <summary>
+            统一事务回滚取消更改
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.ExecuteSqlCommand(System.String,System.Object[])">
+            <summary>
+            执行SQL命令（无需Commit）
+            </summary>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">参数</param>
+            <exception cref="T:System.ArgumentNullException">SQL语句为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterPhysicsRemove``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            注册条件删除（物理删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="predicate">条件表达式</param>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NullReferenceException">要删除的对象不存在</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.RegisterRemove``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            注册条件删除（逻辑删除）
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="predicate">条件表达式</param>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.Resolve``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            根据条件获取唯一实体对象（修改时用）
+            </summary>
+            <param name="predicate">条件</param>
+            <returns>实体对象</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NullReferenceException">查询不到任何实体对象</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+            <exception cref="T:System.InvalidOperationException">查询到1个以上的实体对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.ResolveRange``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            根据条件获取实体对象集合（修改时用）
+            </summary>
+            <param name="predicate">条件</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+            <exception cref="T:System.InvalidOperationException">查询到1个以上的实体对象</exception>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Repository.EntityFramework.EFUnitOfWorkProvider.Single``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            根据条件获取唯一实体对象（修改时用）
+            </summary>
+            <param name="predicate">条件</param>
+            <returns>实体对象集合</returns>
+            <exception cref="T:System.ArgumentNullException">条件表达式为空</exception>
+            <exception cref="T:System.NullReferenceException">查询不到任何实体对象</exception>
+            <exception cref="T:System.NotSupportedException">无法将表达式转换SQL语句</exception>
+            <exception cref="T:System.InvalidOperationException">查询到1个以上的实体对象</exception>
+        </member>
+    </members>
+</doc>

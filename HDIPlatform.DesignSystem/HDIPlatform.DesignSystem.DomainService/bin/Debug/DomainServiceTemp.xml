@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HDIPlatform.DesignSystem.DomainService</name>
+    </assembly>
+    <members>
+        <member name="T:HDIPlatform.DesignSystem.DomainService.Implements.PackSeriesService">
+            <summary>
+            套餐系列领域服务实现
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainService.Implements.PackSeriesService._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainService.Implements.PackSeriesService._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainService.Implements.PackSeriesService.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainService.Implements.PackSeriesService.ReSort">
+            <summary>
+            重置排序
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainService.Implements.PackSeriesService.GetKeywords(HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries)">
+            <summary>
+            获取聚合根实体关键字
+            </summary>
+            <param name="entity">聚合根实体对象</param>
+            <returns>关键字</returns>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.DomainService.Implements.DecorationPackService">
+            <summary>
+            套餐模板领域服务实现
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainService.Implements.DecorationPackService._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainService.Implements.DecorationPackService._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainService.Implements.DecorationPackService.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainService.Implements.DecorationPackService.InitSorts">
+            <summary>
+            重置排序
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainService.Implements.DecorationPackService.GetKeywords(HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack)">
+            <summary>
+            获取聚合根实体关键字
+            </summary>
+            <param name="entity">聚合根实体对象</param>
+            <returns>关键字</returns>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.DomainService.Implements.NumberService">
+            <summary>
+            编号领域服务实现
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainService.Implements.NumberService._generator">
+            <summary>
+            编号生成器
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainService.Implements.NumberService._defaultFormatDate">
+            <summary>
+            默认格式化日期
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainService.Implements.NumberService._defaultLength">
+            <summary>
+            默认流水号长度
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainService.Implements.NumberService.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainService.Implements.NumberService.GenerateExampleNo">
+            <summary>
+            示例：生成示例编号
+            </summary>
+            <returns>示例编号</returns>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainService.Implements.NumberService.GeneratePackVersionNo(System.Guid,System.String)">
+            <summary>
+            生成套餐版本号（套餐类型首拼两位流水日期）
+            </summary>
+            <param name="packId">源套餐Id</param>
+            <param name="packType">套餐类型</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

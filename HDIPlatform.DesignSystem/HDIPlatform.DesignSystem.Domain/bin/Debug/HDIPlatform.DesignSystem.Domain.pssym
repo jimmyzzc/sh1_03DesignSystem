@@ -1,0 +1,2059 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[ShSoft.Infrastructure.AOP]ShSoft.Infrastructure.AOP.Aspects.ForAny.DomainExceptionAspect">
+    <Instance Declaration="#2=A:HDIPlatform.DesignSystem.Domain" Id="19e1ffb81fa9adfd">
+      <Target Target="#3=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::#ctor()">
+        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnException" />
+      </Target>
+      <Target Target="#5=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::#ctor(System.String, System.String, System.String, System.Guid, System.Collections.Generic.List{System.String}, System.Boolean, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid}, System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#6=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_Content()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#7=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_Content(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#8=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_IsIssue()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#9=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_IsIssue(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#10=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_IssueTime()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#11=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_IssueTime(System.Nullable{[mscorlib]System.DateTime})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#12=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_Author()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#13=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_Author(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#14=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_AuthorId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#15=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_AuthorId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#16=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_TagsJson()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#17=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_TagsJson(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#18=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_Tags()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#19=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_SourceId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#20=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_SourceId(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#21=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#22=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_PackId(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#23=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_SpaceId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#24=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_SpaceId(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#25=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::get_ArticleCategory()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#26=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::set_ArticleCategory([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#27=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::ModifyState(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#28=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::Modify(System.String, System.String, System.Collections.Generic.List{System.String}, System.Boolean, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#29=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::Remove()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#30=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::SetPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#31=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::SetSpaceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#32=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article::SetArticleCategory([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#33=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#34=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory::#ctor(System.String, System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#35=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory::get_Articles()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#36=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory::set_Articles(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#37=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory::Modify(System.String, System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#38=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory::AddArticle([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.Article)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#39=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ArticleContext.ArticleCategory::RemoveArticle(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#40=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#41=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::#ctor(System.String, ShSoft.ValueObjects.Enums.BalePackType, System.String, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#42=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_AddedTime()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#43=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_AddedTime(System.DateTime)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#44=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_DiscountRatio()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#45=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_DiscountRatio(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#46=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_PackShelfStatus()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#47=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_PackShelfStatus(ShSoft.ValueObjects.Enums.ShelfStatus)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#48=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_BalePackType()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#49=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_BalePackType(ShSoft.ValueObjects.Enums.BalePackType)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#50=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_LabelStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#51=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_LabelStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#52=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_Labels()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#53=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_Views()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#54=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_Views(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#55=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_Sales()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#56=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_Sales(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#57=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_CoverDrawing()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#58=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_CoverDrawing(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#59=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_HasOffShelvedSku()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#60=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_HasOffShelvedSku(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#61=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_Creater()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#62=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_Creater(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#63=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_CreaterId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#64=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_CreaterId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#65=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_SourcePackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#66=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_SourcePackId(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#67=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_VersionNumber()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#68=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_VersionNumber(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#69=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_IsClone()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#70=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_IsClone(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#71=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::get_ChoiceAreas()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#72=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::set_ChoiceAreas(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackChoiceArea})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#73=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::InitKeywords()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#74=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::SetDiscountRatio(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#75=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::SetPackShelfed()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#76=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::SetPackShelfOff()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#77=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::SetLabelStr(System.Collections.Generic.IEnumerable{System.String})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#78=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::SetCoverDrawing(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#79=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::AddChoiceArea([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackChoiceArea)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#80=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::DeleteChoiceArea([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackChoiceArea)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#81=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::ModifyPackNameAndRatio(System.String, System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#82=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::SetHasOffShelvedSku(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#83=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::GetChoiceAreaById(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#84=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::SetViews()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#85=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::SetSales()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#86=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack::SetSourcePackIdAndVersion(System.Guid, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#87=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#88=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::#ctor(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#89=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::get_CategoryId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#90=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::set_CategoryId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#91=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::get_BalePackProducts()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#92=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::set_BalePackProducts(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#93=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::get_BalePackGroup()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#94=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::set_BalePackGroup([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#95=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::AddBalePackProduct(System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#96=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::DeleteBalePackProduct(System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#97=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::RemoveBalePackProduct(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#98=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::GetProductsInCategory(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#99=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::ExistsProduct(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#100=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::ExistsProducts(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#101=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::GetBalePackProductById(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#102=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::ReplaceProduct(System.Guid, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#103=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::ProductShelfOff(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#104=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::ProductReShelfed(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#105=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory::DeleteBalePackAllProduct()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#106=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackChoiceArea::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#107=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackChoiceArea::#ctor(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#108=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackChoiceArea::get_BalePack()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#109=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackChoiceArea::set_BalePack([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePack)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#110=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackChoiceArea::ModifyAreaName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#111=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#112=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::#ctor(System.Guid, System.String, System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#113=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::get_ChoiceAreaId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#114=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::set_ChoiceAreaId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#115=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::get_Required()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#116=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::set_Required(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#117=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::get_IsClone()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#118=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::set_IsClone(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#119=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::get_BalePackCategorys()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#120=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::set_BalePackCategorys(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#121=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::GroupIsRequired()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#122=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::GroupIsNotRequired()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#123=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::AddCategoryInGroup(System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#124=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::DeleteCategoryInGroup([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#125=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::GetCategoryInGroup(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#126=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::GetCategoryIds()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#127=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::ModifyName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#128=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::DeleteAllCategoryInGroup()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#129=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::SetChoiceAreaId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#130=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackGroup::SetIsClone()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#131=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#132=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::#ctor(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#133=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::get_ProductId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#134=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::set_ProductId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#135=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::get_Shelved()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#136=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::set_Shelved(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#137=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::get_BalePackCategory()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#138=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::set_BalePackCategory([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackCategory)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#139=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::ProductReShelfed()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#140=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::ProductShelfOff()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#141=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.BaleContext.BalePackProduct::ReplaceProduct(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#142=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#143=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries::#ctor(System.String, System.String, System.Int32, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#144=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries::get_Describe()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#145=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries::set_Describe(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#146=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries::get_GroupName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#147=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries::set_GroupName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#148=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries::get_DecorationPacks()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#149=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries::set_DecorationPacks(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#150=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries::Update(System.String, System.String, System.Int32, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#151=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#152=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::#ctor(System.String, System.Guid, System.Guid, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#153=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::get_IsClone()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#154=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::set_IsClone(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#155=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#156=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#157=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::get_PackSpaceId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#158=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::set_PackSpaceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#159=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::get_Remark()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#160=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::set_Remark(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#161=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::get_PackRecommendedSkus()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#162=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::set_PackRecommendedSkus(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#163=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::AddPackSkus(System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#164=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::SetPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#165=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::SetPackSpaceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#166=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem::SetIsClone()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#167=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#168=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::#ctor(System.Nullable{[mscorlib]System.Guid}, System.String, System.Nullable{System.Boolean}, System.Nullable{[mscorlib]System.Guid}, System.String, System.Nullable{[mscorlib]System.Guid}, System.String, System.Boolean, System.Decimal, System.String, System.Decimal, System.Decimal, System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#169=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_SkuName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#170=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_SkuName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#171=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_SkuId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#172=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_SkuId(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#173=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_Default()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#174=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_Default(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#175=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_Shelved()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#176=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_Shelved(System.Nullable{System.Boolean})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#177=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_CategoryId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#178=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_CategoryId(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#179=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_CategoryName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#180=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_CategoryName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#181=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_BrandId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#182=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_BrandId(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#183=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_BrandName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#184=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_BrandName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#185=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_UnitName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#186=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_UnitName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#187=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_SkuQuantity()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#188=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_SkuQuantity(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#189=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_CostPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#190=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_CostPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#191=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_SalesPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#192=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_SalesPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#193=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_Remark()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#194=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_Remark(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#195=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_HyperLink()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#196=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_HyperLink(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#197=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::get_PackRecommendedItem()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#198=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedSku::set_PackRecommendedItem([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackRecommendedItem)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#199=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#200=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::#ctor(System.Guid, System.String, System.String, System.Guid, System.String, System.Decimal, System.Guid, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#201=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::get_PropertyId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#202=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::set_PropertyId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#203=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::get_PropertyName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#204=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::set_PropertyName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#205=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::get_PropertyAddress()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#206=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::set_PropertyAddress(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#207=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::get_HouseTypeId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#208=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::set_HouseTypeId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#209=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::get_HouseTName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#210=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::set_HouseTName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#211=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::get_UnitPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#212=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::set_UnitPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#213=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::get_OperatorId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#214=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::set_OperatorId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#215=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::get_Operator()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#216=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::set_Operator(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#217=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::UpdateUnitPrice(System.Decimal, System.Guid, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#218=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.HouseTypePackContext.HouseTypePrice::InitKeywords()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#219=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#220=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::#ctor(System.String, ShSoft.ValueObjects.Enums.DecorationPackType, ShSoft.ValueObjects.Enums.DecorationPackKind, ShSoft.ValueObjects.Enums.DecorationPackMode, System.Boolean, System.Boolean, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries}, System.Collections.Generic.Dictionary{[mscorlib]System.Guid,System.String}, System.String, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#221=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_AddedTime()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#222=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_AddedTime(System.DateTime)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#223=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Sort()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#224=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Sort(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#225=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Status()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#226=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Status(ShSoft.ValueObjects.Enums.ShelfStatus)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#227=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_PackType()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#228=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_PackType(ShSoft.ValueObjects.Enums.DecorationPackType)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#229=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_PackKind()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#230=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_PackKind(ShSoft.ValueObjects.Enums.DecorationPackKind)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#231=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_PackMode()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#232=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_PackMode(ShSoft.ValueObjects.Enums.DecorationPackMode)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#233=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Color()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#234=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Color(ShSoft.ValueObjects.Enums.DecorationPackColor)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#235=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_NewHouse()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#236=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_NewHouse(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#237=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_SecondHandHouse()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#238=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_SecondHandHouse(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#239=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_IsActual()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#240=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_IsActual(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#241=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_IsUnitActual()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#242=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_IsUnitActual(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#243=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_MinApplicableSquare()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#244=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_MinApplicableSquare(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#245=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_MaxApplicableSquare()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#246=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_MaxApplicableSquare(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#247=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Square()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#248=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Square(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#249=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_UnitSquare()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#250=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_UnitSquare(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#251=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_UnitPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#252=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_UnitPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#253=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_TotalPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#254=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_TotalPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#255=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_UnitTotalPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#256=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_UnitTotalPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#257=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_IsUnitBuilding()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#258=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_IsUnitBuilding(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#259=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_IsBuilding()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#260=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_IsBuilding(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#261=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_BuildingSquare()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#262=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_BuildingSquare(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#263=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_UnitBuildingSquare()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#264=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_UnitBuildingSquare(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#265=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_UnitBuildingTotalPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#266=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_UnitBuildingTotalPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#267=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_BuildingUnitPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#268=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_BuildingUnitPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#269=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_BuildingTotalPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#270=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_BuildingTotalPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#271=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_IsWhole()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#272=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_IsWhole(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#273=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Premium()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#274=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Premium(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#275=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_CriterionSquare()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#276=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_CriterionSquare(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#277=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Priced()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#278=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Priced(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#279=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_PricingType()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#280=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_PricingType(System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackPricingType})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#281=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_HasOffShelvedSku()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#282=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_HasOffShelvedSku(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#283=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_HasChangedSku()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#284=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_HasChangedSku(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#285=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Views()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#286=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Views(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#287=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Sales()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#288=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Sales(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#289=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Creater()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#290=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Creater(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#291=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_CreaterId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#292=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_CreaterId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#293=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_SourcePackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#294=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_SourcePackId(System.Nullable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#295=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_VersionNumber()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#296=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_VersionNumber(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#297=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_IsClone()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#298=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_IsClone(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#299=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Instructions()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#300=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Instructions(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#301=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_InstructionsName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#302=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_InstructionsName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#303=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_IsManageFee()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#304=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_IsManageFee(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#305=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_IsWaterElectricityFee()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#306=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_IsWaterElectricityFee(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#307=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_ManageFee()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#308=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_ManageFee(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#309=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_WaterElectricityFee()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#310=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_WaterElectricityFee(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#311=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_SpaceTypes()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#312=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_SpaceTypesStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#313=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_SpaceTypesStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#314=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Layouts()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#315=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_LayoutsStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#316=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_LayoutsStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#317=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_StyleNos()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#318=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_StyleNosStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#319=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_StyleNosStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#320=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Propertys()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#321=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_PropertysStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#322=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_PropertysStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#323=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_HouseTypes()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#324=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_HouseTypesStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#325=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_HouseTypesStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#326=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Stores()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#327=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_StoresStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#328=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_StoresStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#329=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_SpaceInfos()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#330=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_Spaces()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#331=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_Spaces(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#332=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::get_PackSeries()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#333=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::set_PackSeries(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#334=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::UpdateInfo(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#335=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::AddSpace([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#336=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::RemoveSpace([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#337=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetPriceByUnit(System.Decimal, System.Decimal, System.Boolean, System.Boolean, System.Single, System.Single, System.Boolean, System.Decimal, System.Boolean, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#338=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetPriceTotally(System.Single, System.Decimal, System.Single, System.Decimal, System.Boolean, System.Boolean, System.Boolean, System.Decimal, System.Boolean, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#339=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetWholeExceedPrice(System.Single, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#340=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetSpaceExceedPrice(System.Guid, ShSoft.ValueObjects.Enums.DecorationPackSpacePricingType, System.Single, System.Decimal, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#341=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetSort(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#342=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetColor(ShSoft.ValueObjects.Enums.DecorationPackColor)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#343=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetLayouts(System.Collections.Generic.IEnumerable{System.String})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#344=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetStyleNos(System.Collections.Generic.Dictionary{System.String,System.String})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#345=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetPropertys(System.Collections.Generic.Dictionary{[mscorlib]System.Guid,System.String})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#346=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetHouseTypes(System.Collections.Generic.IEnumerable{[mscorlib]System.Tuple{[mscorlib]System.Guid,System.String,[mscorlib]System.Guid,System.String,System.String}})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#347=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetApplicableScope(System.Boolean, System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#348=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetApplicableSquare(System.Single, System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#349=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetPackSeries(System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.ConfigContext.PackSeries})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#350=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetHasOffShelvedSku(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#351=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetHasChangedSku(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#352=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetStores(System.Collections.Generic.Dictionary{[mscorlib]System.Guid,System.String})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#353=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::OnShelf()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#354=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::OffShelf()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#355=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::OnShelfNoClone()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#356=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::GetPackSpace(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#357=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetViews()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#358=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetSales()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#359=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::InitKeywords()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#360=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetSourcePackIdAndVersion(System.Nullable{[mscorlib]System.Guid}, System.String, System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#361=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::UpdatePackInfo(ShSoft.ValueObjects.Enums.DecorationPackType, ShSoft.ValueObjects.Enums.DecorationPackKind, ShSoft.ValueObjects.Enums.DecorationPackMode, System.Guid, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#362=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::ClearSpacesPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#363=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::ClearTotalPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#364=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::ClearUnitPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#365=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack::SetInstructions(System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#366=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#367=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::#ctor(System.Guid, System.Int32, System.Boolean, System.Boolean, System.Decimal, System.Decimal, System.Boolean, System.Collections.Generic.Dictionary{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.SkuCraftPosition,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#368=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_CraftEntityId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#369=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::set_CraftEntityId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#370=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_Default()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#371=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::set_Default(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#372=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_Shelved()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#373=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::set_Shelved(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#374=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_CraftQuantity()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#375=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::set_CraftQuantity(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#376=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_Changed()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#377=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::set_Changed(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#378=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_CostPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#379=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::set_CostPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#380=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_DefaultCraftQuantity()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#381=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_SkuCraftPositions()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#382=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_SkuCraftPositionsStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#383=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::set_SkuCraftPositionsStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#384=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::get_PackItem()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#385=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::set_PackItem([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#386=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::SetDefault()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#387=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::ReOnShelf()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#388=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::OffShelf()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#389=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::ReplaceCraft(System.Guid, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#390=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::SetDefaultCraftPositions(System.Decimal, System.Collections.Generic.Dictionary{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.SkuCraftPosition,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#391=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::CostPriceChanged(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#392=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::SetCostPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#393=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft::#cctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#394=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#395=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::#ctor(System.String, System.Guid, System.Guid, ShSoft.ValueObjects.Enums.CategoryArea, System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#396=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#397=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#398=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_PackSpaceId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#399=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_PackSpaceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#400=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_DefaultSkuQuantity()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#401=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_DefaultSkuQuantity(System.Nullable{System.Single})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#402=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_DefaultCraftQuantity()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#403=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_DefaultCraftQuantity(System.Nullable{System.Single})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#404=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_CategoryArea()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#405=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_CategoryArea(ShSoft.ValueObjects.Enums.CategoryArea)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#406=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_IsClone()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#407=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_IsClone(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#408=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_Requirement()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#409=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_Requirement(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#410=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_CategoryIds()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#411=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_CategoryIdsStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#412=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_CategoryIdsStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#413=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_BrandIds()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#414=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_AllSkuShelved()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#415=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_AllCraftShelved()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#416=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_AllSkuNoChanged()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#417=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_AllCraftNoChanged()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#418=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_PackCraftEntities()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#419=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_PackCraftEntities(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#420=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::get_PackSkus()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#421=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::set_PackSkus(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#422=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::UpdateInfo(System.String, ShSoft.ValueObjects.Enums.CategoryArea)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#423=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::AddPackSkus(System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#424=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::AddPackCrafts(System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackCraft})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#425=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetDefaultSkuQuantity(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#426=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetDefaultCraftQuantity(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#427=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetDefaultQuantity(System.Single, System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#428=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#429=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetPackSpaceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#430=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::ReplaceSku(System.Guid, System.Guid, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#431=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::ReplaceCraft(System.Guid, System.Guid, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#432=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::GetPackSku(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#433=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::GetPackSkus(System.Collections.Generic.List{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#434=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::GetPackCraft(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#435=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::GetPackCrafts(System.Collections.Generic.List{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#436=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::ExistsSku(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#437=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::ExistsCraft(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#438=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetIsClone()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#439=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetCategoryIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#440=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::AddCategoryIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#441=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::DeleteCategoryIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#442=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::UpdateCategoryIds(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#443=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::GetCategotySkus(System.Collections.Generic.IEnumerable{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#444=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetDefaultSkuQuantity(System.Guid, System.Decimal, System.Collections.Generic.Dictionary{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.SkuCraftPosition,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#445=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetDefaultCraftQuantity(System.Guid, System.Decimal, System.Collections.Generic.Dictionary{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.SkuCraftPosition,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#446=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SetRequirement(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#447=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::RemoveSku(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#448=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::RemoveAllSku()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#449=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::RemoveCraft(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#450=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::RemoveAllCraft()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#451=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::RemoveSkus(System.Collections.Generic.List{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#452=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::RemoveCrafts(System.Collections.Generic.List{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#453=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::ExistsNoDefaultSku(System.Collections.Generic.List{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#454=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::ExistsNoDefaultCraft(System.Collections.Generic.List{[mscorlib]System.Guid})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#455=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem::SaveCostPrice(System.Collections.Generic.Dictionary{[mscorlib]System.Guid,[mscorlib]System.Decimal}, System.Collections.Generic.Dictionary{[mscorlib]System.Guid,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#456=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackProperty::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#457=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackProperty::#ctor(System.Guid, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#458=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackProperty::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#459=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackProperty::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#460=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackProperty::get_PropertyId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#461=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackProperty::set_PropertyId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#462=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackProperty::SetPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#463=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#464=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::#ctor(System.String, System.Guid, System.String, System.String, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#465=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#466=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#467=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_Cover()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#468=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_Cover(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#469=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_Description()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#470=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_Description(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#471=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_Images()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#472=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_ImagesStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#473=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_ImagesStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#474=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_SchemeDescriptions()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#475=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_SchemeDescriptionsStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#476=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_SchemeDescriptionsStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#477=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_VideoAudioLink()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#478=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_VideoAudioLink(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#479=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_VideoAudioFileSize()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#480=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_VideoAudioFileSize(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#481=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_VideoAudioFileId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#482=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_VideoAudioFileId(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#483=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_VideoAudiogFileSuffix()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#484=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_VideoAudiogFileSuffix(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#485=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_VideoAudioFileName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#486=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_VideoAudioFileName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#487=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_IsDefault()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#488=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_IsDefault(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#489=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::get_SchemeSpaces()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#490=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::set_SchemeSpaces(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#491=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::UpdateInfo(System.String, System.String, System.String, System.Collections.Generic.IList{System.String}, System.Collections.Generic.IList{System.String}, System.String, System.String, System.String, System.String, System.String, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#492=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::SetPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#493=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::GetSchemeSpace(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#494=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::RemoveSchemeSpace([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#495=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme::SetDefault(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#496=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#497=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::#ctor(System.Guid, System.Collections.Generic.IList{System.String}, System.Int32, System.Collections.Generic.IList{System.String}, System.String, System.String, System.String, System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#498=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_PackSpaceId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#499=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::set_PackSpaceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#500=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_Descriptions()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#501=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_DescriptionsStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#502=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::set_DescriptionsStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#503=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_Images()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#504=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_ImagesStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#505=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::set_ImagesStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#506=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_VideoAudioLink()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#507=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::set_VideoAudioLink(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#508=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_VideoAudioFileSize()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#509=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::set_VideoAudioFileSize(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#510=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_VideoAudioFileId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#511=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::set_VideoAudioFileId(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#512=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_VideoAudiogFileSuffix()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#513=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::set_VideoAudiogFileSuffix(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#514=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_VideoAudioFileName()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#515=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::set_VideoAudioFileName(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#516=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::get_PackScheme()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#517=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::set_PackScheme([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackScheme)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#518=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSchemeSpace::SetPackSpaceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#519=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#520=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::#ctor(System.Guid, System.Int32, System.Boolean, System.Guid, System.Guid, System.Boolean, System.Decimal, System.Decimal, System.Boolean, System.Collections.Generic.Dictionary{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.SkuCraftPosition,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#521=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_SkuId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#522=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_SkuId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#523=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_Default()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#524=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_Default(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#525=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_Shelved()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#526=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_Shelved(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#527=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_CategoryId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#528=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_CategoryId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#529=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_BrandId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#530=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_BrandId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#531=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_SkuQuantity()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#532=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_SkuQuantity(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#533=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_Changed()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#534=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_Changed(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#535=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_CostPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#536=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_CostPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#537=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_DefaultSkuQuantity()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#538=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_SkuCraftPositions()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#539=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_SkuCraftPositionsStr()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#540=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_SkuCraftPositionsStr(System.String)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#541=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::get_PackItem()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#542=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::set_PackItem([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackItem)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#543=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::SetDefault()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#544=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::ReOnShelf()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#545=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::OffShelf()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#546=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::ReplaceSku(System.Guid, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#547=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::SetDefaultSkuPositions(System.Decimal, System.Collections.Generic.Dictionary{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.SkuCraftPosition,[mscorlib]System.Decimal})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#548=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::CostPriceChanged(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#549=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::SetCostPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#550=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSku::#cctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#551=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#552=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::#ctor(System.String, System.Single, ShSoft.ValueObjects.Enums.SpaceType, System.Collections.Generic.IEnumerable{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail}, System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#553=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::get_Square()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#554=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::set_Square(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#555=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::get_SpaceType()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#556=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::set_SpaceType(ShSoft.ValueObjects.Enums.SpaceType)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#557=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::get_CriterionSquare()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#558=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::set_CriterionSquare(System.Single)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#559=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::get_SpaceRatio()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#560=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::set_SpaceRatio(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#561=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::get_UnitPrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#562=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::set_UnitPrice(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#563=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::get_DecorationPackSpacePricingType()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#564=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::set_DecorationPackSpacePricingType(System.Nullable{[ShSoft.ValueObjects]ShSoft.ValueObjects.Enums.DecorationPackSpacePricingType})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#565=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::get_DecorationPack()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#566=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::set_DecorationPack([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#567=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::get_SpaceDetails()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#568=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::set_SpaceDetails(System.Collections.Generic.ICollection{[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail})">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#569=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::UpdateInfo(System.String, System.Single, System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#570=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::SetPrice(ShSoft.ValueObjects.Enums.DecorationPackSpacePricingType, System.Single, System.Decimal, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#571=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::UpdateSpaceDetail(System.Nullable{[mscorlib]System.Guid}, ShSoft.ValueObjects.Enums.NumericalStandard, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#572=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::AddSpaceDetail([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#573=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace::ClearSpacePrice()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#574=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#575=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::#ctor(ShSoft.ValueObjects.Enums.NumericalStandard, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#576=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_NumericalStandard()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#577=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_NumericalStandard(ShSoft.ValueObjects.Enums.NumericalStandard)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#578=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_GroundLength()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#579=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_GroundLength(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#580=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_GroundWidth()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#581=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_GroundWidth(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#582=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_SpacePerimeter()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#583=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_SpacePerimeter(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#584=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_WallHigh()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#585=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_WallHigh(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#586=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_HoleArea()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#587=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_HoleArea(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#588=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_FacadeArea()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#589=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_FacadeArea(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#590=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_GroundArea()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#591=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_GroundArea(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#592=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_CeilingArea()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#593=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_CeilingArea(System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#594=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::get_DecorationPackSpace()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#595=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::set_DecorationPackSpace([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpace)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#596=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPackSpaceDetail::UpdateSpaceDetailInfo(ShSoft.ValueObjects.Enums.NumericalStandard, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#597=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#598=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack::#ctor(System.Guid, System.Guid, ShSoft.ValueObjects.Enums.BalePackType)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#599=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack::get_DecorationPackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#600=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack::set_DecorationPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#601=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack::get_BalePackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#602=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack::set_BalePackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#603=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack::get_BalePackType()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#604=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack::set_BalePackType(ShSoft.ValueObjects.Enums.BalePackType)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#605=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Entities.FixedMealContext.DecorationPack_BalePack::SetDecorationPackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#606=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.BalePackProductShelvedEvent::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#607=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.BalePackProductShelvedEvent::#ctor(System.Guid, System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#608=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.BalePackProductShelvedEvent::get_Shelved()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#609=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.BalePackProductShelvedEvent::set_Shelved(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#610=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.BalePackProductShelvedEvent::get_ChoiceAreaId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#611=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.BalePackProductShelvedEvent::set_ChoiceAreaId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#612=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.OnShelfBalePackEvent::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#613=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.OnShelfBalePackEvent::#ctor(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#614=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.OnShelfBalePackEvent::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#615=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.OnShelfBalePackEvent::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#616=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.OnShelfDecorationPackEvent::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#617=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.OnShelfDecorationPackEvent::#ctor(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#618=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.OnShelfDecorationPackEvent::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#619=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.OnShelfDecorationPackEvent::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#620=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackPricedEvent::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#621=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackPricedEvent::#ctor(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#622=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackPricedEvent::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#623=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackPricedEvent::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#624=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackShelvedChangedEvent::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#625=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackShelvedChangedEvent::#ctor(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#626=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackShelvedChangedEvent::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#627=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackShelvedChangedEvent::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#628=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuChangedEvent::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#629=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuChangedEvent::#ctor(System.Guid, System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#630=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuChangedEvent::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#631=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuChangedEvent::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#632=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuChangedEvent::get_Changed()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#633=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuChangedEvent::set_Changed(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#634=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuShelvedEvent::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#635=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuShelvedEvent::#ctor(System.Guid, System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#636=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuShelvedEvent::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#637=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuShelvedEvent::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#638=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuShelvedEvent::get_Shelved()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#639=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuShelvedEvent::set_Shelved(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#640=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSpaceDeletedEvent::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#641=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSpaceDeletedEvent::#ctor(System.Guid, System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#642=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSpaceDeletedEvent::get_PackId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#643=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSpaceDeletedEvent::set_PackId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#644=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSpaceDeletedEvent::get_PackSpaceId()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#645=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSpaceDeletedEvent::set_PackSpaceId(System.Guid)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#646=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator::#ctor([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IDomainServices.INumberService, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IDomainServices.IDecorationPackService, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IDomainServices.IPackSeriesService)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#647=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator::get_NumberSvc()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#648=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator::set_NumberSvc([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IDomainServices.INumberService)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#649=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator::get_DecorationPackSvc()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#650=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator::set_DecorationPackSvc([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IDomainServices.IDecorationPackService)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#651=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator::get_PackSeriesService()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#652=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator::set_PackSeriesService([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IDomainServices.IPackSeriesService)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#653=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::#ctor([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.BaleContext.IBalePackRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.BaleContext.IBalePackGroupRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.BaleContext.IBalePackProductRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackCraftRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackItemRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackSchemeRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackSchemeSpaceRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackSkuRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackSpaceRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.BaleContext.IBalePackChoiceAreaRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPack_BalePackRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.HouseTypePackContext.IHouseTypePriceRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.ConfigContext.IPackSeriesRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackRecommendedItemRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.ArticleContext.IArticleRepository, [HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.ArticleContext.IArticleCategoryRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#654=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_PackSeriesRepository()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#655=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_PackSeriesRepository([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.ConfigContext.IPackSeriesRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#656=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_DecorationPackRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#657=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_DecorationPackRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#658=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_DecorationPackCraftRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#659=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_DecorationPackCraftRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackCraftRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#660=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_DecorationPackItemRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#661=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_DecorationPackItemRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackItemRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#662=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_DecorationPackRecommendedItemRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#663=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_DecorationPackRecommendedItemRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackRecommendedItemRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#664=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_DecorationPackSchemeRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#665=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_DecorationPackSchemeRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackSchemeRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#666=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_DecorationPackSchemeSpaceRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#667=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_DecorationPackSchemeSpaceRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackSchemeSpaceRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#668=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_DecorationPackSkuRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#669=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_DecorationPackSkuRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackSkuRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#670=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_DecorationPackSpaceRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#671=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_DecorationPackSpaceRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPackSpaceRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#672=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_DecorationPack_BalePackRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#673=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_DecorationPack_BalePackRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.FixedMealContext.IDecorationPack_BalePackRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#674=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_BalePackRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#675=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_BalePackRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.BaleContext.IBalePackRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#676=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_BalePackGroupRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#677=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_BalePackGroupRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.BaleContext.IBalePackGroupRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#678=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_BalePackProductRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#679=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_BalePackProductRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.BaleContext.IBalePackProductRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#680=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_BalePackChoiceAreaRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#681=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_BalePackChoiceAreaRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.BaleContext.IBalePackChoiceAreaRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#682=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_HouseTypePriceRep()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#683=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_HouseTypePriceRep([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.HouseTypePackContext.IHouseTypePriceRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#684=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_ArticleRepository()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#685=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_ArticleRepository([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.ArticleContext.IArticleRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#686=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::get_ArticleCategoryRepository()">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#687=M:[HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator::set_ArticleCategoryRepository([HDIPlatform.DesignSystem.Domain]HDIPlatform.DesignSystem.Domain.IRepositories.ArticleContext.IArticleCategoryRepository)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>

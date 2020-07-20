@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HDIPlatform.DesignSystem.DomainEventHandler</name>
+    </assembly>
+    <members>
+        <member name="T:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.BalePackProductShelvedEventHandler">
+             <summary>
+            套餐商品上/下架事件处理者
+             </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.BalePackProductShelvedEventHandler._svcMediator">
+            <summary>
+            领域服务中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.BalePackProductShelvedEventHandler._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.BalePackProductShelvedEventHandler._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.BalePackProductShelvedEventHandler.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator,HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="svcMediator">领域服务中介者</param>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.BalePackProductShelvedEventHandler.Handle(HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.BalePackProductShelvedEvent)">
+            <summary>
+            事件处理方法
+            </summary>
+            <param name="eventSource">事件源</param>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.BalePackProductShelvedEventHandler.Sort">
+            <summary>
+            执行顺序，倒序排列
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.OnShelfBalePackEventHandler">
+            <summary>
+            大包定制套餐上架事件——克隆套餐副本事件处理者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.OnShelfBalePackEventHandler._svcMediator">
+            <summary>
+            领域服务中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.OnShelfBalePackEventHandler._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.OnShelfBalePackEventHandler._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.OnShelfBalePackEventHandler.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator,HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="svcMediator">领域服务中介者</param>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.OnShelfBalePackEventHandler.Handle(HDIPlatform.DesignSystem.Domain.EventSources.BaleContext.OnShelfBalePackEvent)">
+            <summary>
+            事件处理方法
+            </summary>
+            <param name="eventSource">事件源</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.OnShelfBalePackEventHandler.CloneBalePack(System.Guid)">
+            <summary>
+            克隆套餐模板
+            </summary>
+            <param name="sourcePackId">源套餐模板Id</param>
+            <returns>新套餐模板Id</returns>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.DomainEventHandler.BaleContext.OnShelfBalePackEventHandler.Sort">
+            <summary>
+            执行顺序，倒序排列
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.OnShelfDecorationPackEventHandler">
+            <summary>
+            固定套餐上架事件——克隆套餐副本事件处理者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.OnShelfDecorationPackEventHandler._svcMediator">
+            <summary>
+            领域服务中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.OnShelfDecorationPackEventHandler._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.OnShelfDecorationPackEventHandler._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.OnShelfDecorationPackEventHandler.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator,HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="svcMediator">领域服务中介者</param>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.OnShelfDecorationPackEventHandler.Handle(HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.OnShelfDecorationPackEvent)">
+            <summary>
+            事件处理方法
+            </summary>
+            <param name="eventSource">事件源</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.OnShelfDecorationPackEventHandler.CloneDecorationPack(System.Guid)">
+            <summary>
+            克隆套餐模板
+            </summary>
+            <param name="sourcePackId">源套餐模板Id</param>
+            <returns>新套餐模板Id</returns>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.OnShelfDecorationPackEventHandler.Sort">
+            <summary>
+            执行顺序，倒序排列
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackPricedEventHandler">
+            <summary>
+            套餐模板商品SKU项|工艺 变价 事件处理者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackPricedEventHandler._svcMediator">
+            <summary>
+            领域服务中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackPricedEventHandler._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackPricedEventHandler._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackPricedEventHandler.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator,HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign,HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract,HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="svcMediator">领域服务中介者</param>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+            <param name="productContract"></param>
+            <param name="craftEntityContract"></param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackPricedEventHandler.Handle(HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackPricedEvent)">
+            <summary>
+            事件处理方法
+            </summary>
+            <param name="eventSource">事件源</param>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackPricedEventHandler.Sort">
+            <summary>
+            执行顺序，倒序排列
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackShelvedChangedEventHandler">
+            <summary>
+            套餐模板商品SKU项|工艺 变价 事件处理者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackShelvedChangedEventHandler._svcMediator">
+            <summary>
+            领域服务中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackShelvedChangedEventHandler._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackShelvedChangedEventHandler._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackShelvedChangedEventHandler.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator,HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="svcMediator">领域服务中介者</param>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackShelvedChangedEventHandler.Handle(HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackShelvedChangedEvent)">
+            <summary>
+            事件处理方法
+            </summary>
+            <param name="eventSource">事件源</param>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackShelvedChangedEventHandler.Sort">
+            <summary>
+            执行顺序，倒序排列
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuChangedEventHandler">
+            <summary>
+            套餐模板商品SKU项|工艺 变价 事件处理者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuChangedEventHandler._svcMediator">
+            <summary>
+            领域服务中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuChangedEventHandler._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuChangedEventHandler._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuChangedEventHandler.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator,HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="svcMediator">领域服务中介者</param>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuChangedEventHandler.Handle(HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuChangedEvent)">
+            <summary>
+            事件处理方法
+            </summary>
+            <param name="eventSource">事件源</param>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuChangedEventHandler.Sort">
+            <summary>
+            执行顺序，倒序排列
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuShelvedEventHandler">
+            <summary>
+            套餐模板商品SKU项上/下架事件处理者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuShelvedEventHandler._svcMediator">
+            <summary>
+            领域服务中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuShelvedEventHandler._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuShelvedEventHandler._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuShelvedEventHandler.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator,HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="svcMediator">领域服务中介者</param>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuShelvedEventHandler.Handle(HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSkuShelvedEvent)">
+            <summary>
+            事件处理方法
+            </summary>
+            <param name="eventSource">事件源</param>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSkuShelvedEventHandler.Sort">
+            <summary>
+            执行顺序，倒序排列
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSpaceDeletedEventHandler">
+            <summary>
+            套餐模板空间已删除事件处理者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSpaceDeletedEventHandler._svcMediator">
+            <summary>
+            领域服务中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSpaceDeletedEventHandler._repMediator">
+            <summary>
+            仓储中介者
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSpaceDeletedEventHandler._unitOfWork">
+            <summary>
+            单元事务
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSpaceDeletedEventHandler.#ctor(HDIPlatform.DesignSystem.Domain.Mediators.DomainServiceMediator,HDIPlatform.DesignSystem.Domain.Mediators.RepositoryMediator,HDIPlatform.DesignSystem.Domain.IRepositories.IUnitOfWorkDesign)">
+            <summary>
+            依赖注入构造器
+            </summary>
+            <param name="svcMediator">领域服务中介者</param>
+            <param name="repMediator">仓储中介者</param>
+            <param name="unitOfWork">单元事务</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSpaceDeletedEventHandler.Handle(HDIPlatform.DesignSystem.Domain.EventSources.FixedMealContext.PackSpaceDeletedEvent)">
+            <summary>
+            事件处理方法
+            </summary>
+            <param name="eventSource">事件源</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSpaceDeletedEventHandler.RemovePackItems(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            删除相关套餐模板项
+            </summary>
+            <param name="packItemIds">套餐模板项Id集</param>
+        </member>
+        <member name="M:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSpaceDeletedEventHandler.RemovePackSchemeSpaces(System.Guid,System.Guid)">
+            <summary>
+            删除相关套餐模板方案空间
+            </summary>
+            <param name="packId">套餐模板Id</param>
+            <param name="packSpaceId">套餐模板空间Id</param>
+        </member>
+        <member name="P:HDIPlatform.DesignSystem.DomainEventHandler.FixedMealContext.PackSpaceDeletedEventHandler.Sort">
+            <summary>
+            执行顺序，倒序排列
+            </summary>
+        </member>
+    </members>
+</doc>

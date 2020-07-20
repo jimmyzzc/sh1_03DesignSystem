@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShSoft.Infrastructure.EventBase</name>
+    </assembly>
+    <members>
+        <member name="T:ShSoft.Infrastructure.EventBase.Event">
+            <summary>
+            领域事件源基类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.Event.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EventBase.Event.Id">
+            <summary>
+            标识
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EventBase.Event.Handled">
+            <summary>
+            是否已处理
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EventBase.Event.SourceDataStr">
+            <summary>
+            事件源数据序列化字符串
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EventBase.Event.TriggerTime">
+            <summary>
+            触发时间
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EventBase.Event.AddedTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:ShSoft.Infrastructure.EventBase.Event.SessionId">
+            <summary>
+            会话Id
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EventBase.Mediator.EventMediator">
+            <summary>
+            领域事件中介者
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.Mediator.EventMediator.Suspend``1(``0)">
+            <summary>
+            挂起领域事件
+            </summary>
+            <typeparam name="T">领域事件源类型</typeparam>
+            <param name="eventSource">领域事件源</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.Mediator.EventMediator.Handle``1(``0)">
+            <summary>
+            处理领域事件
+            </summary>
+            <typeparam name="T">领域事件类型</typeparam>
+            <param name="eventSource">领域事件源</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.Mediator.EventMediator.Handle(ShSoft.Infrastructure.EventBase.IEvent)">
+            <summary>
+            处理领域事件
+            </summary>
+            <param name="eventSource">领域事件源</param>
+            <remarks>此方法涉及反射操作，慎做修改</remarks>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.Mediator.EventMediator.HandleUncompletedEvents">
+            <summary>
+            处理未处理的领域事件
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.Mediator.EventMediator.ClearUncompletedEvents">
+            <summary>
+            清空未处理的领域事件
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EventBase.Factories.EventHandlerFactory">
+            <summary>
+            领域事件处理者工厂
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.Factories.EventHandlerFactory.GetEventHandlersFor``1(``0)">
+            <summary>
+            获取领域事件处理者实例集合
+            </summary>
+            <typeparam name="T">领域事件类型</typeparam>
+            <param name="eventSource">领域事件源</param>
+            <returns>领域事件处理者集合</returns>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventBase.Factories.EventHandlerFactory.GetEventHandlersFor(System.Type)">
+            <summary>
+            获取领域事件处理者实例集合
+            </summary>
+            <param name="eventType">领域事件类型</param>
+            <returns>领域事件处理者集合</returns>
+        </member>
+        <member name="T:ShSoft.Infrastructure.EventStoreProvider.MemoryStoreProvider">
+            <summary>
+            领域事件存储者 - 内存提供者
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.EventStoreProvider.MemoryStoreProvider.EventSessionKey">
+            <summary>
+            领域事件存储Session键
+            </summary>
+        </member>
+        <member name="F:ShSoft.Infrastructure.EventStoreProvider.MemoryStoreProvider._eventSources">
+            <summary>
+            领域事件源集合
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.MemoryStoreProvider.#ctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.MemoryStoreProvider.Suspend``1(``0)">
+            <summary>
+            挂起领域事件
+            </summary>
+            <typeparam name="T">领域事件源类型</typeparam>
+            <param name="eventSource">领域事件源</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.MemoryStoreProvider.HandleUncompletedEvents">
+            <summary>
+            处理未处理的领域事件
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.MemoryStoreProvider.ClearUncompletedEvents">
+            <summary>
+            清空未处理的领域事件
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.EventStoreProvider.MemoryStoreProvider.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+    </members>
+</doc>

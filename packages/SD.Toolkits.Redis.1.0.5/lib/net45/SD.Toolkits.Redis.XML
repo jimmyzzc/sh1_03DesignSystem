@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SD.Toolkits.Redis</name>
+    </assembly>
+    <members>
+        <member name="T:SD.Toolkits.RedisConfiguration">
+            <summary>
+            Redis服务器配置
+            </summary>
+        </member>
+        <member name="F:SD.Toolkits.RedisConfiguration._Setting">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.RedisConfiguration.#cctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.RedisConfiguration.Setting">
+            <summary>
+            访问器
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.RedisConfiguration.ReadWriteServers">
+            <summary>
+            读写服务器地址列表
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.RedisConfiguration.ReadOnlyServers">
+            <summary>
+            读写服务器地址列表
+            </summary>
+        </member>
+        <member name="T:SD.Toolkits.Redis.Configuration.ServerElement">
+            <summary>
+            服务器节点
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.Redis.Configuration.ServerElement.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.Redis.Configuration.ServerElement.Host">
+            <summary>
+            服务器
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.Redis.Configuration.ServerElement.Port">
+            <summary>
+            端口
+            </summary>
+        </member>
+        <member name="P:SD.Toolkits.Redis.Configuration.ServerElement.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:SD.Toolkits.Redis.Configuration.ServerElementCollection">
+            <summary>
+            服务器节点集合
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.Redis.Configuration.ServerElementCollection.CreateNewElement">
+            <summary>
+            创建新配置节点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SD.Toolkits.Redis.Configuration.ServerElementCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+            获取节点键
+            </summary>
+            <param name="element">节点</param>
+            <returns>节点键</returns>
+        </member>
+        <member name="T:SD.Toolkits.Redis.RedisManager">
+            <summary>
+            Redis管理器
+            </summary>
+        </member>
+        <member name="M:SD.Toolkits.Redis.RedisManager.CreateClientsManager">
+            <summary>
+            创建客户端管理器
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

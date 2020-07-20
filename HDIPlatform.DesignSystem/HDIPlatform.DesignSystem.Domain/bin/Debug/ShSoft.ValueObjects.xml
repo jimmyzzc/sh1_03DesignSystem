@@ -1,0 +1,5038 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShSoft.ValueObjects</name>
+    </assembly>
+    <members>
+        <member name="T:ShSoft.ValueObjects.Attributes.RequireAuthorizationAttribute">
+            <summary>
+            需要权限验证特性类
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Attributes.RequireAuthorizationAttribute.#ctor(System.String,System.String,System.String)">
+            <summary>
+            构造器
+            </summary>
+            <param name="authorityName">权限名称</param>
+            <param name="englishName">英文名称</param>
+            <param name="description">描述</param>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Attributes.RequireAuthorizationAttribute.AuthorityName">
+            <summary>
+            权限名称
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Attributes.RequireAuthorizationAttribute.EnglishName">
+            <summary>
+            英文名称
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Attributes.RequireAuthorizationAttribute.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Constants">
+            <summary>
+            公共常量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.AdminLoginId">
+            <summary>
+            超级管理员登录名
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.AdminEmployeeNo">
+            <summary>
+            超级管理员员工编号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.MCSystemKindNo">
+            <summary>
+            管理中心系统类别编号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.SupplierSystemKindNo">
+            <summary>
+            供应商系统类别编号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.MCOrganizationNo">
+            <summary>
+            管理中心组织编号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.MCSystemNo">
+            <summary>
+            管理中心系统编号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.TimeFormat">
+            <summary>
+            日期 格式化 字符串
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.WcfAuthHeaderName">
+            <summary>
+            WCF身份认证消息头名称
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.WcfAuthHeaderNamespace">
+            <summary>
+            WCF身份认证消息头命名空间
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.ManagerRoleNo">
+            <summary>
+            系统管理员角色编号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.InitialPassword">
+            <summary>
+            初始密码
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.AdminRoleId">
+            <summary>
+            超级管理员角色Id
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.MinDateTime">
+            <summary>
+            最小时间
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Constants.MaxDateTime">
+            <summary>
+            最大时间
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.ElasticIndices">
+            <summary>
+            ES索引键
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.ElasticIndices.Brand">
+            <summary>
+            品牌索引
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.ElasticIndices.Category">
+            <summary>
+            品类索引
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.ElasticIndices.ProductSku">
+            <summary>
+            商品Sku索引
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.ElasticIndices.CraftEntity">
+            <summary>
+            工艺实体索引
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.ElasticIndices.ProductConsumeConfig">
+            <summary>
+            商品消耗耗损配置索引
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.ElasticIndices.AccurateDesignPackage">
+            <summary>
+            精准套餐
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.ElasticIndices.DecorationPackage">
+            <summary>
+            大包套餐
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.ElasticIndices.BalePackage">
+            <summary>
+            定制套餐
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.ElasticIndices.CustomizedPackage">
+            <summary>
+            商品消耗耗损配置索引
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.GeneralCostConfig">
+            <summary>
+            统一费用配置
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.ForemanDownPaymentRatio">
+            <summary>
+            工长首期支款比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.ForemanMiddleRatio">
+            <summary>
+            工长中期支款比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.ForemanPledgeRatio">
+            <summary>
+            工长质押扣款比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.ForemanWarrantyRatio">
+            <summary>
+            工长质保扣款比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.ForemanHorizontalTransportRatio">
+            <summary>
+            工长水平运输费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.ForemanVerticalTransportationRatio">
+            <summary>
+            工长垂直运输费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.CraftRentFeeRatio">
+            <summary>
+            台班费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.CraftBaseProfitRatio">
+            <summary>
+            基础计划利润比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.CraftForemanProfitRatio">
+            <summary>
+            工长计划利润比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.CraftBaseMarkeMeasureRatio">
+            <summary>
+            基础市场调节系数
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.ProductIndirectCostRatio">
+            <summary>
+            成品计划间接成本比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.ProductMarkeMeasureRatio">
+            <summary>
+            成品市场调节系数
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.ProductProfitRatio">
+            <summary>
+            成品计划利润比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaveProductDownPaymentRatio">
+            <summary>
+            客户项目成品收款首期比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaveProductMiddleRatio">
+            <summary>
+            客户项目成品收款中期比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaveBaseDownPaymentRatio">
+            <summary>
+            客户项目基础收款首期比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaveBaseMiddleRatio">
+            <summary>
+            客户项目基础收款中期比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleTaxesRatio">
+            <summary>
+            税金比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleLivingGoodsFeeRatio">
+            <summary>
+            生活用品服务费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleProductFeeRatio">
+            <summary>
+            成品服务费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleBaseFeeRatio">
+            <summary>
+            基础服务费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleFurnitureAppliancesFeeRatio">
+            <summary>
+            家俱家电服务费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleSoftFeeRatio">
+            <summary>
+            软装软包服务费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleBaseIndirectCostRatio">
+            <summary>
+            基础计划间接成本比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SalePropertyCosts">
+            <summary>
+            小区物业费
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleSuperHighFee">
+            <summary>
+            超高费（高度3.3-4米（含4m））[平方米]
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleGarbageFreightFee">
+            <summary>
+            垃圾二次倒运费
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleHorizontalTransportRatio">
+            <summary>
+            水平运输费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleVerticalTransportationRatio">
+            <summary>
+            垂直运输费比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralCostConfig.SaleRemoteFeeRatio">
+            <summary>
+            远程费比例
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.GeneralUnit">
+            <summary>
+            通用单位
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.CentiMeter">
+            <summary>
+            厘米
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Metre">
+            <summary>
+            米
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.SquareMeter">
+            <summary>
+            平方米
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Kilos">
+            <summary>
+            千克
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Gram">
+            <summary>
+            克
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Ton">
+            <summary>
+            吨
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Litre">
+            <summary>
+            升
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Milliliter">
+            <summary>
+            毫升
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Stere">
+            <summary>
+            立方米
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Single">
+            <summary>
+            个
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Ce">
+            <summary>
+            侧
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Bian">
+            <summary>
+            边
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Dui">
+            <summary>
+            对
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Gen">
+            <summary>
+            根
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Gua">
+            <summary>
+            挂
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Kuai">
+            <summary>
+            块
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Jian">
+            <summary>
+            件
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Pian">
+            <summary>
+            片
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Shan">
+            <summary>
+            扇
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Tang">
+            <summary>
+            樘
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Tao">
+            <summary>
+            套
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Xiang">
+            <summary>
+            项
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Zu">
+            <summary>
+            组
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Tai">
+            <summary>
+            台
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Zhu">
+            <summary>
+            柱
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.GeneralUnit.Jie">
+            <summary>
+            节
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.SessionKey">
+            <summary>
+            Session键
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.SessionKey.CurrentUser">
+            <summary>
+            当前登录用户Session键
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.SessionKey.CurrentPublishKey">
+            <summary>
+            当前公钥Session键
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.SessionKey.CurrentMenuTree">
+            <summary>
+            当前用户菜单树Session键
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.SessionKey.CurrentAuthorities">
+            <summary>
+            当前用户权限集Session键
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.CustomExceptions.NoPermissionException">
+            <summary>
+            无权限异常
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.CustomExceptions.NoPermissionException.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.CustomExceptions.NoPermissionException.#ctor(System.String)">
+            <summary>
+            构造器
+            </summary>
+            <param name="message">异常消息</param>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ExtendFeeDeferredUnit">
+            <summary>
+            推广费延时单位
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ExtendFeeDeferredUnit.Hour">
+            <summary>
+            小时
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ExtendFeeDeferredUnit.Day">
+            <summary>
+            天
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ExtendFeeDeferredUnit.Month">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.MarketAppHumanDownLevel">
+            <summary>
+            筑家帮三级分销人员等级（往下找）
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppHumanDownLevel.MyLevel">
+            <summary>
+            我推荐的
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppHumanDownLevel.OneLevel">
+            <summary>
+            一级推荐的
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppHumanDownLevel.TwoLevel">
+            <summary>
+            二级推荐的
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.MarketAppHumanUpLevel">
+            <summary>
+            筑家帮三级分销人员等级（往上找）
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppHumanUpLevel.OneLevel">
+            <summary>
+            一级（直推人）
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppHumanUpLevel.TwoLevel">
+            <summary>
+            二级（直推人上级）
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppHumanUpLevel.ThreeLevel">
+            <summary>
+            三级（直推人上上级）
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PromotionalAgreementStatus">
+            <summary>
+            推广协议状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PromotionalAgreementStatus.Signed">
+            <summary>
+            已签订
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PromotionalAgreementStatus.Invalid">
+            <summary>
+            已失效
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CoefficientApplyCondition">
+            <summary>
+            系数调用条件
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CoefficientApplyCondition.All">
+            <summary>
+            全部
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CoefficientApplyConditionDetail">
+            <summary>
+            系数调用条件详细
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CoefficientApplyConditionDetail.PropertyName">
+            <summary>
+            楼盘名称
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CoefficientApplyConditionDetail.DeliverTime">
+            <summary>
+            派发项目经理时间
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ExtendFeePayMode">
+            <summary>
+            推广费支付方式
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ExtendFeePayMode.ForthwithPay">
+            <summary>
+            即时支付
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ExtendFeePayMode.DeferredPay">
+            <summary>
+            延时支付
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.MarketAppProjectStatus">
+            <summary>
+            筑家帮客户推荐项目状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.Entry">
+            <summary>
+            报备
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.Negotiating">
+            <summary>
+            到店
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.Contract">
+            <summary>
+            签单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.Construct">
+            <summary>
+            在施
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.ConstructCompleted">
+            <summary>
+            竣工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.FinalAccounting">
+            <summary>
+            决算中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.FinalAccounts">
+            <summary>
+            决算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.GuarantyingProject">
+            <summary>
+            保修项目
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.HistoryProject">
+            <summary>
+            历史项目
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.ConstructStopped">
+            <summary>
+            停工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.ApplyCancelNegotiating">
+            <summary>
+            申请划单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.ApplyCancelContract">
+            <summary>
+            申请退单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.CancelNegotiating">
+            <summary>
+            划单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.CancelContract">
+            <summary>
+            退单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MarketAppProjectStatus.Invalid">
+            <summary>
+            失效
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.WithdrawDepositTimes">
+            <summary>
+            提现次数
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.NoRestriction">
+            <summary>
+            不限制
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.One">
+            <summary>
+            1
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.Two">
+            <summary>
+            2
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.Three">
+            <summary>
+            3
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.Four">
+            <summary>
+            4
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.Five">
+            <summary>
+            5
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.Six">
+            <summary>
+            6
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.Seven">
+            <summary>
+            7
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.Eight">
+            <summary>
+            8
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.Nine">
+            <summary>
+            9
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WithdrawDepositTimes.Ten">
+            <summary>
+            10
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.PromotionFee">
+            <summary>
+            推广费配置
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.PromotionFee.CustomerMinCount">
+            <summary>
+            客户最小数量
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.PromotionFee.CustomerMaxCount">
+            <summary>
+            客户最大数量
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.PromotionFee.FixAmount">
+            <summary>
+            固定金额
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.PromotionFee.ContractAmountRatio">
+            <summary>
+            合同额比例
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.PromotionFee.Grading">
+            <summary>
+            直销等级
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PromotionType">
+            <summary>
+            推广类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PromotionType.CustomerWeChatSubscription">
+            <summary>
+            客户微信公众号
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.TimeLineDetailType">
+            <summary>
+            时间线明细类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.TimeLineDetailType.Expenses">
+            <summary>
+            费用
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.TimeLineDetailType.Payment">
+            <summary>
+            交款
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.TimeLineDetailType.Assign">
+            <summary>
+            指派
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.TimeLineDetailType.Archive">
+            <summary>
+            存档
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.TimeLineDetailType.Progress">
+            <summary>
+            进展
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.TimeLineDetailType.Other">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.MessageTemplatePlatform">
+            <summary>
+            消息模板应用平台
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MessageTemplatePlatform.System">
+            <summary>
+            系统
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MessageTemplatePlatform.Sms">
+            <summary>
+            短信
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MessageTemplatePlatform.WeiXin">
+            <summary>
+            微信
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MessageTemplatePlatform.DingDing">
+            <summary>
+            钉钉
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PostponeChangeReason">
+            <summary>
+            延期 - 变更原因
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeReason.FundItem">
+            <summary>
+            款项问题
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeReason.PlanDrawing">
+            <summary>
+            方案图纸
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeReason.Customer">
+            <summary>
+            客户原因
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeReason.WaitProduct">
+            <summary>
+            等待成品
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeReason.NormalStop">
+            <summary>
+            正常停工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeReason.Manager">
+            <summary>
+            工长原因
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeReason.Other">
+            <summary>
+            其他原因
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PostponeChangeType">
+            <summary>
+            延期 - 变更类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeType.Delay">
+            <summary>
+            延期
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeType.StopWork">
+            <summary>
+            停工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeChangeType.DelayAndStopWork">
+            <summary>
+            延期并停工
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectAmountRecordType">
+            <summary>
+            工程发包额记录类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectAmountRecordType.Init">
+            <summary>
+            初始发包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectAmountRecordType.BudgetChanged">
+            <summary>
+            预算变更
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectAmountRecordType.WateringAndElectricalBalance">
+            <summary>
+            水电差额
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectAmountRecordType.SupplementOverrun">
+            <summary>
+            补料超限
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectAmountRecordType.AdditionalMaterial">
+            <summary>
+            发包外物料
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AdvancedOrderStatus">
+            <summary>
+            供应商预付单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AdvancedOrderStatus.Uncommitted">
+            <summary>
+            未提交
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AdvancedOrderStatus.Pending">
+            <summary>
+            待结算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AdvancedOrderStatus.Settlement">
+            <summary>
+            已结算
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AssessorStatus">
+            <summary>
+            审核员状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AssessorStatus.NoAppoint">
+            <summary>
+            未指派
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AssessorStatus.Appoint">
+            <summary>
+            已指派
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AuditingStatus">
+            <summary>
+            核算状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AuditingStatus.AuditingNo">
+            <summary>
+            待核算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AuditingStatus.Auditing">
+            <summary>
+            核算中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AuditingStatus.AuditingPass">
+            <summary>
+            已核算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AuditingStatus.Changing">
+            <summary>
+            已变更
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AuditingStatus.Cancel">
+            <summary>
+            已作废
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.BudgetStatus">
+            <summary>
+            预算状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BudgetStatus.NoSubmit">
+            <summary>
+            未提交
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BudgetStatus.Submit">
+            <summary>
+            已提交
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ChangeReason">
+            <summary>
+            变更原因
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeReason.Customer">
+            <summary>
+            客户原因
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeReason.Company">
+            <summary>
+            公司原因
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeReason.Supplier">
+            <summary>
+            供应商原因
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeReason.Other">
+            <summary>
+            其他原因
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ChangeWay">
+            <summary>
+            变更方式
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.Default">
+            <summary>
+            默认
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.Internal">
+            <summary>
+            内选
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.External">
+            <summary>
+            外选
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.OwnerSupply">
+            <summary>
+            甲供
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.InternalAdd">
+            <summary>
+            内选增项
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.ExternalAdd">
+            <summary>
+            外选增项
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.InternalDelete">
+            <summary>
+            内选减项
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.ExternalDelete">
+            <summary>
+            外选减项
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.InternalReduce">
+            <summary>
+            内选减量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.ExternalReduce">
+            <summary>
+            外选减量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.InternalRaise">
+            <summary>
+            内选增量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.ExternalRaise">
+            <summary>
+            外选增量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.ReOwnerSupply">
+            <summary>
+            甲供恢复
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.InternalReplace">
+            <summary>
+            内选替换
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.ExternalReplace">
+            <summary>
+            外选替换
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.InternalRecovery">
+            <summary>
+            内选恢复
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.ExternalRecovery">
+            <summary>
+            外选恢复
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.Add">
+            <summary>
+            增项
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.Delete">
+            <summary>
+            减项
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.Raise">
+            <summary>
+            增量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeWay.Reduce">
+             <summary>
+            减量
+             </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.DecorationLevel">
+            <summary>
+            装修级别
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationLevel.SimplePackage">
+            <summary>
+            简装
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationLevel.ExquisitePackage">
+            <summary>
+            精装
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationLevel.LuxuryPackage">
+            <summary>
+            豪装
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.DrawingAtlasStatus">
+            <summary>
+            图纸状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DrawingAtlasStatus.Receive">
+            <summary>
+            已接收(对应“销售”端“申请中”的状态)
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DrawingAtlasStatus.Reject">
+            <summary>
+            已驳回
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DrawingAtlasStatus.Pass">
+            <summary>
+            已通过
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.MaterialPlanType">
+            <summary>
+            物料计划清单类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MaterialPlanType.Nomal">
+            <summary>
+            预算物料
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MaterialPlanType.ImageProtection">
+            <summary>
+            形象保护物料
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MaterialPlanType.ContractOut">
+            <summary>
+            发包外物料
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MaterialPlanType.Changed">
+            <summary>
+            变更物料
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PriceCategoryType">
+            <summary>
+            款项类别枚举
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PriceCategoryType.Base">
+            <summary>
+            基础工程
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PriceCategoryType.Product">
+            <summary>
+            成品设施
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PriceCategoryType.Soft">
+            <summary>
+            软装软包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PriceCategoryType.ElectricAppliances">
+            <summary>
+            家俱家电
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PriceCategoryType.DailySupplies">
+            <summary>
+            生活用品
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PriceCategoryType.BaseProduct">
+            <summary>
+            基础+成品
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PriceCategoryType.All">
+            <summary>
+            整体
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectGarbageTransp">
+            <summary>
+            销售项目垃圾外运
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectGarbageTransp.VillageTransp">
+            <summary>
+            小区负责垃圾外运
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectGarbageTransp.CompanyTransp">
+            <summary>
+            公司负责垃圾外运
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectPersonType">
+            <summary>
+            工程指派人员类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectPersonType.Manager">
+            <summary>
+            项目经理
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectPersonType.Supervision">
+            <summary>
+            管家
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectPersonType.Assessor">
+            <summary>
+            审核员
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectPosition">
+            <summary>
+            销售项目位置
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectPosition.DowntownArea">
+            <summary>
+            市区
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectPosition.JiangbeiDistrict">
+            <summary>
+            江北
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectPosition.OutOfTown">
+            <summary>
+            外阜
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectFinalAccountsStatus">
+            <summary>
+            项目决算状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectFinalAccountsStatus.WaitFinalAccount">
+            <summary>
+            待决算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectFinalAccountsStatus.InFinalAccount">
+            <summary>
+            决算中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectFinalAccountsStatus.FinalAccount">
+            <summary>
+            已决算
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectOrderType">
+            <summary>
+            工程中心订单类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderType.BudgetOrder">
+            <summary>
+            预算单订单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderType.ChangeOrder">
+            <summary>
+            变更单订单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderType.ImageProtectionOrder">
+            <summary>
+            形象保护订单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderType.ContractOutOrder">
+            <summary>
+            发包外订单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderType.FeedMaterialOrder">
+            <summary>
+            补料订单
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectDecorateKind">
+            <summary>
+            销售项目装修类别
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectDecorateKind.HouseDecorated">
+            <summary>
+            家装
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectDecorateKind.WorkDecorated">
+            <summary>
+            工装
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectElevatorFloor">
+            <summary>
+            销售项目电梯楼层
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectElevatorFloor.Elevator">
+            <summary>
+            有电梯
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectElevatorFloor.NonElevator">
+            <summary>
+            无电梯
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectElevatorFloor.ElevatorNoWork">
+            <summary>
+            有电梯不开通
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectElevatorFloor.MultiFloor">
+            <summary>
+            多层
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PropertyType">
+            <summary>
+            楼盘类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PropertyType.House">
+            <summary>
+            住宅
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PropertyType.Other">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PunishDocumentType">
+            <summary>
+            处罚单类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PunishDocumentType.Postponed">
+            <summary>
+            停工延期
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PunishDocumentType.Overrun">
+            <summary>
+            超限
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SkuCraftPosition">
+            <summary>
+            商品/工艺放置位置
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SkuCraftPosition.Ceiling">
+            <summary>
+            棚面
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SkuCraftPosition.Ground">
+            <summary>
+            地面
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SkuCraftPosition.Wall">
+            <summary>
+            墙面
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SkuCraftPosition.Other">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AcceptanceResultType">
+            <summary>
+            验收结果类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceResultType.Qualified">
+            <summary>
+            合格
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceResultType.Unqualified">
+            <summary>
+            不合格
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AcceptanceStatus">
+            <summary>
+            检验状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceStatus.UnInspected">
+            <summary>
+            未检
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceStatus.Inspected">
+            <summary>
+            已检
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AcceptionTaskStatus">
+            <summary>
+            验收任务状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptionTaskStatus.New">
+            <summary>
+            新任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptionTaskStatus.Deliverred">
+            <summary>
+            待接收
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptionTaskStatus.Accepted">
+            <summary>
+            已接收
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptionTaskStatus.Finished">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.NumericalStandard">
+            <summary>
+            数值标准
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.NumericalStandard.Min">
+            <summary>
+            最小值
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.NumericalStandard.Standard">
+            <summary>
+            标准值
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.NumericalStandard.Max">
+            <summary>
+            最大值
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CraftNeedEditType">
+            <summary>
+            工艺需修改类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftNeedEditType.TemplateCategory">
+            <summary>
+            模板辅料品类
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftNeedEditType.ProductSkuPrice">
+            <summary>
+            商品Sku价格
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.DecorationPackSpacePricingType">
+            <summary>
+            固定套餐空间定价公式（山河版设计）
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackSpacePricingType.FormulaFirst">
+            <summary>
+            公式一
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackSpacePricingType.FormulaSecond">
+            <summary>
+            公式二
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.FeeStandard">
+            <summary>
+            取费基准
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeStandard.BaseProject">
+            <summary>
+            基础工程折前合计
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeStandard.ProductInstallation">
+            <summary>
+            成品设施折前合计
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeStandard.FurnitureAppliances">
+            <summary>
+            家俱家电折前合计
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeStandard.SoftOrnament">
+            <summary>
+            软装软包折前合计
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeStandard.LivingGoods">
+            <summary>
+            生活用品折前合计
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeStandard.BaseAndProduct">
+            <summary>
+            基础+成品设施折前合计
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeStandard.TotalBudget">
+            <summary>
+            预算总额折前合计
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.FeeType">
+            <summary>
+            费用类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeType.TransportFee">
+            <summary>
+            运输费
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeType.RemoteFee">
+            <summary>
+            远程费
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeType.FreightFee">
+            <summary>
+            倒运费
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeType.SuperHighFee">
+            <summary>
+            超高费
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeType.ProductGuardFee">
+            <summary>
+            二手房成品保护费
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeType.ManageServiceFee">
+            <summary>
+            管理服务费
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FeeType.DesignFee">
+            <summary>
+            设计费
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SaleContractType">
+            <summary>
+            销售端合同类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleContractType.Package">
+            <summary>
+            大包合同
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleContractType.Engineering">
+            <summary>
+            基础合同
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleContractType.EngineeringAndProduct">
+            <summary>
+            基础成品合同
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo">
+            <summary>
+            销售端绘图文件类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.DrawingCover">
+            <summary>
+            图纸封面
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.DrawingCatalog">
+            <summary>
+            图纸目录
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.ChartNote">
+            <summary>
+            图例对照
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.DesignDescription">
+            <summary>
+            设计说明
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.OriginalMeasurementChart">
+            <summary>
+            原始测量图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.DismantlingDiagram">
+            <summary>
+            拆除图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.MasonryDrawing">
+            <summary>
+            砌筑图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.PlaneLayout">
+            <summary>
+            平面布置图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.GroundLayingDrawing">
+            <summary>
+            地面铺装图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.CeilingLayout">
+            <summary>
+            综合天花图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.LampBitmap">
+            <summary>
+            照明点位图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.Elevation">
+            <summary>
+            立面图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.DetailDrawing">
+            <summary>
+            大样图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.CutawayDrawing">
+            <summary>
+            剖面图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.ExampleDiagramOfRemainingFace">
+            <summary>
+            余面示例图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.DrainageDrawing">
+            <summary>
+            给排水路图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.CircuitDiagram">
+            <summary>
+            照明回路图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.ShExternalDemandDiagram">
+            <summary>
+            外协需求图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.OutsourcingFirmsReturnMap">
+            <summary>
+            外协回传图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.BaseMap">
+            <summary>
+            底图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.CoverDrawing">
+            <summary>
+            套餐封面图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.SpaceImpressionDrawing">
+            <summary>
+            房间效果图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.PlaneViewAngleDrawing">
+            <summary>
+            平面视角图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.MaxSourceDrawingFile">
+            <summary>
+            3DMax源文件
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.CadSourceDrawingFile">
+            <summary>
+            CAD原图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.MaterialTable">
+            <summary>
+            物料表
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.CeilingSize">
+            <summary>
+            天花尺寸图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.DistributingSystem">
+            <summary>
+            配电系统图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.StrongPointBitmap">
+            <summary>
+            强电点位图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.WeakPointBitmap">
+            <summary>
+            弱电点位图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.WiringDiagram">
+            <summary>
+            电线布管图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.PasteMap">
+            <summary>
+            粘贴图
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleDrawingFileTypeNo.NodeDrawing">
+            <summary>
+            节点图
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SaleTimeType">
+            <summary>
+            销售端时间类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleTimeType.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleTimeType.Month">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleTimeType.Day">
+            <summary>
+            日
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SalePackType">
+            <summary>
+            销售端套餐类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SalePackType.AccurateDesignPack">
+            <summary>
+            精准套餐
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SalePackType.DecorationPack">
+            <summary>
+            整装设计
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SalePackType.BalePack">
+            <summary>
+            品类大包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SalePackType.CustomizedPack">
+            <summary>
+            自由选模板
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SalePackType.FreeChoosePack">
+            <summary>
+            点选
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SalePackType.All">
+            <summary>
+            所有套餐
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CancelContractType">
+            <summary>
+            退单类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CancelContractType.CustomerReason">
+            <summary>
+            客户原因
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CancelContractType.ProjectManagerReason">
+            <summary>
+            工长原因
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CancelContractType.OtherReason">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.DecorationPackMode">
+            <summary>
+            套餐模板模式
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackMode.Basic">
+            <summary>
+            基础
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackMode.FinishedProduct">
+            <summary>
+            成品设施
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackMode.ElectricAppliances">
+            <summary>
+            家俱家电
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackMode.Soft">
+            <summary>
+            软装软包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackMode.DailySupplies">
+            <summary>
+            生活用品
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackMode.BaseAndProduct">
+            <summary>
+            基础+成品设施
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.DecorationPackPricingType">
+            <summary>
+            套餐定价类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackPricingType.Unit">
+            <summary>
+            按平米
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackPricingType.Total">
+            <summary>
+            整体
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AgreementType">
+            <summary>
+            协议类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AgreementType.BulkPurchase">
+            <summary>
+            大宗采购
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AgreementType.Cooperative">
+            <summary>
+            合作协议
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AgreementType.Meal">
+            <summary>
+            套餐协议
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AssociatedAcceptanceType">
+            <summary>
+            关联验收类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AssociatedAcceptanceType.Craft">
+            <summary>
+            工艺条目
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AssociatedAcceptanceType.NonCraft">
+            <summary>
+            非工艺条目
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AssociatedAcceptanceType.Category">
+            <summary>
+            品类
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AssociatedAcceptanceType.Currency">
+            <summary>
+            通用
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AuthenticateStatus">
+            <summary>
+            认证状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AuthenticateStatus.NotAuthenticated">
+            <summary>
+            未认证
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AuthenticateStatus.Authenticated">
+            <summary>
+            已认证
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AuthenticateStatus.AuthenticateFailed">
+            <summary>
+            认证失败
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.BalePackLabel">
+            <summary>
+            大包套餐标签
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BalePackLabel.Product">
+            <summary>
+            成品设施
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BalePackLabel.ElectricAppliances">
+            <summary>
+            家俱家电
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BalePackLabel.Soft">
+            <summary>
+            软装软包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BalePackLabel.DailySupplies">
+            <summary>
+            生活用品
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.BalePackType">
+            <summary>
+            大包套餐类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BalePackType.Bale">
+            <summary>
+            大包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BalePackType.Customized">
+            <summary>
+            自由选模板
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.Bank">
+            <summary>
+            银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.BOC">
+            <summary>
+            中国银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.ICBC">
+            <summary>
+            工商银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.ABOC">
+            <summary>
+            农业银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.CCB">
+            <summary>
+            建设银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.CMB">
+            <summary>
+            招商银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.BC">
+            <summary>
+            交通银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.CEB">
+            <summary>
+            光大银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.CIB">
+            <summary>
+            兴业银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.GDB">
+            <summary>
+            广发银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.SPDB">
+            <summary>
+            浦发银行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Bank.PSBC">
+            <summary>
+            邮政储蓄
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.BaseOrderType">
+            <summary>
+            订单类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BaseOrderType.Warehouse">
+            <summary>
+            大库单据
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BaseOrderType.Project">
+            <summary>
+            项目单据
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.BoundStatus">
+            <summary>
+            入/出库状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BoundStatus.NotBounded">
+            <summary>
+            未入/出库
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BoundStatus.PartialBounded">
+            <summary>
+            部分入/出库
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BoundStatus.Bounded">
+            <summary>
+            全部入/出库
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.BoundStatus.NoBounded">
+            <summary>
+            无需入/出库
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CategoryArea">
+            <summary>
+            品类区域
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CategoryArea.Basic">
+            <summary>
+            基础工程
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CategoryArea.Product">
+            <summary>
+            成品设施
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CategoryArea.ElectricAppliances">
+            <summary>
+            家俱家电
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CategoryArea.Soft">
+            <summary>
+            软装软包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CategoryArea.DailySupplies">
+            <summary>
+            生活用品
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CheckResult">
+            <summary>
+            巡视抽检结果
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CheckResult.Qualified">
+            <summary>
+            合格
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CheckResult.NoChecked">
+            <summary>
+            未检查
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CheckResult.Unqualified">
+            <summary>
+            不合格
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ChangeDigit">
+            <summary>
+            抹零配置
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeDigit.DecimalDigit">
+            <summary>
+            抹掉小数
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeDigit.SingleDigit">
+            <summary>
+            抹掉个位
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeDigit.TensDigit">
+            <summary>
+            抹掉十位
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ChangeDigit.HundredsDigit">
+            <summary>
+            抹掉百位
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CraftConstructionType">
+            <summary>
+            （工艺系统）工艺施工类型枚举
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftConstructionType.General">
+            <summary>
+            常规
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftConstructionType.Demolition">
+            <summary>
+            拆除
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftConstructionType.Partition">
+            <summary>
+            隔断
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftConstructionType.Installation">
+            <summary>
+            成品安装
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CustomerSource">
+            <summary>
+            客户来源
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CustomerSource.VisitStorefront">
+            <summary>
+            到店来访
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CustomerSource.NeighborhoodEncounter">
+            <summary>
+            小区
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CustomerSource.ByFriend">
+            <summary>
+            朋友介绍
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CustomerSource.ByOnlineCustomerService">
+            <summary>
+            网络营销
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CustomerSource.ByProjectManager">
+            <summary>
+            工长介绍
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CustomerSource.ByEmployee">
+            <summary>
+            公司员工介绍
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CustomerSource.ByMarketDepartment">
+            <summary>
+            市场部（介绍人）
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CustomerSource.ByCustomerService">
+            <summary>
+            客服部（介绍人）
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.DecoratePackageStatus">
+            <summary>
+            套餐状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecoratePackageStatus.New">
+            <summary>
+            新套餐
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecoratePackageStatus.Priced">
+            <summary>
+            已定价
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecoratePackageStatus.Selling">
+            <summary>
+            销售中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecoratePackageStatus.StopSelling">
+            <summary>
+            停止销售
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.DecorationPackColor">
+            <summary>
+            套餐颜色
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.Transparent">
+            <summary>
+            透明
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.Black">
+            <summary>
+            黑
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.Red">
+            <summary>
+            红
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.Orange">
+            <summary>
+            橙
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.Yellow">
+            <summary>
+            黄
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.Green">
+            <summary>
+            绿
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.Blue">
+            <summary>
+            蓝
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.Gray">
+            <summary>
+            灰
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.Purple">
+            <summary>
+            紫
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackColor.White">
+            <summary>
+            白
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.DecorationPackKind">
+            <summary>
+            套餐模板类别
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackKind.Meal">
+            <summary>
+            套餐
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackKind.Sculpt">
+            <summary>
+            造型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackKind.StylePackage">
+            <summary>
+            风格包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackKind.FacilitiesPackage">
+            <summary>
+            设施包
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.DecorationPackType">
+            <summary>
+            套餐模板类别
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackType.Family">
+            <summary>
+            家
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackType.SpaceGroup">
+            <summary>
+            空间组
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackType.SingleSpace">
+            <summary>
+            单空间
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackType.MoldingWall">
+            <summary>
+            造型墙
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackType.WindowWall">
+            <summary>
+            窗墙
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackType.DoorWall">
+            <summary>
+            门墙
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackType.Ceiling">
+            <summary>
+            天花
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.DecorationPackType.Floor">
+            <summary>
+            地面
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.Direction">
+            <summary>
+            方向
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Direction.East">
+            <summary>
+            东
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Direction.South">
+            <summary>
+            南
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Direction.West">
+            <summary>
+            西
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Direction.North">
+            <summary>
+            北
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Direction.SouthEast">
+            <summary>
+            东南
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Direction.SouthWest">
+            <summary>
+            西南
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Direction.NorthEast">
+            <summary>
+            东北
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Direction.NorthWest">
+            <summary>
+            西北
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ConditionType">
+            <summary>
+            条件式类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConditionType.Department">
+            <summary>
+            部门
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConditionType.Post">
+            <summary>
+            岗位
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConditionType.DepartmentPost">
+            <summary>
+            部门岗位
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ConstructionStageType">
+            <summary>
+            施工阶段类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConstructionStageType.Enter">
+            <summary>
+            进场阶段
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConstructionStageType.WaterAndElectricity">
+            <summary>
+            水电阶段
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConstructionStageType.CarpentryAndTile">
+            <summary>
+            木瓦阶段
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConstructionStageType.Oiler">
+            <summary>
+            油工阶段
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConstructionStageType.FinishedProduct">
+            <summary>
+            成品阶段
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConstructionStageType.Custom">
+            <summary>
+            自定义阶段
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ConstructionTaskStatus">
+            <summary>
+            施工任务状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConstructionTaskStatus.New">
+            <summary>
+            未进行
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConstructionTaskStatus.Constructing">
+            <summary>
+            进行中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConstructionTaskStatus.Finished">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ConsumerStatus">
+            <summary>
+            潜在客户状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConsumerStatus.NotContacted">
+            <summary>
+            未联系
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConsumerStatus.Visit">
+            <summary>
+            回访
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ConsumerStatus.Invalid">
+            <summary>
+            无效
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CooperationType">
+            <summary>
+            合作方式
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CooperationType.WithDeveloper">
+            <summary>
+            与开发商合作
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CooperationType.WithSeller">
+            <summary>
+            与销售商合作
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CooperationType.WithTenement">
+            <summary>
+            与物业合作
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CooperationType.Other">
+            <summary>
+            散单
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CraftMethodType">
+            <summary>
+            （工艺系统）工法类型枚举
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftMethodType.Normal">
+            <summary>
+            常规
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftMethodType.Demolition">
+            <summary>
+            安装工艺
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftMethodType.Partition">
+            <summary>
+            隔断
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftMethodType.ProductInstallation">
+            <summary>
+            成品安装
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CraftSystemCraftType">
+            <summary>
+            （工艺系统）工艺类型枚举
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftSystemCraftType.ProcessingCraft">
+            <summary>
+            加工工艺
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftSystemCraftType.InstallationCraft">
+            <summary>
+            安装工艺
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftSystemCraftType.JoinCraft">
+            <summary>
+            连接工艺
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftSystemCraftType.ComplexCraft">
+            <summary>
+            复合工艺
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.CraftType">
+            <summary>
+            工艺类型枚举
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftType.Plain">
+            <summary>
+            普通工艺
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftType.LengthCraft">
+            <summary>
+            长度工艺
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftType.SuqareCraft">
+            <summary>
+            面积工艺
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftType.VolumeCraft">
+            <summary>
+            容积工艺
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.CraftType.MassCraft">
+            <summary>
+            质量工艺
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.AcceptanceDocumentType">
+            <summary>
+            客户验收标准关联单据
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceDocumentType.ApproachDisclosure">
+            <summary>
+            进场交底验收单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceDocumentType.HydropowerStage">
+            <summary>
+            水电阶段验收单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceDocumentType.ShingleStage">
+            <summary>
+            木瓦阶段验收单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceDocumentType.OilStage">
+            <summary>
+            油工阶段验收单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceDocumentType.BasicProject">
+            <summary>
+            基础工程验收单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceDocumentType.FinishedProductStage">
+            <summary>
+            成品阶段验收单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.AcceptanceDocumentType.WholeProject">
+            <summary>
+            工程整体验收单
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.EmployeeStatus">
+            <summary>
+            员工状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeeStatus.Info">
+            <summary>
+            初始值
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeeStatus.Internship">
+            <summary>
+            实习期
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeeStatus.Probation">
+            <summary>
+            试用期
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeeStatus.Employee">
+            <summary>
+            在职员工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeeStatus.Dimission">
+            <summary>
+            离职
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.EmployeesRecordType">
+            <summary>
+            员工履历类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeesRecordType.Internship">
+            <summary>
+            实习
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeesRecordType.Probation">
+            <summary>
+            试用
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeesRecordType.Professional">
+            <summary>
+            转正
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeesRecordType.RedeployPost">
+            <summary>
+            调岗
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EmployeesRecordType.Dimission">
+            <summary>
+            离职
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.EvaluationGrade">
+            <summary>
+            评价等级
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EvaluationGrade.Nice">
+            <summary>
+            好
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EvaluationGrade.Mediocre">
+            <summary>
+            中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.EvaluationGrade.Negative">
+            <summary>
+            差
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.FileStatus">
+            <summary>
+            文件状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FileStatus.Filed">
+            <summary>
+            已存档
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FileStatus.Effected">
+            <summary>
+            已生效
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FileStatus.Expired">
+            <summary>
+            已过期
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.FileStatus.Canceled">
+            <summary>
+            已作废
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.HandleStatus">
+            <summary>
+            要处理的消息的处理状态 ——消息系统,0:未处理（待处理）;1:处理中;2:已处理;
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.HumanDataSources">
+            <summary>
+            人员数据来源
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanDataSources.Other">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanDataSources.Project">
+            <summary>
+            工程
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanDataSources.Supplier">
+            <summary>
+            供应商
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanDataSources.HumanResource">
+            <summary>
+            人资
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.HumanStatus">
+            <summary>
+            人员状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanStatus.Reserve">
+            <summary>
+            储备
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanStatus.Hire">
+            <summary>
+            录用
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanStatus.Dimission">
+            <summary>
+            离职
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.HumanType">
+            <summary>
+            人员种类
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanType.Employee">
+            <summary>
+            员工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanType.ProjectEmployee">
+            <summary>
+            工程员工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanType.ProjectWork">
+            <summary>
+            工程工人
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanType.ManagerWork">
+            <summary>
+            项目经理工人
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanType.Customer">
+            <summary>
+            客户
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HumanType.Promoter">
+            <summary>
+            推广员
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.Marital">
+            <summary>
+            婚姻状况
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Marital.Unmarried">
+            <summary>
+            未婚
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Marital.Married">
+            <summary>
+            已婚
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Marital.Divorced">
+            <summary>
+            离异
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Sex.Man">
+            <summary>
+            男
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Sex.Woman">
+            <summary>
+            女
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.Sex.Secret">
+            <summary>
+            保密
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.HR.UserBodyType">
+            <summary>
+            账号主体类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HR.UserBodyType.Employee">
+            <summary>
+            员工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HR.UserBodyType.Supplier">
+            <summary>
+            供应商  
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HR.UserBodyType.Customer">
+            <summary>
+            客户
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.HR.UserBodyType.Promoter">
+            <summary>
+            推广员
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PurchaseWay">
+             <summary>
+            购买方式
+             </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PurchaseWay.Default">
+            <summary>
+            默认
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PurchaseWay.Internal">
+            <summary>
+            内选
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PurchaseWay.External">
+            <summary>
+            外选
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PurchaseWay.OwnerSupply">
+            <summary>
+            甲供
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.MeasureTaskStatus">
+            <summary>
+            测量任务状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MeasureTaskStatus.New">
+            <summary>
+            新任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MeasureTaskStatus.Receiving">
+            <summary>
+            待接收
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MeasureTaskStatus.Measuring">
+            <summary>
+            待测量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.MeasureTaskStatus.Measured">
+            <summary>
+            已测量
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.MessageType">
+            <summary>
+            消息类型——消息系统，1：消息，2：通知，4：待办，5：验证，7：警告，9：异常
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.NonCraftTaskType">
+            <summary>
+            非工艺任务类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.NonCraftTaskType.Construction">
+            <summary>
+            施工任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.NonCraftTaskType.GeneralPolling">
+            <summary>
+            日常巡检任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.NonCraftTaskType.GMOffice">
+            <summary>
+            总经办任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.NonCraftTaskType.Everyday">
+            <summary>
+            每日任务
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.OrderType">
+            <summary>
+            打印管理 - 单据类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.OrderType.CancelOrder">
+            <summary>
+            取消订单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.OrderType.ReturnOrder">
+            <summary>
+            退单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.OrderType.PostponeOrder">
+            <summary>
+            停工/延期单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.OrderType.OverrunOrder">
+            <summary>
+            超限
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.OutboundBillStatus">
+            <summary>
+            出库单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.OutboundBillStatus.NotPublished">
+            <summary>
+            未发布
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.OutboundBillStatus.New">
+            <summary>
+            新出库单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.OutboundBillStatus.Checked">
+            <summary>
+            已审核
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.InboundBillStatus">
+            <summary>
+            入库单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.InboundBillStatus.NotPublished">
+            <summary>
+            未发布
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.InboundBillStatus.New">
+            <summary>
+            新入库单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.InboundBillStatus.Checked">
+            <summary>
+            已审核
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.LoginStatus">
+            <summary>
+            登录状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.LoginStatus.Success">
+            <summary>
+            登录成功
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.LoginStatus.UserNotExists">
+            <summary>
+            用户名不存在
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.LoginStatus.WrongPassword">
+            <summary>
+            密码不正确
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.OverTimeStatus">
+            <summary>
+            超时状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.OverTimeStatus.Valid">
+            <summary>
+            有效
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.OverTimeStatus.OverTime">
+            <summary>
+            超时
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PatrolInspectionAssignType">
+            <summary>
+            巡检任务类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PatrolInspectionAssignType.Craft">
+            <summary>
+            工艺
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PatrolInspectionAssignType.NonCraft">
+            <summary>
+            非工艺
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PaymentType">
+            <summary>
+            收付类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PaymentType.Pos">
+            <summary>
+            POS机
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PaymentType.Cash">
+            <summary>
+            现金
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PaymentType.Transfer">
+            <summary>
+            转账
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PayType">
+            <summary>
+            收支类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PayType.Income">
+            <summary>
+            收入
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PayType.Expenditure">
+            <summary>
+            支出
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PostponeType">
+            <summary>
+            延期类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeType.Consumer">
+            <summary>
+            客户
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeType.Change">
+            <summary>
+            变更
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeType.Project">
+            <summary>
+            基础工程
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PostponeType.Other">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PricingType">
+            <summary>
+            定价类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PricingType.AccordingToAmount">
+            <summary>
+            按金额
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PricingType.AccordingToRatio">
+            <summary>
+            按比例
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PricingType.AccordingToMarket">
+            <summary>
+            按市场价
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProductBillType">
+            <summary>
+            商品协议清单类型枚举
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProductBillType.Plain">
+            <summary>
+            普通商品协议清单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProductBillType.Meal">
+            <summary>
+            套餐商品协议清单
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProductType">
+            <summary>
+            商品类别
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProductType.BaseMaterial">
+            <summary>
+            基础材料
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProductType.ProductFacility">
+            <summary>
+            成品设施
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProductType.FurnitureAppliances">
+            <summary>
+            家俱家电
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProductType.SoftOutfit">
+            <summary>
+            软装软包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProductType.LivingGoods">
+            <summary>
+            生活用品
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectFileType">
+            <summary>
+            项目文件类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectFileType.ContractStage">
+            <summary>
+            合同阶段
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectFileType.ConstructionStage">
+            <summary>
+            施工阶段
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectFileType.Other">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectOrderStatus">
+            <summary>
+            工程订单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.NotSend">
+            <summary>
+            未发送
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.New">
+            <summary>
+            新订单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.ToFeed">
+            <summary>
+            待接料
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.FeedOver">
+            <summary>
+            已接料
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.Over">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.Cancel">
+            <summary>
+            订单取消
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.Return">
+            <summary>
+            订单退单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.Accounting">
+            <summary>
+            已核算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.CancelOver">
+            <summary>
+            取消完成
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectOrderStatus.ReturnOver">
+            <summary>
+            退单完成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectRecordType">
+            <summary>
+            工程项目记录类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectRecordType.OverTime">
+            <summary>
+            超时
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectRecordType.Refuse">
+            <summary>
+            拒单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectRecordType.Accept">
+            <summary>
+            接单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectRecordType.Recall">
+            <summary>
+            撤单
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ProjectStatus">
+            <summary>
+            工程项目状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.Delivering">
+            <summary>
+            待派工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.Delivered">
+            <summary>
+            已指派
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.Accepting">
+            <summary>
+            已接单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.Working">
+            <summary>
+            施工中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.Settlementing">
+            <summary>
+            待结算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.AllowSettlement">
+            <summary>
+            可结算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.Completed">
+            <summary>
+            已完工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.StopWork">
+            <summary>
+            停工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.Returned">
+            <summary>
+            已退单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.ConstructCompleted">
+            <summary>
+            已竣工(提交整体验收单完成)
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ProjectStatus.Cancel">
+            <summary>
+            作废
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PropertyStatus">
+            <summary>
+            楼盘状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PropertyStatus.New">
+            <summary>
+            已保存
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PropertyStatus.Assessing">
+            <summary>
+            待审核
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PropertyStatus.Assessed">
+            <summary>
+            已审核
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PropertyStatus.Rejected">
+            <summary>
+            已驳回
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.PurchaseOrderStatus">
+            <summary>
+            采购订单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PurchaseOrderStatus.NotSent">
+            <summary>
+            未发送
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PurchaseOrderStatus.New">
+            <summary>
+            新订单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PurchaseOrderStatus.Accepting">
+            <summary>
+            待接料
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PurchaseOrderStatus.PartialInbound">
+            <summary>
+            部分入库
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.PurchaseOrderStatus.Finished">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.QAType">
+            <summary>
+            质保类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.QAType.EveryOrder">
+            <summary>
+            单单质保
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.QAType.Agreement">
+            <summary>
+            协议质保
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.QAType.FullCharge">
+            <summary>
+            全权质保
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.RecycleMaterialType">
+            <summary>
+            验收结果类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.RecycleMaterialType.Submitted">
+            <summary>
+            已提交
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.RecycleMaterialType.Recycled">
+            <summary>
+            已退款
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ResponseStatus">
+            <summary>
+            响应状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ResponseStatus.Success">
+            <summary>
+            响应成功
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ResponseStatus.ClientError">
+            <summary>
+            客户端错误
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ResponseStatus.ServerError">
+            <summary>
+            服务器错误
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SaleCancelOrderStatus">
+            <summary>
+            销售订单取消单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleCancelOrderStatus.Cancelling">
+            <summary>
+            取消中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleCancelOrderStatus.Accounting">
+            <summary>
+            已核算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleCancelOrderStatus.Finished">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SaleCommissionerDuty">
+            <summary>
+            销售项目专员职责(组长|家装顾问|设计师|工程量核算员|助理|客服)
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleCommissionerDuty.TeamLeader">
+            <summary>
+            组长
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleCommissionerDuty.Salesmen">
+            <summary>
+            家装顾问
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleCommissionerDuty.Designer">
+            <summary>
+            设计师
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleCommissionerDuty.CheckQuantitymen">
+            <summary>
+            工程量核算员
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleCommissionerDuty.Assistant">
+            <summary>
+            助理
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleCommissionerDuty.Servicemen">
+            <summary>
+            客服
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SaleOrderStatus">
+            <summary>
+            销售订单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleOrderStatus.New">
+            <summary>
+            新订单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleOrderStatus.WaitDistribution">
+            <summary>
+            待派工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleOrderStatus.Wait">
+            <summary>
+            待送货
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleOrderStatus.Delivery">
+            <summary>
+            送货中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleOrderStatus.Over">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleOrderStatus.Cancelled">
+            <summary>
+            已取消
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SaleFileStatus">
+            <summary>
+            销售端文件状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleFileStatus.NotSigned">
+            <summary>
+                未签订
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleFileStatus.Signed">
+            <summary>
+                已签订(已存档生效)
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleFileStatus.Invalid">
+            <summary>
+                已失效
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SaleProjectStatus">
+            <summary>
+            销售项目状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.Negotiating">
+            <summary>
+            洽谈
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.Contract">
+            <summary>
+            合同
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.Construct">
+            <summary>
+            施工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.ConstructCompleted">
+            <summary>
+            竣工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.FinalAccounting">
+            <summary>
+            决算中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.FinalAccounts">
+            <summary>
+            决算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.GuarantyingProject">
+            <summary>
+            保修项目
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.HistoryProject">
+            <summary>
+            历史项目
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.ConstructStopped">
+            <summary>
+            停工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.ApplyCancelNegotiating">
+            <summary>
+            申请划单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.ApplyCancelContract">
+            <summary>
+            申请退单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.CancelNegotiating">
+            <summary>
+            划单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleProjectStatus.CancelContract">
+            <summary>
+            退单
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SaleReturnOrderStatus">
+            <summary>
+            销售订单退货单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleReturnOrderStatus.Cancelling">
+            <summary>
+            退单中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleReturnOrderStatus.Accounting">
+            <summary>
+            已核算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SaleReturnOrderStatus.Finished">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SecondmentState">
+            <summary>
+            借调状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SecondmentState.Unconfirmed">
+            <summary>
+            未确认
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SecondmentState.Confirm">
+            <summary>
+            已确认
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SecondmentState.Useing">
+            <summary>
+            使用中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SecondmentState.Completed">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SecondmentState.Cancelled">
+            <summary>
+            已撤销
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SecondmentState.Unsent">
+            <summary>
+            未发出
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SecondmentState.Refused">
+            <summary>
+            已拒绝
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SenderType">
+            <summary>
+            触发类型 —— 发送这个消息的主体类型，0:系统;1:人;——消息系统
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SendMode">
+            <summary>
+            发送方式——消息系统,0：拉取，1：推送；
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SetMealType">
+            <summary>
+            套餐类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SetMealType.PrecisionPackage">
+            <summary>
+            户型方案
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SetMealType.FixedPackages">
+            <summary>
+            整装套餐
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SetMealType.BigPackages">
+            <summary>
+            品类大包
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SetMealType.Customization">
+            <summary>
+            自由选模板
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SetMealType.Option">
+            <summary>
+            点选
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SetMealType.GlobalConfig">
+            <summary>
+            项目全局配置
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SetMealType.UsingConfig">
+            <summary>
+            启用配置
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SettledStatus">
+            <summary>
+            结算状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SettledStatus.Unsettled">
+            <summary>
+            未结算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SettledStatus.PartialSettled">
+            <summary>
+            部分已结算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SettledStatus.Settled">
+            <summary>
+            已结算
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ApplyRecordStatus">
+            <summary>
+            销售申请记录状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ApplyRecordStatus.NoApply">
+            <summary>
+               未划单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ApplyRecordStatus.New">
+            <summary>
+               申请中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ApplyRecordStatus.Approved">
+            <summary>
+                已通过
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ApplyRecordStatus.UnApproved">
+            <summary>
+                未通过（已驳回）
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ShelfStatus">
+            <summary>
+            上架状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ShelfStatus.NotShelfed">
+            <summary>
+            未上架
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ShelfStatus.Shelfed">
+            <summary>
+            已上架
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ShelfStatus.ShelfOff">
+            <summary>
+            已下架
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SpaceType">
+            <summary>
+            空间类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.MasterBedRoom">
+            <summary>
+            主卧室
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.SecondBedRoom">
+            <summary>
+            次卧室
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.LivingRoom">
+            <summary>
+            客厅
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.DiningRoom">
+            <summary>
+            餐厅
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.StudyRoom">
+            <summary>
+            书房
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.BathRoom">
+            <summary>
+            卫生间
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.Kitchen">
+            <summary>
+            厨房
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.Balcony">
+            <summary>
+            阳台
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.NannyRoom">
+            <summary>
+            保姆房
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.Porch">
+            <summary>
+            玄关
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.StoreRoom">
+            <summary>
+            储藏室
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.GuestBedRoom">
+            <summary>
+            客房
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.ChildrenRoom">
+            <summary>
+            儿童房
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.SittingRoom">
+            <summary>
+            起居室
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.Gym">
+            <summary>
+            健身房
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.Studio">
+            <summary>
+            工作室
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.HallWay">
+            <summary>
+            走廊
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.ElderlyRoom">
+            <summary>
+            老人房
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.Laundry">
+            <summary>
+            洗衣房
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SpaceType.Cloakroom">
+            <summary>
+            衣帽间
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.StocktakingTaskStatus">
+            <summary>
+            盘点任务状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.StocktakingTaskStatus.New">
+            <summary>
+            新任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.StocktakingTaskStatus.TypeIn">
+            <summary>
+            已录入
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.StocktakingTaskStatus.Checking">
+            <summary>
+            待审核
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.StocktakingTaskStatus.Approved">
+            <summary>
+            已通过
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.StocktakingTaskStatus.Rejected">
+            <summary>
+            已驳回
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SupervisionTaskType">
+            <summary>
+            巡检任务类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.AcceptanceTask">
+            <summary>
+            验收任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.PatrolTask">
+            <summary>
+            巡视任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.CustomerBackTask">
+            <summary>
+            客户退单任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.OrderCheckTask">
+            <summary>
+            供应商单据核算任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.TemporaryTask">
+            <summary>
+            临时指派任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.ConstructionAuditingTask">
+            <summary>
+            施工进度审核任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.CustomerComplainTask">
+            <summary>
+            客户投诉任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.MaterialRetrieveTask">
+            <summary>
+            物料回收任务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.MaterialBudgetTask">
+            <summary>
+            料量核算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.QuantitiesBudgetTask">
+            <summary>
+            工程量核算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.MaterialAuditingTask">
+            <summary>
+            物料审核
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskType.StopWorkPostponeAuditingTask">
+            <summary>
+            停工/延期审核
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SupervisionTaskDistributeType">
+            <summary>
+            巡检类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskDistributeType.Appoint">
+            <summary>
+            人工指派
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupervisionTaskDistributeType.Auto">
+            <summary>
+            自动生成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SupplierCancelOrderStatus">
+            <summary>
+            供应商订单取消状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierCancelOrderStatus.Cancelling">
+            <summary>
+            取消中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierCancelOrderStatus.Accounting">
+            <summary>
+            已核算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierCancelOrderStatus.Finished">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SupplierOrderAuditStatus">
+            <summary>
+            供应商订单审核状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderAuditStatus.PendingAudit">
+            <summary>
+            待审核
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderAuditStatus.Retrial">
+            <summary>
+            需重审
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderAuditStatus.ToBeArchived">
+            <summary>
+            待存档
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderAuditStatus.Completed">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SupplierOrderStatus">
+            <summary>
+            供应商订单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderStatus.New">
+            <summary>
+            新订单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderStatus.WaitDistribution">
+            <summary>
+            待派工
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderStatus.Wait">
+            <summary>
+            待送货
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderStatus.Delivery">
+            <summary>
+            送货中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderStatus.Over">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierOrderStatus.Canceled">
+            <summary>
+            已取消
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SupplierReturnOrderStatus">
+            <summary>
+            供应商订单退货单状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierReturnOrderStatus.Return">
+            <summary>
+            退单中
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierReturnOrderStatus.Accounting">
+            <summary>
+            完成退单
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierReturnOrderStatus.Finished">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.ApplicationType">
+            <summary>
+            应用程序类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ApplicationType.Web">
+            <summary>
+            Web应用程序
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ApplicationType.Windows">
+            <summary>
+            Windows应用程序
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ApplicationType.Android">
+            <summary>
+            Android应用程序
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ApplicationType.IOS">
+            <summary>
+            IOS应用程序
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.ApplicationType.WindowsPhone">
+            <summary>
+            Windows Phone应用程序
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.SupplierSettlementStatus">
+            <summary>
+            供应商订单结算状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierSettlementStatus.Uncommitted">
+            <summary>
+            未提交
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierSettlementStatus.Pending">
+            <summary>
+            待结算
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.SupplierSettlementStatus.Settlement">
+            <summary>
+            已结算
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.TargetType">
+            <summary>
+            发送目标类型——消息系统，0：所有人，1：人，2：角色，:3：岗位，4：部门；
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.TeamState">
+            <summary>
+            工作组状态
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.TeamState.Free">
+            <summary>
+            空闲
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.TeamState.Busy">
+            <summary>
+            忙碌
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.UnitConfig">
+            <summary>
+            单位配制
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.UnitConfig.Percent">
+            <summary>
+            %
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.UnitConfig.Yuan">
+            <summary>
+            元
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.UnitConfig.BigPackages">
+            <summary>
+            元/m²
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.UnitConfig.Customization">
+            <summary>
+            元/个
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.UnitConfig.Option">
+            <summary>
+            元/项
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.UnitConfig.GlobalConfig">
+            <summary>
+            元/组
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.UnitConfig.UsingConfig">
+            <summary>
+            元/层
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.VerificationCodeType">
+            <summary>
+            验证码类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.VerificationCodeType.Register">
+            <summary>
+            注册
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.VerificationCodeType.Login">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.VerificationCodeType.ForgotPassword">
+            <summary>
+            忘记密码
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.VerificationCodeType.ChangeMobile">
+            <summary>
+            修改手机号
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.WhenAlerts">
+            <summary>
+            提示时机  ——消息系统，0|访问模块提示,8|登录后提示,9|建立会话后提示;
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Enums.WorkStandardConfig">
+            <summary>
+            工作规范配制类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WorkStandardConfig.ManagerInstitution">
+            <summary>
+            管控制度
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WorkStandardConfig.CraftStandard">
+            <summary>
+            工艺标准
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Enums.WorkStandardConfig.CivilizedBuild">
+            <summary>
+            文明施工
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial">
+            <summary>
+            调整补料超限物料信息
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.#ctor(System.Guid,System.String,System.String,System.Decimal,System.Decimal,System.Single,System.Single,System.Boolean,System.Collections.Generic.IList{ShSoft.ValueObjects.Structs.ResponsiblePerson})">
+            <summary>
+            调整补料超限物料信息构造器
+            </summary>
+            <param name="materialId">物料商品SkuId</param>
+            <param name="materialName">物料名称</param>
+            <param name="materialNo">物料编号</param>
+            <param name="standardDosage">标准用量</param>
+            <param name="price">价格</param>
+            <param name="feedingLimit">补料上限</param>
+            <param name="transfiniteQuantity">超限数量</param>
+            <param name="isCompensate">是否补发包款</param>
+            <param name="responsiblePersonList">超限处罚负责人集</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.MaterialId">
+            <summary>
+            物料商品Id
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.MaterialName">
+            <summary>
+            物料名称
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.MaterialNo">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.StandardDosage">
+            <summary>
+            标准用量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.Price">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.FeedingLimit">
+            <summary>
+            补料上限
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.TransfiniteQuantity">
+            <summary>
+            超限数量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.IsCompensate">
+            <summary>
+            是否补发包款
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.AdjustmentFeedingRecordMaterial.ResponsiblePersonList">
+            <summary>
+            超限处罚负责人集
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.PatrolTaskResultPunishInfo">
+            <summary>
+            巡视结果处罚对象信息
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.PatrolTaskResultPunishInfo.#ctor(System.Boolean,System.Int32,System.Nullable{System.Guid},System.Nullable{System.Decimal})">
+            <summary>
+            创建巡视结果处罚对象构造器
+            </summary>
+            <param name="isChoose">是否选中[0:未选中；1：选中；]</param>
+            <param name="targetType">巡检对象类型[0:项目经理；1：管家；]</param>
+            <param name="hid">人员Id</param>
+            <param name="punishItemMoney">处罚金额</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.PatrolTaskResultPunishInfo.IsChoose">
+            <summary>
+            是否选中[0:未选中；1：选中；] 
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.PatrolTaskResultPunishInfo.TargetType">
+            <summary>
+            巡检对象类型[0:项目经理；1：管家；] 
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.PatrolTaskResultPunishInfo.Hid">
+            <summary>
+            人员Id
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.PatrolTaskResultPunishInfo.PunishItemMoney">
+            <summary>
+            处罚金额
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.ProjectOtherFee">
+            <summary>
+            项目其他费
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProjectOtherFee.FeeType">
+            <summary>
+            费用类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProjectOtherFee.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProjectOtherFee.Ratio">
+            <summary>
+            系数
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProjectOtherFee.UnitConfig">
+            <summary>
+            单位
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProjectOtherFee.Quantities">
+            <summary>
+            工程量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProjectOtherFee.Fee">
+            <summary>
+            合计费用
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProjectOtherFee.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.ArchiveLocation">
+            <summary>
+            档案袋位置坐标
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.ArchiveLocation.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            创建档案袋位置坐标
+            </summary>
+            <param name="libraryNo">库号</param>
+            <param name="shelfNo">货架号</param>
+            <param name="rowNo">行号</param>
+            <param name="columnNo">列号</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ArchiveLocation.LibraryNo">
+            <summary>
+            库号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ArchiveLocation.ShelfNo">
+            <summary>
+            货架号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ArchiveLocation.RowNo">
+            <summary>
+            行号
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ArchiveLocation.ColumnNo">
+            <summary>
+            列号
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.ArchiveLocation.Illegal">
+            <summary>
+            是否合法
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.CategoryCraft">
+            <summary>
+            品类工艺
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.CategoryCraft.#ctor(ShSoft.ValueObjects.Enums.CraftType,System.String,System.String,System.Collections.Generic.IList{System.String})">
+            <summary>
+            创建品类工艺构造器
+            </summary>
+            <param name="craftType">工艺类型</param>
+            <param name="minSellUnit">最销售单位</param>
+            <param name="measureUnit">计量单位</param>
+            <param name="specificationNames">规格名称集</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CategoryCraft.CraftType">
+            <summary>
+            工艺类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CategoryCraft.MinSellUnit">
+            <summary>
+            最小销售单位，
+            例：片、卷、桶、袋
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CategoryCraft.MeasureUnit">
+            <summary>
+            计量单位，
+            例：厘米、米、千克、升
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CategoryCraft.SpecificationNames">
+            <summary>
+            只读属性 - 规格名称集
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.CategoryCraft.Illegal">
+            <summary>
+            只读属性 - 是否合法
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.CertificationDetail">
+            <summary>
+            资质明细
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.CertificationDetail.#ctor(System.String,System.Boolean)">
+            <summary>
+            创建资质明细
+            </summary>
+            <param name="name">名称</param>
+            <param name="required">是否必须</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CertificationDetail.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CertificationDetail.Required">
+            <summary>
+            是否必须
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.CertificationDetail.Illegal">
+            <summary>
+            只读属性 - 是否合法
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.CraftUnit">
+            <summary>
+            工艺单位
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.CraftUnit.#ctor(System.String,System.Single)">
+            <summary>
+            创建工艺单位构造器
+            </summary>
+            <param name="unitName">单位名称</param>
+            <param name="unitValue">单位值</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CraftUnit.UnitName">
+            <summary>
+            单位名称
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CraftUnit.UnitValue">
+            <summary>
+            单位值
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.CraftUnit.Illegal">
+            <summary>
+            只读属性 - 是否合法
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.CustomProduct">
+            <summary>
+            定制商品
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.CustomProduct.#ctor(System.Int16,System.String)">
+            <summary>
+            创建定制商品构造器
+            </summary>
+            <param name="customPeriod">定制周期</param>
+            <param name="customDescription">定制说明</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CustomProduct.CustomPeriod">
+            <summary>
+            定制周期
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.CustomProduct.CustomDescription">
+            <summary>
+            定制说明
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.CustomProduct.Illegal">
+            <summary>
+            只读属性 - 是否合法
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.KeyValue">
+            <summary>
+            键值对
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.KeyValue.Key">
+            <summary>
+            键
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.KeyValue.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.KeyValue`2">
+            <summary>
+            泛型键值对
+            </summary>
+            <typeparam name="TKey">键类型</typeparam>
+            <typeparam name="TValue">值类型</typeparam>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.KeyValue`2.Key">
+            <summary>
+            键
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.KeyValue`2.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.LoginInfo">
+            <summary>
+            登录信息
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.LoginInfo.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.LoginInfo.#ctor(System.Guid,System.String,ShSoft.ValueObjects.Enums.HR.UserBodyType,System.Nullable{System.Guid},System.String,System.String)">
+            <summary>
+            基础构造器
+            </summary>
+            <param name="publicKey">公钥</param>
+            <param name="loginId">登录名</param>
+            <param name="userBodyType">账号主体类型</param>
+            <param name="userBodyId">账号主体Id</param>
+            <param name="realName">真实姓名</param>
+            <param name="openId">OpenId</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginInfo.PublicKey">
+            <summary>
+            公钥
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginInfo.LoginId">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginInfo.UserBodyType">
+            <summary>
+            账号主体类型集
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginInfo.UserBodyId">
+            <summary>
+            账号主体Id
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginInfo.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginInfo.OpenId">
+            <summary>
+            OpenId
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.LoginMenuInfo">
+            <summary>
+            登录菜单信息
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.LoginMenuInfo.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.LoginMenuInfo.#ctor(System.Guid,System.String,System.String,System.String,System.Nullable{System.Guid},System.Collections.Generic.List{ShSoft.ValueObjects.Structs.LoginMenuInfo})">
+            <summary>
+            基础构造器
+            </summary>
+            <param name="id">Id</param>
+            <param name="name">菜单名称</param>
+            <param name="url">Url</param>
+            <param name="icon">图标</param>
+            <param name="parentId">父级Id</param>
+            <param name="childMenuInfos">子菜单</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginMenuInfo.Name">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginMenuInfo.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginMenuInfo.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginMenuInfo.ParentId">
+            <summary>
+            父级Id
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.LoginMenuInfo.ChildMenuInfos">
+            <summary>
+            子菜单
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.LoginMenuInfo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.ProductInstallStep">
+            <summary>
+            商品安装步骤
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.ProductInstallStep.#ctor(System.Byte,System.String,System.Single)">
+            <summary>
+            创建商品安装步骤构造器
+            </summary>
+            <param name="sort">步骤顺序</param>
+            <param name="stepName">步骤名称</param>
+            <param name="timeout">工时</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProductInstallStep.Sort">
+            <summary>
+            步骤顺序
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProductInstallStep.StepName">
+            <summary>
+            步骤名称
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProductInstallStep.Timeout">
+            <summary>
+            工时
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.ProductInstallStep.Illegal">
+            <summary>
+            是否合法
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.ProductPack">
+            <summary>
+            商品包装
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.ProductPack.#ctor(System.String,System.Single)">
+            <summary>
+            创建商品包装
+            </summary>
+            <param name="packName">包装名称</param>
+            <param name="packCoefficient">包装转换系数</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProductPack.PackName">
+            <summary>
+            包装名称，
+            例：箱、卷、桶、袋
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProductPack.PackCoefficient">
+            <summary>
+            包装转换系数，包装名称与最小销售单位的换算关系
+            例：1箱 = 24片
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.ProductPack.Illegal">
+            <summary>
+            只读属性 - 是否合法
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.ProductTransport">
+            <summary>
+            商品运输描述
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.ProductTransport.#ctor(System.Single,System.String,System.Single,System.String)">
+            <summary>
+            创建商品运输描述构造器
+            </summary>
+            <param name="volume">体积</param>
+            <param name="volumeUnit">体积单位</param>
+            <param name="mass">质量</param>
+            <param name="massUnit">质量单位</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProductTransport.Volume">
+            <summary>
+            体积
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProductTransport.VolumeUnit">
+            <summary>
+            体积单位
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProductTransport.Mass">
+            <summary>
+            质量
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ProductTransport.MassUnit">
+            <summary>
+            质量单位
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.ProductTransport.Illegal">
+            <summary>
+            只读属性 - 是否合法
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.ResponsiblePerson">
+            <summary>
+            超限处罚责任人
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.ResponsiblePerson.#ctor(System.String,System.String,System.Boolean)">
+            <summary>
+            创建超限处罚责任人构造器
+            </summary>
+            <param name="position">职务</param>
+            <param name="name">姓名</param>
+            <param name="result">是否选中</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ResponsiblePerson.Position">
+            <summary>
+            职务
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ResponsiblePerson.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.ResponsiblePerson.Result">
+            <summary>
+            是否选中
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.SettleMoment">
+            <summary>
+            结算时刻
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.SettleMoment.#ctor(System.Collections.Generic.IList{System.DateTime},System.Nullable{System.DayOfWeek})">
+            <summary>
+            创建结算时刻构造器
+            </summary>
+            <param name="dateTimes">时刻集</param>
+            <param name="week">星期</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.SettleMoment.Moments">
+            <summary>
+            时刻集
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.SettleMoment.Week">
+            <summary>
+            星期
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.SettleMoment.Illegal">
+            <summary>
+            只读属性 - 是否合法
+            </summary>
+        </member>
+        <member name="T:ShSoft.ValueObjects.Structs.User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="M:ShSoft.ValueObjects.Structs.User.#ctor(System.String,System.String)">
+            <summary>
+            创建用户构造器
+            </summary>
+            <param name="userId">用户Id</param>
+            <param name="userName">用户名称</param>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.User.UserId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="F:ShSoft.ValueObjects.Structs.User.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:ShSoft.ValueObjects.Structs.User.Illegal">
+            <summary>
+            是否合法
+            </summary>
+        </member>
+    </members>
+</doc>

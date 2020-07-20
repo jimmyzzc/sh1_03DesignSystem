@@ -1,0 +1,1197 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShSoft.Common</name>
+    </assembly>
+    <members>
+        <member name="T:ShSoft.Common.PoweredByLee.Assert">
+            <summary>
+            断言工具类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.AreEqual(System.Object,System.Object,System.String)">
+            <summary>
+            断言引用相等
+            </summary>
+            <param name="source">源</param>
+            <param name="target">目标</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.AreEqual(System.ValueType,System.ValueType,System.String)">
+            <summary>
+            断言值相等
+            </summary>
+            <param name="source">源</param>
+            <param name="target">目标</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.IsTrue(System.Boolean,System.String)">
+            <summary>
+            断言为真
+            </summary>
+            <param name="condition">条件</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.IsFalse(System.Boolean,System.String)">
+            <summary>
+            断言为假
+            </summary>
+            <param name="condition">条件</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.IsNull(System.Object,System.String)">
+            <summary>
+            断言实例为空
+            </summary>
+            <param name="instance">实例</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.IsNotNull(System.Object,System.String)">
+            <summary>
+            断言实例不为空
+            </summary>
+            <param name="instance">实例</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.IsNotEmpty``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+            断言集合不为空
+            </summary>
+            <param name="enumerable">集合</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.IsNotNull(System.String,System.String)">
+            <summary>
+            断言字符串不为空
+            </summary>
+            <param name="str">字符串</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.IsShorterThan(System.String,System.UInt32,System.String)">
+            <summary>
+            断言字符串长度短于给定值
+            </summary>
+            <param name="str">字符串</param>
+            <param name="length">给定长度</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.IsLongerThan(System.String,System.UInt32,System.String)">
+            <summary>
+            断言字符串长度长于给定值
+            </summary>
+            <param name="str">字符串</param>
+            <param name="length">给定长度</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Assert.IsInRange(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            断言数值在给定范围
+            </summary>
+            <param name="value">数值</param>
+            <param name="min">最小值</param>
+            <param name="max">最大值</param>
+            <param name="errorMessage">错误消息</param>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.AssertFailedException">
+            <summary>
+            断言失败异常
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.AssertFailedException.#ctor">
+            <summary>
+            无参构造器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.AssertFailedException.#ctor(System.String)">
+            <summary>
+            基础构造器
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.CollectionExtension">
+            <summary>
+            集合的扩展方法
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">
+            <summary>
+            遍历ForEach扩展方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="enumerable">实现IEnumerable接口的类型</param>
+            <param name="action">委托</param>
+            <exception cref="T:System.ArgumentNullException">源集合对象为空、操作表达式为空</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.EqualsTo``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            判断两个集合中的元素是否相等扩展方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="sourceList">源集合</param>
+            <param name="targetList">目标集合</param>
+            <returns>是否相等</returns>
+            <exception cref="T:System.ArgumentNullException">源集合对象为空、目标集合对象为空</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.EqualsTo``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1})">
+            <summary>
+            判断两个字典中的元素是否相等扩展方法
+            </summary>
+            <typeparam name="TKey">键类型</typeparam>
+            <typeparam name="TValue">值类型</typeparam>
+            <param name="sourceDict">源字典</param>
+            <param name="targetDict">目标字典</param>
+            <returns>是否相等</returns>
+            <exception cref="T:System.ArgumentNullException">源字典对象为空、目标字典对象为空</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            判断集合是否为空或null
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="enumerable">集合对象</param>
+            <returns>是否为空或null</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.DistinctBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+            <summary>
+            根据一个字段去重
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <typeparam name="TKey">去重的参照字段</typeparam>
+            <param name="enumerable">源集合</param>
+            <param name="keySelector">字段选择委托</param>
+            <returns>去重后的集合</returns>
+            <exception cref="T:System.ArgumentNullException">源集合对象为空、参照字段表达式为空</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            ICollection的AddRange扩展方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="collection">集合</param>
+            <param name="enumerable">元素集合</param>
+            <exception cref="T:System.ArgumentNullException">源集合对象为空、添加的集合项为空</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.FindByPage``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{``0,``1},System.Func{``0,``2},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            分页扩展方法
+            </summary>
+            <typeparam name="T">类</typeparam>
+            <typeparam name="TKeyOne">排序键1</typeparam>
+            <typeparam name="TKeyTwo">排序键2</typeparam>
+            <param name="enumerable">集合对象</param>
+            <param name="predicate">查询条件</param>
+            <param name="keySelectorOne">排序键选择器1</param>
+            <param name="keySelectorTwo">排序键选择器2</param>
+            <param name="pageIndex">页索引</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">总记录条数</param>
+            <param name="pageCount">总页数</param>
+            <returns>对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.FindByPage``3(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.Expressions.Expression{System.Func{``0,``2}},System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            分页扩展方法
+            </summary>
+            <typeparam name="T">类</typeparam>
+            <typeparam name="TKeyOne">排序键1</typeparam>
+            <typeparam name="TKeyTwo">排序键2</typeparam>
+            <param name="queryable">集合对象</param>
+            <param name="predicate">查询条件</param>
+            <param name="keySelectorOne">排序键选择器1</param>
+            <param name="keySelectorTwo">排序键选择器2</param>
+            <param name="pageIndex">页索引</param>
+            <param name="pageSize">页容量</param>
+            <param name="rowCount">总记录条数</param>
+            <param name="pageCount">总页数</param>
+            <returns>对象集合</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.ToList``1(System.Data.DataTable)">
+            <summary>
+            DataTable转换泛型集合扩展方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="dataTable">数据表</param>
+            <returns>泛型集合</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.ToDataTable``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            泛型集合转换DataTable扩展方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="enumerable">集合</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CollectionExtension.ToSplicString``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            泛型集合转换为分割字符串扩展方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="enumerable">集合</param>
+            <returns>分割字符串</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.CommonExtension">
+            <summary>
+            常用扩展方法
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.CommonExtension.GetLocalIPAddress">
+            <summary>
+            获取本机IP地址
+            </summary>
+            <returns>本机IP</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.EnumExtension">
+            <summary>
+            枚举扩展工具类
+            </summary>
+        </member>
+        <member name="F:ShSoft.Common.PoweredByLee.EnumExtension.EnumValueField">
+            <summary>
+            枚举值字段
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.EnumExtension.GetEnumMember(System.Enum)">
+            <summary>
+            获取枚举成员名称
+            </summary>
+            <param name="enum">枚举值</param>
+            <returns>枚举成员名称</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.EnumExtension.GetEnumMembers(System.Type)">
+            <summary>
+            获取枚举成员名称字典
+            </summary>
+            <param name="enumType">枚举类型</param>
+            <returns>枚举成员名称字典</returns>
+            IDictionary[string, string]，[枚举名，枚举描述]
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.EnumExtension.GetEnum``1(System.String)">
+            <summary>
+            将字符串转换成可空的枚举
+            </summary>
+            <typeparam name="T">枚举类型</typeparam>
+            <param name="enumStr">枚举的字符串值</param>
+            <returns>可空的枚举值</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.EnumExtension.GetEnumMemberInfos(System.Type)">
+            <summary>
+            获取枚举类型完整信息
+            </summary>
+            <param name="enumType">枚举类型</param>
+            <returns>完整信息</returns>
+            <remarks>
+            Tuple[int, string, string]，[枚举int值，枚举名，枚举描述]
+            </remarks>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.EnumExtension.GetEnumDictionary(System.Type)">
+            <summary>
+            获取枚举值、描述字典
+            </summary>
+            <param name="enumType">枚举类型</param>
+            <returns>枚举值、描述字典</returns>
+            IDictionary[int, string]，[枚举int值，枚举描述]
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.FileAssistant">
+            <summary>
+            文件操作帮助类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.FileAssistant.ReadFile(System.String)">
+            <summary>
+            读取文件方法
+            </summary>
+            <param name="path">路径</param>
+            <returns>内容字符串</returns>
+            <exception cref="T:System.ArgumentNullException">路径为空</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.FileAssistant.WriteFile(System.String,System.String,System.Boolean)">
+            <summary>
+            写入文件方法
+            </summary>
+            <param name="path">路径</param>
+            <param name="content">内容</param>
+            <param name="append">是否附加</param>
+            <exception cref="T:System.ArgumentNullException">路径为空</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.FileAssistant.CopyFolder(System.String,System.String)">
+            <summary>
+            复制文件夹方法
+            </summary>
+            <param name="sourcePath">源路径</param>
+            <param name="targetPath">目标路径</param>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.ImageAssistant">
+            <summary>
+            图片处理工具类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.MakeThumbnail(System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            生成缩略图
+            </summary>
+            <param name="sourceImagePath">源图路径（物理路径）</param>
+            <param name="thumbnailPath">缩略图路径（物理路径）</param>
+            <param name="width">缩略图宽度</param>
+            <param name="height">缩略图高度</param>
+            <param name="mode">生成缩略图的方式</param>    
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.ImageWatermark(System.String,System.String,System.String)">
+            <summary>
+            图片水印处理方法
+            </summary>
+            <param name="path">需要加载水印的图片路径（绝对路径）</param>
+            <param name="waterpath">水印图片（绝对路径）</param>
+            <param name="location">水印位置（传送正确的代码）</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.GetLocation(System.String,System.Drawing.Image,System.Drawing.Image)">
+            <summary>
+            图片水印位置处理方法
+            </summary>
+            <param name="location">水印位置</param>
+            <param name="img">需要添加水印的图片</param>
+            <param name="waterimg">水印图片</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.LetterWatermark(System.String,System.Int32,System.String,System.Drawing.Color,System.String)">
+            <summary>
+            文字水印
+            </summary>
+            <param name="path">图片路径（绝对路径）</param>
+            <param name="size">字体大小</param>
+            <param name="letter">水印文字</param>
+            <param name="color">颜色</param>
+            <param name="location">水印位置</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.GetLocation(System.String,System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            文字水印位置的方法
+            </summary>
+            <param name="location">位置代码</param>
+            <param name="img">图片对象</param>
+            <param name="width">宽(当水印类型为文字时,传过来的就是字体的大小)</param>
+            <param name="height">高(当水印类型为文字时,传过来的就是字符的长度)</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.LDPic(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            调整光暗
+            </summary>
+            <param name="mybm">原始图片</param>
+            <param name="width">原始图片的长度</param>
+            <param name="height">原始图片的高度</param>
+            <param name="val">增加或减少的光暗值</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.RePic(System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            反色处理
+            </summary>
+            <param name="mybm">原始图片</param>
+            <param name="width">原始图片的长度</param>
+            <param name="height">原始图片的高度</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.FD(System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            浮雕处理
+            </summary>
+            <param name="oldBitmap">原始图片</param>
+            <param name="Width">原始图片的长度</param>
+            <param name="Height">原始图片的高度</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.ResizeImage(System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            拉伸图片
+            </summary>
+            <param name="bmp">原始图片</param>
+            <param name="newW">新的宽度</param>
+            <param name="newH">新的高度</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.FilPic(System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            滤色处理
+            </summary>
+            <param name="mybm">原始图片</param>
+            <param name="width">原始图片的长度</param>
+            <param name="height">原始图片的高度</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.RevPicLR(System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            左右翻转
+            </summary>
+            <param name="mybm">原始图片</param>
+            <param name="width">原始图片的长度</param>
+            <param name="height">原始图片的高度</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.RevPicUD(System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            上下翻转
+            </summary>
+            <param name="mybm">原始图片</param>
+            <param name="width">原始图片的长度</param>
+            <param name="height">原始图片的高度</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.Compress(System.String,System.String)">
+            <summary>
+            压缩到指定尺寸
+            </summary>
+            <param name="oldfile">原文件</param>
+            <param name="newfile">新文件</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.Gray(System.Drawing.Color)">
+            <summary>
+            颜色灰度化
+            </summary>
+            <param name="color">颜色</param>
+            <returns>颜色</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.BWPic(System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            转换为黑白图片
+            </summary>
+            <param name="mybt">要进行处理的图片</param>
+            <param name="width">图片的长度</param>
+            <param name="height">图片的高度</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ImageAssistant.GetFrames(System.String,System.String)">
+            <summary>
+            获取图片中的各帧
+            </summary>
+            <param name="pPath">图片路径</param>
+            <param name="pSavedPath">保存路径</param>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.NumbericExtension">
+            <summary>
+            数值类型常用扩展方法
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsZeroOrMinus(System.Int16)">
+            <summary>
+            short类型是否为0或负数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为0或负数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsZeroOrMinus(System.Int32)">
+            <summary>
+            int类型是否为0或负数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为0或负数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsZeroOrMinus(System.Int64)">
+            <summary>
+            long类型是否为0或负数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为0或负数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsZeroOrMinus(System.Single)">
+            <summary>
+            float类型是否为0或负数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为0或负数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsZeroOrMinus(System.Double)">
+            <summary>
+            double类型是否为0或负数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为0或负数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsZeroOrMinus(System.Decimal)">
+            <summary>
+            decimal类型是否为0或负数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为0或负数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsPercentage(System.Single)">
+            <summary>
+            float类型是否为百分数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsPercentage(System.Double)">
+            <summary>
+            double类型是否为百分数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsPercentage(System.Decimal)">
+            <summary>
+            decimal类型是否为百分数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsZeroOrPercentage(System.Single)">
+            <summary>
+            float类型是否为0或百分数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为0或百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsZeroOrPercentage(System.Double)">
+            <summary>
+            double类型是否为0或百分数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为0或百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsZeroOrPercentage(System.Decimal)">
+            <summary>
+            decimal类型是否为0或百分数
+            </summary>
+            <param name="number">数值</param>
+            <returns>是否为0或百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.KeepDigits(System.Single,System.Int32)">
+            <summary>
+            float类型保留2位百分数
+            </summary>
+            <param name="number">数值</param>
+            <param name="digits">保留位数</param>
+            <returns>保留位数后的数值</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.KeepDigits(System.Double,System.Int32)">
+            <summary>
+            double类型保留2位百分数
+            </summary>
+            <param name="number">数值</param>
+            <param name="digits">保留位数</param>
+            <returns>保留位数后的数值</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.KeepDigits(System.Decimal,System.Int32)">
+            <summary>
+            decimal类型保留2位百分数
+            </summary>
+            <param name="number">数值</param>
+            <param name="digits">保留位数</param>
+            <returns>保留位数后的数值</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsIn(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            byte类型是否在给定闭区间
+            </summary>
+            <param name="number">数值</param>
+            <param name="min">最小值</param>
+            <param name="max">最大值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsIn(System.Int16,System.Int16,System.Int16)">
+            <summary>
+            short类型是否在给定闭区间
+            </summary>
+            <param name="number">数值</param>
+            <param name="min">最小值</param>
+            <param name="max">最大值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsIn(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            int类型是否在给定闭区间
+            </summary>
+            <param name="number">数值</param>
+            <param name="min">最小值</param>
+            <param name="max">最大值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsIn(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            long类型是否在给定闭区间
+            </summary>
+            <param name="number">数值</param>
+            <param name="min">最小值</param>
+            <param name="max">最大值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsIn(System.Single,System.Single,System.Single)">
+            <summary>
+            float类型是否在给定闭区间
+            </summary>
+            <param name="number">数值</param>
+            <param name="min">最小值</param>
+            <param name="max">最大值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsIn(System.Double,System.Double,System.Double)">
+            <summary>
+            double类型是否在给定闭区间
+            </summary>
+            <param name="number">数值</param>
+            <param name="min">最小值</param>
+            <param name="max">最大值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.NumbericExtension.IsIn(System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            decimal类型是否在给定闭区间
+            </summary>
+            <param name="number">数值</param>
+            <param name="min">最小值</param>
+            <param name="max">最大值</param>
+            <returns>是否为百分数</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.ObjectExtension">
+            <summary>
+            object扩展方法
+            </summary>
+        </member>
+        <member name="F:ShSoft.Common.PoweredByLee.ObjectExtension._BinaryFormatter">
+            <summary>
+            二进制序列化器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ObjectExtension.#cctor">
+            <summary>
+            静态构造函数
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ObjectExtension.ToJson(System.Object,System.String)">
+            <summary>
+            object序列化JSON字符串扩展方法
+            </summary>
+            <param name="instance">object及其子类对象</param>
+            <param name="dateFormatString">时间格式字符串</param>
+            <returns>JSON字符串</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ObjectExtension.Clone``1(System.Object)">
+            <summary>
+            object原型深拷贝扩展方法
+            异常：ArgumentNullException，NullReferenceException，SerializationException
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="instance">object及其子类对象</param>
+            <returns>给定类型对象</returns>
+            <exception cref="T:System.ArgumentNullException">源对象为空</exception>
+            <exception cref="T:System.InvalidCastException">反序列化为给定类型失败</exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">对象类型未标记"Serializable"特性</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ObjectExtension.ToBinaryString(System.Object)">
+            <summary>
+            object序列化为二进制字符串扩展方法
+            </summary>
+            <param name="instance">object及其子类</param>
+            <returns>二进制字符串</returns>
+            <exception cref="T:System.ArgumentNullException">源对象为空</exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">对象类型未标记"Serializable"特性</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ObjectExtension.ToByteArray(System.Object)">
+            <summary>
+            object序列化为byte数组扩展方法
+            </summary>
+            <param name="instance">object及其子类</param>
+            <returns>byte数组</returns>
+            <exception cref="T:System.ArgumentNullException">源对象为空</exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">对象类型未标记"Serializable"特性</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ObjectExtension.ToObject``1(System.Byte[])">
+            <summary>
+            byte数组反序列化为对象扩展方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="buffer">byte数组</param>
+            <returns>对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ObjectExtension.ToXml(System.Object)">
+            <summary>
+            object序列化Xml字符串扩展方法
+            </summary>
+            <param name="instance">object及其子类对象</param>
+            <returns>Xml字符串</returns>
+            <exception cref="T:System.ArgumentNullException">源对象为空</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ObjectExtension.Map``1(System.Object)">
+            <summary>
+            模型对象映射通用扩展方法
+            </summary>
+            <typeparam name="T">目标类型</typeparam>
+            <param name="instance">源实例</param>
+            <returns>目标类型对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ObjectExtension.ToDbValue(System.Object)">
+            <summary>
+            .NET类型值转数据库类型值空值处理
+            </summary>
+            <param name="value">.NET类型值</param>
+            <returns>处理后的数据库类型值</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.PathExtension">
+            <summary>
+            路径扩展
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.PathExtension.MapPath(System.String,ShSoft.Common.PoweredByLee.ApplicationType)">
+            <summary>
+            将相对路径转换为绝对路径
+            </summary>
+            <param name="relativePath">相对路径</param>
+            <param name="appType">应用程序类型</param>
+            <returns>绝对路径</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.ApplicationType">
+            <summary>
+            应用程序类型
+            </summary>
+        </member>
+        <member name="F:ShSoft.Common.PoweredByLee.ApplicationType.WebApp">
+            <summary>
+            Web应用程序
+            </summary>
+        </member>
+        <member name="F:ShSoft.Common.PoweredByLee.ApplicationType.WindowsApp">
+            <summary>
+            Windows应用程序
+            </summary>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.ReflectionExtension">
+            <summary>
+            反射扩展工具类
+            </summary>
+        </member>
+        <member name="F:ShSoft.Common.PoweredByLee.ReflectionExtension.Separator">
+            <summary>
+            分隔符
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ReflectionExtension.GetMethodPath(System.Reflection.MethodBase)">
+            <summary>
+            获取方法路径
+            </summary>
+            <param name="method">方法</param>
+            <returns>方法路径</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.SqlHelper">
+            <summary>
+            SQL Server数据库访问助手类
+            </summary>
+        </member>
+        <member name="F:ShSoft.Common.PoweredByLee.SqlHelper._connectionString">
+            <summary>
+            连接字符串字段
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="connectionString">连接字符串</param>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteNonQuery(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteNonQuery —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteNonQuerySP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteNonQuery —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteScalar(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteScalar``1(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— Sql语句
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>类型对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteScalarSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteScalarSP``1(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>类型对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteReader(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteReader —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>DataReader对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteReaderSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteReader —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>DataReader对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.GetDataTable(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataTable —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>DataTable对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.GetDataTableSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataTable —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>DataTable对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.GetDataSet(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataSet —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.GetDataSetSP(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataSet —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.GetList``1(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataTable —— Sql语句
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="args">参数</param>
+            <returns>泛型集合</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.GetListSP``1(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            GetDataTable —— 存储过程
+            </summary>
+            <param name="proc">存储过程名称</param>
+            <param name="args">参数</param>
+            <returns>泛型集合</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.CreateConnection">
+            <summary>
+            创建连接方法
+            </summary>
+            <returns>连接对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteNonQuery(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteNonQuery方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteScalar(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteScalar``1(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteScalar方法
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>类型对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.ExecuteReader(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            ExecuteReader方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>DataReader对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.GetDataTable(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            返回DataTable方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>DataTable对象</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.SqlHelper.GetDataSet(System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            返回DataSet方法
+            </summary>
+            <param name="sql">Sql语句</param>
+            <param name="type">命令类型</param>
+            <param name="args">参数</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.StreamExtension">
+            <summary>
+            流扩展方法
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StreamExtension.ToMD5(System.IO.Stream)">
+            <summary>
+            计算流的MD5值扩展方法
+            </summary>
+            <param name="stream">流</param>
+            <returns>MD5值</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.StringExtension">
+            <summary>
+            字符串扩展方法
+            </summary>
+        </member>
+        <member name="F:ShSoft.Common.PoweredByLee.StringExtension._BinaryFormatter">
+            <summary>
+            二进制序列化器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StringExtension.#cctor">
+            <summary>
+            静态构造函数
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StringExtension.ToMD5(System.String)">
+            <summary>
+            计算字符串MD5值扩展方法
+            </summary>
+            <param name="str">待转换的字符串</param>
+            <returns>MD5值</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StringExtension.EqualsTo(System.String,System.String)">
+            <summary>
+            忽略大小写比较字符串是否相等扩展方法
+            </summary>
+            <param name="source">当前字符串</param>
+            <param name="target">要比较的字符串</param>
+            <returns>是否相同</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StringExtension.BinaryToObject``1(System.String)">
+            <summary>
+            二进制字符串反序列化为对象扩展方法
+            </summary>
+            <typeparam name="T">对象类型</typeparam>
+            <param name="binaryStr">二进制字符串</param>
+            <returns>给定类型对象</returns>
+            <exception cref="T:System.ArgumentNullException">二进制字符串为空</exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">对象类型未标记"Serializable"特性</exception>
+            <exception cref="T:System.InvalidCastException">反序列化为给定类型失败</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StringExtension.XmlToObject``1(System.String)">
+            <summary>
+            XML字符串反序列化为对象扩展方法
+            </summary>
+            <typeparam name="T">对象类型</typeparam>
+            <param name="xml">Xml字符串</param>
+            <returns>给定类型对象</returns>
+            <exception cref="T:System.ArgumentNullException">Xml字符串为空</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StringExtension.JsonToObject``1(System.String)">
+            <summary>
+            JSON字符串反序列化为对象扩展方法
+            </summary>
+            <typeparam name="T">对象类型</typeparam>
+            <param name="json">JSON字符串</param>
+            <returns>给定类型对象</returns>
+            <exception cref="T:System.ArgumentNullException">JSON字符串为空</exception>
+            <exception cref="T:System.InvalidOperationException">反序列化为给定类型失败</exception>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StringExtension.SplitWord(System.String)">
+            <summary>
+            字符串分词扩展方法
+            </summary>
+            <param name="text">字符串</param>
+            <returns>分词后的字符串数组</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StringExtension.FilterHtml(System.String)">
+            <summary>
+            字符串过滤Html标签扩展方法
+            </summary>
+            <param name="str">待过虑的字符串</param>
+            <returns>过滤后的字符串</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.StringExtension.FilterSql(System.String)">
+            <summary>
+            字符串过滤SQL语句关键字扩展方法
+            </summary>
+            <param name="sql">SQL字符串</param>
+            <returns>过滤后的SQL字符串</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.Transform`2">
+            <summary>
+            模型映射工具类
+            </summary>
+            <typeparam name="TSource">源实例类型</typeparam>
+            <typeparam name="TTarget">目标实例类型</typeparam>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Transform`2.Map(`0,System.Action{`0,`1},System.Action{`0,`1},System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])">
+            <summary>
+            映射
+            </summary>
+            <param name="sourceInstance">源实例</param>
+            <param name="beforeMapEventHandler">映射前事件处理者</param>
+            <param name="afterMapEventHandler">映射后事件处理者</param>
+            <param name="ignoreMembers">忽略映射成员集</param>
+            <returns>目标实例</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Transform`2.Fill(`0,`1)">
+            <summary>
+            将两个对象名称相同的属性替换赋值
+            </summary>
+            <param name="sourceInstance">源实例</param>
+            <param name="targetInstance">目标实例</param>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.Transform">
+            <summary>
+            新模型映射工具类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Transform.Map``2(``0,System.Action{``0,``1},System.Action{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])">
+            <summary>
+            映射
+            </summary>
+            <typeparam name="TSource">源实例类型</typeparam>
+            <typeparam name="TTarget">目标实例类型</typeparam>
+            <param name="sourceInstance">源实例</param>
+            <param name="beforeMapEventHandler">映射前事件处理者</param>
+            <param name="afterMapEventHandler">映射后事件处理者</param>
+            <param name="ignoreMembers">忽略映射成员集</param>
+            <returns>目标实例</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.Transform.Fill``2(``0,``1)">
+            <summary>
+            将两个对象名称相同的属性替换赋值
+            </summary>
+            <typeparam name="TSource">源实例类型</typeparam>
+            <typeparam name="TTarget">目标实例类型</typeparam>
+            <param name="sourceInstance">源实例</param>
+            <param name="targetInstance">目标实例</param>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.ValidCodeGenerator">
+            <summary>
+            验证码生成器
+            </summary>
+        </member>
+        <member name="F:ShSoft.Common.PoweredByLee.ValidCodeGenerator.MaxLength">
+            <summary>
+            验证码的最大长度
+            </summary>
+        </member>
+        <member name="F:ShSoft.Common.PoweredByLee.ValidCodeGenerator.MinLength">
+            <summary>
+            验证码的最小长度
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ValidCodeGenerator.GenerateCode(System.Int32)">
+            <summary>
+            生成验证码字符串
+            </summary>
+            <param name="length">字符串长度</param>
+            <returns>验证码字符串</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ValidCodeGenerator.GenerateStream(System.String)">
+            <summary>
+            生成验证码图片（返回字节数组）
+            </summary>
+            <param name="validCode">验证码字符串</param>
+            <returns>验证码图片序列化后的字节数组</returns>
+        </member>
+        <member name="M:ShSoft.Common.PoweredByLee.ValidCodeGenerator.DrawValidCode(System.String,System.Drawing.Graphics,System.Drawing.Bitmap)">
+            <summary>
+            绘制验证码
+            </summary>
+            <param name="validCode">验证码</param>
+            <param name="graphic">画刷</param>
+            <param name="image">画布</param>
+            <returns>内存流</returns>
+        </member>
+        <member name="T:ShSoft.Common.PoweredByLee.HttpAssitant">
+            <summary>
+            Http助手
+            </summary>
+        </member>
+        <member name="P:ShSoft.Common.PoweredByLee.HttpAssitant.HttpContext">
+            <summary>
+            HttpContext对象
+            </summary>
+        </member>
+        <member name="P:ShSoft.Common.PoweredByLee.HttpAssitant.Session">
+            <summary>
+            Session对象
+            </summary>
+        </member>
+        <member name="P:ShSoft.Common.PoweredByLee.HttpAssitant.Application">
+            <summary>
+            Application对象
+            </summary>
+        </member>
+        <member name="P:ShSoft.Common.PoweredByLee.HttpAssitant.Request">
+            <summary>
+            Request对象
+            </summary>
+        </member>
+        <member name="P:ShSoft.Common.PoweredByLee.HttpAssitant.Response">
+            <summary>
+            Response对象
+            </summary>
+        </member>
+        <member name="T:ShSoft.Common.Web.JsonHelper">
+            <summary>
+            JSON序列化和反序列化辅助类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.Web.JsonHelper.JsonSerializer``1(``0)">
+            <summary>
+            JSON序列化
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.Web.JsonHelper.JsonSerializer``1(``0,System.Collections.Generic.IEnumerable{System.Type})">
+            <summary>
+            JSON序列化
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.Web.JsonHelper.JsonDeserialize``1(System.String)">
+            <summary>
+            JSON反序列化
+            </summary>
+            
+        </member>
+        <member name="M:ShSoft.Common.Web.JsonHelper.ConvertJsonDateToDateString(System.Text.RegularExpressions.Match)">
+            <summary>
+            将Json序列化的时间由/Date(1294499956278+0800)转为字符串
+            </summary>
+        </member>
+        <member name="M:ShSoft.Common.Web.JsonHelper.ConvertDateStringToJsonDate(System.Text.RegularExpressions.Match)">
+            <summary>
+            将时间字符串转为Json时间
+            </summary>
+        </member>
+    </members>
+</doc>

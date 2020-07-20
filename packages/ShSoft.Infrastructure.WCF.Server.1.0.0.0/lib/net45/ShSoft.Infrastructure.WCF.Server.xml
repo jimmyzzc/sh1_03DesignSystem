@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShSoft.Infrastructure.WCF.Server</name>
+    </assembly>
+    <members>
+        <member name="T:ShSoft.Infrastructure.WCF.Server.InitializationBehavior">
+            <summary>
+            初始化行为
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.WCF.Server.InitializationBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+            <summary>
+            适用行为
+            </summary>
+            <param name="serviceDescription">服务描述</param>
+            <param name="serviceHostBase">服务主机</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.WCF.Server.InitializationBehavior.InstanceProvider_OnGetInstance(System.ServiceModel.InstanceContext)">
+            <summary>
+            获取服务实例事件
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.WCF.Server.InitializationBehavior.InstanceProvider_OnReleaseInstance(System.ServiceModel.InstanceContext,System.Object)">
+            <summary>
+            销毁服务实例事件
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.WCF.Server.InitializationBehaviorElement">
+            <summary>
+            初始化行为扩展元素
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.WCF.Server.InitializationBehaviorElement.CreateBehavior">
+            <summary>
+            创建行为
+            </summary>
+            <returns>行为实例</returns>
+        </member>
+        <member name="P:ShSoft.Infrastructure.WCF.Server.InitializationBehaviorElement.BehaviorType">
+            <summary>
+            行为类型
+            </summary>
+        </member>
+    </members>
+</doc>

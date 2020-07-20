@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SD.IOC.Integration.WCF</name>
+    </assembly>
+    <members>
+        <member name="T:SD.IOC.Integration.WCF.IocServiceBehavior">
+            <summary>
+            WCF依赖注入特性类
+            </summary>
+        </member>
+        <member name="M:SD.IOC.Integration.WCF.IocServiceBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+            <summary>
+            适用依赖注入
+            </summary>
+            <param name="serviceDescription">服务描述</param>
+            <param name="serviceHostBase">服务主机</param>
+        </member>
+        <member name="T:SD.IOC.Integration.WCF.IocServiceBehaviorElement">
+            <summary>
+            依赖注入行为扩展元素
+            </summary>
+        </member>
+        <member name="M:SD.IOC.Integration.WCF.IocServiceBehaviorElement.CreateBehavior">
+            <summary>
+            创建行为
+            </summary>
+            <returns>行为实例</returns>
+        </member>
+        <member name="P:SD.IOC.Integration.WCF.IocServiceBehaviorElement.BehaviorType">
+            <summary>
+            行为类型
+            </summary>
+        </member>
+        <member name="T:SD.IOC.Integration.WCF.InstanceProvider">
+            <summary>
+            WCF实例提供者
+            </summary>
+        </member>
+        <member name="F:SD.IOC.Integration.WCF.InstanceProvider._serviceType">
+            <summary>
+            服务契约类型
+            </summary>
+        </member>
+        <member name="M:SD.IOC.Integration.WCF.InstanceProvider.#ctor(System.Type)">
+            <summary>
+            构造器
+            </summary>
+            <param name="serviceType">服务契约类型</param>
+        </member>
+        <member name="M:SD.IOC.Integration.WCF.InstanceProvider.GetInstance(System.ServiceModel.InstanceContext,System.ServiceModel.Channels.Message)">
+            <summary>
+            获取服务契约实例
+            </summary>
+            <param name="instanceContext">WCF上下文对象</param>
+            <param name="message">消息</param>
+            <returns>服务契约实例</returns>
+        </member>
+        <member name="M:SD.IOC.Integration.WCF.InstanceProvider.GetInstance(System.ServiceModel.InstanceContext)">
+            <summary>
+            获取服务契约实例
+            </summary>
+            <param name="instanceContext">WCF上下文对象</param>
+            <returns>服务契约实例</returns>
+        </member>
+        <member name="M:SD.IOC.Integration.WCF.InstanceProvider.ReleaseInstance(System.ServiceModel.InstanceContext,System.Object)">
+            <summary>
+            清理实例契约
+            </summary>
+            <param name="instanceContext">WCF上下文对象</param>
+            <param name="instance">服务契约实例</param>
+        </member>
+        <member name="E:SD.IOC.Integration.WCF.InstanceProvider.OnGetInstance">
+            <summary>
+            获取服务契约实例事件
+            </summary>
+        </member>
+        <member name="E:SD.IOC.Integration.WCF.InstanceProvider.OnReleaseInstance">
+            <summary>
+            销毁服务契约实例事件
+            </summary>
+        </member>
+    </members>
+</doc>

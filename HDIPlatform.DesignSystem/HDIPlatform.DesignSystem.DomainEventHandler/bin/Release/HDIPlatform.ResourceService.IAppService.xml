@@ -1,0 +1,1790 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HDIPlatform.ResourceService.IAppService</name>
+    </assembly>
+    <members>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.BaseInfo">
+            <summary>
+            基类
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.ConfigFeeInfo">
+            <summary>
+            费用配置
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.ConfigFeeInfo.Name">
+            <summary>
+            费用配置名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.ConfigFeeInfo.Value">
+            <summary>
+            费用配置值
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo">
+            <summary>
+            工艺实体信息
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.CraftSystemCraftType">
+            <summary>
+            工艺类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.AcceptanceStandard">
+            <summary>
+            验收标准
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.HandlingInstruction">
+            <summary>
+            操作说明
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.CraftConstructionType">
+            <summary>
+            工艺施工类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.CraftMethodId">
+            <summary>
+            工法Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.CraftTemplateId">
+            <summary>
+            工艺模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.CraftTemplateName">
+            <summary>
+            工艺模板名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.UnitName">
+            <summary>
+            单位名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.IsCraftMethod">
+            <summary>
+            是否工法
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.IsDisable">
+            <summary>
+            己禁用
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.MeasureUnit">
+            <summary>
+            测算量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.MeasureWorkTypeManHours">
+            <summary>
+            测算工种工时
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.WorkTypeHours">
+            <summary>
+            单位工种工时
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.WorkType">
+            <summary>
+            工种
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.Keyword">
+            <summary>
+            关键字
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.MarketAdjustmentFactor">
+            <summary>
+            市场调节系数
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.CostPrice">
+            <summary>
+            成本价 (物料+人工)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.ForemanProfit">
+            <summary>
+            工长利润
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.RentFee">
+            <summary>
+            台班费
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.TotalCostPrice">
+            <summary>
+            总成本价 (物料+人工+工长利润+台班费)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.SalePrice">
+            <summary>
+            销售价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.WorkTypeCostPrice">
+            <summary>
+            工种成本费用
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.WorkTypeSalePrice">
+            <summary>
+            工种销售费用
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.MaterialCostPrice">
+            <summary>
+            物料成本合计
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.MaterialSalePrice">
+            <summary>
+            物料销售价合计
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.Materials">
+            <summary>
+            物料集合
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.CraftEntitySteps">
+            <summary>
+            工艺步骤集合集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.ToolEquipmentConsumes">
+            <summary>
+            工具设备消耗量集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.BaseLayerIds">
+            <summary>
+            基层材质Ids
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.FaceLayerIds">
+            <summary>
+            面层材质Ids
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.BaseLayers">
+            <summary>
+            基层材质集合
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.FaceLayers">
+            <summary>
+            面层材质集合
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.Images">
+            <summary>
+            图片集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.LabelItems">
+            <summary>
+            标签项Id集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.LabelNames">
+            <summary>
+            标签项名称集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityInfo.Classifications">
+            <summary>
+            工艺分类 ( 0-电气 , 1-水暖 , 2-其他 )
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityMaterialConsumeInfo">
+            <summary>
+            工艺实体物料消耗量信息
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityMaterialConsumeInfo.ProductSku">
+            <summary>
+            关联商品
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityMaterialConsumeInfo.Consume">
+            <summary>
+            消耗量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityMaterialConsumeInfo.AdjustmentCostUnitFee">
+            <summary>
+            市场调节成本费
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityMaterialConsumeInfo.CostPrice">
+            <summary>
+            成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityMaterialConsumeInfo.SalePrice">
+            <summary>
+            售价（走公式）
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityStepInfo">
+            <summary>
+            工艺实体步骤
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityStepInfo.Consume">
+            <summary>
+            消耗量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityStepInfo.CraftEntityInfo">
+            <summary>
+            步骤引用的实体
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityStepInfo.CraftSystemCraftType">
+            <summary>
+            工艺类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityStepInfo.StepSort">
+            <summary>
+            步骤序号
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityToolEquipmentConsumeInfo">
+            <summary>
+            工艺实体工具设备消耗信息
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityToolEquipmentConsumeInfo.ToolEquipment">
+            <summary>
+            工具设备
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityToolEquipmentConsumeInfo.Consume">
+            <summary>
+            消耗量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityToolEquipmentConsumeInfo.AdjustmentCostUnitFee">
+            <summary>
+            市场调节成本费
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityToolEquipmentConsumeInfo.CostPrice">
+            <summary>
+            成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftEntityToolEquipmentConsumeInfo.SalePrice">
+            <summary>
+            售价（走公式）
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo">
+            <summary>
+            工艺模板基类信息
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo.AcceptanceStandard">
+            <summary>
+            验收标准
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo.HandlingInstruction">
+            <summary>
+            操作说明
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo.ConstructionStageType">
+            <summary>
+            施工阶段类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo.UnitName">
+            <summary>
+            单位名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo.IsUsed">
+            <summary>
+            是否使用
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo.IsInstailed">
+            <summary>
+            是否实例化
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo.IsCraftMethod">
+            <summary>
+            是否工法
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.CraftTemplateInfo.IsDisable">
+            <summary>
+            己禁用
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.ToolEquipmentInfo">
+            <summary>
+            工具设备Dto
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.ToolEquipmentInfo.Amount">
+            <summary>
+            费用
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.WorkTypeConsumeInfo">
+            <summary>
+            工种消耗量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.WorkTypeConsumeInfo.WorkTypeId">
+            <summary>
+            工种Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.WorkTypeConsumeInfo.WorkTypeNo">
+            <summary>
+            工种编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.WorkTypeConsumeInfo.WorkTypeName">
+            <summary>
+            工种名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.WorkTypeConsumeInfo.Price">
+            <summary>
+            日工资
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.WorkTypeConsumeInfo.Consume">
+            <summary>
+            消耗量（几小时）
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.WorkTypeInfo">
+            <summary>
+            工种Dto
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.CraftContext.WorkTypeInfo.WorkersWageses">
+            <summary>
+            工种工资
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackCategoryInfo">
+            <summary>
+            套餐组内品类数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackCategoryInfo.CategoryId">
+            <summary>
+            品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackCategoryInfo.BalePackProductInfos">
+            <summary>
+            导航属性 - 套餐品类配置商品集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackChoiceAreaInfo">
+            <summary>
+            套餐选区数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackChoiceAreaInfo.BalePackInfos">
+            <summary>
+            导航属性 - 选区分组集 
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackGroupInfo">
+            <summary>
+            套餐选区内组数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackGroupInfo.ChoiceAreaId">
+            <summary>
+            选区Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackGroupInfo.Required">
+            <summary>
+            是否必选
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackGroupInfo.BalePackCategoryInfos">
+            <summary>
+            导航属性 - 选区分组品类集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo">
+            <summary>
+            大包/定制套餐数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.DiscountRatio">
+            <summary>
+            折扣比例
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.PackShelfStatus">
+            <summary>
+            套餐状态
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.BalePackType">
+            <summary>
+            套餐类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.CoverDrawing">
+            <summary>
+            套餐封面
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.HasOffShelvedSku">
+            <summary>
+            是否有下架商品
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.Labels">
+            <summary>
+            标签集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.Views">
+            <summary>
+            套餐浏览量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.Sales">
+            <summary>
+            套餐销售量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.Creater">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.CreaterId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackInfo.BalePackChoiceAreaInfos">
+            <summary>
+            选区集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackProductInfo">
+            <summary>
+            套餐品类配置商品数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackProductInfo.ProductId">
+            <summary>
+            商品Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.BalePackProductInfo.Shelved">
+            <summary>
+            商品是否已上架
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackCraftInfo">
+            <summary>
+            套餐模板工艺项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackCraftInfo.CraftEntityId">
+            <summary>
+            工艺实体Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackCraftInfo.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackCraftInfo.Shelved">
+            <summary>
+            是否已上架
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackCraftInfo.CraftQuantity">
+            <summary>
+             默认工艺工程量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackCraftInfo.SkuCraftPositions">
+            <summary>
+            只读属性 - 放置位置集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackCraftInfo.PackItemInfo">
+            <summary>
+            导航属性 - 套餐模板项
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackCraftInfo.CostPrice">
+            <summary>
+              成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackCraftInfo.Changed">
+            <summary>
+            是否已变价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo">
+            <summary>
+            套餐模板数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Status">
+            <summary>
+            套餐状态
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.PackType">
+            <summary>
+            套餐类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.PackKind">
+            <summary>
+            套餐类别
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.PackMode">
+            <summary>
+            套餐模式
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Color">
+            <summary>
+            套餐颜色
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.IsUnitActual">
+            <summary>
+            是否平米使用面积定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.IsActual">
+            <summary>
+            是否整体使用面积定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Square">
+            <summary>
+             套餐总面积 实际面积（使用面积）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.UnitPrice">
+            <summary>
+            实际面积（使用面积）单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.TotalPrice">
+            <summary>
+            整体定价：使用面积总价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.UnitTotalPrice">
+            <summary>
+            平米定价方式： 使用面积总价=最低购买面积*单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.IsUnitBuilding">
+            <summary>
+            是否平米整体建筑定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.IsBuilding">
+            <summary>
+            是否整体建筑定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.BuildingSquare">
+            <summary>
+            套餐总面积 实际面积（建筑面积）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.BuildingUnitPrice">
+            <summary>
+            建筑面积单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.BuildingTotalPrice">
+            <summary>
+            整体定价：建筑面积总价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.UnitBuildingTotalPrice">
+            <summary>
+            平米定价方式： 建筑面积总价=最低购买面积*单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.IsWhole">
+            <summary>
+            超出是否整体定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Premium">
+            <summary>
+            整体 超出补单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.CriterionSquare">
+            <summary>
+            标准面积（公式）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Priced">
+            <summary>
+            是否已定价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.PricingType">
+            <summary>
+            定价类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.HasOffShelvedSku">
+            <summary>
+            是否有下架商品
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.HasChangedSku">
+            <summary>
+            是否有变价商品/工艺
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Cover">
+            <summary>
+            选购封面
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.SpaceTypes">
+            <summary>
+            空间类型集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Layouts">
+            <summary>
+            居室集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.StyleNos">
+            <summary>
+            设计风格集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Propertys">
+            <summary>
+            只读属性 - 楼盘集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.HouseTypes">
+            <summary>
+            只读属性 - 户型集(户型Id|户型名称，楼盘Id，楼盘名称,楼盘地址)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Views">
+            <summary>
+            套餐浏览量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Sales">
+            <summary>
+            套餐销售量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Creater">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.CreaterId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.SourcePackId">
+            <summary>
+            源套餐Id(源套餐一直为空)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.VersionNumber">
+            <summary>
+            版本号(源套餐一直为空)（套餐名称首拼套餐类型首拼两位流水日期）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.IsClone">
+            <summary>
+            是否克隆
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.Instructions">
+            <summary>
+            产品说明书(文件Id)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.InstructionsName">
+            <summary>
+            产品说明书名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.SpaceInfos">
+            <summary>
+            只读属性 - 套餐空间集 [空间Id，空间名称]
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.UnitSquare">
+            <summary>
+            平米定价最低购买使用面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.UnitBuildingSquare">
+            <summary>
+            平米定价最低购买建筑面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackInfo.SpaceBaseInfos">
+            <summary>
+            导航属性 - 套餐模板空间基本信息集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo">
+            <summary>
+            套餐模板项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.PackId">
+            <summary>
+            套餐模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.PackSpaceId">
+            <summary>
+            套餐模板空间Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.PackSpaceName">
+            <summary>
+            套餐模板空间名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.CategoryId">
+            <summary>
+            品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.DefaultSkuQuantity">
+            <summary>
+            默认商品SKU数量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.DefaultCraftQuantity">
+            <summary>
+            默认工艺工程量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.CategoryArea">
+            <summary>
+            品类区域
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.CategoryIds">
+            <summary>
+             品类集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.BrandIds">
+            <summary>
+            品牌Id集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.Requirement">
+            <summary>
+            设计要求
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackItemInfo.DecorationPackInfo">
+            <summary>
+            导航属性 - 套餐模板
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeInfo">
+            <summary>
+            套餐模板方案数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeInfo.PackId">
+            <summary>
+            套餐模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeInfo.Cover">
+            <summary>
+            封面
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeInfo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeInfo.DecorationPackInfo">
+            <summary>
+            导航属性 - 套餐模板
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeSpaceInfo">
+            <summary>
+            套餐模板方案空间数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeSpaceInfo.PackSpaceId">
+            <summary>
+            套餐模板空间Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeSpaceInfo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeSpaceInfo.Images">
+            <summary>
+            图片集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSchemeSpaceInfo.PackSchemeInfo">
+            <summary>
+            导航属性 - 套餐模板方案
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo">
+            <summary>
+            套餐模板商品SKU项数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.SkuId">
+            <summary>
+            商品SKU Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.CategoryId">
+            <summary>
+            三级品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.BrandId">
+            <summary>
+            品牌Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.Default">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.Shelved">
+            <summary>
+            是否已上架
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.SkuQuantity">
+            <summary>
+              默认商品SKU数量(手动填写)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.SkuCraftPositions">
+            <summary>
+            只读属性 - 放置位置集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.PackItemInfo">
+            <summary>
+            导航属性 - 套餐模板项
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.CostPrice">
+            <summary>
+              成本价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSkuInfo.Changed">
+            <summary>
+            是否已变价
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceBaseInfo">
+            <summary>
+            套餐模板空间(销售端)
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceBaseInfo.Square">
+            <summary>
+            空间面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceBaseInfo.SpaceType">
+            <summary>
+            空间类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceBaseInfo.CriterionSquare">
+            <summary>
+            标准面积(公式)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceBaseInfo.SpaceRatio">
+            <summary>
+            空间占比（标准空间面积/标准整体面积|5/60）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceBaseInfo.UnitPrice">
+            <summary>
+            超出面积单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceBaseInfo.DecorationPackSpacePricingType">
+            <summary>
+            套餐空间定价类型
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo">
+            <summary>
+            套餐模板空间详情数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo.NumericalStandard">
+            <summary>
+            数值标准
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo.GroundLength">
+            <summary>
+            地面长度
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo.GroundWidth">
+            <summary>
+            地面宽度
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo.SpacePerimeter">
+            <summary>
+            空间周长
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo.WallHigh">
+            <summary>
+            墙面高度
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo.HoleArea">
+            <summary>
+            洞口面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo.FacadeArea">
+            <summary>
+            立面面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo.GroundArea">
+            <summary>
+            地面面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceDetailInfo.CeilingArea">
+            <summary>
+            棚面面积
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo">
+            <summary>
+            套餐模板空间数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.Square">
+            <summary>
+            空间面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.SpaceType">
+            <summary>
+            空间类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.CriterionSquare">
+            <summary>
+            标准面积(公式)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.SpaceRatio">
+            <summary>
+            空间占比（标准空间面积/标准整体面积|5/60）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.UnitPrice">
+            <summary>
+            超出面积单价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.DecorationPackSpacePricingType">
+            <summary>
+            套餐空间定价类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.DecorationPackInfo">
+            <summary>
+            导航属性 - 套餐模板
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.DecorationPackSpaceDetailInfos">
+            <summary>
+            导航属性 - 套餐模板空间详情
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.ExistsOffShelvedSkuCraft">
+            <summary>
+            存在下架商品|工艺
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPackSpaceInfo.ExistsChangedSkuCraft">
+            <summary>
+            存在变价商品|工艺
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPack_BalePackInfo">
+            <summary>
+            套餐模板 - 大包/定制模板关系数据传输对象
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPack_BalePackInfo.DecorationPackId">
+            <summary>
+            套餐模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPack_BalePackInfo.BalePackId">
+            <summary>
+            大包/定制模板Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPack_BalePackInfo.BalePackType">
+            <summary>
+            大包/定制模板类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPack_BalePackInfo.DecorationPackInfo">
+            <summary>
+            导航属性 - 套餐模板
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.DecoratePackageContext.DecorationPack_BalePackInfo.BalePackInfo">
+            <summary>
+            导航属性 - 大包/定制模板
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.BrandInfo">
+            <summary>
+            品牌
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.CategoryInfo">
+            <summary>
+            品类
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.CategoryInfo.IsLeaf">
+            <summary>
+            是否为品类品类Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.CategoryInfo.CategoryPath">
+            <summary>
+            品类路径
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.CategoryInfo.ParentNodeInfo">
+            <summary>
+            上级目录
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductConsumeConfigInfo">
+            <summary>
+            商品消耗耗损率
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductConsumeConfigInfo.AttritionRate">
+            <summary>
+             耗损率
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductConsumeConfigInfo.Consumption">
+            <summary>
+            消耗量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductConsumeConfigInfo.ProductId">
+            <summary>
+            商品Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductConsumeConfigInfo.UnitName">
+            <summary>
+            单位名称
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo">
+            <summary>
+            商品
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.SupplierId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.SupplierNo">
+            <summary>
+            供应商编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.SupplierName">
+            <summary>
+            供应商名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.ProductType">
+            <summary>
+            商品类别(一级类目)
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.CategoryId">
+            <summary>
+            品类Id 
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.CategoryNo">
+            <summary>
+            品类编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.CategoryName">
+            <summary>
+            品类名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.CategoryStorageFee">
+            <summary>
+            品类管理费
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.BrandId">
+            <summary>
+            品牌Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.BrandName">
+            <summary>
+            品牌名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.ProductId">
+            <summary>
+            商品Id 
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.Keyword">
+            <summary>
+            关键字（用于分词查询）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.Accessory">
+            <summary>
+            配件信息
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.PackCoefficient">
+            <summary>
+            包装转换量
+            </summary>
+            <remarks>
+            ProductSKUInfo.CraftInfo.PackCoefficient
+            </remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.MinSellUnit">
+            <summary>
+            最小销售单位
+            </summary>
+            <remarks>
+            ProductSKUInfo.CraftInfo.MinSellUnit
+            </remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.IsCustomProduct">
+            <summary>
+            定制商品
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.CustomPeriod">
+            <summary>
+            定制周期（生产周期）
+            </summary>
+            <remarks>
+            ProductSKUInfo.ProductInfo.CustomProduct.Value.CustomPeriod
+            </remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.Specifications">
+            <summary>
+            规格
+            </summary>
+            <remarks>
+            ProductSKUInfo.SkuProperty_SkuPropertyOptionInfos.First(x=>x.SkuPropertyInfo.Name=="规格").SkuPropertyOptionInfo.Name
+            </remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.Type">
+            <summary>
+            型号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.Description">
+            <summary>
+            描述（说明）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.UsualProperties">
+            <summary>
+            普通属性集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.IsDisable">
+            <summary>
+            已禁用
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.Images">
+            <summary>
+            图片集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.ConversionRatio">
+            <summary>
+            工程量单位转消耗量单位转换比率 （公式：工程量*转换比率 =消耗量）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.Unit">
+            <summary>
+            消耗量单位
+            </summary>
+            <remarks>
+            ProductSKUInfo.CraftInfo.PackName
+            </remarks>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.MealPrice">
+            <summary>
+            消耗量套餐价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.CostPrice">
+            <summary>
+            消耗量结算价（消耗量成本价）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.SalePrice">
+            <summary>
+            消耗量销售价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.QuantitiesUnit">
+            <summary>
+            工程量单位
+            消耗耗损单位
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.QuantitiesMealPrice">
+            <summary>
+            工程量套餐价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.QuantitiesCostPrice">
+            <summary>
+            工程量结算价（成本价）
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.ProductContext.ProductSkuInfo.QuantitiesSalePrice">
+            <summary>
+            工程量销售价
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.ResourceService.IAppService.DTOs.Outputs.临时.设计资源_复合工艺实体.面材品类">
+            <summary>
+            表面材质品类
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract">
+            <summary>
+            工艺数据服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntitiesByIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            根据工艺实体Id集获取工艺实体集
+            </summary>
+            <param name="craftEntityIds">工艺实体Id集</param>
+            <returns>工艺实体集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntitiesByIdConsumes(System.Collections.Generic.Dictionary{System.Guid,System.Decimal})">
+            <summary>
+            根据工艺实体Id/工程量字典，获取工艺实体集合
+            </summary>
+            <param name="craftEntityConsumeIds">Key工艺实体Id,Value工程量</param>
+            <returns>工艺定额集合</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntitiesByPages(System.String,System.Nullable{ShSoft.ValueObjects.Enums.CraftSystemCraftType},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            分页获取工艺实体集
+            </summary>
+            <param name="keyWords">关键字</param>
+            <param name="craftType">工艺类型类型</param>
+            <param name="unitName">单位名称</param>
+            <param name="isCraftMethod">是否工法</param>
+            <param name="isDisable">是否禁用</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntitiesForSaleByPages(System.String,System.Nullable{ShSoft.ValueObjects.Enums.CraftSystemCraftType},System.String,System.Collections.Generic.Dictionary{System.Guid,System.Collections.Generic.IEnumerable{System.Guid}},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            分页获取工艺实体集
+            </summary>
+            <param name="keyWords">关键字</param>
+            <param name="craftType">工艺类型类型</param>
+            <param name="unitName">单位名称</param>
+            <param name="labelItemDic">标签Id字典</param>
+            <param name="isCraftMethod">是否工法</param>
+            <param name="isDisable">是否禁用</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntityInfoByExclusiveIds(System.String,System.Nullable{ShSoft.ValueObjects.Enums.CraftSystemCraftType},System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Int32,System.Int32)">
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>工艺实体集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntityInfoByLablesAndExclusiveIds(System.String,System.Nullable{ShSoft.ValueObjects.Enums.CraftSystemCraftType},System.Collections.Generic.Dictionary{System.Guid,System.Collections.Generic.IEnumerable{System.Guid}},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,工艺实体类型,标签Id字典,排除的工艺实体Ids,上下架状态获取工艺实体
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="craftType">工艺实体类型</param>
+            <param name="labelItemDic">标签Id字典</param>
+            <param name="exclusiveEntityIds">排除的工艺实体Ids</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>工艺实体集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntityInfoByLableIdsAndExclusiveIds(System.String,System.Nullable{ShSoft.ValueObjects.Enums.CraftSystemCraftType},System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,工艺实体类型,标签Id集,排除的工艺实体Ids,上下架状态获取工艺实体
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="craftType">工艺实体类型</param>
+            <param name="labelIds">标签Id集</param>
+            <param name="exclusiveEntityIds">排除的工艺实体Ids</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>工艺实体集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntityInfoByCraftTemplateIdsAndExclusiveIds(System.String,System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{ShSoft.ValueObjects.Enums.CraftSystemCraftType},System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,工艺模板Id集,工艺实体类型,标签Id集,排除的工艺实体Id集,上下架状态获取工艺实体
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="craftTemplateIds">工艺模板Id集</param>
+            <param name="craftType">工艺实体类型</param>
+            <param name="labelItemIds">标签Id集</param>
+            <param name="exclusiveEntityIds">排除的工艺实体Ids</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>工艺实体集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntityInfoByLablesAndInclusiveIds(System.String,System.Nullable{ShSoft.ValueObjects.Enums.CraftSystemCraftType},System.Collections.Generic.Dictionary{System.Guid,System.Collections.Generic.IEnumerable{System.Guid}},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,工艺实体类型,标签Id字典,包含的工艺实体Ids,上下架状态获取工艺实体
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="craftType">工艺实体类型</param>
+            <param name="labelItemDic">标签Id字典</param>
+            <param name="inclusiveIds">包含的工艺实体Ids</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>工艺实体集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntityInfoByLableNames(System.String,System.Nullable{ShSoft.ValueObjects.Enums.CraftSystemCraftType},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,工艺实体类型,标签名称集,上下架状态获取工艺实体
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="craftType">工艺实体类型</param>
+            <param name="labelItemName">标签名称集</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>工艺实体集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntityTotalPrice(System.Collections.Generic.Dictionary{System.Guid,System.Decimal})">
+            <summary>
+            获取工艺实体价格
+            </summary>
+            <param name="craftEntityConsumeIds">工艺实体Id,消耗量字典</param>
+            <returns>结算价-销售价字典</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetInvalidCraftEntitiesByIds(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            获取无效的工艺实体Id集
+            </summary>
+            <param name="craftEntityIds">工艺实体Id集</param>
+            <returns>无效的工艺实体Id集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntitiesByCategoryId(System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Nullable{System.Boolean})">
+            <summary>
+            通过品类Id获取工艺集
+            </summary>
+            <param name="categoryIds">品类Id集</param>
+            <param name="isProviderServices">是否供方服务</param>
+            <param name="isCraftMethod">是否工法</param>
+            <returns>供方服务工艺集 key:品类Id,value:品类工艺集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftMaterialCategoryById(System.Guid)">
+            <summary>
+            通过工艺实体Id获取实体内辅料品类Id
+            </summary>
+            <param name="craftEntityId">工艺实体Id</param>
+            <returns>品类Id</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ICraftEntityContract.GetCraftEntitiesCostPriceByIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            通过工法实体Id集获取工法实体成本价格集
+            </summary>
+            <param name="craftEntityIds">工法实体Id集</param>
+            <returns>工法实体成本价格集</returns>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract">
+            <summary>
+            商品相关服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkusByIds(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            通过商品SkuId集获取商品Sku信息集
+            </summary>
+            <param name="productSkuIds">商品SkuId集</param>
+            <returns>商品Sku信息集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetInvalidProductSkusByIds(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            获取无效的商品SkuId集
+            </summary>
+            <param name="productSkuIds">商品SkuId集</param>
+            <returns>无效的商品SkuId集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkusByExclusiveIds(System.String,System.Guid,System.String,System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,品类Id,规格,排除的商品Id集,上下架状态获取商品Sku
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="categoryId">品类Id</param>
+            <param name="specifications">规格</param>
+            <param name="exclusiveSkuIds">排除的商品Ids</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>商品SKU列表</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkusByTypesAndExclusiveIds(System.String,System.Guid,System.String,System.Collections.Generic.IEnumerable{ShSoft.ValueObjects.Enums.ProductType},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,品类Id,规格,商品类型集,排除的商品Id集,上下架状态获取商品Sku
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="categoryId">品类Id</param>
+            <param name="specifications">规格</param>
+            <param name="productTypes">商品类型集</param>
+            <param name="exclusiveSkuIds">排除的商品Ids</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>商品SKU列表</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkusByInclusiveIds(System.String,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,品类Id,规格,包含的商品Id集,上下架状态获取商品Sku
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="categoryIds">品类Id集</param>
+            <param name="brandIds">品牌Id集</param>
+            <param name="inclusiveSkuIds">包含的商品Id集</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>商品SKU列表</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetMaterialProductSkusByCondition(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,品类编号集,品牌Id集 获取基础商品集合
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="categoryNos">品类编号集合</param>
+            <param name="brandIds">品牌Id集</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>基础商品集合</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkusByPage(System.String,System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字获取商品Sku集合
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>商品Sku集合</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkusByCostRange(System.String,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,品类Id集,品牌Id集,成本价区间获取商品Sku集
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="categoryIds">品类集合</param>
+            <param name="brandIds">品牌集合</param>
+            <param name="minQuantitiesCostPrice">最小工程量成本价</param>
+            <param name="maxQuantitiesCostPrice">最大工程量成本价</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>商品Sku集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkusByExclusiveIdsAndCostRange(System.String,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.Guid},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,品类Id集,品牌Id集,排除的商品Id集,成本价区间获取商品Sku集
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="categoryIds">品类集合</param>
+            <param name="brandIds">品牌集合</param>
+            <param name="exclusiveSkuIds">排除的商品</param>
+            <param name="minQuantitiesCostPrice">最小工程量成本价</param>
+            <param name="maxQuantitiesCostPrice">最大工程量成本价</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>商品Sku集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkusBySkuProperties(System.String,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            通过关键字,品类Id集,品牌Id集,Sku属性集,销售价区间获取商品Sku集
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="categoryIds">品类集合</param>
+            <param name="brandIds">品牌集合</param>
+            <param name="skuProperties">Sku属性集</param>
+            <param name="minQuantitiesSalePrice">最小工程量销售价</param>
+            <param name="maxQuantitiesSalePrice">最大工程量销售价</param>
+            <param name="isDisable">上下架状态</param>
+            <param name="sort">排序条件 true为正序,false为倒序</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>商品Sku集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductTotalPrice(System.Collections.Generic.Dictionary{System.Guid,System.Decimal})">
+            <summary>
+            通过商品Id,工程量字典获取总价
+            </summary>
+            <param name="idQuantitiesDic">商品Id,工程量字典</param>
+            <returns>Key成本价,Value销售价</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkuByProperties(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String},System.Nullable{System.Boolean})">
+            <summary>
+            通过商品Id,Sku属性集获取商品Sku
+            </summary>
+            <param name="productId">商品Id</param>
+            <param name="properties">Sku属性集</param>
+            <param name="isDisable">上下架状态</param>
+            <returns>商品Sku集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductBrandByCategory(System.Guid)">
+            <summary>
+            通过品类获取所有上架商品品牌集
+            </summary>
+            <param name="categoryId">品类Id</param>
+            <returns>商品品牌集</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkuPropertiesByCategory(System.Guid)">
+            <summary>
+            通过品类获取所有上架商品Sku属性集
+            </summary>
+            <param name="categoryId">品类Id</param>
+            <returns>商品Sku属性集,Key为属性名,Value为属性值</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetPropertiesByProductSkuId(System.Guid)">
+            <summary>
+            通过商品SkuId获取此Sku商品关联所有的Sku属性集
+            </summary>
+            <param name="productSkuId">商品SkuId</param>
+            <returns>商品Sku属性集,Key为属性名,Value为属性值</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetPropertyValuesByProductSkuId(System.Guid)">
+            <summary>
+            通过商品SkuId获取此Sku商品关联所有的Sku属性值集
+            </summary>
+            <param name="productSkuId">商品SkuId</param>
+            <returns>商品Sku属性集,Key为sku所有属性值,Value为SkuId</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.IProductContract.GetProductSkusCostPriceByIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            通过商品Id集获取商品成本价格集
+            </summary>
+            <param name="productSkuIds">商品Id集</param>
+            <returns>商品成本价格集</returns>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.Interfaces.ISyncResourceContract">
+            <summary>
+            资源同步服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ISyncResourceContract.SetCraftEntityIndex">
+            <summary>
+            设置工艺定额索引
+            </summary>
+            <returns>设置索引信息</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ISyncResourceContract.SetProductSkuIndex">
+            <summary>
+            设置商品Sku索引
+            </summary>
+            <returns>设置索引信息</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ISyncResourceContract.SetCategoryIndex">
+            <summary>
+            设置品类索引
+            </summary>
+            <returns>设置索引信息</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ISyncResourceContract.SetBrandIndex">
+            <summary>
+            设置品牌索引
+            </summary>
+            <returns>设置索引信息</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ISyncResourceContract.SetBalePackageIndex">
+            <summary>
+            设置大包/定制套餐索引
+            </summary>
+            <returns>设置索引信息</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ISyncResourceContract.SetAccurateDesignPackageIndex">
+            <summary>
+            设置精准套餐索引
+            </summary>
+            <returns>设置索引信息</returns>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ISyncResourceContract.SetDecorationPackageIndex">
+            <summary>
+            设置固定套餐索引
+            </summary>
+            <returns>设置索引信息</returns>
+        </member>
+        <member name="T:HDIPlatform.ResourceService.IAppService.Interfaces.ITempForCADContract">
+            <summary>
+            对CAD临时数据服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ITempForCADContract.Get品类集合(System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            获取供应商品类集合
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ITempForCADContract.Get成品集合(System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            获取成品集合
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ITempForCADContract.Get基础材料集合(System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            获取基础材料集合
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.ResourceService.IAppService.Interfaces.ITempForCADContract.Get工艺实体集合(System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            获取工艺实体集合
+            </summary>
+        </member>
+    </members>
+</doc>

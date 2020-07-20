@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShSoft.Infrastructure.Global</name>
+    </assembly>
+    <members>
+        <member name="T:ShSoft.Infrastructure.Global.Finalizer">
+            <summary>
+            终结器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Global.Finalizer.CleanDb">
+            <summary>
+            清理数据库
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.Global.Initializer">
+            <summary>
+            初始化器
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Global.Initializer.InitDataBase">
+            <summary>
+            初始化数据库
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Global.Initializer.InitSessionId">
+            <summary>
+            初始化会话Id
+            </summary>
+        </member>
+        <member name="T:ShSoft.Infrastructure.Global.Transaction.UnitOfWorkExtension">
+            <summary>
+            UnitOfWork扩展工具类
+            </summary>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Global.Transaction.UnitOfWorkExtension.UnitedCommit(ShSoft.Infrastructure.RepositoryBase.IUnitOfWork)">
+            <summary>
+            UnitOfWork联合提交（包含处理领域事件）扩展方法
+            </summary>
+            <param name="unitOfWork">工作单元实例</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Global.Transaction.UnitOfWorkExtension.UnitedCommitAsync(ShSoft.Infrastructure.RepositoryBase.IUnitOfWork)">
+            <summary>
+            UnitOfWork联合提交（包含处理领域事件）异步扩展方法
+            </summary>
+            <param name="unitOfWork">工作单元实例</param>
+        </member>
+        <member name="M:ShSoft.Infrastructure.Global.Transaction.UnitOfWorkExtension.UnitedCommit(System.Collections.Generic.IEnumerable{ShSoft.Infrastructure.RepositoryBase.IUnitOfWork})">
+            <summary>
+            UnitOfWork集联合提交（包含处理领域事件）扩展方法
+            </summary>
+            <param name="unitOfWorks">工作单元实例集</param>
+        </member>
+    </members>
+</doc>

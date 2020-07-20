@@ -1,0 +1,1966 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HDIPlatform.MarketSystem.IAppService</name>
+    </assembly>
+    <members>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.FamilyMemberParam">
+            <summary>
+            家庭成员参数模型
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.FamilyMemberParam.RelationshipNo">
+            <summary>
+            与本人关系编号
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.FamilyMemberParam.AgeIntervalNo">
+            <summary>
+            年龄区间编号
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.FamilyMemberParam.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.FamilyMemberParam.Hobbies">
+            <summary>
+            兴趣爱好编号集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam">
+            <summary>
+            户型参数模型
+            </summary>
+            <remarks>勿忘[DataMember]</remarks>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam.TypeName">
+            <summary>
+            户型名称
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam.PropertyId">
+            <summary>
+            楼盘Id
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam.BuildingTypeNo">
+            <summary>
+            建筑类型编号
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam.ActualSquare">
+            <summary>
+            实际面积
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam.BuildingSquare">
+            <summary>
+            建筑面积
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam.Layout">
+            <summary>
+            居室
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam.Graphs">
+            <summary>
+            平面图集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.MeasureTaskParam">
+            <summary>
+            测量任务参数模型
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.MeasureTaskParam.HouseTypeId">
+            <summary>
+            户型Id
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.MeasureTaskParam.Contact">
+            <summary>
+            取钥匙联系人
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.MeasureTaskParam.Phone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.MeasureTaskParam.Receiver">
+            <summary>
+            接收人
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam">
+            <summary>
+            楼盘基本信息参数模型
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.PropertyName">
+            <summary>
+            楼盘名称
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.AddressList">
+            <summary>
+            详细地址
+            <remarks>
+            索引0：省，1：市，2：区，3：具体街道
+            </remarks>
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Developer">
+            <summary>
+            开发商信息
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Seller">
+            <summary>
+            销售商信息
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Tenement">
+            <summary>
+            物业公司
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.OpeningTimes">
+            <summary>
+            开盘时间
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.ConstructionTime">
+            <summary>
+            建设时间
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.OccupancyTimes">
+            <summary>
+            入住时间
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.BuildingTypes">
+            <summary>
+            建筑类型集
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.DesignStyle">
+            <summary>
+            建筑设计
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.VolumeRate">
+            <summary>
+            容积率
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.AfforestRate">
+            <summary>
+            绿化率
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.ActualSquare">
+            <summary>
+            实际面积
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.BuildingSquare">
+            <summary>
+            建筑面积
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.School">
+            <summary>
+            学校
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Commercial">
+            <summary>
+            商业
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Hospital">
+            <summary>
+            医院
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Bank">
+            <summary>
+            银行
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Garden">
+            <summary>
+            园林
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Traffic">
+            <summary>
+            交通
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Operator">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.ProjectFeature">
+            <summary>
+            项目特色
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.ZipCode">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.LoopPosition">
+            <summary>
+            环线位置
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.AgeLimit">
+            <summary>
+            产权年限
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.FinishedTime">
+            <summary>
+            竣工时间
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Structure">
+            <summary>
+            建筑结构
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.BlockCount">
+            <summary>
+            楼栋总数
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Entrance">
+            <summary>
+            小区入口
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.CommunicationDevice">
+            <summary>
+            通讯设备
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.CurrentHouseholdCount">
+            <summary>
+            当前户数
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.DecorationSituation">
+            <summary>
+            装修情况
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Elevator">
+            <summary>
+            电梯服务
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Extra">
+            <summary>
+            附加信息
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.FloorSituation">
+            <summary>
+            楼层情况
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.GasSituation">
+            <summary>
+            燃气情况
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Health">
+            <summary>
+            卫生服务
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.ParkingSpace">
+            <summary>
+            停车位
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.TenementCategory">
+            <summary>
+            物业类别
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.TenementFee">
+            <summary>
+            物业费
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.Discount">
+            <summary>
+            优惠政策
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.SaleAddress">
+            <summary>
+            售楼处
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.SalePhone">
+            <summary>
+            销售电话
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.SaleStatus">
+            <summary>
+            销售状态
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.SecuritySituation">
+            <summary>
+            安全情况
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.ElectricitySituation">
+            <summary>
+            供电情况
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.HeatingSituation">
+            <summary>
+            供暖情况
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam.WaterSituation">
+            <summary>
+            供水情况
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.ContactParam">
+            <summary>
+            联系人信息参数模型
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.ContactParam.Number">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.ContactParam.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.ContactParam.Phone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.ContactParam.Job">
+            <summary>
+            职务
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam">
+            <summary>
+            销控表导入记录明细参数模型
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.RowNo">
+            <summary>
+            行号
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.PropertyName">
+            <summary>
+            楼盘名称
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.HouseTypeName">
+            <summary>
+            户型名称
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.HouseTypeBuildingSquare">
+            <summary>
+            户型建筑面积
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.Block">
+            <summary>
+            栋
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.Unit">
+            <summary>
+            单元
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.Floor">
+            <summary>
+            楼层
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.Room">
+            <summary>
+            室
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.BuildingSquare">
+            <summary>
+            建筑面积
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.Selled">
+            <summary>
+            已销售
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.Occupancy">
+            <summary>
+            已入住
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.CustomerName">
+            <summary>
+            客户名称
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.CustomerPhone">
+            <summary>
+            客户电话
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.Failed">
+            <summary>
+            是否失败
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.IsNew">
+            <summary>
+            是否新增
+            </summary>
+        </member>
+        <member name="F:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.FailedReason">
+            <summary>
+            失败原因
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam.PhoneBak">
+            <summary>
+            备用电话
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo">
+            <summary>
+            客户模型数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.PropertyId">
+            <summary>
+            楼盘Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.FamilyStructNo">
+            <summary>
+            家庭结构编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.StyleNo">
+            <summary>
+            风格要求编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.StructureNo">
+            <summary>
+            格局要求编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.Label">
+            <summary>
+            标签
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.MainAgeInterval">
+            <summary>
+            主年龄段
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.FamilyMembers">
+            <summary>
+            家庭成员集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.CustomRequires">
+            <summary>
+            自定义要求集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.PropertyInfo">
+            <summary>
+            导航属性 - 楼盘
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.FamilyStructInfo">
+            <summary>
+            导航属性 - 家庭结构
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.StyleInfo">
+            <summary>
+            导航属性 - 风格要求
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.CustomerModelInfo.StructureInfo">
+            <summary>
+            导航属性 - 格局要求
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskDetailInfo">
+            <summary>
+            设计任务明细数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskDetailInfo.CustomerModelId">
+            <summary>
+            客户模型Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskDetailInfo.Finished">
+            <summary>
+            方案已完成
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskDetailInfo.FinishedTime">
+            <summary>
+            完成时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskDetailInfo.ReceptionTime">
+            <summary>
+            接收时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskDetailInfo.Budget">
+            <summary>
+            预算总和
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskDetailInfo.DesignTaskInfo">
+            <summary>
+            导航属性 - 设计任务
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskDetailInfo.CustomerModelInfo">
+            <summary>
+            导航属性 - 客户模型
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo">
+            <summary>
+            设计任务数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.HouseTypeId">
+            <summary>
+            户型Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.ExpectedFinishedTime">
+            <summary>
+            预期完成时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.PrincipalNo">
+            <summary>
+            负责人编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.PrincipalName">
+            <summary>
+            负责人名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.NotFinishedItemCount">
+            <summary>
+            未完成方案个数
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.FinishedItemCount">
+            <summary>
+            已完成方案个数
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.FinishedTime">
+            <summary>
+            完成时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.ReceptionTime">
+            <summary>
+            接收时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.DesignTaskInfo.HouseTypeInfo">
+            <summary>
+            导航属性 - 户型
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyMemberInfo">
+            <summary>
+            家庭成员数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyMemberInfo.RelationshipNo">
+            <summary>
+            与本人关系编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyMemberInfo.AgeIntervalNo">
+            <summary>
+            年龄区间编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyMemberInfo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyMemberInfo.Hobbies">
+            <summary>
+            兴趣爱好编号集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyMemberInfo.AgeIntervalInfo">
+            <summary>
+            导航属性 - 年龄区间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyMemberInfo.CustomerModelInfo">
+            <summary>
+            导航属性 - 客户模型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyMemberInfo.RelationshipInfo">
+            <summary>
+            导航属性 - 与本人关系
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyMemberInfo.HobbyInfos">
+            <summary>
+            导航属性 - 兴趣爱好集
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.MeasureTaskInfo">
+            <summary>
+            测量任务数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.MeasureTaskInfo.Contact">
+            <summary>
+            取钥匙联系人
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.MeasureTaskInfo.Phone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.MeasureTaskInfo.ReceiverNo">
+            <summary>
+            接收人编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.MeasureTaskInfo.ReceiverName">
+            <summary>
+            接收人名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.MeasureTaskInfo.Status">
+            <summary>
+            任务状态
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.MeasureTaskInfo.FinishedTime">
+            <summary>
+            完成时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.MeasureTaskInfo.ReceptionTime">
+            <summary>
+            接收时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.MeasureTaskInfo.HouseTypeInfo">
+            <summary>
+            导航属性 - 户型
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeSaleControlInfo">
+            <summary>
+            户型销控信息数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeSaleControlInfo.NotSelledQuantity">
+            <summary>
+            未销售数量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeSaleControlInfo.SelledQuantity">
+            <summary>
+            已销售数量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeSaleControlInfo.OccupancyQuantity">
+            <summary>
+            入住数量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeSaleControlInfo.HouseQuantity">
+            <summary>
+            户型（室）总数
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeSaleControlInfo.BuildingSquare">
+            <summary>
+            建筑面积
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo">
+            <summary>
+            销控表导入记录明细数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.RowNo">
+            <summary>
+            行号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.PropertyName">
+            <summary>
+            楼盘名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.HouseTypeName">
+            <summary>
+            户型名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.HouseTypeBuildingSquare">
+            <summary>
+            户型建筑面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.Block">
+            <summary>
+            栋
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.Unit">
+            <summary>
+            单元
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.Floor">
+            <summary>
+            楼层
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.Room">
+            <summary>
+            室
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.BuildingSquare">
+            <summary>
+            建筑面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.Selled">
+            <summary>
+            已销售
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.Occupancy">
+            <summary>
+            已入住
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.CustomerName">
+            <summary>
+            客户名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.CustomerPhone">
+            <summary>
+            客户电话
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.PhoneBak">
+            <summary>
+            备用电话
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.Failed">
+            <summary>
+            是否失败
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.IsNew">
+            <summary>
+            是否新增
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.FailedReason">
+            <summary>
+            失败原因
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordDetailInfo.SaleControlRecordInfo">
+            <summary>
+            导航属性 - 销控表导入记录
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordInfo">
+            <summary>
+            销控表导入记录数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordInfo.OperatorNo">
+            <summary>
+            操作人编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordInfo.OperatorName">
+            <summary>
+            操作人姓名
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordInfo.TotalCount">
+            <summary>
+            总记录数
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordInfo.SuccessfulCount">
+            <summary>
+            成功记录数
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.SaleControlRecordInfo.FailedCount">
+            <summary>
+            失败记录数
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.StyleInfo">
+            <summary>
+            风格要求数据传输对象
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.StructureInfo">
+            <summary>
+            格局要求数据传输对象
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.RelationshipInfo">
+            <summary>
+            与本人关系数据传输对象
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HobbyInfo">
+            <summary>
+            兴趣爱好数据传输对象
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.FamilyStructInfo">
+            <summary>
+            家庭结构数据传输对象
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.AgeIntervalInfo">
+            <summary>
+            年龄区间数据传输对象
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.BuildingTypeInfo">
+            <summary>
+            建筑类型数据传输对象
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.ContactInfo">
+            <summary>
+            联系人数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.ContactInfo.Phone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.ContactInfo.Job">
+            <summary>
+            职务
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo">
+            <summary>
+            户型数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.PropertyId">
+            <summary>
+            楼盘Id
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.BuildingTypeNo">
+            <summary>
+            建筑类型编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.ActualSquare">
+            <summary>
+            实际面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.BuildingSquare">
+            <summary>
+            建筑面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.Direction">
+            <summary>
+            朝向
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.Approval">
+            <summary>
+            是否立项
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.Measured">
+            <summary>
+            是否测量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.OperatorNo">
+            <summary>
+            操作人编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.OperatorName">
+            <summary>
+            操作人名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.Graphs">
+            <summary>
+            平面图集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.Layout">
+            <summary>
+            居室
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.PropertyInfo">
+            <summary>
+            导航属性 - 楼盘
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.BuildingTypeInfo">
+            <summary>
+            导航属性 - 建筑类型
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.HouseTypeInfo.MeasureTaskStatus">
+            <summary>
+            测量任务状态
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo">
+            <summary>
+            楼盘数据传输对象
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Status">
+            <summary>
+            楼盘状态
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Address">
+            <summary>
+            详细地址
+            <remarks>
+            索引0：省，1：市，2：区，3：具体街道
+            </remarks>
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.AddressList">
+            <summary>
+            详细地址
+            <remarks>
+            索引0：省，1：市，2：区，3：具体街道
+            </remarks>
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Developer">
+            <summary>
+            开发商信息
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Seller">
+            <summary>
+            销售商信息
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Tenement">
+            <summary>
+            物业公司
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.OpeningTimes">
+            <summary>
+            开盘时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.ConstructionTime">
+            <summary>
+            建设时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.SellingTime">
+            <summary>
+            销售时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.OccupancyTimes">
+            <summary>
+            入住时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.BuildingTypes">
+            <summary>
+            建筑类型集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.DesignStyle">
+            <summary>
+            建筑设计
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.VolumeRate">
+            <summary>
+            容积率
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.AfforestRate">
+            <summary>
+            绿化率
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.ActualSquare">
+            <summary>
+            实际面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.BuildingSquare">
+            <summary>
+            建筑面积
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.School">
+            <summary>
+            学校
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Commercial">
+            <summary>
+            商业
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Hospital">
+            <summary>
+            医院
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Bank">
+            <summary>
+            银行
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Garden">
+            <summary>
+            园林
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Traffic">
+            <summary>
+            交通
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.AssessRemark">
+            <summary>
+            审核意见
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.ProjectFeature">
+            <summary>
+            项目特色
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.ZipCode">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.LoopPosition">
+            <summary>
+            环线位置
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.AgeLimit">
+            <summary>
+            产权年限
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.FinishedTime">
+            <summary>
+            竣工时间
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Structure">
+            <summary>
+            建筑结构
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.BlockCount">
+            <summary>
+            楼栋总数
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Entrance">
+            <summary>
+            小区入口
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.CommunicationDevice">
+            <summary>
+            通讯设备
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.CurrentHouseholdCount">
+            <summary>
+            当前户数
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.DecorationSituation">
+            <summary>
+            装修情况
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Elevator">
+            <summary>
+            电梯服务
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Extra">
+            <summary>
+            附加信息
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.FloorSituation">
+            <summary>
+            楼层情况
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.GasSituation">
+            <summary>
+            燃气情况
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Health">
+            <summary>
+            卫生服务
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.ParkingSpace">
+            <summary>
+            停车位
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.TenementCategory">
+            <summary>
+            物业类别
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.TenementFee">
+            <summary>
+            物业费
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Discount">
+            <summary>
+            优惠政策
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.SaleAddress">
+            <summary>
+            售楼处
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.SalePhone">
+            <summary>
+            销售电话
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.SaleStatus">
+            <summary>
+            销售状态
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.SecuritySituation">
+            <summary>
+            安全情况
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.ElectricitySituation">
+            <summary>
+            供电情况
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.HeatingSituation">
+            <summary>
+            供暖情况
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.WaterSituation">
+            <summary>
+            供水情况
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.PlanningGraphs">
+            <summary>
+            规划图集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.BuildingGraphs">
+            <summary>
+            建筑图集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.SaleGraphs">
+            <summary>
+            销售图集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Publicity">
+            <summary>
+            宣传定位
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.Viewpoint">
+            <summary>
+            我方定位判断
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.MarketVolume">
+            <summary>
+            市场容量
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.TargetMarketRate">
+            <summary>
+            市场占有率目标
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.TargetSigningRate">
+            <summary>
+            成单率目标
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.TargetCustomerVolume">
+            <summary>
+            客户容量目标
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.CooperationType">
+            <summary>
+            合作方式
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.CreatorNo">
+            <summary>
+            创建人编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.CreatorName">
+            <summary>
+            创建人名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.OperatorNo">
+            <summary>
+            操作人编号
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.OperatorName">
+            <summary>
+            操作人名称
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.ContactInfos">
+            <summary>
+            导航属性 - 联系人集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.BuildingTypeInfos">
+            <summary>
+            导航属性 - 建筑类型集
+            </summary>
+        </member>
+        <member name="P:HDIPlatform.MarketSystem.IAppService.DTOs.Outputs.PropertyInfo.HouseTypeCount">
+            <summary>
+            户型数量
+            </summary>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract">
+            <summary>
+            客户模型服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.CreateCustomerModel(System.Guid,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.FamilyMemberParam},System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            创建客户模型
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="modelName">客户模型名称</param>
+            <param name="familyStructNo">家庭结构编号</param>
+            <param name="styleNo">风格要求编号</param>
+            <param name="structureNo">格局要求编号</param>
+            <param name="label">标签</param>
+            <param name="memberParams">家庭成员集</param>
+            <param name="customRequires">自定义要求集</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.UpdateCustomerModel(System.Guid,System.Guid,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.FamilyMemberParam},System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            修改客户模型
+            </summary>
+            <param name="customerModelId">客户模型Id</param>
+            <param name="propertyId">楼盘Id</param>
+            <param name="modelName">客户模型名称</param>
+            <param name="familyStructNo">家庭结构编号</param>
+            <param name="styleNo">风格要求编号</param>
+            <param name="structureNo">格局要求编号</param>
+            <param name="label">标签</param>
+            <param name="memberParams">家庭成员集</param>
+            <param name="customRequires">自定义要求集</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetAgeIntervals">
+            <summary>
+            获取年龄区间列表
+            </summary>
+            <returns>年龄区间列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetFamilyStructs">
+            <summary>
+            获取家庭结构列表
+            </summary>
+            <returns>家庭结构列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetHobbys">
+            <summary>
+            获取兴趣爱好列表
+            </summary>
+            <returns>兴趣爱好列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetRelationships">
+            <summary>
+            获取与本人关系列表
+            </summary>
+            <returns>与本人关系列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetStructures">
+            <summary>
+            获取格局要求列表
+            </summary>
+            <returns>格局要求列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetStyles">
+            <summary>
+            获取风格要求列表
+            </summary>
+            <returns>风格要求列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetCustomerModel(System.Guid)">
+            <summary>
+            获取客户模型
+            </summary>
+            <param name="customerModelId">客户模型Id</param>
+            <returns>客户模型</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetFamilyMembers(System.Guid)">
+            <summary>
+            获取家庭成员列表
+            </summary>
+            <param name="customerModelId">客户模型Id</param>
+            <returns>家庭成员列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetCustomerModels(System.Guid,System.Int32,System.Int32)">
+            <summary>
+            分页获取客户模型列表
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>客户模型列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetNotRelatedCustomerModels(System.Guid,System.Guid,System.Int32,System.Int32)">
+            <summary>
+            分页获取未关联客户模型列表
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="houseTypeId">户型Id</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>客户模型列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetCustomerModelsByHouseType(System.Guid)">
+            <summary>
+            根据户型获取设计任务明细列表
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+            <returns>设计任务明细列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.GetLabels">
+            <summary>
+            获取标签列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.DesignTaskExistsCustomerModel(System.Guid)">
+            <summary>
+            判断设计任务中是否关联给定客户模型
+            </summary>
+            <param name="customerModelId">客户模型Id</param>
+            <returns>是否关联</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.ICustomerModelContract.ExistsPropertyName(System.Nullable{System.Guid},System.Guid,System.String)">
+            <summary>
+            判断是否存在同楼盘给定名称的实体对象
+            </summary>
+            <param name="customerModelId">客户模型Id</param>
+            <param name="propertyId">楼盘Id</param>
+            <param name="modelName">客户模型名称</param>
+            <returns>是否已存在</returns>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.Interfaces.IDesignTaskContract">
+            <summary>
+            设计任务服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IDesignTaskContract.CreateDesignTask(System.Guid,System.String,System.DateTime,ShSoft.ValueObjects.Structs.User,System.String,System.Collections.Generic.IDictionary{System.Guid,System.Decimal})">
+            <summary>
+            创建设计任务
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+            <param name="taskName">任务名称</param>
+            <param name="expectedFinishedTime">预期完成时间</param>
+            <param name="principal">负责人</param>
+            <param name="description">描述</param>
+            <param name="budgets">客户模型预算集</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IDesignTaskContract.GetDesignTask(System.Guid)">
+            <summary>
+            获取设计任务
+            </summary>
+            <param name="taskId">任务Id</param>
+            <returns>设计任务</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IDesignTaskContract.GetDesignTaskDetails(System.Guid)">
+            <summary>
+            获取设计任务明细列表
+            </summary>
+            <param name="taskId">任务Id</param>
+            <returns>设计任务明细列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IDesignTaskContract.GetDesignTasks(System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取设计任务列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>设计任务列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IDesignTaskContract.GetDesignTaskDetailsByPage(System.Guid,System.Int32,System.Int32)">
+            <summary>
+            分页获取设计任务明细列表
+            </summary>
+            <param name="taskId">任务Id</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>设计任务明细列表</returns>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.Interfaces.IForDesignContract">
+            <summary>
+            For 设计管理器服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IForDesignContract.ReceiveMeasureTask(System.Guid)">
+            <summary>
+            接收测量任务
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IForDesignContract.RejectMeasureTask(System.Guid)">
+            <summary>
+            拒绝测量任务
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IForDesignContract.FinishMeasureTask(System.Guid,ShSoft.ValueObjects.Enums.Direction)">
+            <summary>
+            完成测量任务
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+            <param name="direction">方向</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IForDesignContract.FinishDesignTaskDetail(System.Guid)">
+            <summary>
+            完成方案任务
+            </summary>
+            <param name="taskDetailId">设计任务明细Id</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IForDesignContract.UnfinishedDesignTaskDetail(System.Guid)">
+            <summary>
+            未完成方案任务
+            </summary>
+            <param name="taskDetailId">设计任务明细Id</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IForDesignContract.ReceptionDesignTaskDetail(System.Guid)">
+            <summary>
+            接收方案任务
+            </summary>
+            <param name="taskDetailId">设计任务明细Id</param>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract">
+            <summary>
+            户型服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.CreateHouseType(System.String,System.Guid,System.String,System.Single,System.Single,System.String,System.String,ShSoft.ValueObjects.Structs.User,System.Collections.Generic.IList{System.String})">
+            <summary>
+            创建户型
+            </summary>
+            <param name="typeName">户型名称</param>
+            <param name="propertyId">楼盘Id</param>
+            <param name="buildingTypeNo">建筑类型编号</param>
+            <param name="actualSquare">实际面积</param>
+            <param name="buildingSquare">建筑面积</param>
+            <param name="layout">居室</param>
+            <param name="description">描述</param>
+            <param name="operator">操作人</param>
+            <param name="graphs">平面图集</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.CreateHouseTypes(System.Collections.Generic.IEnumerable{HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.HouseTypeParam})">
+            <summary>
+            批量创建户型
+            </summary>
+            <param name="houseTypeParams">户型参数模型集</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.UpdateHouseType(System.Guid,System.String,System.Guid,System.String,System.Single,System.Single,System.String,System.String,ShSoft.ValueObjects.Structs.User,System.Collections.Generic.IList{System.String})">
+            <summary>
+            修改户型
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+            <param name="typeName">户型名称</param>
+            <param name="propertyId">楼盘Id</param>
+            <param name="buildingTypeNo">建筑类型编号</param>
+            <param name="actualSquare">实际面积</param>
+            <param name="buildingSquare">建筑面积</param>
+            <param name="layout">居室</param>
+            <param name="description">描述</param>
+            <param name="operator">操作人</param>
+            <param name="graphs">平面图集</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.SetUpHouseType(System.Guid)">
+            <summary>
+            户型立项
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.CancelSetUpHouseType(System.Guid)">
+            <summary>
+            户型取消立项
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.SendMeasureTask(System.Guid,System.String,System.String,ShSoft.ValueObjects.Structs.User)">
+            <summary>
+            发送测量任务
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+            <param name="contact">取钥匙联系人</param>
+            <param name="phone">联系电话</param>
+            <param name="receiver">接收人</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.WithdrawMeasureTask(System.Guid)">
+            <summary>
+            撤回测量任务
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.SendMeasureTasks(System.Collections.Generic.IEnumerable{HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.MeasureTaskParam})">
+            <summary>
+            批量发送测量任务
+            </summary>
+            <param name="measureTaskParams">测量任务参数模型集</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetHouseType(System.Guid)">
+            <summary>
+            获取户型
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+            <returns>户型</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetHouseTypeByNumber(System.String)">
+            <summary>
+            获取户型
+            </summary>
+            <param name="number">户型编号</param>
+            <returns>户型</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetHouseTypes(System.String,System.String,System.Nullable{ShSoft.ValueObjects.Enums.MeasureTaskStatus},System.Int32,System.Int32)">
+            <summary>
+            分页获取户型列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="operatorNo">操作人编号</param>
+            <param name="measureTaskStatus">测量任务状态</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>户型列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetHouseTypesByProperty(System.String,System.Nullable{System.Guid},System.Int32,System.Int32)">
+            <summary>
+            分页获取户型列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="propertyId">楼盘Id</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>户型列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetHouseTypeOperators">
+            <summary>
+            获取户型操作人字典
+            </summary>
+            <returns>操作人字典</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetSquareStatistics(System.Guid)">
+            <summary>
+            获取户型面积统计表
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <returns>户型面积统计表</returns>
+            <remarks>
+            IDictionary[string, float]键：户型名称，值：户型总面积
+            </remarks>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetQuantityStatistics(System.Guid)">
+            <summary>
+            获取户型数量统计表
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <returns>户型数量统计表</returns>
+            <remarks>
+            IDictionary[string, float]键：户型名称，值：户型总数量
+            </remarks>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetHouseTypeSaleControlInfos(System.Guid,System.Int32,System.Int32)">
+            <summary>
+            分页获取户型销控信息表
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>户型销控信息表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.ExistsHouseTypeName(System.Guid,System.String)">
+            <summary>
+            检查户型名称是否存在
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="houseTypeName">户型名称</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetHouseTypeByName(System.Guid,System.String)">
+            <summary>
+            根据户型名称获取户型
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="houseTypeName">户型名称</param>
+            <returns>户型</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetHouseTypeDict(System.Guid,System.String)">
+            <summary>
+            获取户型Id、名称字典
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="keywords">关键字</param>
+            <returns>户型Id、名称字典</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetLayouts">
+            <summary>
+            获取居室列表
+            </summary>
+            <returns>居室列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetMeasureTask(System.Guid)">
+            <summary>
+            获取测量任务
+            </summary>
+            <param name="houseTypeId">户型Id</param>
+            <returns>测量任务</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetMeasureTasks(System.String,System.Nullable{ShSoft.ValueObjects.Enums.MeasureTaskStatus},System.Int32,System.Int32)">
+            <summary>
+            分页获取测量任务列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="status">任务状态</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>测量任务列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IHouseTypeContract.GetMeasureTasksByReceiver(System.String,System.Nullable{ShSoft.ValueObjects.Enums.MeasureTaskStatus},System.Int32,System.Int32)">
+            <summary>
+            根据接收人分页获取测量任务列表
+            </summary>
+            <param name="receiverNo">接收人编号</param>
+            <param name="status">任务状态</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>测量任务列表</returns>
+        </member>
+        <member name="T:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract">
+            <summary>
+            楼盘服务契约接口
+            </summary>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.CreateProperty(HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam)">
+            <summary>
+            创建楼盘
+            </summary>
+            <param name="basicParam">楼盘信息参数模型</param>
+            <returns>楼盘Id</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.CreateProperties(System.Collections.Generic.IEnumerable{HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam})">
+            <summary>
+            批量创建楼盘
+            </summary>
+            <param name="basicParams">楼盘信息参数模型集</param>
+            <returns>楼盘Id/名称字典</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.UpdatePropertyBasicInfo(System.Guid,HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam)">
+            <summary>
+            更新楼盘基本信息
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="basicParam">楼盘信息参数模型</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.UpdatePropertyBasicInfos(System.Collections.Generic.IDictionary{System.Guid,HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.PropertyBasicParam})">
+            <summary>
+            批量更新楼盘基本信息
+            </summary>
+            <param name="idParams">楼盘Id/参数模型字典</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.SetPropertyGraphsInfo(System.Guid,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},ShSoft.ValueObjects.Structs.User)">
+            <summary>
+            设置楼盘图纸信息
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="planningGraphs">规划图集</param>
+            <param name="buildingGraphs">建筑图集</param>
+            <param name="saleGraphs">销售图集</param>
+            <param name="operator">操作人</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.SetPropertyMarketInfo(System.Guid,System.String,System.String,System.Int32,System.Single,System.Single,System.Single,ShSoft.ValueObjects.Enums.CooperationType,System.Collections.Generic.IEnumerable{HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.ContactParam},ShSoft.ValueObjects.Structs.User)">
+            <summary>
+            设置楼盘市场信息
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="publicity">宣传定位</param>
+            <param name="viewpoint">我方定位判断</param>
+            <param name="marketVolume">市场容量</param>
+            <param name="targetMarketRate">市场占有率目标</param>
+            <param name="targetSigningRate">成单率目标</param>
+            <param name="targetCustomerVolume">客户容量目标</param>
+            <param name="cooperationType">合作方式</param>
+            <param name="contactParams">联系人参数模型集</param>
+            <param name="operator">操作人</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.SubmitProperty(System.Guid)">
+            <summary>
+            楼盘提交审核
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.AssessProperty(System.Guid,System.Boolean,System.String)">
+            <summary>
+            楼盘审核
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <param name="approved">是否通过</param>
+            <param name="remark">审核意见</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.CreateSaleControlRecord(ShSoft.ValueObjects.Structs.User,System.Collections.Generic.IEnumerable{HDIPlatform.MarketSystem.IAppService.DTOs.Inputs.SaleControlRecordDetailParam})">
+            <summary>
+            创建销控表导入记录
+            </summary>
+            <param name="operator">操作人</param>
+            <param name="detailParams">销控表导入记录明细集</param>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetBuildingTypes">
+            <summary>
+            获取建筑类型列表
+            </summary>
+            <returns>建筑类型列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetProperty(System.Guid)">
+            <summary>
+            获取楼盘
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <returns>楼盘</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetPropertyByName(System.String)">
+            <summary>
+            获取楼盘
+            </summary>
+            <param name="propertyName">楼盘名称</param>
+            <returns>楼盘</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetProperties(System.String,System.String,System.Nullable{ShSoft.ValueObjects.Enums.PropertyStatus},System.Int32,System.Int32)">
+            <summary>
+            分页获取楼盘列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="operatorNo">操作人编号</param>
+            <param name="status">楼盘状态</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>楼盘列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetPropertiesForSales(System.String,System.String,System.Nullable{ShSoft.ValueObjects.Enums.PropertyStatus},ShSoft.ValueObjects.Enums.PropertyType,System.Int32,System.Int32)">
+            <summary>
+            分页获取楼盘列表(销售端专用)
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="operatorNo">操作人编号</param>
+            <param name="status">楼盘状态</param>
+            <param name="propertyType">项目类型</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <remarks>如果项目类型为"住宅" , 不显示无楼盘;如果为"其他", 显示无楼盘</remarks>
+            <returns>楼盘列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetApprovedProperties(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32,System.Int32)">
+            <summary>
+            分页获取已立项楼盘列表
+            </summary>
+            <param name="name">楼盘名称</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>楼盘列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetPropertyOperators">
+            <summary>
+            获取楼盘操作人字典
+            </summary>
+            <returns>操作人字典</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetSaleRate(System.Guid)">
+            <summary>
+            获取楼盘销售率
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <returns>销售数字典</returns>
+            <remarks>
+            IDictionary[string, float]键：楼栋名称，值：销售率
+            </remarks>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetOccupancyRate(System.Guid)">
+            <summary>
+            获取楼盘入住率
+            </summary>
+            <param name="propertyId">楼盘Id</param>
+            <returns>入住数字典</returns>
+            <remarks>
+            IDictionary[string, float]键：楼栋名称，值：入住率
+            </remarks>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetPropertyDict(System.String)">
+            <summary>
+            获取楼盘Id、名称字典
+            </summary>
+            <param name="keywords">关键字</param>
+            <returns>楼盘Id、名称字典</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetPropertyDictByIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            获取楼盘Id、名称字典
+            </summary>
+            <param name="propertyIds">楼盘Id集</param>
+            <returns>楼盘Id、名称字典</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetSaleControlRecords(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32,System.Int32)">
+            <summary>
+            分页获取销控表导入记录列表
+            </summary>
+            <param name="keywords">关键字</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="pageIndex">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>销控表导入记录列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetFailedRecordDetails(System.Guid)">
+            <summary>
+            获取销控表导入失败记录明细列表
+            </summary>
+            <param name="recordId">销控表导入记录Id</param>
+            <returns>销控表导入失败记录明细列表</returns>
+        </member>
+        <member name="M:HDIPlatform.MarketSystem.IAppService.Interfaces.IPropertyContract.GetSuccessfulRecordDetails(System.Guid)">
+            <summary>
+            获取销控表导入成功记录明细列表
+            </summary>
+            <param name="recordId">销控表导入记录Id</param>
+            <returns>销控表导入成功记录明细列表</returns>
+        </member>
+    </members>
+</doc>
